@@ -1,0 +1,100 @@
+{
+    "logo": {
+        "url": "/images/Logo White.png",
+        "altText": "Logo light",
+        "type": "ImageBlock"
+    },
+    "text": "",
+    "primaryLinks": {
+        "type": "FooterLinksGroup",
+        "title": "",
+        "links": [
+            {
+                "label": "EcoTours",
+                "altText": "Ecotours page",
+                "url": "/ecotours",
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "type": "Link"
+            },
+            {
+                "type": "Link",
+                "label": "Why Us",
+                "altText": "",
+                "url": "/why-us",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "Partner With Us",
+                "altText": "",
+                "url": "/partner-with-us",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "Blog",
+                "altText": "",
+                "url": "/blog",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "Contact Us",
+                "altText": "",
+                "url": "/contact-us",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
+            }
+        ]
+    },
+    "socialLinks": [
+        {
+            "altText": "Instagram link",
+            "url": "https://www.instagram.com/cloud.mountain.ecotours/",
+            "icon": "instagram",
+            "type": "Social"
+        },
+        {
+            "altText": "LinkedIn link",
+            "url": "https://www.linkedin.com/company/cloud-mountain-sustainability/",
+            "icon": "linkedin",
+            "type": "Social"
+        }
+    ],
+    "legalLinks": [],
+    "copyrightText": "© Lijiang Cloud Mountain Education Consulting Co. Ltd.\n",
+    "colors": "bg-dark-fg-light",
+    "type": "Footer",
+    "styles": {
+        "self": {
+            "padding": [
+                "pb-4",
+                "pt-4",
+                "pl-4",
+                "pr-4"
+            ]
+        }
+    },
+    "secondaryLinks": {
+        "type": "FooterLinksGroup",
+        "title": "",
+        "links": []
+    }
+}

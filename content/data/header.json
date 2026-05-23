@@ -1,0 +1,75 @@
+{
+    "logo": {
+        "altText": "Cloud Mountain Logo",
+        "styles": {
+            "self": {
+                "margin": [
+                    "mr-3"
+                ]
+            }
+        },
+        "type": "ImageBlock",
+        "url": "/images/Logo Color No Text2.png"
+    },
+    "primaryLinks": [
+        {
+            "label": "EcoTours",
+            "url": "/ecotours",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link",
+            "altText": "Cloud Mountain EcoTours"
+        },
+        {
+            "label": "Why Us",
+            "altText": "Why Us - Our Story, Team, Impact",
+            "url": "/why-us",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "Partner With Us",
+            "altText": "Partner With Us",
+            "url": "/partner-with-us",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "Contact Us",
+            "altText": "Contact Us",
+            "url": "/contact-us",
+            "icon": "mail",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        }
+    ],
+    "secondaryLinks": [
+        {
+            "label": "Book Now!",
+            "altText": "Book Now - Reserve Your EcoTour",
+            "url": "/book",
+            "style": "primary",
+            "type": "Button"
+        }
+    ],
+    "variant": "logo-left-primary-nav-left",
+    "colors": "bg-light-fg-dark",
+    "type": "Header",
+    "styles": {
+        "self": {
+            "padding": [
+                "pt-0",
+                "pb-0",
+                "pl-0",
+                "pr-0"
+            ]
+        }
+    },
+    "title": "Cloud Mountain"
+}

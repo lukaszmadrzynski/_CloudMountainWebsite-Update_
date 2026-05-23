@@ -1,0 +1,90 @@
+{
+    "light": "#ffffff",
+    "dark": "#434343",
+    "neutral": "#fcfcfc",
+    "neutralAlt": "#DCDCDC",
+    "primary": "#5ebb46",
+    "fontBody": "sans",
+    "fontHeadlines": "serif",
+    "h1": {
+        "size": "5xl",
+        "weight": "500",
+        "decoration": "none",
+        "case": "none",
+        "letterSpacing": "-0.02em",
+        "type": "ThemeStyleHeading"
+    },
+    "h2": {
+        "size": "3xl",
+        "weight": "600",
+        "decoration": "none",
+        "case": "none",
+        "letterSpacing": "-0.01em",
+        "type": "ThemeStyleHeading"
+    },
+    "h3": {
+        "size": "2xl",
+        "weight": "600",
+        "decoration": "none",
+        "case": "none",
+        "letterSpacing": "normal",
+        "type": "ThemeStyleHeading"
+    },
+    "h4": {
+        "size": "xl",
+        "weight": "600",
+        "decoration": "none",
+        "case": "none",
+        "letterSpacing": "normal",
+        "type": "ThemeStyleHeading"
+    },
+    "h5": {
+        "size": "lg",
+        "weight": "600",
+        "decoration": "none",
+        "case": "none",
+        "letterSpacing": "normal",
+        "type": "ThemeStyleHeading"
+    },
+    "h6": {
+        "size": "base",
+        "weight": "600",
+        "decoration": "none",
+        "case": "none",
+        "letterSpacing": "0.05em",
+        "type": "ThemeStyleHeading"
+    },
+    "buttonPrimary": {
+        "weight": "600",
+        "case": "none",
+        "letterSpacing": "0.02em",
+        "borderRadius": "md",
+        "shadow": "md",
+        "horizontalPadding": 32,
+        "verticalPadding": 14,
+        "type": "ThemeStyleButton"
+    },
+    "buttonSecondary": {
+        "weight": "600",
+        "case": "none",
+        "letterSpacing": "0.02em",
+        "borderRadius": "md",
+        "shadow": "none",
+        "horizontalPadding": 28,
+        "verticalPadding": 12,
+        "type": "ThemeStyleButton"
+    },
+    "linkPrimary": {
+        "weight": "500",
+        "case": "none",
+        "letterSpacing": "0.02em",
+        "type": "ThemeStyleLink"
+    },
+    "linkSecondary": {
+        "weight": "500",
+        "case": "none",
+        "letterSpacing": "0.02em",
+        "type": "ThemeStyleLink"
+    },
+    "type": "ThemeStyle"
+}

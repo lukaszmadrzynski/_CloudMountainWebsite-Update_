@@ -1,0 +1,182 @@
+import * as React from 'react';
+import classNames from 'classnames';
+import Section from '../Section';
+import TitleBlock from '../../blocks/TitleBlock';
+import { Badge } from '../../atoms';
+import { getComponent } from '../../components-registry';
+
+const INITIAL_SHOW_COUNT = 3;
+
+export default function HighlightsSection(props) {
+    const { elementId, colors, backgroundImage, badge, title, subtitle, items = [], styles = {}, enableAnnotations } = props;
+    const FeaturedItem = getComponent('FeaturedItem');
+    const [showAll, setShowAll] = React.useState(false);
+    const sectionRef = React.useRef(null);
+    const gridRef = React.useRef<HTMLDivElement>(null);
+    const buttonRef = React.useRef<HTMLButtonElement>(null);
+
+    const handleToggle = () => {
+        const newShowAll = !showAll;
+        
+        // On "Show Less": scroll to EcoTour Itinerary section
+        if (showAll) {
+            // Find the section containing "EcoTour Itinerary" text
+            const sections = document.querySelectorAll('[class*="itinerary"], section');
+            for (const el of sections) {
+                const html = el.innerHTML || '';
+                if (html.includes('EcoTour Itinerary')) {
+                    const rect = el.getBoundingClientRect();
+                    if (rect.height > 0) { // Only scroll if visible
+                        window.scrollTo({
+                            top: window.scrollY + rect.top - 80,
+                            behavior: 'smooth'
+                        });
+                        break;
+                    }
+                }
+            }
+        }
+        
+        setShowAll(newShowAll);
+    };
+
+    const hasMore = items.length > INITIAL_SHOW_COUNT;
+
+    const buttonStyle = {
+        display: 'inline-flex',
+        alignItems: 'center',
+        gap: '8px',
+        padding: '8px 24px',
+        fontSize: '16px',
+        fontWeight: '500',
+        color: '#5ebb46',
+        backgroundColor: 'transparent',
+        border: '2px solid #5ebb46',
+        borderRadius: '9999px',
+        cursor: 'pointer',
+        transition: 'all 0.3s ease'
+    };
+
+    return (
+        <Section
+            elementId={elementId}
+            className="sb-component-highlights-section"
+            colors={colors}
+            backgroundImage={backgroundImage}
+            styles={styles?.self}
+        >
+            <div ref={sectionRef} className="w-full max-w-5xl mx-auto">
+                {badge && <Badge {...badge} className="text-center block mb-3" />}
+                {title && (
+                    <TitleBlock
+                        {...title}
+                        className="text-center"
+                    />
+                )}
+                {subtitle && (
+                    <p className="text-center text-gray-600 mt-2 mb-8 text-lg sm:text-2xl">
+                        {subtitle}
+                    </p>
+                )}
+                
+                {/* Animated Container - uses same technique as FAQ section */}
+                <div className="relative">
+                    {/* Grid - always rendered */}
+                    <div 
+                        ref={gridRef}
+                        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+                        style={{
+                            transition: 'opacity 0.5s ease-in-out',
+                            opacity: 1
+                        }}
+                    >
+                        {/* First 3 cards - always visible */}
+                        {items.slice(0, INITIAL_SHOW_COUNT).map((item, index) => (
+                            <div 
+                                key={`visible-${index}`}
+                                style={{
+                                    animation: showAll ? `fadeSlideIn 0.5s ease forwards` : 'none',
+                                    animationDelay: showAll ? `${index * 100}ms` : '0ms'
+                                }}
+                                {...(enableAnnotations && { 'data-sb-field-path': `.${index}` })}
+                            >
+                                <FeaturedItem {...item} hasSectionTitle={!!title?.text} />
+                            </div>
+                        ))}
+                        
+                        {/* Additional cards - conditionally rendered with animation */}
+                        {showAll && items.slice(INITIAL_SHOW_COUNT).map((item, index) => {
+                            const actualIndex = index + INITIAL_SHOW_COUNT;
+                            return (
+                                <div 
+                                    key={`hidden-${actualIndex}`}
+                                    style={{
+                                        animation: `fadeSlideIn 0.6s ease forwards`,
+                                        animationDelay: `${index * 100 + 200}ms`,
+                                        opacity: 0
+                                    }}
+                                    {...(enableAnnotations && { 'data-sb-field-path': `.${actualIndex}` })}
+                                >
+                                    <FeaturedItem {...item} hasSectionTitle={!!title?.text} />
+                                </div>
+                            );
+                        })}
+                        
+                        {/* Hidden placeholder - maintains space for collapse animation */}
+                        {!showAll && items.slice(INITIAL_SHOW_COUNT).map((_, index) => (
+                            <div 
+                                key={`placeholder-${index}`}
+                                className="hidden"
+                                aria-hidden="true"
+                            />
+                        ))}
+                    </div>
+                    
+                    {/* Collapse Overlay - shows during collapse animation */}
+                    {!showAll && items.length > INITIAL_SHOW_COUNT && (
+                        <div 
+                            className="absolute bottom-0 left-0 right-0 h-32 pointer-events-none"
+                            style={{
+                                background: 'linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0) 100%)',
+                                transition: 'opacity 0.8s ease'
+                            }}
+                        />
+                    )}
+                </div>
+
+                {/* Show All / Show Less Button */}
+                {hasMore && (
+                    <div className="w-full flex justify-center mt-10">
+                        <button
+                            ref={buttonRef}
+                            onClick={handleToggle}
+                            style={buttonStyle}
+                            onMouseEnter={(e) => {
+                                e.currentTarget.style.backgroundColor = 'rgba(94, 187, 70, 0.1)';
+                            }}
+                            onMouseLeave={(e) => {
+                                e.currentTarget.style.backgroundColor = 'transparent';
+                            }}
+                        >
+                            <span>{showAll ? 'Show Less Highlights' : `Show All Highlights (${items.length})`}</span>
+                        </button>
+                    </div>
+                )}
+            </div>
+            
+            {/* Keyframe animation style */}
+            <style jsx>{`
+                @keyframes fadeSlideIn {
+                    from {
+                        opacity: 0;
+                        transform: translateY(20px);
+                    }
+                    to {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+            `}</style>
+        </Section>
+    );
+}

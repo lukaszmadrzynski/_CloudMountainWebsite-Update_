@@ -1,0 +1,547 @@
+---
+type: PageLayout
+title: Cloud Mountain Ecotours
+sections:
+  - type: GenericSection
+    title:
+      type: TitleBlock
+      text: ''
+      color: text-dark
+    subtitle: ''
+    text: ''
+    actions: []
+    media:
+      type: ImageBlock
+      url: /images/Why Us Hero.webp
+      altText: >-
+        An international family enjoying a private ecotour with Cloud Mountain
+        in Lijiang and Shangri-La, Yunnan, China.
+      styles:
+        self:
+          borderRadius: x-large
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        alignItems: center
+        flexDirection: col-reverse
+        fullWidth: true
+        justifyContent: center
+        padding:
+          - pt-0
+          - pl-0
+          - pb-1
+          - pr-0
+  - type: GenericSection
+    title:
+      type: TitleBlock
+      text: Yunnan EcoTours for Every Traveler & Schedule
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+    subtitle: ''
+    text: >+
+      <div style="text-align: center">Whether you have a few hours or several
+      days, Cloud Mountain offers authentic and off-the-beaten-path ecotours in
+      Yunnan's most captivating regions. Choose from half-day cultural
+      immersions and biodiversity hikes around Lijiang, to multi-day
+      explorations deep into pristine wilderness and minority culture. Explore
+      our tour options below and find the perfect Yunnan adventure for
+      you.</div>
+
+    actions: []
+    media:
+      type: ImageBlock
+      altText: Dope design preview
+    badge:
+      type: Badge
+      label: ''
+      color: text-primary
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        alignItems: center
+        flexDirection: col-reverse
+        justifyContent: center
+        padding:
+          - pt-5
+          - pl-2
+          - pb-9
+          - pr-2
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-4
+          - pl-4
+          - pb-4
+          - pr-4
+  - type: EcotourFilterSection
+    items:
+      - type: FeaturedItem
+        title: Naxi Heritage Walk
+        subtitle: from $48 to $68 per person
+        text: >
+          Wander through a UNESCO World Heritage Site where ancient Naxi culture comes alive. Discover hidden courtyards, bustling markets, and panoramic mountain views on this immersive half-day journey.
+        image:
+          type: ImageBlock
+          url: /images/DY-Banner Icon.webp
+          altText: lijiang old town ecotour
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /lijiang-old-town-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
+        tagline: Half-Day | Cultural Heritage Walk
+      - type: FeaturedItem
+        title: Lijiang's Forgotten Forest
+        subtitle: from $38 to $58 per person
+        text: >
+          **SEASONAL (July to September)**
+
+          Discover Lijiang's best-kept secret! A gentle hike through pristine wilderness teeming with rare orchids and wildlife, culminating in breathtaking views of Jade Dragon Snow Mountain.
+        image:
+          type: ImageBlock
+          url: /images/XS-Banner Icon.webp
+          altText: Lijiang's Forgotten Forest Ecotour
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /lijiang-forgotten-forest-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
+        tagline: Half-Day | Biodiversity Hike
+      - type: FeaturedItem
+        title: Living Waters of Lashi
+        tagline: Half-Day | Bird Watching
+        subtitle: from $38 to $58 per person
+        text: >+
+          <div style="text-align: left">**SEASONAL (November to
+          February)**</div>
+
+
+          <div style="text-align: center">#### COMING</div>
+
+
+          <div style="text-align: center">#### THIS FALL!</div>
+
+        image:
+          type: ImageBlock
+          url: /images/ZH-Banner Icon.webp
+          altText: Lightning bolt symbol on red background
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
+      - type: FeaturedItem
+        title: Hidden Jade Dragon
+        subtitle: from $192 to $242 per person
+        text: >
+          Leave the tourist trails behind! Trek through sacred mountains, visit hidden villages, and share a traditional meal with local Yi families on this off-the-beaten-path adventure.
+        image:
+          type: ImageBlock
+          url: /images/YL-Banner Icon 5.webp
+          altText: Lightning bolt symbol on red background
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /hidden-jade-dragon-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
+        tagline: One Day | Off-the-beaten-path
+      - type: FeaturedItem
+        title: Wenhai Sanctuary
+        subtitle: from $192 to $242 per person
+        text: >
+          Escape to a pristine alpine sanctuary most tourists never see. Trek through ancient villages, spot rare birds, and witness jaw-dropping vistas from Tiger Cave—all with expert local guides.
+        image:
+          type: ImageBlock
+          url: /images/WH-Banner Icon.webp
+          altText: ''
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /wenhai-sanctuary-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
+        tagline: One Day | Off-the-beaten-path
+      - type: FeaturedItem
+        title: Ecosystems & Cultures
+        subtitle: from $199 to $251 per person
+        text: >
+          Experience Lijiang's vital lake, wetland, grassland and forest ecosystems up close. Nature hikes, rare birds and authentic village encounters with local Naxi and Yi minorities await.
+        image:
+          type: ImageBlock
+          url: /images/LS-Banner Icon1.webp
+          altText: Lightning bolt symbol on red background
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /lijiang-ecosystems-and-cultures-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
+        tagline: One Day | Off-the-beaten-path
+      - type: FeaturedItem
+        title: Shangri-La Monkey Trip
+        tagline: Two Days | Tibetan Nature and Culture
+        subtitle: from $340 to $469 per person
+        text: >
+          Observe endangered Yunnan snub-nosed monkeys in their natural habitat, explore Tibetan highlands and meet friendly locals. This two-day journey weaves wildlife conservation with authentic cultural immersion.
+        image:
+          type: ImageBlock
+          url: /images/TC-Banner Icon.webp
+          altText: ''
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /shangri-la-monkey-trip-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
+      - type: FeaturedItem
+        title: Wild Heart of Lijiang
+        tagline: Two Days | Deep Into Wilderness
+        subtitle: from $313 to $458 per person
+        text: >
+          Dive deep into Lijiang's wild heart. Two days of spectacular landscapes, pristine ancient forests, rare wildlife, and authentic encounters with mountain Lisu etnic group await — far from the tourist crowds.
+        image:
+          type: ImageBlock
+          url: /images/LJ-Banner Icon.webp
+          altText: Lightning bolt symbol on red background
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /wild-heart-of-lijiang-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
+      - type: FeaturedItem
+        title: NatGeo's "Forever Walk"
+        tagline: Three Days | Long Hike Experience
+        subtitle: from $506 to $687 per person
+        text: >
+          Walk in the footsteps of National Geographic's Paul Salopek on this extraordinary three-day journey. Traverse remote villages, ancient trails, and timeless landscapes—slow travel at its most profound.
+        image:
+          type: ImageBlock
+          url: /images/FW-Banner Icon.webp
+          altText: Lightning bolt symbol on red background
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /natgeo-forever-walk-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pb-7
+          - pt-4
+          - pl-1
+          - pr-1
+        justifyContent: center
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-4
+          - pl-4
+          - pb-4
+          - pr-4
+  - type: GenericSection
+    title:
+      type: TitleBlock
+      text: Custom EcoJourneys
+      color: text-dark
+    subtitle: Create Your Own EcoExperience!
+    text: >+
+      Interested in a more personalized, in-depth itinerary? Please contact us to
+      discuss designing a unique EcoJourney tailored just for you.
+    actions:
+      - type: Button
+        label: Get started
+        url: /contact-us
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+    media:
+      type: ImageBlock
+      url: /images/expeditions banner.webp
+      altText: Fun feature preview
+      styles:
+        self:
+          borderRadius: x-large
+    badge:
+      type: Badge
+      label: Want to see more?
+      color: text-primary
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        alignItems: center
+        justifyContent: center
+        padding:
+          - pt-3
+          - pb-3
+          - pl-3
+          - pr-3
+        flexDirection: 'col-reverse lg:flex-row'
+  - type: GenericSection
+    title:
+      type: TitleBlock
+      text: Inquiry and Booking
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+          fontWeight: 400
+    subtitle: We respond within one day!
+    text: |
+      Reach out for more ecotour destinations, details, special offers and customizations.
+    actions:
+      - type: Button
+        label: Contact Us
+        altText: ''
+        url: /contact-us
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
+    colors: bg-light-fg-dark
+    styles:
+      text:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      self:
+        justifyContent: center
+        padding:
+          - pt-14
+          - pb-12
+          - pl-3
+          - pr-3
+slug: /ecotours
+isDraft: false
+seo:
+  type: Seo
+  metaTitle: 'Book Your Yunnan Ecotour: Lijiang, Shangri-La, China Tours'
+  metaDescription: >-
+    Browse our selection of incredible ecotours in Yunnan, China. Explore
+    Lijiang's ancient charm, trek through Shangri-La's Tibetan landscapes, and
+    discover the best of sustainable travel in China. Find your perfect
+    adventure today!
+  addTitleSuffix: true
+  socialImage: /images/CM Logo Color No Text.png
+  metaTags:
+    - type: MetaTag
+      content: >-
+        yunnan ecotours, china adventure tours, lijiang ecotours, shangri-la
+        ecotours, tibet china tours, hiking tours yunnan, cultural travel china,
+        small group tours yunnan, private tours china, china ecotours
+---
