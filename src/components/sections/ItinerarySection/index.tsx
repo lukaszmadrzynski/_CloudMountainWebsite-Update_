@@ -462,13 +462,21 @@ function TimeSectionCard({ config, period, activities, showBothIcons = false }: 
                             </svg>
                         </div>
                     )}
-                    {/* Time period label */}
-                    <h4
-                        className="font-bold text-sm sm:text-base"
-                        style={{ color: config.textColor }}
-                    >
-                        {config.label}
-                    </h4>
+                    {/* Time period label - special handling for "Morning or Afternoon" */}
+                    {config.label === 'Morning or Afternoon' ? (
+                        <div className="flex flex-col items-center">
+                            <span className="font-bold text-sm sm:text-base" style={{ color: '#01aed9' }}>Morning</span>
+                            <span className="font-medium text-xs text-gray-500">or</span>
+                            <span className="font-bold text-sm sm:text-base" style={{ color: '#007dbd' }}>Afternoon</span>
+                        </div>
+                    ) : (
+                        <h4
+                            className="font-bold text-sm sm:text-base"
+                            style={{ color: config.textColor }}
+                        >
+                            {config.label}
+                        </h4>
+                    )}
                 </div>
 
                 {/* Right section: Activities description */}
