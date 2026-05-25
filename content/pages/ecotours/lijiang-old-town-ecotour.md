@@ -364,17 +364,13 @@ sections:
           textAlign: center
     timelineLayout: true
     days:
-      - day: 1
+      - day: Half-Day
         title: Cultural Heritage Discovery
         schedule:
-          - period: Morning
+          - period: Morning or Afternoon
             activities:
               - 'Begin at Lijiang Heritage Museum to discover the traditions and heritage of the Naxi people. Learn about the unique cultural tapestry that defines this UNESCO World Heritage site.'
-          - period: Afternoon
-            activities:
               - "Explore Black Dragon Pool Park with stunning views of Jade Dragon Snow Mountain. Continue through Dayan Old Town's ancient streets, visit the iconic Big Water Wheel, Wenchang Palace, and cross the charming Big Stone Bridge."
-          - period: Evening
-            activities:
               - 'Wander through Square Street and Zhongyi Market, engaging with local vendors, tasting local flavors, and discovering authentic crafts. Admire Mufu Palace from outside before concluding your cultural journey.'
     accentColors:
       morning: "#01aed9"

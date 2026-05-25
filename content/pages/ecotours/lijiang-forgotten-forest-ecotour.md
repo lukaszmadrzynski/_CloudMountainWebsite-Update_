@@ -445,17 +445,13 @@ sections:
           textAlign: center
     timelineLayout: true
     days:
-      - day: 1
+      - day: Half-Day
         title: Forest Biodiversity Discovery
         schedule:
-          - period: Morning
+          - period: Morning or Afternoon
             activities:
               - 'Begin your forest journey on Elephant Hill, escaping the crowds to reconnect with pristine nature. Discover rare wildflowers including wild orchids, and spot woodland birds like woodpeckers and pheasants.'
-          - period: Afternoon
-            activities:
               - 'Explore curious plants like Ghost Pipes with a local biodiversity expert. Learn about medicinal plants and fungi, discover Naxi minority tombs, and reach the Top Pagoda for breathtaking panoramic views of Lijiang and Jade Dragon Snow Mountain.'
-          - period: Evening
-            activities:
               - 'Conclude with a serene stroll through Black Dragon Pool Park, reflecting on your discoveries amidst classic Chinese gardens and tranquil waters before returning to your accommodation.'
     accentColors:
       morning: "#01aed9"
