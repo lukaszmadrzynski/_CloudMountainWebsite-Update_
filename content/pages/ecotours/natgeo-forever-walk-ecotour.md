@@ -445,7 +445,7 @@ sections:
           textAlign: center
     timelineLayout: true
     days:
-      - day: One
+      - day: Day One
         title: Wenhai Wetlands Discovery
         schedule:
           - period: Morning
@@ -457,7 +457,7 @@ sections:
           - period: Evening
             activities:
               - 'Arrive at your overnight village stay in Wenhai. Share authentic dinner with local Naxi families and gather around a cozy bonfire.'
-      - day: Two
+      - day: Day Two
         title: Jade Dragon Snow Mountain Trek
         schedule:
           - period: Morning
@@ -469,7 +469,7 @@ sections:
           - period: Evening
             activities:
               - 'Journey to Runangu village for your second overnight stay. Immerse yourself in Yi culture and engage with welcoming villagers.'
-      - day: Three
+      - day: Day Three
         title: Minority Villages and Return
         schedule:
           - period: Morning

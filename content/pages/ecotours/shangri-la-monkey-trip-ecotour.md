@@ -445,7 +445,7 @@ sections:
           textAlign: center
     timelineLayout: true
     days:
-      - day: One
+      - day: Day One
         title: Wildlife and Culture Discovery
         schedule:
           - period: Morning
@@ -459,7 +459,7 @@ sections:
           - period: Evening
             activities:
               - 'Savor authentic local cuisine as twilight descends. Visit a Himalayan bee farm to learn about traditional beekeeping and conservation. Settle into your mountain retreat where stars emerge in crystal-clear skies.'
-      - day: Two
+      - day: Day Two
         title: Conservation and Nature
         schedule:
           - period: Morning

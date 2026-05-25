@@ -423,9 +423,9 @@ function TimeSectionCard({ config, period, activities, showBothIcons = false }: 
                 <div 
                     className="sm:w-32 flex flex-row sm:flex-col items-center justify-center p-3 sm:p-4 gap-2 sm:gap-2 bg-transparent"
                 >
-                    {/* Check for "both" icon marker (for half-day tours) */}
+                    {/* Check for "both" icon marker (for half-day tours) - show icons stacked */}
                     {config.iconPath === 'both' ? (
-                        <div className="flex items-center gap-1">
+                        <div className="flex flex-col items-center gap-1">
                             <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center flex-shrink-0">
                                 <img
                                     src={TimeIconPaths.morning}
@@ -433,7 +433,6 @@ function TimeSectionCard({ config, period, activities, showBothIcons = false }: 
                                     className="w-10 sm:w-12 h-10 sm:h-12 object-contain"
                                 />
                             </div>
-                            <span className="text-gray-400 text-xl font-light">/</span>
                             <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center flex-shrink-0">
                                 <img
                                     src={TimeIconPaths.afternoon}
