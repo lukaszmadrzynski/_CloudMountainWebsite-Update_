@@ -288,7 +288,7 @@ sections:
           textAlign: center
     timelineLayout: true
     days:
-      - day: 1
+      - day: One Day
         title: Wetlands, Conservation & Cultural Discovery
         schedule:
           - period: Morning

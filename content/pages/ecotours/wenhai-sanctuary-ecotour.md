@@ -283,7 +283,7 @@ sections:
           textAlign: center
     timelineLayout: true
     days:
-      - day: 1
+      - day: One Day
         title: Wetlands, Culture and Mountain Views
         schedule:
           - period: Morning

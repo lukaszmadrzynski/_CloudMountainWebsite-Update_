@@ -445,7 +445,7 @@ sections:
           textAlign: center
     timelineLayout: true
     days:
-      - day: 1
+      - day: One
         title: Wetlands and Cultural Immersion
         schedule:
           - period: Morning
@@ -457,7 +457,7 @@ sections:
           - period: Evening
             activities:
               - 'Discover the vibrant market of Shigu Town, steeped in Naxi heritage and revolutionary history. Savor authentic local cuisine before settling into your mountain retreat under a canopy of stars.'
-      - day: 2
+      - day: Two
         title: Primeval Forests and Alpine Wonders
         schedule:
           - period: Morning

@@ -247,6 +247,17 @@ function TimelineDayCard({ day, index, isFirst, getPeriodConfig, primaryColor, s
     // Use the provided accent colors for time periods
     const getTimePeriodConfig = (period: string) => {
         const lowerPeriod = period.toLowerCase();
+        
+        // Special handling for "Morning or Afternoon" (half-day tours)
+        if (lowerPeriod.includes('morning') && lowerPeriod.includes('afternoon')) {
+            return {
+                border: primaryColor,
+                textColor: '#5ebb46',
+                iconPath: 'both', // Special marker for both icons
+                label: 'Morning or Afternoon'
+            };
+        }
+        
         if (['morning', 'breakfast'].includes(lowerPeriod)) {
             return {
                 border: accentColors.morning || '#01aed9',
@@ -278,7 +289,21 @@ function TimelineDayCard({ day, index, isFirst, getPeriodConfig, primaryColor, s
         }
     };
 
-    // Group activities by time period and add captions
+    // Helper function to format day label
+    const formatDayLabel = (dayValue: number | string) => {
+        // If it's a string (like "Half-Day" or "One Day"), use it as-is
+        if (typeof dayValue === 'string') {
+            return dayValue;
+        }
+        // If it's a number
+        const num = dayValue as number;
+        const numberWords: { [key: number]: string } = {
+            1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five',
+            6: 'Six', 7: 'Seven', 8: 'Eight', 9: 'Nine', 10: 'Ten'
+        };
+        const word = numberWords[num] || num.toString();
+        return `${word}`;
+    };
     const getTimeGroups = () => {
         const groups: { period: string; config: any; activities: string[] }[] = [];
 
@@ -317,6 +342,30 @@ function TimelineDayCard({ day, index, isFirst, getPeriodConfig, primaryColor, s
 
     const timeGroups = getTimeGroups();
 
+    // Use the formatDayLabel helper for displaying day names
+    const dayLabel = formatDayLabel(day.day);
+    
+    // Check if it's a half-day or special day (string values)
+    const isHalfDay = typeof day.day === 'string' && day.day.toLowerCase().includes('half');
+    
+    // Get time period config function (defined below in component)
+    const getTimePeriodConfigForHalfDay = (period: string) => {
+        const lowerPeriod = period.toLowerCase();
+        if (['morning or afternoon', 'morning', 'afternoon'].includes(lowerPeriod)) {
+            // For half-day, show both morning and afternoon icons
+            return {
+                border: primaryColor,
+                textColor: '#5ebb46',
+                iconPath: null, // Will show both icons below
+                label: period
+            };
+        }
+        return getTimePeriodConfig(period);
+    };
+    
+    // For half-day tours, get both morning and afternoon icons
+    const showBothIcons = isHalfDay;
+
     return (
         <div className="relative">
             {/* Day card - always expanded, no shading */}
@@ -327,7 +376,7 @@ function TimelineDayCard({ day, index, isFirst, getPeriodConfig, primaryColor, s
                         <svg className="w-5 h-5" style={{ color: primaryColor }} fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
                         </svg>
-                        Day {day.day}
+                        {dayLabel}
                     </h3>
                     <p className="text-gray-600 mt-1 font-medium">{day.title}</p>
                 </div>
@@ -341,6 +390,7 @@ function TimelineDayCard({ day, index, isFirst, getPeriodConfig, primaryColor, s
                                 config={getTimePeriodConfig(group.period)}
                                 period={group.period}
                                 activities={group.activities}
+                                showBothIcons={showBothIcons}
                             />
                         ))}
                     </div>
@@ -359,9 +409,10 @@ interface TimeSectionCardProps {
     };
     period: string;
     activities: string[];
+    showBothIcons?: boolean;
 }
 
-function TimeSectionCard({ config, period, activities }: TimeSectionCardProps) {
+function TimeSectionCard({ config, period, activities, showBothIcons = false }: TimeSectionCardProps) {
     return (
         <div className="relative">
             <div
@@ -372,8 +423,27 @@ function TimeSectionCard({ config, period, activities }: TimeSectionCardProps) {
                 <div 
                     className="sm:w-32 flex flex-row sm:flex-col items-center justify-center p-3 sm:p-4 gap-2 sm:gap-2 bg-transparent"
                 >
-                    {/* Icon */}
-                    {config.iconPath && (
+                    {/* Check for "both" icon marker (for half-day tours) */}
+                    {config.iconPath === 'both' ? (
+                        <div className="flex items-center gap-1">
+                            <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center flex-shrink-0">
+                                <img
+                                    src={TimeIconPaths.morning}
+                                    alt="Morning"
+                                    className="w-10 sm:w-12 h-10 sm:h-12 object-contain"
+                                />
+                            </div>
+                            <span className="text-gray-400 text-xl font-light">/</span>
+                            <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center flex-shrink-0">
+                                <img
+                                    src={TimeIconPaths.afternoon}
+                                    alt="Afternoon"
+                                    className="w-10 sm:w-12 h-10 sm:h-12 object-contain"
+                                />
+                            </div>
+                        </div>
+                    ) : config.iconPath ? (
+                        /* Single icon (Morning, Afternoon, or Evening) */
                         <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full flex items-center justify-center flex-shrink-0">
                             <img
                                 src={config.iconPath}
@@ -382,8 +452,8 @@ function TimeSectionCard({ config, period, activities }: TimeSectionCardProps) {
                                 style={{ color: config.border }}
                             />
                         </div>
-                    )}
-                    {!config.iconPath && (
+                    ) : (
+                        /* Fallback icon for unknown periods */
                         <div
                             className="w-16 h-16 sm:w-20 sm:h-20 rounded-full flex items-center justify-center flex-shrink-0"
                             style={{ border: `2px solid ${config.border}` }}

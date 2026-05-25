@@ -283,7 +283,7 @@ sections:
           textAlign: center
     timelineLayout: true
     days:
-      - day: 1
+      - day: One Day
         title: Jade Dragon's Hidden Trails
         schedule:
           - period: Morning
