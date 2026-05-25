@@ -346,7 +346,8 @@ function TimelineDayCard({ day, index, isFirst, getPeriodConfig, primaryColor, s
     const dayLabel = formatDayLabel(day.day);
     
     // Check if it's a half-day or special day (string values)
-    const isHalfDay = typeof day.day === 'string' && day.day.toLowerCase().includes('half');
+    const dayStr = String(day.day);
+    const isHalfDay = dayStr.toLowerCase().includes('half');
     
     // Get time period config function (defined below in component)
     const getTimePeriodConfigForHalfDay = (period: string) => {
