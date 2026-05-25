@@ -24,44 +24,52 @@ export default function StickyBookingBar({
     
     // Dynamic header height - auto-detect actual header height
     const [actualHeaderHeight, setActualHeaderHeight] = React.useState(72);
+    const [isHydrated, setIsHydrated] = React.useState(false);
 
     React.useEffect(() => {
+        // Mark as hydrated after first render to avoid layout shift
+        setIsHydrated(true);
+        
         const handleScroll = () => {
             const scrollTrigger = 500;
             setIsVisible(window.scrollY > scrollTrigger);
             setIsScrolled(window.scrollY > 100);
         };
 
-        // Dynamically calculate header height
+        // Debounced header height calculation
+        let resizeTimeout: NodeJS.Timeout;
         const calculateHeaderHeight = () => {
-            // Try to find the header element
-            const header = document.querySelector('header');
-            if (header) {
-                const height = header.getBoundingClientRect().height;
-                setActualHeaderHeight(height);
-            }
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(() => {
+                const header = document.querySelector('header');
+                if (header) {
+                    const height = header.getBoundingClientRect().height;
+                    setActualHeaderHeight(height);
+                }
+            }, 100);
         };
 
         // Calculate on mount and when DOM is ready
         calculateHeaderHeight();
         
-        // Also recalculate on window resize (header height might change)
+        // Also recalculate on window resize (debounced)
         window.addEventListener('resize', calculateHeaderHeight);
 
         window.addEventListener('scroll', handleScroll, { passive: true });
         return () => {
             window.removeEventListener('scroll', handleScroll);
             window.removeEventListener('resize', calculateHeaderHeight);
+            clearTimeout(resizeTimeout);
         };
     }, []);
 
     // Calculate top position: passed headerHeight + actual header height
     const bookingBarTop = headerHeight + actualHeaderHeight;
     
-    // Z-index: 40 when hidden (below header z-50), 60 when visible (above header)
-    const hiddenZIndex = 40;
-    const visibleZIndex = 60;
-    const currentZIndex = isVisible ? visibleZIndex : hiddenZIndex;
+    // Z-index: Desktop bar can be higher (floats on right, doesn't overlap header)
+    // Tablet/Mobile bars use fixed z-index 40 (behind header) - they slide from top
+    const desktopZIndex = isVisible ? 70 : 60;
+    const tabletMobileZIndex = 40;
 
     return (
         <>
@@ -75,7 +83,7 @@ export default function StickyBookingBar({
                     isVisible ? 'translate-x-0' : 'translate-x-full',
                     'print:hidden'
                 )}
-                style={{ top: `${bookingBarTop}px`, zIndex: currentZIndex }}
+                style={{ top: `${bookingBarTop}px`, zIndex: desktopZIndex }}
             >
                 <div className="p-4 flex flex-col items-start justify-between gap-3 min-w-[200px] h-full">
                     {/* Tour Title - Bold */}
@@ -121,7 +129,7 @@ export default function StickyBookingBar({
                     isVisible ? 'translate-y-0' : '-translate-y-full',
                     'print:hidden'
                 )}
-                style={{ top: `${bookingBarTop}px`, zIndex: currentZIndex }}
+                style={{ top: `${bookingBarTop}px`, zIndex: tabletMobileZIndex }}
             >
                 <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-end gap-4">
                     {/* Price */}
@@ -162,7 +170,7 @@ export default function StickyBookingBar({
                     isVisible ? 'translate-y-0' : '-translate-y-full',
                     'print:hidden'
                 )}
-                style={{ top: `${bookingBarTop}px`, zIndex: currentZIndex }}
+                style={{ top: `${bookingBarTop}px`, zIndex: tabletMobileZIndex }}
             >
                 <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between gap-4">
                     {/* Tour Title */}

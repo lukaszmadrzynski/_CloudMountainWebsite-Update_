@@ -215,7 +215,7 @@ function MobileMenu(props) {
                 <span className="sr-only">{isMenuOpen ? "Close Menu" : "Open Menu"}</span>
                 <MenuIcon className="fill-current h-6 w-6" />
             </button>
-            <div className={classNames('bg-white/60', 'backdrop-blur-lg', 'fixed', 'inset-x-0', 'top-16', 'overflow-y-auto', 'z-10', isMenuOpen ? 'block' : 'hidden')}>
+            <div className={classNames('bg-white/60', 'backdrop-blur-lg', 'fixed', 'inset-0', 'overflow-y-auto', 'z-10', isMenuOpen ? 'block' : 'hidden')}>
                 <div className="flex flex-col min-h-full">
                     {primaryLinks.length > 0 && (
                         <ul className="px-4" {...(enableAnnotations && { 'data-sb-field-path': 'primaryLinks' })}>
