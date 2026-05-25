@@ -297,7 +297,7 @@ sections:
           - period: Evening
             activities:
               - 'Explore Baisha Village, a designated UNESCO Heritage site, and discover its ancient architecture and fascinating history.'
-              - 'Return to Lijiang as the sun sets, carrying memories of Yunnan's rich natural beauty and cultural tapestry.'
+              - "Return to Lijiang as the sun sets, carrying memories of Yunnan's rich natural beauty and cultural tapestry."
     accentColors:
       morning: '#01aed9'
       afternoon: '#007dbd'
