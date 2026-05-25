@@ -177,6 +177,7 @@ className={classNames(
                                         'items-center',
                                         'gap-4',
                                         'mt-6',
+                                        'pb-6',
                                         'w-full'
                                     )}
                                     {...(enableAnnotations && { 'data-sb-field-path': '.actions' })}
