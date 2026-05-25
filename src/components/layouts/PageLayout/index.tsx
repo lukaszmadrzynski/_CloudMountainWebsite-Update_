@@ -32,7 +32,7 @@ export default function PageLayout(props) {
         stickyBookingBarData = {
             price: `$${lowestPrice}`,
             bookingUrl: pricingSection.bookingUrl || '/book',
-            tourTitle: page.title || ''
+            tourTitle: (page.title || '').replace(/\s*Ecotour\s*/gi, '').trim()
         };
     }
 

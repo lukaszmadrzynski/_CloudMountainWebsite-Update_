@@ -77,14 +77,14 @@ export default function StickyBookingBar({
                 )}
                 style={{ top: `${bookingBarTop}px`, zIndex: currentZIndex }}
             >
-                <div className="p-4 flex flex-col items-end justify-between gap-3 min-w-[200px] h-full">
+                <div className="p-4 flex flex-col items-start justify-between gap-3 min-w-[200px] h-full">
                     {/* Tour Title - Bold */}
-                    <span className="text-white font-bold text-sm truncate max-w-[180px] text-right">
+                    <span className="text-white font-bold text-sm truncate max-w-[200px]">
                         {tourTitle || 'Book Your EcoTour'}
                     </span>
                     
                     {/* Price */}
-                    <div className="flex items-baseline justify-end gap-1">
+                    <div className="flex items-baseline justify-start gap-1">
                         <span className="text-white/60 text-xs">{priceFrom}</span>
                         <span className="text-2xl font-bold text-white">{price}</span>
                         <span className="text-white/60 text-sm">/person</span>
@@ -99,7 +99,8 @@ export default function StickyBookingBar({
                             'hover:bg-[#5ebb46]/10',
                             'transition-all duration-200',
                             'flex items-center gap-2',
-                            'whitespace-nowrap'
+                            'whitespace-nowrap',
+                            'self-start'
                         )}
                     >
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
