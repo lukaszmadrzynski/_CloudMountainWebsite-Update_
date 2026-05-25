@@ -11,7 +11,7 @@ interface ScheduleItem {
 }
 
 interface Day {
-    day: number;
+    day: number | string;
     title: string;
     meals?: { type: string; description: string }[];
     schedule?: ScheduleItem[];
