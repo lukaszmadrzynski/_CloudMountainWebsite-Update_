@@ -22,6 +22,9 @@ export default function StickyBookingBar({
     const [isVisible, setIsVisible] = React.useState(false);
     const [isScrolled, setIsScrolled] = React.useState(false);
     
+    // Detect WeChat browser for animation fallback
+    const [isWeChat, setIsWeChat] = React.useState(false);
+    
     // Dynamic header height - auto-detect actual header height
     const [actualHeaderHeight, setActualHeaderHeight] = React.useState(72);
     const [isHydrated, setIsHydrated] = React.useState(false);
@@ -29,6 +32,9 @@ export default function StickyBookingBar({
     React.useEffect(() => {
         // Mark as hydrated after first render to avoid layout shift
         setIsHydrated(true);
+        
+        // Detect WeChat browser
+        setIsWeChat(/MicroMessenger/i.test(navigator.userAgent));
         
         const handleScroll = () => {
             const scrollTrigger = 500;
@@ -126,7 +132,10 @@ export default function StickyBookingBar({
                     'bg-gray-900',
                     'shadow-lg',
                     isScrolled && 'shadow-xl',
-                    isVisible ? 'translate-y-0' : '-translate-y-full',
+                    // WeChat: fade only | Others: slide down
+                    isWeChat
+                        ? (isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none')
+                        : (isVisible ? 'translate-y-0' : '-translate-y-full'),
                     'print:hidden'
                 )}
                 style={{ top: `${bookingBarTop}px`, zIndex: tabletMobileZIndex }}
@@ -167,7 +176,10 @@ export default function StickyBookingBar({
                     'bg-gray-900',
                     'shadow-lg',
                     isScrolled && 'shadow-xl',
-                    isVisible ? 'translate-y-0' : '-translate-y-full',
+                    // WeChat: fade only | Others: slide down
+                    isWeChat
+                        ? (isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none')
+                        : (isVisible ? 'translate-y-0' : '-translate-y-full'),
                     'print:hidden'
                 )}
                 style={{ top: `${bookingBarTop}px`, zIndex: tabletMobileZIndex }}
