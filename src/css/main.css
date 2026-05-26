@@ -35,8 +35,8 @@ html {
 
 @layer components {
     /* Scroll margin for anchor links to account for fixed header */
-    [id] {
-        scroll-margin-top: 0px;
+    [id].sb-component-section {
+        scroll-margin-top: 50px;
     }
 
     .sb-markdown {

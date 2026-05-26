@@ -134,7 +134,7 @@ export default function HeroSection(props: HeroSectionProps) {
 
                             <div className="mt-8 flex flex-col items-center">
                                 <span className={classNames("text-sm font-semibold mb-2", subtitleColorClass)} style={mediumShadow}>
-                                    See More
+                                    See Details
                                 </span>
                                 <svg
                                     className={classNames("w-6 h-6", subtitleColorClass)}

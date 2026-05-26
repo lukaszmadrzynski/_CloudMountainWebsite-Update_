@@ -1,10 +1,8 @@
-// pages/_app.js
-
 import { Inter, Roboto_Slab } from 'next/font/google';
-import Script from 'next/script'; // <<<<<< 1. ADD THIS IMPORT
+import Script from 'next/script';
 import '../css/main.css';
 
-// Configure Inter font (No changes here)
+// Configure Inter font
 const inter = Inter({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
@@ -12,7 +10,7 @@ const inter = Inter({
   variable: '--font-inter',
 });
 
-// Configure Roboto Slab font (No changes here)
+// Configure Roboto Slab font
 const roboto_slab = Roboto_Slab({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
@@ -21,16 +19,10 @@ const roboto_slab = Roboto_Slab({
 });
 
 export default function MyApp({ Component, pageProps }) {
-  // <<<<<< 2. DEFINE YOUR MEASUREMENT ID
   const GA_MEASUREMENT_ID = 'G-JG1RTRLGQJ';
 
   return (
-    // <<<<<< 3. WRAP EVERYTHING IN A FRAGMENT (<> ... </>)
     <>
-      {/*
-        ADD THE GOOGLE ANALYTICS SCRIPTS HERE
-        They are placed outside your main div so they don't interfere with your styling.
-      */}
       <Script
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
@@ -49,8 +41,6 @@ export default function MyApp({ Component, pageProps }) {
           `,
         }}
       />
-
-      {/* This is your existing code. No changes needed here. */}
       <div className={`${inter.variable} ${roboto_slab.variable}`}>
         <Component {...pageProps} />
       </div>
