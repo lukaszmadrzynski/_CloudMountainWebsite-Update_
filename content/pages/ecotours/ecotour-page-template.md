@@ -47,6 +47,10 @@ sections:
           textAlign: center
     subtitle: Essential Information at a Glance
     items:
+      - icon: /images/special.png
+        title: What's Special
+        subtitle: Wildlife Focus
+        highlight: 'Yunnan Snub-nosed Monkeys and biodiveristy conservation'
       - icon: /images/duration.png
         title: Duration
         subtitle: Two Days
@@ -59,10 +63,6 @@ sections:
         title: Activity Level
         subtitle: Moderate
         highlight: 'Hiking: No more than 8-9 km per day'
-      - icon: /images/special.png
-        title: What's Special
-        subtitle: Wildlife Focus
-        highlight: 'Yunnan Snub-nosed Monkeys and biodiveristy conservation'
     badge:
       label: KEY DETAILS
       color: text-primary

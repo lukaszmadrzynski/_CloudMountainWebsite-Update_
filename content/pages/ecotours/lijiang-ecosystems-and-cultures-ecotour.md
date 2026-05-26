@@ -41,6 +41,10 @@ sections:
           textAlign: center
     subtitle: Essential Information at a Glance
     items:
+      - icon: /images/special.png
+        title: What's Special
+        subtitle: Biodiversity Focus
+        highlight: 'Wetland Conservation & Ethnic Culture Immersion'
       - icon: /images/duration.png
         title: Duration
         subtitle: One Day
@@ -53,10 +57,6 @@ sections:
         title: Activity Level
         subtitle: Mild
         highlight: 'Walking: 5-6 km per day'
-      - icon: /images/special.png
-        title: What's Special
-        subtitle: Biodiversity Focus
-        highlight: 'Wetland Conservation & Ethnic Culture Immersion'
     badge:
       label: KEY DETAILS
       color: text-primary

@@ -41,6 +41,10 @@ sections:
           textAlign: center
     subtitle: Essential Information at a Glance
     items:
+      - icon: /images/special.png
+        title: What's Special
+        subtitle: Cultural Heritage
+        highlight: 'UNESCO World Heritage Site with Naxi, Han, Tibetan & Bai influences'
       - icon: /images/duration.png
         title: Duration
         subtitle: Half Day
@@ -53,10 +57,6 @@ sections:
         title: Activity Level
         subtitle: Moderate
         highlight: 'Walking: 7-8 km per session'
-      - icon: /images/special.png
-        title: What's Special
-        subtitle: Cultural Heritage
-        highlight: 'UNESCO World Heritage Site with Naxi, Han, Tibetan & Bai influences'
     badge:
       label: KEY DETAILS
       color: text-primary

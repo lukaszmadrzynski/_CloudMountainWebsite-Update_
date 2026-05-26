@@ -46,6 +46,10 @@ sections:
           textAlign: center
     subtitle: Essential Information at a Glance
     items:
+      - icon: /images/special.png
+        title: What's Special
+        subtitle: Cultural Immersion
+        highlight: 'Naxi and Yi minority traditions'
       - icon: /images/duration.png
         title: Duration
         subtitle: One Day
@@ -58,10 +62,6 @@ sections:
         title: Activity Level
         subtitle: Mild
         highlight: 'Walking: 5-6 km per day'
-      - icon: /images/special.png
-        title: What's Special
-        subtitle: Cultural Immersion
-        highlight: 'Naxi and Yi minority traditions'
     badge:
       label: KEY DETAILS
       color: text-primary

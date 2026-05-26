@@ -41,6 +41,10 @@ sections:
           textAlign: center
     subtitle: Essential Information at a Glance
     items:
+      - icon: /images/special.png
+        title: What's Special
+        subtitle: Cultural Immersion
+        highlight: 'Naxi culture and UNESCO heritage villages'
       - icon: /images/duration.png
         title: Duration
         subtitle: One Day
@@ -53,10 +57,6 @@ sections:
         title: Activity Level
         subtitle: Moderate
         highlight: 'Walking: 7-8 km per day'
-      - icon: /images/special.png
-        title: What's Special
-        subtitle: Cultural Immersion
-        highlight: 'Naxi culture and UNESCO heritage villages'
     badge:
       label: KEY DETAILS
       color: text-primary

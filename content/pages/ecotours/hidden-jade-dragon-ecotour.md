@@ -41,6 +41,10 @@ sections:
           textAlign: center
     subtitle: Essential Information at a Glance
     items:
+      - icon: /images/special.png
+        title: "What's Special"
+        subtitle: Cultural Immersion
+        highlight: 'Fuguo Temple, Wenhai Wetlands & Yi Village Stay'
       - icon: /images/duration.png
         title: Duration
         subtitle: One Day
@@ -53,10 +57,6 @@ sections:
         title: Activity Level
         subtitle: Moderate
         highlight: 'Walking: 8-9 km per day'
-      - icon: /images/special.png
-        title: "What's Special"
-        subtitle: Cultural Immersion
-        highlight: 'Fuguo Temple, Wenhai Wetlands & Yi Village Stay'
     badge:
       label: KEY DETAILS
       color: text-primary

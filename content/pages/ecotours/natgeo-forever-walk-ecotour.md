@@ -41,6 +41,10 @@ sections:
           textAlign: center
     subtitle: Essential Information at a Glance
     items:
+      - icon: /images/special.png
+        title: What's Special
+        subtitle: NatGeo Forever Walk Trail
+        highlight: Walk the same path as Paul Salopek documented for NatGeo
       - icon: /images/duration.png
         title: Duration
         subtitle: Three Days
@@ -53,10 +57,6 @@ sections:
         title: Activity Level
         subtitle: High
         highlight: "Walking: Up to 18 km per day"
-      - icon: /images/special.png
-        title: What's Special
-        subtitle: NatGeo Forever Walk Trail
-        highlight: Walk the same path as Paul Salopek documented for NatGeo
     badge:
       label: KEY DETAILS
       color: text-primary

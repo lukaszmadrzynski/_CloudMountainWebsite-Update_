@@ -41,6 +41,10 @@ sections:
           textAlign: center
     subtitle: Essential Information at a Glance
     items:
+      - icon: /images/special.png
+        title: What's Special
+        subtitle: Cultural Immersion
+        highlight: 'Naxi, Bai, and Lisu minority traditions'
       - icon: /images/duration.png
         title: Duration
         subtitle: Two Days
@@ -53,10 +57,6 @@ sections:
         title: Activity Level
         subtitle: Moderate
         highlight: 'Hiking: No more than 8-9 km per day'
-      - icon: /images/special.png
-        title: What's Special
-        subtitle: Cultural Immersion
-        highlight: 'Naxi, Bai, and Lisu minority traditions'
     badge:
       label: KEY DETAILS
       color: text-primary
