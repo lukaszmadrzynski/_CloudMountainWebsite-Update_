@@ -7,6 +7,13 @@ export default function SelectFormControl(props) {
     const { name, label, hideLabel, isRequired, options = [], defaultValue, width = 'full' } = props;
     const fieldPath = props['data-sb-field-path'];
     const labelId = `${name}-label`;
+    const [selectedValue, setSelectedValue] = React.useState(defaultValue || '');
+    
+    // Update selected value when defaultValue changes
+    React.useEffect(() => {
+        setSelectedValue(defaultValue || '');
+    }, [defaultValue]);
+    
     const attr: React.SelectHTMLAttributes<HTMLSelectElement> = {};
     if (label) {
         attr['aria-labelledby'] = labelId;
@@ -51,10 +58,12 @@ export default function SelectFormControl(props) {
                         'focus:outline-none'
                     )}
                     name={name}
+                    value={selectedValue}
+                    onChange={(e) => setSelectedValue(e.target.value)}
                     {...attr}
                     {...(fieldPath && { 'data-sb-field-path': '.name#@id .name#@name .options' })}
                 >
-                    {defaultValue && <option value="">{defaultValue}</option>}
+                    {!selectedValue && <option value="">Select an option...</option>}
                     {options.length > 0 &&
                         options.map((option, index) => {
                             const optionValue = typeof option === 'object' ? option.value : option;

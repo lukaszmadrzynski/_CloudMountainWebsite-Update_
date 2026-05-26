@@ -1,5 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
+import { useSearchParams } from 'next/navigation';
 
 import { getComponent } from '../../components-registry';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
@@ -9,8 +10,10 @@ export default function FormBlock(props) {
     const formRef = React.createRef<HTMLFormElement>();
     const { fields = [], elementId, submitButton, className, styles = {}, 'data-sb-field-path': fieldPath } = props;
 
-    // Get tour name from URL query parameter
-    const tourNameFromUrl = typeof window !== 'undefined' ? new URLSearchParams(window.location.search).get('tour') : null;
+    // Get URL params using Next.js hook (avoids hydration mismatch)
+    const searchParams = useSearchParams();
+    const tourFromUrl = searchParams.get('tour');
+    const partnershipTypeFromUrl = searchParams.get('type');
     
     // State for form submission
     const [isSubmitting, setIsSubmitting] = React.useState(false);
@@ -21,10 +24,13 @@ export default function FormBlock(props) {
         return null;
     }
 
-    // Update fields with prefilled value if tour name is in URL
+    // Update fields with prefilled values from URL
     const updatedFields = fields.map(field => {
-        if (field.name === 'tourName' && tourNameFromUrl) {
-            return { ...field, defaultValue: decodeURIComponent(tourNameFromUrl) };
+        if (field.name === 'tourName' && tourFromUrl) {
+            return { ...field, defaultValue: decodeURIComponent(tourFromUrl) };
+        }
+        if (field.name === 'partnershipType' && partnershipTypeFromUrl) {
+            return { ...field, defaultValue: partnershipTypeFromUrl };
         }
         return field;
     });

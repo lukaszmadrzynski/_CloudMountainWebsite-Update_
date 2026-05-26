@@ -104,7 +104,7 @@ sections:
           - type: Button
             label: Inquire Now
             altText: 'Inquire about Travel Agency partnership'
-            url: '#partner-form-section'
+            url: '/partner-with-us?type=travel-agencies#partner-form-section'
             showIcon: false
             style: outline
             elementId: ''
@@ -136,7 +136,7 @@ sections:
           - type: Button
             label: Inquire Now
             altText: 'Inquire about Schools & Education partnership'
-            url: '#partner-form-section'
+            url: '/partner-with-us?type=schools#partner-form-section'
             showIcon: false
             style: outline
             elementId: ''
@@ -168,7 +168,7 @@ sections:
           - type: Button
             label: Inquire Now
             altText: 'Inquire about Corporate Groups partnership'
-            url: '#partner-form-section'
+            url: '/partner-with-us?type=corporate#partner-form-section'
             showIcon: false
             style: outline
             elementId: ''
@@ -183,7 +183,7 @@ sections:
             borderRadius: x-large
             flexDirection: col
       - type: FeaturedItem
-        title: Sustainability Consulting
+        title: For Sustainability Consulting
         tagline: ''
         subtitle: ''
         text: >
@@ -200,7 +200,7 @@ sections:
           - type: Button
             label: Inquire Now
             altText: 'Inquire about Sustainability Consulting partnership'
-            url: '#partner-form-section'
+            url: '/partner-with-us?type=consulting#partner-form-section'
             showIcon: false
             style: outline
             elementId: ''
@@ -498,7 +498,7 @@ sections:
               value: schools
             - label: For Businesses & Corporate Groups
               value: corporate
-            - label: For Sustainability Consulting Organizations
+            - label: For Sustainability Consulting
               value: consulting
           isRequired: true
         - type: TextFormControl
