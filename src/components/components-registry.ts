@@ -36,6 +36,7 @@ const components = {
     ItinerarySection: dynamic(() => import('./sections/ItinerarySection')),
     HeroSection: dynamic(() => import('./sections/HeroSection')),
     HomepageHeroSection: dynamic(() => import('./sections/HomepageHeroSection')),
+    EcotoursHeroSection: dynamic(() => import('./sections/EcotoursHeroSection')),
     KeyDetailsSection: dynamic(() => import('./sections/KeyDetailsSection')),
     StickyBookingBar: dynamic(() => import('./sections/StickyBookingBar')),
     AutoCompletePosts: dynamic(() => import('./blocks/SearchBlock/AutoCompletePosts')),

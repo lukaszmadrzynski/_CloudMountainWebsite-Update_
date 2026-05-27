@@ -2,35 +2,10 @@
 type: PageLayout
 title: Cloud Mountain Ecotours
 sections:
-  - type: GenericSection
-    title:
-      type: TitleBlock
-      text: ''
-      color: text-dark
-    subtitle: ''
-    text: ''
-    actions: []
+  - type: EcotoursHeroSection
     media:
-      type: ImageBlock
-      url: /images/Why Us Hero.webp
-      altText: >-
-        An international family enjoying a private ecotour with Cloud Mountain
-        in Lijiang and Shangri-La, Yunnan, China.
-      styles:
-        self:
-          borderRadius: x-large
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-        flexDirection: col-reverse
-        fullWidth: true
-        justifyContent: center
-        padding:
-          - pt-0
-          - pl-0
-          - pb-1
-          - pr-0
+      url: /images/HERO-Ecotours.webp
+      altText: Explore the stunning landscapes of Yunnan with Cloud Mountain Ecotours. From alpine wetlands to ancient forests, authentic nature experiences await.
   - type: GenericSection
     title:
       type: TitleBlock
