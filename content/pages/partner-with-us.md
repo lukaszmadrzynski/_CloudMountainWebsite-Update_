@@ -2,80 +2,48 @@
 type: PageLayout
 title: Partner With Us
 sections:
-  - type: GenericSection
-    title:
-      type: TitleBlock
-      text: ''
-      color: text-dark
-    subtitle: ''
-    text: ''
-    actions: []
+  - type: PartnerWithUsHeroSection
     media:
-      type: ImageBlock
-      url: /images/partner-with-us-hero.png
-      altText: >-
-        Cloud Mountain Ecotours, Sustainable Travel and Nature Education in
-        Lijiang and Shangri-La, Yunnan, China.
-      styles:
-        self:
-          borderRadius: x-large
-    badge:
-      type: Badge
-      label: ''
-      color: text-primary
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-        flexDirection: col-reverse
-        fullWidth: true
-        padding:
-          - pt-0
-          - pb-2
-        justifyContent: center
+      url: /images/Partner-With-Us-Hero.webp
+      altText: Partner With Us - Cloud Mountain
+    title:
+      text: 'Partner with<br/>Cloud Mountain'
+      color: text-white
+    subtitle: Join our network of partners and offer your clients unforgettable, sustainable experiences in Yunnan, China.
+    colors: bg-dark-fg-light
   - type: GenericSection
     title:
       type: TitleBlock
-      text: Partner With Cloud Mountain
+      text: Partner with Cloud Mountain
       color: text-dark
       styles:
         self:
           textAlign: center
-    subtitle: >
-      Join our network of partners and offer your clients unforgettable,
-      sustainable experiences in Yunnan, China.
+          padding:
+            - pt-8
+            - pb-0
+            - pl-4
+            - pr-4
+    subtitle: Join our network of partners and offer your clients unforgettable, sustainable experiences in Yunnan, China.
     text: ''
     actions: []
-    media:
-      type: ImageBlock
-      altText: Fun feature preview
-    badge:
-      type: Badge
-      label: ''
-      color: text-primary
     colors: bg-light-fg-dark
     styles:
       self:
         alignItems: center
-        justifyContent: center
         padding:
-          - pt-5
-          - pl-3
-          - pr-3
-          - pb-8
-      subtitle:
-        textAlign: center
+          - pt-0
+          - pb-2
   - type: DividerSection
-    title: Divider
-    elementId: ''
     colors: bg-neutral-fg-dark
     styles:
       self:
         padding:
-          - pt-4
+          - pt-2
+          - pb-0
           - pl-4
-          - pb-4
           - pr-4
+  - type: ContactFormSection
   - type: FeaturedItemsSection
     title:
       type: TitleBlock
@@ -84,6 +52,9 @@ sections:
       styles:
         self:
           textAlign: center
+          padding:
+            - pt-0
+            - pb-2
     subtitle: Flexible collaboration models tailored to your business needs.
     items:
       - type: FeaturedItem

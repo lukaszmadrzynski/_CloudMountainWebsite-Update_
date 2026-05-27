@@ -2,6 +2,10 @@
 type: PageLayout
 title: Contact Us
 sections:
+  - type: EcotoursHeroSection
+    media:
+      url: /images/Contact-Us-Hero.webp
+      altText: Contact Us - Cloud Mountain Team
   - type: GenericSection
     title:
       type: TitleBlock

@@ -37,6 +37,7 @@ const components = {
     HeroSection: dynamic(() => import('./sections/HeroSection')),
     HomepageHeroSection: dynamic(() => import('./sections/HomepageHeroSection')),
     EcotoursHeroSection: dynamic(() => import('./sections/EcotoursHeroSection')),
+    PartnerWithUsHeroSection: dynamic(() => import('./sections/PartnerWithUsHeroSection')),
     KeyDetailsSection: dynamic(() => import('./sections/KeyDetailsSection')),
     StickyBookingBar: dynamic(() => import('./sections/StickyBookingBar')),
     AutoCompletePosts: dynamic(() => import('./blocks/SearchBlock/AutoCompletePosts')),
