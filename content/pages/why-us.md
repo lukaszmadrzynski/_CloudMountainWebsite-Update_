@@ -2,42 +2,10 @@
 type: PageLayout
 title: About Cloud Mountain
 sections:
-  - type: GenericSection
-    title:
-      type: TitleBlock
-      text: ''
-      color: text-dark
-    subtitle: ''
-    text: ''
-    actions: []
+  - type: EcotoursHeroSection
     media:
-      type: ImageBlock
-      url: /images/About Us Hero.webp
-      altText: About Us Banner
-      styles:
-        self:
-          borderRadius: x-large
-    badge:
-      type: Badge
-      label: ''
-      color: text-primary
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-        flexDirection: row-reverse
-        fullWidth: true
-        padding:
-          - pt-0
-          - pl-0
-          - pb-0
-          - pr-0
-        justifyContent: center
-        margin:
-          - ml-0
-          - mr-0
-          - mt-0
-          - mb-0
+      url: /images/Why-Us-Hero.webp
+      altText: About Us Banner - Cloud Mountain Team
   - type: GenericSection
     title:
       type: TitleBlock
