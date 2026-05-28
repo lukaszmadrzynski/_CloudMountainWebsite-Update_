@@ -94,7 +94,7 @@ className={classNames(
                                 >
                                     <TitleBlock
                                         {...title}
-                                        className={classNames({ 'mt-4': badge?.label })}
+                                        className={classNames({ 'mt-1': badge?.label })}
                                         {...(enableAnnotations && { 'data-sb-field-path': '.title' })}
                                     />
                                 </button>
@@ -102,8 +102,8 @@ className={classNames(
                         )}
                         {subtitle && (
                             <p
-                                className={classNames('text-center', 'text-lg', 'sm:text-xl', 'mt-4', 'text-gray-600', styles?.subtitle ? mapStyles(styles?.subtitle) : undefined, {
-                                    'mt-4': badge?.label || title?.text
+                                className={classNames('text-center', 'text-lg', 'sm:text-xl', 'md:text-2xl', 'mt-1', styles?.subtitle ? mapStyles(styles?.subtitle) : undefined, {
+                                    'mt-2': badge?.label || title?.text
                                 })}
                                 {...(enableAnnotations && { 'data-sb-field-path': '.subtitle' })}
                             >
@@ -116,7 +116,7 @@ className={classNames(
                             id={elementId ? `${elementId}-content` : undefined}
                             className={classNames(
                                 'overflow-hidden transition-all ease-in-out w-full',
-                                collapsible ? (isExpanded ? 'max-h-[3000px] opacity-100 mt-8' : 'max-h-0 opacity-0') : 'mt-8'
+                                collapsible ? (isExpanded ? 'max-h-[3000px] opacity-100 mt-8' : 'max-h-0 opacity-0') : 'mt-4'
                             )}
                             style={{ transitionDuration: '800ms' }}
                         >

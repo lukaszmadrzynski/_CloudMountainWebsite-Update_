@@ -18,8 +18,7 @@ sections:
     text: >+
       <div style="text-align: center">Cloud Mountain emerged from a shared
       passion for the unparalleled natural beauty and rich cultural tapestry of
-      Northwest Yunnan, China. Co-founders Lynne Lyu and Lukasz Madrzynski
-      envisioned a company that not only offered unforgettable educational
+      Northwest Yunnan, China. We envisioned a company that not only offered unforgettable educational
       travel experiences but also championed sustainable practices and fostered
       genuine connections with local communities.</div>
 
@@ -37,7 +36,7 @@ sections:
         alignItems: flex-start
         justifyContent: center
         padding:
-          - pt-4
+          - pt-0
           - pl-3
           - pr-3
           - pb-4
@@ -540,15 +539,13 @@ sections:
           - pb-4
           - pr-4
   - type: GenericSection
-    badge:
-          - pr-4
-  - type: GenericSection
     elementId: sustainability-action
     title:
       type: TitleBlock
       text: Sustainable Development in Action
-      color: text-dark
-    subtitle: ''
+      color: text-primary
+    subtitle: Our Expertise
+    colors: bg-light-fg-dark
     text: >
       Our Team has been actively involved in the design and implementation of
       UNDP-GEF-SGP projects in Northwest Yunnan, including the"Community Wetland
@@ -570,11 +567,6 @@ sections:
       styles:
         self:
           borderRadius: x-large
-    badge:
-      type: Badge
-      label: Our Expertise
-      color: text-primary
-    colors: bg-light-fg-dark
     styles:
       self:
         alignItems: center
@@ -585,8 +577,6 @@ sections:
           - pl-4
           - pb-4
           - pr-4
-      subtitle:
-        textAlign: center
   - type: DividerSection
     title: Divider
     elementId: ''
@@ -599,15 +589,13 @@ sections:
           - pb-4
           - pr-4
   - type: GenericSection
-    badge:
-      - pr-4
-  - type: GenericSection
     elementId: partnerships
     title:
       type: TitleBlock
       text: Collaboration & Partnerships
-      color: text-dark
-    subtitle: ''
+      color: text-primary
+    subtitle: Multi-Stakeholders
+    colors: bg-light-fg-dark
     text: >
       Throughout the years, our team has established deep involvement with the
       local communities, organizations and institutions in Northwest Yunnan, and
@@ -623,15 +611,11 @@ sections:
       styles:
         self:
           borderRadius: x-large
-    badge:
-      type: Badge
-      label: Multi-Stakeholders
-      color: text-primary
-    colors: bg-light-fg-dark
     styles:
       self:
         alignItems: center
         flexDirection: 'col-reverse lg:flex-row-reverse'
+        justifyContent: center
         padding:
           - pt-4
           - pb-4
@@ -651,15 +635,13 @@ sections:
           - pb-4
           - pr-4
   - type: GenericSection
-    badge:
-      - pr-4
-  - type: GenericSection
     elementId: outreach-recognition
     title:
       type: TitleBlock
       text: Outreach & Recognition
-      color: text-dark
-    subtitle: ''
+      color: text-primary
+    subtitle: Media Exposure
+    colors: bg-light-fg-dark
     text: >
       We believe that showcasing our work and experiences can contribute to
       sustainable development not only in Yunnan but also in other parts of the
@@ -677,23 +659,30 @@ sections:
       styles:
         self:
           borderRadius: x-large
-    badge:
-      type: Badge
-      label: Media Exposure
-      color: text-primary
-    colors: bg-light-fg-dark
     styles:
       self:
         alignItems: center
-        flexDirection: 'col-reverse lg:flex-col'
+        flexDirection: 'col-reverse lg:flex-row'
+        justifyContent: center
         padding:
           - pt-4
+          - pl-4
           - pb-4
-          - pl-3
-          - pr-3
-        justifyContent: center
+          - pr-4
+      text:
+        textAlign: justify
   - type: DividerSection
     title: Divider
+    elementId: ''
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-4
+          - pl-4
+          - pb-4
+          - pr-4
+  - type: GenericSection
     elementId: ''
     colors: bg-neutral-fg-dark
     styles:
@@ -710,7 +699,7 @@ sections:
     title:
       type: TitleBlock
       text: Ready to Meet Us?
-      color: text-dark
+      color: text-primary
       styles:
         self:
           textAlign: center

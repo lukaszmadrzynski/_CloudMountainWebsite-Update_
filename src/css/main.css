@@ -9,6 +9,16 @@
     margin-left: calc(-50vw + 50%);
 }
 
+/* EcotoursHeroSection - Mobile taller than desktop */
+.EcotoursHeroSection-img {
+    max-height: 140vh;
+}
+@media (min-width: 1024px) {
+    .EcotoursHeroSection-img {
+        max-height: 70vh;
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }

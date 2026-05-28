@@ -357,7 +357,7 @@ sections:
           textAlign: center
     subtitle: ''
     text: |
-      <div style="text-align: center">Choose your path to unforgettable experiences</div>
+      <div style="text-align: center">Choose your path to unforgettable ecoexperiences.</div>
     actions:
       - type: Button
         label: Choose Your EcoTour

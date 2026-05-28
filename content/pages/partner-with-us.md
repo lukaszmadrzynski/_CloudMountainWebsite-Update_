@@ -20,7 +20,7 @@ sections:
         self:
           textAlign: center
           padding:
-            - pt-8
+            - pt-6
             - pb-0
             - pl-4
             - pr-4
@@ -32,19 +32,20 @@ sections:
       self:
         alignItems: center
         padding:
-          - pt-0
-          - pb-2
+          - pt-2
+          - pb-6
+          - pl-4
+          - pr-4
   - type: DividerSection
     colors: bg-neutral-fg-dark
     styles:
       self:
         padding:
-          - pt-2
+          - pt-0
           - pb-0
           - pl-4
           - pr-4
-  - type: ContactFormSection
-  - type: FeaturedItemsSection
+  - type: GenericSection
     title:
       type: TitleBlock
       text: Choose Your Partnership Type
@@ -52,10 +53,30 @@ sections:
       styles:
         self:
           textAlign: center
+    subtitle: Flexible collaboration models tailored to your needs.
+    text: ''
+    actions: []
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        alignItems: center
+        padding:
+          - pt-8
+          - pb-0
+          - pl-4
+          - pr-4
+  - type: FeaturedItemsSection
+    title:
+      type: TitleBlock
+      text: ''
+      color: text-primary
+      styles:
+        self:
+          textAlign: center
           padding:
             - pt-0
-            - pb-2
-    subtitle: Flexible collaboration models tailored to your business needs.
+            - pb-0
+    subtitle: ''
     items:
       - type: FeaturedItem
         title: For Travel Agencies
@@ -95,7 +116,7 @@ sections:
         subtitle: ''
         text: >
           Provide PBL sustainability programs to your students that create real
-          world impacts. Our camps align with IB, AP, and A-Level curricula.
+          world impacts. Our camps align with international curricula.
         image:
           type: ImageBlock
           url: /images/partnership-schools.webp
@@ -191,7 +212,7 @@ sections:
     styles:
       self:
         padding:
-          - pt-16
+          - pt-6
           - pl-8
           - pb-8
           - pr-8
@@ -390,7 +411,7 @@ sections:
     elementId: partner-form-section
     title:
       type: TitleBlock
-      text: Partner With Cloud Mountain
+      text: Partnership Inquiry Form
       color: text-dark
       styles:
         self:
@@ -414,7 +435,7 @@ sections:
         padding:
           - pt-5
           - pl-7
-          - pb-2
+          - pb-0
           - pr-7
       subtitle:
         textAlign: center
@@ -438,7 +459,7 @@ sections:
         alignItems: center
         justifyContent: center
         padding:
-          - pt-3
+          - pt-0
           - pb-0
   - type: GenericSection
     title:
@@ -611,9 +632,9 @@ sections:
     styles:
       self:
         padding:
-          - pt-4
+          - pt-0
           - pl-4
-          - pb-4
+          - pb-0
           - pr-4
   - type: GenericSection
     title:
@@ -658,7 +679,7 @@ sections:
         justifyContent: center
         flexDirection: col
         padding:
-          - pt-7
+          - pt-3
           - pb-12
           - pl-3
           - pr-3

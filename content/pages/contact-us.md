@@ -15,7 +15,6 @@ sections:
         self:
           textAlign: center
     subtitle: ''
-    text: "<div style=\"text-align: center\">We're eager to help you design your unforgettable and responsible ecoexperience in Yunnan. <br>Contact us directly to **Book Your Private EcoTour** or to **Discuss Potential Partnership**.</div>\n\n"
     actions: []
     media:
       type: ImageBlock
@@ -31,12 +30,19 @@ sections:
         justifyContent: center
         flexDirection: col
         padding:
-          - pt-9
-          - pl-7
-          - pb-7
-          - pr-7
-      subtitle:
-        textAlign: center
+          - pt-2
+          - pl-6
+          - pb-2
+          - pr-6
+  - type: DividerSection
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-4
+          - pb-4
+          - pl-4
+          - pr-4
   - type: FeaturedItemsSection
     title:
       type: TitleBlock
@@ -67,7 +73,7 @@ sections:
         styles:
           self:
             padding:
-              - pt-4
+              - pt-8
               - pl-4
               - pb-4
               - pr-4
@@ -97,7 +103,7 @@ sections:
         styles:
           self:
             padding:
-              - pt-4
+              - pt-8
               - pl-4
               - pb-4
               - pr-4
@@ -110,7 +116,7 @@ sections:
     styles:
       self:
         padding:
-          - pt-8
+          - pt-4
           - pl-8
           - pb-8
           - pr-8

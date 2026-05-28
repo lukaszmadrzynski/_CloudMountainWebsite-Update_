@@ -350,7 +350,7 @@ export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
             )}
 
             {/* Section Title */}
-            <h2 className="sb-component sb-component-title text-dark text-center mb-6 md:mb-8">
+            <h2 className="sb-component sb-component-title text-dark text-center text-2xl sm:text-3xl mb-6 md:mb-8">
                 What Our Customers Say
             </h2>
 

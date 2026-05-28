@@ -25,7 +25,7 @@ export default function FeaturedItemsSection(props) {
                 {title && (
                     <TitleBlock
                         {...title}
-                        className={classNames('w-full', 'max-w-sectionBody', { 'mt-4': badge?.label })}
+                        className={classNames('w-full', 'max-w-sectionBody', { 'mt-2': badge?.label })}
                         {...(enableAnnotations && { 'data-sb-field-path': '.title' })}
                     />
                 )}
@@ -35,11 +35,12 @@ export default function FeaturedItemsSection(props) {
                             'w-full',
                             'max-w-sectionBody',
                             'text-lg',
-                            'sm:text-2xl',
+                            'sm:text-xl',
+                            'md:text-2xl',
                             'text-center',
                             styles?.subtitle ? mapStyles(styles?.subtitle) : undefined,
                             {
-                                'mt-4': badge?.label || title?.text
+                                'mt-2': badge?.label || title?.text
                             }
                         )}
                         {...(enableAnnotations && { 'data-sb-field-path': '.subtitle' })}
@@ -55,7 +56,7 @@ export default function FeaturedItemsSection(props) {
                             'text-base',
                             'text-center',
                             {
-                                'mt-4': badge?.label || title?.text || subtitle
+                                'mt-2': badge?.label || title?.text || subtitle
                             }
                         )}
                         {...(enableAnnotations && { 'data-sb-field-path': '.text' })}
@@ -74,7 +75,7 @@ export default function FeaturedItemsSection(props) {
                 {actions.length > 0 && (
                     <div
                         className={classNames('flex', 'flex-wrap', 'items-center', 'gap-4', {
-                            'mt-12': badge?.label || title?.text || subtitle || items.length > 0
+                            'mt-2': badge?.label || title?.text || subtitle || items.length > 0
                         })}
                         {...(enableAnnotations && { 'data-sb-field-path': '.actions' })}
                     >
@@ -122,7 +123,7 @@ function FeaturedItemsThreeColGrid(props) {
     const EcotourCard = getComponent('EcotourCard');
     return (
         <div
-            className={classNames('w-full', 'grid', 'gap-10', 'sm:grid-cols-2', 'lg:grid-cols-3', { 'mt-12': hasTopMargin })}
+            className={classNames('w-full', 'grid', 'gap-10', 'sm:grid-cols-2', 'lg:grid-cols-3', { 'mt-2': hasTopMargin })}
             {...(hasAnnotations && { 'data-sb-field-path': '.items' })}
         >
             {items.map((item, index) => {
@@ -144,7 +145,7 @@ function FeaturedItemsTwoColGrid(props) {
     const EcotourCard = getComponent('EcotourCard');
     return (
         <div
-            className={classNames('w-full', 'grid', 'gap-6', 'sm:grid-cols-2', { 'mt-12': hasTopMargin })}
+            className={classNames('w-full', 'grid', 'gap-6', 'sm:grid-cols-2', { 'mt-2': hasTopMargin })}
             {...(hasAnnotations && { 'data-sb-field-path': '.items' })}
         >
             {items.map((item, index) => {
@@ -166,7 +167,7 @@ function FeaturedItemsFourColGrid(props) {
     const EcotourCard = getComponent('EcotourCard');
     return (
         <div
-            className={classNames('w-full', 'grid', 'gap-6', 'sm:grid-cols-2', 'lg:grid-cols-4', { 'mt-12': hasTopMargin })}
+            className={classNames('w-full', 'grid', 'gap-6', 'sm:grid-cols-2', 'lg:grid-cols-4', { 'mt-2': hasTopMargin })}
             {...(hasAnnotations && { 'data-sb-field-path': '.items' })}
         >
             {items.map((item, index) => {
@@ -188,7 +189,7 @@ function FeaturedItemsFiveColGrid(props) {
     const EcotourCard = getComponent('EcotourCard');
     return (
         <div
-            className={classNames('w-full', 'grid', 'gap-4', 'sm:grid-cols-2', 'md:grid-cols-3', 'lg:grid-cols-5', { 'mt-12': hasTopMargin })}
+            className={classNames('w-full', 'grid', 'gap-4', 'sm:grid-cols-2', 'md:grid-cols-3', 'lg:grid-cols-5', { 'mt-2': hasTopMargin })}
             {...(hasAnnotations && { 'data-sb-field-path': '.items' })}
         >
             {items.map((item, index) => {
@@ -210,7 +211,7 @@ function FeaturedItemsSmallList(props) {
     const EcotourCard = getComponent('EcotourCard');
     return (
         <div
-            className={classNames('w-full', 'max-w-3xl', 'grid', 'gap-10', { 'mt-12': hasTopMargin })}
+            className={classNames('w-full', 'max-w-3xl', 'grid', 'gap-10', { 'mt-2': hasTopMargin })}
             {...(hasAnnotations && { 'data-sb-field-path': '.items' })}
         >
             {items.map((item, index) => {
@@ -231,7 +232,7 @@ function FeaturedItemsBigList(props) {
     const FeaturedItem = getComponent('FeaturedItem');
     const EcotourCard = getComponent('EcotourCard');
     return (
-        <div className={classNames('w-full', 'grid', 'gap-10', { 'mt-12': hasTopMargin })} {...(hasAnnotations && { 'data-sb-field-path': '.items' })}>
+        <div className={classNames('w-full', 'grid', 'gap-10', { 'mt-2': hasTopMargin })} {...(hasAnnotations && { 'data-sb-field-path': '.items' })}>
             {items.map((item, index) => {
                 const CardComponent = item.type === 'EcotourCard' ? EcotourCard : FeaturedItem;
                 return (
@@ -250,7 +251,7 @@ function FeaturedItemsToggleList(props) {
     const FeaturedItemToggle = getComponent('FeaturedItemToggle');
     return (
         <div
-            className={classNames('w-full', 'max-w-3xl', 'grid', 'gap-6', { 'mt-12': hasTopMargin })}
+            className={classNames('w-full', 'max-w-3xl', 'grid', 'gap-6', { 'mt-2': hasTopMargin })}
             {...(hasAnnotations && { 'data-sb-field-path': '.items' })}
         >
             {items.map((item, index) => (

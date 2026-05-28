@@ -15,11 +15,6 @@ sections:
         self:
           textAlign: center
     subtitle: ''
-    text: >+
-      <div style="text-align: center">Whether you have a few hours or several
-      days, Cloud Mountain offers some of the most authentic and off-the-beaten-path ecotours in
-      Yunnan.</div>
-
     actions: []
     media:
       type: ImageBlock
@@ -35,9 +30,9 @@ sections:
         flexDirection: col-reverse
         justifyContent: center
         padding:
-          - pt-5
+          - pt-2
           - pl-2
-          - pb-9
+          - pb-0
           - pr-2
   - type: DividerSection
     title: Divider
@@ -422,7 +417,7 @@ sections:
         padding:
           - pt-4
           - pl-4
-          - pb-4
+          - pb-8
           - pr-4
   - type: GenericSection
     title:
@@ -462,6 +457,15 @@ sections:
           - pl-3
           - pr-3
         flexDirection: 'col-reverse lg:flex-row'
+  - type: DividerSection
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-6
+          - pb-2
+          - pl-4
+          - pr-4
   - type: GenericSection
     title:
       type: TitleBlock
@@ -493,8 +497,8 @@ sections:
       self:
         justifyContent: center
         padding:
-          - pt-14
-          - pb-12
+          - pt-8
+          - pb-8
           - pl-3
           - pr-3
 slug: /ecotours
