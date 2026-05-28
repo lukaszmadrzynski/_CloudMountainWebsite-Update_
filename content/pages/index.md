@@ -39,17 +39,6 @@ sections:
           - pr-4
         justifyContent: center
         textAlign: left
-  - type: DividerSection
-    title: Divider
-    elementId: ''
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-12
-          - pl-12
-          - pb-9
-          - pr-12
   - type: FeaturedItemsSection
     title:
       type: TitleBlock
@@ -58,6 +47,9 @@ sections:
       styles:
         self:
           textAlign: center
+          padding:
+            - pt-10
+            - pb-0
     subtitle: ''
     items:
       - type: EcotourCard
