@@ -36,7 +36,7 @@ export default function HomepageHeroSection(props: HomepageHeroSectionProps) {
     return (
         <section
             id={elementId}
-            className={classNames('relative', 'min-h-[50vh] lg:min-h-screen', 'flex', 'items-center', 'lg:items-start', 'justify-end', 'overflow-hidden', props.className)}
+            className={classNames('relative', 'min-h-[65vh] lg:min-h-screen', 'flex', 'items-center', 'lg:items-start', 'justify-end', 'overflow-hidden', props.className)}
             data-sb-field-path=".hero"
         >
             {/* Background Image - no overlay/shading, left-aligned on all versions */}
