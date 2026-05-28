@@ -68,7 +68,7 @@ export default function HomepageHeroSection(props: HomepageHeroSectionProps) {
                 
                 {text && (
                     <div className="text-center sm:text-right mb-3" style={mediumShadow} data-sb-field-path=".text">
-                        <p className={classNames("text-base md:text-lg max-w-4xl leading-relaxed", subtitleColorClass)}>
+                        <p className={classNames("text-sm sm:text-base md:text-lg max-w-4xl leading-relaxed", subtitleColorClass)}>
                             {text}
                         </p>
                     </div>
