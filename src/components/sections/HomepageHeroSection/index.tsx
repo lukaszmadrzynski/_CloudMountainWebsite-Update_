@@ -55,13 +55,13 @@ export default function HomepageHeroSection(props: HomepageHeroSectionProps) {
             <div className="relative z-10 w-full px-4 sm:px-6 pt-24 sm:pt-34 lg:pt-48 max-w-4xl mx-auto sm:mx-0 sm:mr-4 lg:mr-0 lg:pr-20 text-center sm:text-right lg:translate-y-[100px] md:-translate-y-[130px]" style={{ marginTop: 'clamp(-80px, -15vw, -150px)' }}>
                 
                 {title && (
-                    <h1 className={classNames("text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-bold mb-3 leading-tight", textColorClass)} style={intenseShadow} data-sb-field-path=".title.text">
+                    <h1 className={classNames("text-3xl sm:text-4xl md:text-6xl lg:text-6xl font-bold mb-3 leading-tight", textColorClass)} style={intenseShadow} data-sb-field-path=".title.text">
                         {title.text}
                     </h1>
                 )}
                 
                 {subtitle && (
-                    <h2 className={classNames("text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-3 leading-tight", subtitleColorClass)} style={intenseShadow} data-sb-field-path=".subtitle">
+                    <h2 className={classNames("text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 leading-tight", subtitleColorClass)} style={intenseShadow} data-sb-field-path=".subtitle">
                         <span dangerouslySetInnerHTML={{ __html: subtitle }} style={{ display: 'block', lineHeight: '1.4', paddingTop: '8px' }} />
                     </h2>
                 )}
