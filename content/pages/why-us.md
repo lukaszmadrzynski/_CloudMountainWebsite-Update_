@@ -53,9 +53,6 @@ sections:
           - pl-4
           - pb-4
           - pr-4
-  - type: GenericSection
-    badge:
-      - pr-4
   - type: FeaturedItemsSection
     elementId: meet-the-founders
     title:
@@ -160,9 +157,6 @@ sections:
           - pb-4
           - pr-4
   - type: GenericSection
-    badge:
-      - pr-4
-  - type: GenericSection
     elementId: our-local-partners
     title:
       type: TitleBlock
@@ -215,9 +209,6 @@ sections:
           - pl-4
           - pb-4
           - pr-4
-  - type: GenericSection
-    badge:
-      - pr-4
   - type: FeaturedItemsSection
     elementId: why-choose-us
     title:
@@ -683,19 +674,6 @@ sections:
           - pb-4
           - pr-4
   - type: GenericSection
-    elementId: ''
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-4
-          - pl-4
-          - pb-4
-          - pr-4
-  - type: GenericSection
-    badge:
-      - pr-4
-  - type: GenericSection
     title:
       type: TitleBlock
       text: Ready to Meet Us?
@@ -743,20 +721,9 @@ sections:
         fullWidth: true
         padding:
           - pt-4
-          - pb-4
+          - pb-8
           - pl-3
           - pr-3
-  - type: DividerSection
-    title: Divider
-    elementId: ''
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-4
-          - pl-4
-          - pb-4
-          - pr-4
   - type: GenericSection
     title:
       type: TitleBlock
@@ -788,8 +755,8 @@ sections:
       self:
         justifyContent: center
         padding:
-          - pt-14
-          - pb-14
+          - pt-10
+          - pb-0
 slug: /why-us
 isDraft: false
 seo:

@@ -18,8 +18,8 @@ export default function Header(props) {
                 'sb-component',
                 'sb-component-header',
                 colors,
-                'sticky top-0 z-50',
-                'shadow-header',
+                'fixed top-0 left-0 right-0 z-50',
+                'shadow-md',
                 styles?.self?.margin ? mapStyles({ padding: styles?.self?.margin }) : undefined,
                 styles?.self?.padding ? mapStyles({ padding: styles?.self?.padding }) : 'p-4'
             )}
@@ -348,7 +348,7 @@ function LinkWithSubnav(props) {
                 <ul
                     className={classNames(
                         colors,
-                        inMobileMenu ? 'p-4 space-y-3' : 'absolute top-full left-0 w-44 border-t border-primary shadow-header z-10 px-6 pt-5 pb-6 space-y-4',
+                        inMobileMenu ? 'p-4 space-y-3' : 'absolute top-full left-0 w-44 border-t border-primary shadow-md z-10 px-6 pt-5 pb-6 space-y-4',
                         isSubNavOpen ? 'block' : 'hidden'
                     )}
                     {...(fieldPath && { 'data-sb-field-path': '.links' })}

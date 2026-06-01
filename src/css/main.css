@@ -23,6 +23,11 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Fixed header spacing - prevents content from going behind it */
+body {
+    padding-top: 64px; /* Approximate header height */
+}
+
 @layer base {
     body {
         @apply text-lg m-0 p-0;
