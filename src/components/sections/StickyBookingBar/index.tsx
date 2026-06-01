@@ -26,7 +26,7 @@ export default function StickyBookingBar({
     const [isWeChat, setIsWeChat] = React.useState(false);
     
     // Dynamic header height - auto-detect actual header height
-    const [actualHeaderHeight, setActualHeaderHeight] = React.useState(72);
+    const [actualHeaderHeight, setActualHeaderHeight] = React.useState(64);
     const [isHydrated, setIsHydrated] = React.useState(false);
 
     React.useEffect(() => {
