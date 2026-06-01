@@ -134,8 +134,8 @@ export default function StickyBookingBar({
                     isScrolled && 'shadow-xl',
                     // WeChat: fade only | Others: slide down
                     isWeChat
-                        ? (isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none')
-                        : (isVisible ? 'translate-y-0' : '-translate-y-full'),
+                        ? (isVisible && isHydrated ? 'opacity-100' : 'opacity-0 pointer-events-none')
+                        : (isVisible ? (isHydrated ? 'translate-y-0' : '-translate-y-full') : '-translate-y-full'),
                     'print:hidden'
                 )}
                 style={{ top: `${bookingBarTop}px`, zIndex: tabletMobileZIndex }}
@@ -178,8 +178,8 @@ export default function StickyBookingBar({
                     isScrolled && 'shadow-xl',
                     // WeChat: fade only | Others: slide down
                     isWeChat
-                        ? (isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none')
-                        : (isVisible ? 'translate-y-0' : '-translate-y-full'),
+                        ? (isVisible && isHydrated ? 'opacity-100' : 'opacity-0 pointer-events-none')
+                        : (isVisible ? (isHydrated ? 'translate-y-0' : '-translate-y-full') : '-translate-y-full'),
                     'print:hidden'
                 )}
                 style={{ top: `${bookingBarTop}px`, zIndex: tabletMobileZIndex }}
