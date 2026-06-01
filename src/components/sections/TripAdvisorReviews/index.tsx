@@ -187,9 +187,9 @@ export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
     const containerRef = React.useRef(null);
     const [isPaused, setIsPaused] = React.useState(false);
     const [currentIndex, setCurrentIndex] = React.useState(0);
-    const [cardWidth, setCardWidth] = React.useState(CARD_WIDTH);
-    const [cardMargin, setCardMargin] = React.useState(CARD_MARGIN);
-    const [isMobile, setIsMobile] = React.useState(false);
+    const [cardWidth, setCardWidth] = React.useState(CARD_WIDTH_MOBILE);
+    const [cardMargin, setCardMargin] = React.useState(CARD_MARGIN_MOBILE);
+    const [isMobile, setIsMobile] = React.useState(true);
     
     const totalCards = reviews.length;
 

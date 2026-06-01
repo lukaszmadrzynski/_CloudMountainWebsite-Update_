@@ -48,8 +48,8 @@ sections:
         self:
           textAlign: center
           padding:
-            - pt-10
-            - pb-0
+            - pt-6
+            - pb-6
     subtitle: ''
     items:
       - type: EcotourCard
@@ -187,7 +187,7 @@ sections:
       self:
         padding:
           - pb-9
-          - pt-3
+          - pt-6
           - pl-2
           - pr-2
         justifyContent: center

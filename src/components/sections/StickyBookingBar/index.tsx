@@ -69,8 +69,8 @@ export default function StickyBookingBar({
         };
     }, []);
 
-    // Calculate top position: passed headerHeight + actual header height
-    const bookingBarTop = headerHeight + actualHeaderHeight;
+    // Calculate top position: passed headerHeight on server/hydration, actual height after
+    const bookingBarTop = isHydrated ? (headerHeight + actualHeaderHeight) : headerHeight;
     
     // Z-index: Desktop bar can be higher (floats on right, doesn't overlap header)
     // Tablet/Mobile bars use fixed z-index 40 (behind header) - they slide from top
