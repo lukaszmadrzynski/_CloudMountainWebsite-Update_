@@ -244,7 +244,7 @@ sections:
               - mr-1
         tagline: One Day | Off-the-beaten-path
       - type: FeaturedItem
-        title: Ecosystems & Cultures
+        title: Lijiang Heavenly Valley
         subtitle: from $199 to $251 per person
         text: >
           Experience Lijiang's vital lake, wetland, grassland and forest ecosystems up close. Nature hikes, rare birds and authentic village encounters with local Naxi and Yi minorities await.
@@ -260,7 +260,7 @@ sections:
           - type: Button
             label: Learn More
             altText: ''
-            url: /lijiang-ecosystems-and-cultures-ecotour
+            url: /lijiang-heavenly-valley-ecotour
             showIcon: false
             icon: arrowRight
             iconPosition: right

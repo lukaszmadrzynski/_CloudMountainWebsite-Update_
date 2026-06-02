@@ -1,16 +1,16 @@
 ---
 type: PageLayout
-title: Lijiang Ecosystems and Cultures
+title: Lijiang Heavenly Valey
 sections:
   - type: HeroSection
     media:
       url: /images/LS-banner 1.webp
-      altText: Lijiang Ecosystems and Cultures scenic view
+      altText: Lijiang Heavenly Valley scenic view
     badge:
       label: One-day EcoTour
       color: text-white
     title:
-      text: Lijiang Ecosystems <br/> & Cultures
+      text: Lijiang Heavenly Valley
       color: text-white
     subtitle: An Ecotour of Biodiversity Conservation & Ethnic Culture
     text: >-
@@ -18,7 +18,7 @@ sections:
     actions:
       - type: Button
         label: Book This EcoTour
-        url: /book?tour=Lijiang+Ecosystems+and+Cultures
+        url: /book?tour=Lijiang+Heavenly+Valley
         icon: arrowRight
         iconPosition: right
         style: primary
@@ -284,7 +284,7 @@ sections:
     timelineLayout: true
     days:
       - day: One Day
-        title: Ecosystems and Cultures Discovery
+        title: Lijiang Heavenly Valey
         schedule:
           - period: Morning
             activities:
@@ -296,9 +296,9 @@ sections:
             activities:
               - 'Embark on a memorable trek to Luoma Cliffs for breathtaking panoramic views. End your day at Boduoluo Yi minority village with a traditional dinner and genuine cultural exchange with the local community before returning to Lijiang.'
     accentColors:
-      morning: "#01aed9"
-      afternoon: "#007dbd"
-      evening: "#02558b"
+      morning: '#01aed9'
+      afternoon: '#007dbd'
+      evening: '#02558b'
     badge:
       label: DETAILED SCHEDULE
       color: text-primary
@@ -334,21 +334,21 @@ sections:
     plans:
       - people: 2 People
         price: $251
-        url: /book?tour=Lijiang+Ecosystems+and+Cultures&group=2
+        url: /book?tour=Lijiang+Heavenly+Valley&group=2
       - people: 3-4 People
         price: $225
-        url: /book?tour=Lijiang+Ecosystems+and+Cultures&group=3-4
+        url: /book?tour=Lijiang+Heavenly+Valley&group=3-4
       - people: 5-6 People
         price: $199
-        url: /book?tour=Lijiang+Ecosystems+and+Cutures&group=5-6
+        url: /book?tour=Lijiang+Heavenly+Valley&group=5-6
     contactNote:
       text: For groups of 1 person or more than 6 people
-      url: /book?tour=Lijiang+Ecosystems+and+Cultures
+      url: /book?tour=Lijiang+Heavenly+Valley
     included:
       text: English-Speaking Guide (Lynne Lyu or Lukasz Madrzynski), Local Guide, Traditional Local Lunch and Dinner, Private Transportation, Outdoor Travel Insurance.
       notIncluded: 'Personal Expenses (Souvenirs, Snacks, etc.), Voluntary Gratuities for the Guides'
       meetingPoint: 'Pickup: 9:00 AM at your Lijiang hotel | Return: Approximately 8:00 PM to your Lijiang hotel'
-    bookingUrl: /book?tour=Lijiang+Ecosystems+and+Cultures
+    bookingUrl: /book?tour=Lijiang+Heavenly+Valley
     colors: bg-neutral-fg-dark
     styles:
       self:
@@ -448,7 +448,7 @@ sections:
     actions:
       - type: Button
         label: Book this Ecotour!
-        url: /book?tour=Lijiang+Ecosystems+and+Cultures
+        url: /book?tour=Lijiang+Heavenly+Valley
         icon: arrowRight
         iconPosition: right
         style: primary
@@ -471,10 +471,10 @@ sections:
           - pb-4
           - pl-4
           - pr-4
-slug: /lijiang-ecosystems-and-cultures-ecotour
+slug: /lijiang-heavenly-valley-ecotour
 seo:
   type: Seo
-  metaTitle: Lijiang Ecosystems and Cultures
+  metaTitle: Lijiang Heavenly Valley
   metaDescription: >-
     Experience the alpine wetland, grassland and forests ecosystems on an unforgettable ecotour in Lijiang. Explore biodiversity & conservation at Lashi Wetlands, discover Naxi
     & Yi ethnic cultures, admire the spectacular Luoma Cliffs & enjoy village life. Perfect for
