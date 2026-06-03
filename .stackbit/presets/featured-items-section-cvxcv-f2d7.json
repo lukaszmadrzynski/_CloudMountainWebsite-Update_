@@ -34,7 +34,7 @@
                         "image": {
                             "$$type": "ImageBlock",
                             "url": {
-                                "$$ref": "stackbit_asset_id:static:public/images/Lynne2.webp",
+                                "$$ref": "stackbit_asset_id:static:public/images/shared/presets/Lynne2.webp",
                                 "$$type": "__asset_model"
                             },
                             "altText": "Background alt text",
@@ -70,7 +70,7 @@
                         "image": {
                             "$$type": "ImageBlock",
                             "url": {
-                                "$$ref": "stackbit_asset_id:static:public/images/Lukas2.webp",
+                                "$$ref": "stackbit_asset_id:static:public/images/shared/presets/Lukas2.webp",
                                 "$$type": "__asset_model"
                             },
                             "altText": "Background alt text",

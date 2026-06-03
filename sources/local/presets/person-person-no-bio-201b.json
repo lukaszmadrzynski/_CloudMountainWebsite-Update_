@@ -9,7 +9,7 @@
                 "role": "Job title",
                 "bio": null,
                 "image": {
-                    "url": "/images/avatar1.svg",
+                    "url": "/images/shared/brand/avatar1.svg",
                     "altText": "First Last",
                     "elementId": null,
                     "styles": {

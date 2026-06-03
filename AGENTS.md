@@ -34,3 +34,42 @@ The `elementId` attributes in Stackbit markdown files (e.g., `elementId: partner
 - `src/css/main.css` - Contains the scroll-margin CSS rule
 - `src/pages/_document.js` - Contains `data-scroll-behavior="smooth"` on `<html>`
 - `src/pages/_app.js` - HashScrollHandler can be removed (no longer needed but kept for compatibility)
+
+## Listing card YAML indentation convention
+
+The listing cards in `content/pages/ecotours.md` (the `EcotourFilterSection.items[]` array) follow a specific indentation pattern that the strict YAML parser (`front-matter` in Next.js) accepts. Use this exactly when adding or editing entries:
+
+```yaml
+- type: FeaturedItem                  # 2 spaces
+  title: <Tour Name>                   # 2 spaces (sibling of type)
+  tagline: Half-Day | <...>            # 2 spaces
+  subtitle: from $X to $Y per person    # 2 spaces
+  text: >                              # 2 spaces
+    <one-paragraph description>        # 4 spaces
+  image:                               # 2 spaces
+    type: ImageBlock                   # 4 spaces
+    url: /images/tours/<slug>/card.webp # 4 spaces (SIBLING of type, not nested deeper)
+    altText: <descriptive alt text>    # 4 spaces
+    elementId: ''                      # 4 spaces
+    styles:                            # 4 spaces
+      self:                            # 6 spaces
+        borderRadius: x-large          # 8 spaces
+        flexDirection: col             # 8 spaces
+        justifyContent: center         # 8 spaces
+        textAlign: left                # 8 spaces
+        margin:                        # 8 spaces
+          - ml-1                       # 10 spaces
+          - mr-1                       # 10 spaces
+  actions:                             # 2 spaces
+    - type: Button                     # 4 spaces
+      label: Learn More                # 6 spaces
+      ...
+```
+
+**Critical:** The `url:`, `altText:`, `elementId:`, and `styles:` keys are **siblings of `type:` at the same 4-space indent level**. They are NOT children of `type: ImageBlock` (which has a scalar value, so it can't have children anyway).
+
+**Two existing entries (`Hidden Jade Dragon` and `Lijiang Heavenly Valley`) had a non-standard deep indent of 6 spaces for `url`/`altText` that worked in Stackbit's visual editor but breaks strict YAML parsers with `Runtime YAMLException: bad indentation of a mapping entry`. When editing these, normalize to 4 spaces to match the rest.**
+
+### Files:
+- `content/pages/ecotours.md` - The listing page
+- `src/components/sections/EcotourFilterSection/index.tsx` - Renders the listing cards in a 3-column grid

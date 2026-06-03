@@ -14,7 +14,7 @@
                 },
                 "excerpt": "Facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh.",
                 "featuredImage": {
-                    "url": "/images/abstract-feature1.svg",
+                    "url": "/images/shared/presets/abstract-feature1.svg",
                     "altText": "Thumbnail",
                     "elementId": "",
                     "styles": {

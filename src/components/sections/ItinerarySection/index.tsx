@@ -41,9 +41,9 @@ interface ItinerarySectionProps {
 
 // Icon paths for time periods
 const TimeIconPaths = {
-    morning: '/images/itinerary/morning.png',
-    afternoon: '/images/itinerary/afternoon.png',
-    evening: '/images/itinerary/evening.png',
+    morning: '/images/shared/itinerary/morning.png',
+    afternoon: '/images/shared/itinerary/afternoon.png',
+    evening: '/images/shared/itinerary/evening.png',
 };
 
 export default function ItinerarySection(props: ItinerarySectionProps) {

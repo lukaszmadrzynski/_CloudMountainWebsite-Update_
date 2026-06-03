@@ -23,7 +23,7 @@
                         "subtitle": "This is the item subtitle",
                         "text": "Follow the tutorial to build your first Netlify Create site.\n",
                         "image": {
-                            "url": "/images/abstract-feature1.svg",
+                            "url": "/images/shared/presets/abstract-feature1.svg",
                             "altText": "Background alt text",
                             "elementId": null,
                             "styles": {
@@ -56,7 +56,7 @@
                         "subtitle": "This is the item subtitle",
                         "text": "Follow the tutorial to build your first awesome Netlify Create site.\n",
                         "image": {
-                            "url": "/images/abstract-feature2.svg",
+                            "url": "/images/shared/presets/abstract-feature2.svg",
                             "altText": "Background alt text",
                             "elementId": null,
                             "styles": {
@@ -89,7 +89,7 @@
                         "subtitle": "This is the item subtitle",
                         "text": "Learn from the tutorial and build your first awesome Netlify site.\n",
                         "image": {
-                            "url": "/images/abstract-feature3.svg",
+                            "url": "/images/shared/presets/abstract-feature3.svg",
                             "altText": "Background alt text",
                             "elementId": null,
                             "styles": {

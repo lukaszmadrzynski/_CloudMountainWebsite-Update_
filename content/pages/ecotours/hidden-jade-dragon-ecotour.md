@@ -4,7 +4,7 @@ title: "Jade Dragon's Hidden Trails Ecotour"
 sections:
   - type: HeroSection
     media:
-      url: /images/YL-Banner.webp
+      url: /images/tours/hidden-jade-dragon/banner.webp
       altText: Hidden jade dragon ecotour scenic view
     badge:
       label: One-day EcoTour
@@ -41,19 +41,19 @@ sections:
           textAlign: center
     subtitle: Essential Information at a Glance
     items:
-      - icon: /images/special.png
+      - icon: /images/shared/key-details/special.png
         title: "What's Special"
         subtitle: Cultural Immersion
         highlight: 'Fuguo Temple, Wenhai Wetlands & Yi Village Stay'
-      - icon: /images/duration.png
+      - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: One Day
         highlight: 'Approximately 11 hours (9:00 AM to 8:00 PM)'
-      - icon: /images/location.png
+      - icon: /images/shared/key-details/location.png
         title: Location
         subtitle: Jade Dragon Snow Mountain
         highlight: 'Jade Dragon Snow Mountain Nature Reserve | Altitudes 2,400-3,300m'
-      - icon: /images/level.png
+      - icon: /images/shared/key-details/level.png
         title: Activity Level
         subtitle: Moderate
         highlight: 'Walking: 8-9 km per day'
@@ -96,7 +96,7 @@ sections:
         text: 'Discover the hidden serenity of Fuguo Tibetan Buddhist Temple. This secluded sanctuary offers an authentic spiritual experience, inviting you to find tranquility and immerse yourself in the peaceful atmosphere of Tibetan Buddhism.'
         image:
           type: ImageBlock
-          url: /images/YL-Icon1.webp
+          url: /images/tours/hidden-jade-dragon/highlight-1.webp
           altText: Fuguo Tibetan Buddhist Temple
           styles:
             self:
@@ -123,7 +123,7 @@ sections:
         text: 'Stop by at Wenhai Wetland Nature Reserve and uncover its pristine beauty. This hidden ecological haven allows you to witness authentic wetland biodiversity in peaceful solitude, experiencing the unspoiled natural wonders of this gem.'
         image:
           type: ImageBlock
-          url: /images/YL-Icon2.webp
+          url: /images/tours/hidden-jade-dragon/highlight-2.webp
           altText: Wenhai Wetland Nature Reserve
           styles:
             self:
@@ -150,7 +150,7 @@ sections:
         text: "Venture to Runangu Village and experience authentic Yi minority culture and hospitality. Enjoy a genuine cultural immersion, sharing a delicious local lunch in the village chief's home and connecting with the warm spirit of the Yi people."
         image:
           type: ImageBlock
-          url: /images/YL-Icon4.webp
+          url: /images/tours/hidden-jade-dragon/highlight-4.webp
           altText: Runangu Yi village cultural experience
           styles:
             self:
@@ -177,7 +177,7 @@ sections:
         text: 'Embark on an exclusive conservation patrol hike in a secluded area of Jade Dragon Snow Mountain Nature Reserve. This unique experience allows you to witness the raw beauty of the mountain in a quieter setting and contribute to its preservation.'
         image:
           type: ImageBlock
-          url: /images/YL-Icon3.webp
+          url: /images/tours/hidden-jade-dragon/highlight-3.webp
           altText: Conservation patrol hike in Jade Dragon Snow Mountain
           styles:
             self:
@@ -204,7 +204,7 @@ sections:
         text: "Delve into the rich biodiversity of Lijiang in its untouched corners. Explore pristine areas to gain a deeper understanding of the region's ecology and witness Yunnan's incredible natural heritage in its authentic state."
         image:
           type: ImageBlock
-          url: /images/YL-Icon5.webp
+          url: /images/tours/hidden-jade-dragon/highlight-5.webp
           altText: Lijiang rich biodiversity
           styles:
             self:
@@ -231,7 +231,7 @@ sections:
         text: 'Discover the UNESCO Heritage site of Baisha Village and explore its authentic heritage in an intimate way. Experience the true essence of this historical village and appreciate its cultural significance in a peaceful setting.'
         image:
           type: ImageBlock
-          url: /images/YL-Icon6.webp
+          url: /images/tours/hidden-jade-dragon/highlight-6.webp
           altText: Baisha Village UNESCO heritage
           styles:
             self:
@@ -284,17 +284,17 @@ sections:
     timelineLayout: true
     days:
       - day: One Day
-        title: Jade Dragon's Hidden Trails
+        title: Hidden Jade Dragon
         schedule:
           - period: Morning
             activities:
-              - 'Begin your adventure with a convenient pickup from your Lijiang hotel. First stop: Fuguo Tibetan Buddhist Temple, a secluded sanctuary where you can immerse yourself in the peaceful atmosphere of Tibetan Buddhism and discover hidden serenity.'
+              - "Begin with a convenient pickup from your Lijiang hotel. First stop is Fuguo Tibetan Buddhist Temple, a secluded sanctuary where you can immerse yourself in the peaceful atmosphere of Tibetan Buddhism and discover hidden serenity."
           - period: Afternoon
             activities:
-              - "Venture to Wenhai Wetland Nature Reserve to uncover pristine wetland biodiversity. Continue to Runangu Village for an authentic Yi cultural immersion, enjoying a delicious home-cooked lunch in the village chief's home."
+              - "After the temple, continue to Wenhai Wetland Nature Reserve to uncover pristine wetland biodiversity. Then venture to Runangu Village for an authentic Yi cultural immersion, enjoying a delicious home-cooked lunch in the village chief's home."
           - period: Evening
             activities:
-              - 'Embark on an exclusive conservation patrol hike in Jade Dragon Snow Mountain Nature Reserve. End your day at Baisha Village for a traditional dinner, exploring this UNESCO heritage site in peaceful solitude before returning to your hotel.'
+              - "Embark on an exclusive conservation patrol hike in Jade Dragon Snow Mountain Nature Reserve. End your day at Baisha Village for a traditional dinner, exploring this UNESCO heritage site before returning to your Lijiang hotel."
     accentColors:
       morning: "#01aed9"
       afternoon: "#007dbd"
@@ -479,7 +479,7 @@ seo:
     Escape Lijiang crowds! Discover hidden trails on our authentic ecotour to
     Jade Dragon Snow Mountain Nature Reserve. Hike with a ranger, explore
     temples, Yi villages, wetlands. Book your Yunnan adventure!
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags:
     - type: MetaTag
       content: >-

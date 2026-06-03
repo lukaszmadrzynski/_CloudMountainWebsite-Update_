@@ -5,7 +5,7 @@ date: '2026-04-05'
 excerpt: >
   Discover eco-friendly accommodations that blend traditional architecture with modern sustainability, from Naxi courtyard stays to Tibetan mountain lodges.
 featuredImage:
-  url: /images/CM Hero OPTIMIZED.webp
+  url: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
   altText: Traditional Naxi courtyard with sustainable features
   type: ImageBlock
   styles:
@@ -18,7 +18,7 @@ seo:
   metaTitle: Sustainable Lodging in Yunnan
   metaDescription: >
     Discover eco-friendly accommodations that blend traditional architecture with modern sustainability in Yunnan.
-  socialImage: /images/CM Hero OPTIMIZED.webp
+  socialImage: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
   type: Seo
 colors: bg-light-fg-dark
 styles:
@@ -78,7 +78,7 @@ bottomSections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/About Us Banner OPT.webp
+      url: /images/blog/iscovering-naxi-culinary-traditions/About Us Banner OPT.webp
       altText: Cloud Mountain Ecotours and Nature Education
     badge:
       type: Badge
@@ -99,25 +99,25 @@ bottomSections:
 
 When traveling through the Yunnan highlands, where you stay matters as much as what you see. Sustainable lodging options combine traditional architectural wisdom with modern eco-conscious practices, offering authentic experiences that benefit both travelers and local communities.
 
-![Traditional Naxi courtyard house](/images/LJ-icon1.jpg)
+![Traditional Naxi courtyard house](/images/tours/wild-heart-of-lijiang/highlight-1.webp)
 
 ## Traditional Naxi Courtyard Stays
 
 In Lijiang's Old Town, family-run courtyard guesthouses have been lovingly restored using traditional materials and techniques. These centuries-old homes feature wooden structures, private gardens, and the famous "monkey head" roof tiles that have weathered countless seasons.
 
-![Solar panels on traditional roof](/images/YL-icon4.jpg)
+![Solar panels on traditional roof](/images/tours/hidden-jade-dragon/highlight-4.webp)
 
 ## Eco-Lodges in the Mountains
 
 Mountain retreats around Wenhai and the Jade Dragon Snow Mountain foothills embrace off-grid living. Solar power, rainwater harvesting, and organic gardens are standard features. Many lodges source ingredients from neighboring farms, creating a farm-to-table experience.
 
-![Mountain eco-lodge exterior](/images/FW-Icon3.jpg)
+![Mountain eco-lodge exterior](/images/tours/natgeo-forever-walk/highlight-3.webp)
 
 ## Tibetan Hospitality in Shangri-La
 
 In the Tibetan regions, sustainable homestays offer unique cultural exchange opportunities. Families open their homes to travelers, sharing traditional meals, stories, and daily activities while maintaining their traditional way of life.
 
-![Traditional Tibetan hospitality](/images/Guides.jpg)
+![Traditional Tibetan hospitality](/images/blog/irst-year-sustainable-ecotourism-yunnan/Guides.jpg)
 
 ## What Makes Lodging Sustainable?
 
@@ -130,7 +130,7 @@ Look for certifications and practices like:
 - Employment of local community members
 - Support for local artisans and producers
 
-![Community meeting space at eco-lodge](/images/WH-Banner.webp)
+![Community meeting space at eco-lodge](/images/tours/wenhai-sanctuary/banner.webp)
 
 ## Our Partner Properties
 

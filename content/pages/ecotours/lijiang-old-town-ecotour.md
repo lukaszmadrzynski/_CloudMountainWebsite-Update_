@@ -4,7 +4,7 @@ title: Naxi Heritage Walking Tour
 sections:
   - type: HeroSection
     media:
-      url: /images/DY-Banner.webp
+      url: /images/tours/lijiang-old-town/banner.webp
       altText: Lijiang Old Town UNESCO heritage
     badge:
       label: Half-day EcoTour
@@ -41,19 +41,19 @@ sections:
           textAlign: center
     subtitle: Essential Information at a Glance
     items:
-      - icon: /images/special.png
+      - icon: /images/shared/key-details/special.png
         title: What's Special
         subtitle: Cultural Heritage
         highlight: 'UNESCO World Heritage Site with Naxi, Han, Tibetan & Bai influences'
-      - icon: /images/duration.png
+      - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: Half Day
         highlight: 'Morning: 9:00 AM to 1:00 PM | Afternoon: 2:00 PM to 6:00 PM'
-      - icon: /images/location.png
+      - icon: /images/shared/key-details/location.png
         title: Location
         subtitle: UNESCO Heritage Sites
         highlight: 'Lijiang Dayan Old Town & Black Dragon Pool Park | Altitudes 2,400-2,450m'
-      - icon: /images/level.png
+      - icon: /images/shared/key-details/level.png
         title: Activity Level
         subtitle: Moderate
         highlight: 'Walking: 7-8 km per session'
@@ -96,7 +96,7 @@ sections:
         text: 'Discover the rich history and cultural significance of the region at the Lijiang Heritage Museum, where exhibits highlight the traditions and heritage of the Naxi people.'
         image:
           type: ImageBlock
-          url: /images/DY-icon1.webp
+          url: /images/tours/lijiang-old-town/highlight-1.webp
           altText: Lijiang Heritage Museum
           styles:
             self:
@@ -123,7 +123,7 @@ sections:
         text: 'Stroll through Black Dragon Pool Park, known for its stunning views of the Jade Dragon Snow Mountain and its tranquil water features, perfect for relaxation and photography.'
         image:
           type: ImageBlock
-          url: /images/DY-icon2b.webp
+          url: /images/tours/lijiang-old-town/highlight-2.webp
           altText: Black Dragon Pool Park scenic view
           styles:
             self:
@@ -150,7 +150,7 @@ sections:
         text: 'Wander through the ancient streets of Dayan Old Town, a UNESCO World Heritage site known for its well-preserved architecture and rich cultural tapestry reflecting Naxi, Han, Tibetan, and Bai influences.'
         image:
           type: ImageBlock
-          url: /images/DY-icon3.webp
+          url: /images/tours/lijiang-old-town/highlight-3.webp
           altText: Dayan Old Town UNESCO streets
           styles:
             self:
@@ -177,7 +177,7 @@ sections:
         text: 'Visit the iconic Big Water Wheel, a symbol of Lijiang that showcases traditional water management practices and offers picturesque photo opportunities.'
         image:
           type: ImageBlock
-          url: /images/DY-icon4.webp
+          url: /images/tours/lijiang-old-town/highlight-4.webp
           altText: Big Water Wheel Lijiang
           styles:
             self:
@@ -204,7 +204,7 @@ sections:
         text: 'Explore Wenchang Palace, a historical site that reflects Naxi educational traditions, and admire its architectural beauty while learning about its cultural significance.'
         image:
           type: ImageBlock
-          url: /images/DY-icon5.webp
+          url: /images/tours/lijiang-old-town/highlight-5.webp
           altText: Wenchang Palace historical site
           styles:
             self:
@@ -231,7 +231,7 @@ sections:
         text: 'Immerse yourself in the vibrant atmosphere of Square Street, lined with shops, eateries, and traditional Naxi buildings, capturing the lively spirit of Dayan Old Town.'
         image:
           type: ImageBlock
-          url: /images/DY-icon6b.webp
+          url: /images/tours/lijiang-old-town/highlight-6.webp
           altText: Square Street bustling market
           styles:
             self:
@@ -258,7 +258,7 @@ sections:
         text: 'Cross the charming Big Stone Bridge, adorned with plants, providing a scenic connection between different parts of the old town and enhancing your cultural experience.'
         image:
           type: ImageBlock
-          url: /images/DY-icon7.webp
+          url: /images/tours/lijiang-old-town/highlight-7.webp
           altText: Big Stone Bridge scenic view
           styles:
             self:
@@ -285,7 +285,7 @@ sections:
         text: "Admire the grandeur of Mufu Palace from the outside, an architectural gem that showcases Naxi influences and serves as a reminder of Lijiang's royal heritage."
         image:
           type: ImageBlock
-          url: /images/DY-icon8.webp
+          url: /images/tours/lijiang-old-town/highlight-8.webp
           altText: Mufu Palace exterior
           styles:
             self:
@@ -312,7 +312,7 @@ sections:
         text: 'Engage with local vendors at Zhongyi Market, where you can discover authentic crafts and sample delicious local delicacies, experiencing the bustling energy of daily life in Lijiang.'
         image:
           type: ImageBlock
-          url: /images/DY-icon9.webp
+          url: /images/tours/lijiang-old-town/highlight-9.webp
           altText: Zhongyi Market local vendors
           styles:
             self:
@@ -369,9 +369,7 @@ sections:
         schedule:
           - period: Morning or Afternoon
             activities:
-              - 'Begin at Lijiang Heritage Museum to discover the traditions and heritage of the Naxi people. Learn about the unique cultural tapestry that defines this UNESCO World Heritage site.'
-              - "Explore Black Dragon Pool Park with stunning views of Jade Dragon Snow Mountain. Continue through Dayan Old Town's ancient streets, visit the iconic Big Water Wheel, Wenchang Palace, and cross the charming Big Stone Bridge."
-              - 'Wander through Square Street and Zhongyi Market, engaging with local vendors, tasting local flavors, and discovering authentic crafts. Admire Mufu Palace from outside before concluding your cultural journey.'
+              - "Begin with a pickup from your Lijiang hotel and start at the Lijiang Heritage Museum to discover the traditions and heritage of the Naxi people. Stroll through Black Dragon Pool Park with stunning views of Jade Dragon Snow Mountain, then continue through Dayan Old Town's ancient streets, visiting the iconic Big Water Wheel, Wenchang Palace, and the charming Big Stone Bridge. Conclude at Square Street and Zhongyi Market, tasting local flavors and discovering authentic crafts, with Mufu Palace viewed from outside, before returning to your hotel."
     accentColors:
       morning: "#01aed9"
       afternoon: "#007dbd"
@@ -557,7 +555,7 @@ seo:
     Discover ancient streets, vibrant markets, and stunning mountain views.
     Immerse yourself in Naxi culture & history. Book your unforgettable China
     travel experience now!
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags:
     - type: MetaTag
       content: >-

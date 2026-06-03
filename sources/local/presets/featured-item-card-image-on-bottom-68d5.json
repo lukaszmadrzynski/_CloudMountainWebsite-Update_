@@ -10,7 +10,7 @@
                 "subtitle": "This is the item subtitle",
                 "text": "Follow the tutorial to build your first Netlify Create site.\n",
                 "image": {
-                    "url": "/images/abstract-feature1.svg",
+                    "url": "/images/shared/presets/abstract-feature1.svg",
                     "altText": "Placeholder text",
                     "elementId": null,
                     "styles": {

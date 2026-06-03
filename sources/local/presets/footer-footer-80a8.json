@@ -6,7 +6,7 @@
             "locale": null,
             "data": {
                 "logo": {
-                    "url": "/images/logo-white.svg",
+                    "url": "/images/shared/brand/logo-white.svg",
                     "altText": "Logo light",
                     "elementId": null,
                     "styles": null,

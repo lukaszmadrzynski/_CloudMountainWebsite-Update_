@@ -4,7 +4,7 @@ title: Partner With Us
 sections:
   - type: PartnerWithUsHeroSection
     media:
-      url: /images/Partner-With-Us-Hero.webp
+      url: /images/pages/partner-with-us/Partner-With-Us-Hero.webp
       altText: Partner With Us - Cloud Mountain
     title:
       text: 'Partner with<br/>Cloud Mountain'
@@ -87,7 +87,7 @@ sections:
           astonishing Yunnan to your customers. Access competitive rates and marketing support.
         image:
           type: ImageBlock
-          url: /images/partnership-travel-agencies.webp
+          url: /images/pages/partner-with-us/partnership-travel-agencies.webp
           altText: Travel Agencies Partnership
           styles:
             self:
@@ -119,7 +119,7 @@ sections:
           world impacts. Our camps align with international curricula.
         image:
           type: ImageBlock
-          url: /images/partnership-schools.webp
+          url: /images/pages/partner-with-us/partnership-schools.webp
           altText: Schools and Education Partnership
           styles:
             self:
@@ -151,7 +151,7 @@ sections:
           experiences with sustainability. Perfect for companies with ESG goals.
         image:
           type: ImageBlock
-          url: /images/partnership-corporate-groups.webp
+          url: /images/pages/partner-with-us/partnership-corporate-groups.webp
           altText: Corporate Groups Partnership
           styles:
             self:
@@ -183,7 +183,7 @@ sections:
           in their project sites. Leverage our IUCN credentials and expertise.
         image:
           type: ImageBlock
-          url: /images/partnership-sustainability-consulting.webp
+          url: /images/pages/partner-with-us/partnership-sustainability-consulting.webp
           altText: Sustainability Consulting Partnership
           styles:
             self:
@@ -247,7 +247,7 @@ sections:
           12+ years of experience with 1,000+ happy travelers and verified sustainable practices. Our reputation speaks for itself.
         image:
           type: ImageBlock
-          url: /images/partner-reputation-icon.png
+          url: /images/pages/partner-with-us/partner-reputation-icon.png
           altText: Trusted Reputation
           elementId: ''
           styles:
@@ -274,7 +274,7 @@ sections:
           Enter new market segments with our unique sustainable experiences. High repeat booking rates from satisfied clients await.
         image:
           type: ImageBlock
-          url: /images/new-growth-icon.png
+          url: /images/pages/partner-with-us/new-growth-icon.png
           altText: New Growth
           elementId: ''
           styles:
@@ -301,7 +301,7 @@ sections:
           Earn ESG credentials by partnering with an IUCN #NatureForAll Member. Every booking supports local communities and conservation.
         image:
           type: ImageBlock
-          url: /images/partner-impact-icon.png
+          url: /images/pages/partner-with-us/partner-impact-icon.png
           altText: Positive Impact
           elementId: ''
           styles:
@@ -328,7 +328,7 @@ sections:
           Access professional marketing materials, images, and co-branding opportunities to promote your sustainable offerings.
         image:
           type: ImageBlock
-          url: /images/marketing-support.png
+          url: /images/pages/partner-with-us/marketing-support.png
           altText: Marketing Support
           elementId: ''
           styles:
@@ -355,7 +355,7 @@ sections:
           Tailored experiences designed specifically for your unique needs and goals. From itinerary planning to on-ground logistics, we handle every detail.
         image:
           type: ImageBlock
-          url: /images/partner-custom-icon.png
+          url: /images/pages/partner-with-us/partner-custom-icon.png
           altText: Custom Made
           elementId: ''
           styles:
@@ -568,7 +568,7 @@ sections:
           **Tel/WhatsApp/WeChat:** 0086 19813252518
         image:
           type: ImageBlock
-          url: /images/Lynne2.webp
+          url: /images/shared/presets/Lynne2.webp
           altText: Lynne Lyu - Cofounder of Lijiang Cloud Mountain Education
           styles:
             self:
@@ -595,7 +595,7 @@ sections:
           **Tel/WhatsApp/WeChat:** 0086 18687958551
         image:
           type: ImageBlock
-          url: /images/Lukas2.webp
+          url: /images/shared/presets/Lukas2.webp
           altText: Lukasz Madrzynski - Cofounder of Lijiang Cloud Mountain Education
           styles:
             self:
@@ -693,7 +693,7 @@ seo:
     in Yunnan, China. For travel agencies, schools, corporate groups, and
     sustainability consulting.
   addTitleSuffix: true
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags:
     - type: MetaTag
       content: >

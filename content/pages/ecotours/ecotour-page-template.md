@@ -4,7 +4,7 @@ title: Shangri-La Monkey Trip Ecotour (Enhanced Version)
 sections:
   - type: HeroSection
     media:
-      url: /images/Monkey Hero.webp
+      url: /images/tours/shangri-la-monkey/banner.webp
       altText: Tibetan village with snow-capped Baima Mountains
     badge:
       label: Two-day EcoTour
@@ -47,19 +47,19 @@ sections:
           textAlign: center
     subtitle: Essential Information at a Glance
     items:
-      - icon: /images/special.png
+      - icon: /images/shared/key-details/special.png
         title: What's Special
         subtitle: Wildlife Focus
         highlight: 'Yunnan Snub-nosed Monkeys and biodiveristy conservation'
-      - icon: /images/duration.png
+      - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: Two Days
         highlight: 'Day 1: 9:00 AM to 8:00 PM<br/>Day 2: 8:00 AM to 6:00 PM'
-      - icon: /images/location.png
+      - icon: /images/shared/key-details/location.png
         title: Location
         subtitle: Lijiang & Shangri-La
         highlight: 'Baima Snow Mountain Nature Reserve | Altitudes 1,800-2,800m'
-      - icon: /images/level.png
+      - icon: /images/shared/key-details/level.png
         title: Activity Level
         subtitle: Moderate
         highlight: 'Hiking: No more than 8-9 km per day'
@@ -102,7 +102,7 @@ sections:
         text: Experience the vibrant cultures of Tibetan and Lisu ethnic minorities in their quaint villages. Explore unique customs, admire traditional architecture, feel their warm hospitality, and savor authentic local cuisine.
         image:
           type: ImageBlock
-          url: /images/TC-Icon1c.webp
+          url: /images/tours/shangri-la-monkey/highlight-1.webp
           altText: Tibetan village with traditional architecture
           styles:
             self:
@@ -129,7 +129,7 @@ sections:
         text: Discover a breathtaking haven for migratory waterbirds at Lashi Wetlands Nature Reserve. Explore this rare alpine wetland ecosystem and learn about crucial conservation efforts.
         image:
           type: ImageBlock
-          url: /images/TC-Icon3.webp
+          url: /images/tours/shangri-la-monkey/highlight-3.webp
           altText: Lashi Wetlands scenic view
           styles:
             self:
@@ -156,7 +156,7 @@ sections:
         text: Experience the magic of observing Yunnan Snub-nosed Monkeys in their pristine natural mountain habitat. Witness their daily life and meet conservation rangers.
         image:
           type: ImageBlock
-          url: /images/TC-Icon2.webp
+          url: /images/tours/shangri-la-monkey/highlight-2.webp
           altText: Yunnan Snub-nosed Monkey in natural habitat
           styles:
             self:
@@ -183,7 +183,7 @@ sections:
         text: Gain exclusive insights into local conservation efforts with a visit to the Baima Snow Mountain Nature Conservation Bureau.
         image:
           type: ImageBlock
-          url: /images/TC-Icon6.webp
+          url: /images/tours/shangri-la-monkey/highlight-6.webp
           altText: Baima Snow Mountain Conservation Bureau
           styles:
             self:
@@ -210,7 +210,7 @@ sections:
         text: Embark on a rewarding hike to viewpoints overlooking the legendary First Bend of the Yangtze River and Shigu town.
         image:
           type: ImageBlock
-          url: /images/TC-Icon7b.webp
+          url: /images/tours/shangri-la-monkey/highlight-7.webp
           altText: First Bend of Yangtze River panorama
           styles:
             self:
@@ -237,7 +237,7 @@ sections:
         text: Immerse yourself in the vibrant atmosphere of Shigu Naxi Minority Town's bustling market with fresh produce and Ming Dynasty history.
         image:
           type: ImageBlock
-          url: /images/TC-Icon5b.webp
+          url: /images/tours/shangri-la-monkey/highlight-5.webp
           altText: Shigu Naxi town market scene
           styles:
             self:
@@ -264,7 +264,7 @@ sections:
         text: Gain a comprehensive introduction to the endangered Yunnan snub-nosed monkey at a dedicated exhibition.
         image:
           type: ImageBlock
-          url: /images/TC-Icon8.webp
+          url: /images/tours/shangri-la-monkey/highlight-8.webp
           altText: Yunnan snub-nosed monkey exhibition
           styles:
             self:
@@ -291,7 +291,7 @@ sections:
         text: Visit a Himalayan bee farm and meet a passionate local beekeeper. Learn about traditional beekeeping and conservation.
         image:
           type: ImageBlock
-          url: /images/TC-Icon11.webp
+          url: /images/tours/shangri-la-monkey/highlight-11.webp
           altText: Himalayan bee farm with beekeeper
           styles:
             self:
@@ -318,7 +318,7 @@ sections:
         text: Hike through the ancient primeval forests of Baima Snow Mountain Nature Reserve. Explore astonishing biodiversity.
         image:
           type: ImageBlock
-          url: /images/TC-Icon9.webp
+          url: /images/tours/shangri-la-monkey/highlight-9.webp
           altText: Ancient primeval forest in Baima Mountains
           styles:
             self:
@@ -345,7 +345,7 @@ sections:
         text: Become a citizen scientist! Learn to use infrared cameras for biodiversity monitoring and actively participate in setting them up.
         image:
           type: ImageBlock
-          url: /images/TC-Icon12.webp
+          url: /images/tours/shangri-la-monkey/highlight-12.webp
           altText: Infrared camera wildlife monitoring
           styles:
             self:
@@ -372,7 +372,7 @@ sections:
         text: Benefit from the expertise of a knowledgeable English-speaking guide throughout your ecotour.
         image:
           type: ImageBlock
-          url: /images/TC-Icon4.webp
+          url: /images/tours/shangri-la-monkey/highlight-4.webp
           altText: Expert guide with conservation professionals
           styles:
             self:
@@ -399,7 +399,7 @@ sections:
         text: Immerse yourself in authentic countryside lifestyle of local villagers. Observe time-honored farming practices.
         image:
           type: ImageBlock
-          url: /images/TC-Icon1.webp
+          url: /images/tours/shangri-la-monkey/highlight-1.webp
           altText: Local villagers in traditional farming
           styles:
             self:
@@ -659,7 +659,7 @@ seo:
     Join our 2-day Shangri-La Monkey Journey ecotour in Yunnan, China! Spot rare
     Yunnan Snub-nosed Monkeys, hike Baima Snow Mountain, and immerse in Tibetan
     and Lisu cultures. Book your China wildlife adventure now!
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags:
     - type: MetaTag
       content: >-

@@ -2,7 +2,7 @@
     "name": "Cloud Mountain",
     "role": "Author",
     "image": {
-        "url": "/images/avatar1.svg",
+        "url": "/images/shared/brand/avatar1.svg",
         "altText": "Cloud Mountain",
         "styles": {
             "self": {

@@ -4,7 +4,7 @@ title: NatGeo's Forever Walk Ecotour
 sections:
   - type: HeroSection
     media:
-      url: /images/FW-Banner.webp
+      url: /images/tours/natgeo-forever-walk/banner.webp
       altText: Wenhai Wetlands and Jade Dragon Snow Mountain scenic view
     badge:
       label: Three-day EcoTour
@@ -41,19 +41,19 @@ sections:
           textAlign: center
     subtitle: Essential Information at a Glance
     items:
-      - icon: /images/special.png
+      - icon: /images/shared/key-details/special.png
         title: What's Special
         subtitle: NatGeo Forever Walk Trail
         highlight: Walk the same path as Paul Salopek documented for NatGeo
-      - icon: /images/duration.png
+      - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: Three Days
         highlight: "Day 1: 9:00 AM to 8:00 PM | Day 2: Full Day | Day 3: 9:00 AM to 8:00 PM"
-      - icon: /images/location.png
+      - icon: /images/shared/key-details/location.png
         title: Location
         subtitle: Jade Dragon Snow Mountain & Wenhai
         highlight: "Jade Dragon Snow Mountain Nature Reserve | Altitudes 2,400-3,250m"
-      - icon: /images/level.png
+      - icon: /images/shared/key-details/level.png
         title: Activity Level
         subtitle: High
         highlight: "Walking: Up to 18 km per day"
@@ -96,7 +96,7 @@ sections:
         text: "Walk a renowned section of the \"Forever Walk: China\" trail, as documented by National Geographic. Immerse yourself in the very landscapes and cultural encounters that captivated the world."
         image:
           type: ImageBlock
-          url: /images/FW-Icon3.webp
+          url: /images/tours/natgeo-forever-walk/highlight-3.webp
           altText: Forever Walk trail scenic view
           styles:
             self:
@@ -123,7 +123,7 @@ sections:
         text: "Follow a part of Pulitzer Prize winner Paul Salopek's epic global walk. Reflect on humanity and our planet as you trace his path through culturally rich Yunnan."
         image:
           type: ImageBlock
-          url: /images/FW-Icon9.webp
+          url: /images/tours/natgeo-forever-walk/highlight-9.webp
           altText: Paul Salopek's walking path documentary
           styles:
             self:
@@ -150,7 +150,7 @@ sections:
         text: Discover the remarkable biodiversity of Wenhai Wetlands alongside a local conservationist. Learn about unique species and delicate ecosystems.
         image:
           type: ImageBlock
-          url: /images/FW-Icon11.webp
+          url: /images/tours/natgeo-forever-walk/highlight-11.webp
           altText: Wenhai Wetlands scenic view
           styles:
             self:
@@ -177,7 +177,7 @@ sections:
         text: Experience genuine Naxi hospitality with an overnight stay in Wenhai village. Share in local customs and connect with the warm community.
         image:
           type: ImageBlock
-          url: /images/FW-Icon15.webp
+          url: /images/tours/natgeo-forever-walk/highlight-15.webp
           altText: Naxi village overnight stay
           styles:
             self:
@@ -204,7 +204,7 @@ sections:
         text: Uncover the mysteries of Tiger Cave, a fascinating local geological wonder. Explore its intriguing rock formations and legends surrounding this natural site.
         image:
           type: ImageBlock
-          url: /images/FW-Icon16.jpg
+          url: /images/tours/natgeo-forever-walk/highlight-16.webp
           altText: Tiger Cave geological formations
           styles:
             self:
@@ -231,7 +231,7 @@ sections:
         text: Journey through charming minority villages and tranquil hamlets. Observe diverse architectural styles, local traditions, and peaceful rural life.
         image:
           type: ImageBlock
-          url: /images/FW-Icon17.webp
+          url: /images/tours/natgeo-forever-walk/highlight-17.webp
           altText: Minority villages scenic view
           styles:
             self:
@@ -258,7 +258,7 @@ sections:
         text: Hike through the untouched wilderness of Jade Dragon Snow Mountain Nature Reserve with a local forest ranger. Explore pristine landscapes and experience raw nature.
         image:
           type: ImageBlock
-          url: /images/FW-Icon10.webp
+          url: /images/tours/natgeo-forever-walk/highlight-10.webp
           altText: Jade Dragon Snow Mountain wilderness
           styles:
             self:
@@ -285,7 +285,7 @@ sections:
         text: Immerse yourself in Yi culture with an overnight stay in Runangu village. Engage with villagers and learn about their distinct customs.
         image:
           type: ImageBlock
-          url: /images/FW-Icon2.webp
+          url: /images/tours/natgeo-forever-walk/highlight-2.webp
           altText: Yi village cultural experience
           styles:
             self:
@@ -312,7 +312,7 @@ sections:
         text: Witness extraordinary biodiversity of ancient forests within Jade Dragon Snow Mountain. Discover plant and animal life in Yunnan's primeval forests.
         image:
           type: ImageBlock
-          url: /images/FW-Icon14.webp
+          url: /images/tours/natgeo-forever-walk/highlight-14.webp
           altText: Ancient primeval forest biodiversity
           styles:
             self:
@@ -339,7 +339,7 @@ sections:
         text: Gather around a cozy bonfire with local villagers. Share stories and warmth under the starry Yunnan sky, forging memorable bonds.
         image:
           type: ImageBlock
-          url: /images/FW-Icon13.webp
+          url: /images/tours/natgeo-forever-walk/highlight-13.webp
           altText: Bonfire evening with local villagers
           styles:
             self:
@@ -366,7 +366,7 @@ sections:
         text: Stand in awe of the majestic Jade Dragon Snow Mountain. Capture breathtaking panoramic views and feel the powerful presence of this iconic wonder.
         image:
           type: ImageBlock
-          url: /images/FW-Icon12.webp
+          url: /images/tours/natgeo-forever-walk/highlight-12.webp
           altText: Jade Dragon Snow Mountain panoramic views
           styles:
             self:
@@ -393,7 +393,7 @@ sections:
         text: Journey alongside renowned conservation experts deeply rooted in Yunnan's landscapes. Their passion turns the journey into an enriching, unforgettable adventure.
         image:
           type: ImageBlock
-          url: /images/FW-Icon1.webp
+          url: /images/tours/natgeo-forever-walk/highlight-1.webp
           altText: Expert conservation guides
           styles:
             self:
@@ -446,41 +446,41 @@ sections:
     timelineLayout: true
     days:
       - day: Day One
-        title: Wenhai Wetlands Discovery
+        title: Walking the Path Less Traveled
         schedule:
           - period: Morning
             activities:
-              - 'Depart from Lijiang and journey to Wenhai Wetlands. Walk sections of the "Forever Walk: China" trail as documented by National Geographic.'
+              - "Depart from your Lijiang hotel and journey to Wenhai Wetlands. Walk sections of the 'Forever Walk: China' trail as documented by National Geographic."
           - period: Afternoon
             activities:
-              - 'Explore biodiversity of Wenhai Wetlands alongside local conservationists. Learn about unique species and delicate ecosystems.'
+              - "Explore biodiversity of Wenhai Wetlands alongside local conservationists. Learn about unique species and delicate ecosystems."
           - period: Evening
             activities:
-              - 'Arrive at your overnight village stay in Wenhai. Share authentic dinner with local Naxi families and gather around a cozy bonfire.'
+              - "Arrive at your overnight village stay in Wenhai. Share authentic dinner with local Naxi families and gather around a cozy bonfire."
       - day: Day Two
-        title: Jade Dragon Snow Mountain Trek
+        title: Into the Wilderness
         schedule:
           - period: Morning
             activities:
-              - 'Venture into the wilderness of Jade Dragon Snow Mountain Nature Reserve with a local forest ranger. Begin your trek through ancient primeval forests.'
+              - "After breakfast, venture into the wilderness of Jade Dragon Snow Mountain Nature Reserve with a local forest ranger. Begin your trek through ancient primeval forests."
           - period: Afternoon
             activities:
-              - 'Continue wilderness exploration, discovering rich plant and animal life. Hike to breathtaking viewpoints. Uncover the mysteries of Tiger Cave.'
+              - "Continue wilderness exploration, discovering rich plant and animal life. Hike to breathtaking viewpoints. Uncover the mysteries of Tiger Cave."
           - period: Evening
             activities:
-              - 'Journey to Runangu village for your second overnight stay. Immerse yourself in Yi culture and engage with welcoming villagers.'
+              - "Journey to Runangu village for your second overnight stay. Immerse yourself in Yi culture and engage with welcoming villagers."
       - day: Day Three
-        title: Minority Villages and Return
+        title: The Return
         schedule:
           - period: Morning
             activities:
-              - 'Embark on a final morning trek through charming minority villages and tranquil hamlets. Observe diverse architectural styles and local traditions.'
+              - "Embark on a final morning trek through charming minority villages and tranquil hamlets. Observe diverse architectural styles and local traditions."
           - period: Afternoon
             activities:
-              - 'Begin your scenic return journey to Lijiang. Arrive back at your hotel with memories of walking in the footsteps of Paul Salopek.'
+              - "Begin your scenic return journey to Lijiang. Arrive back at your hotel with memories of walking in the footsteps of Paul Salopek."
           - period: Evening
             activities:
-              - 'Celebrate your journey with a farewell dinner, sharing stories and reflections on your transformative experience along the Forever Walk trail.'
+              - "Celebrate your journey with a farewell dinner, sharing stories and reflections on your transformative experience along the Forever Walk trail."
     accentColors:
       morning: "#01aed9"
       afternoon: "#007dbd"
@@ -665,7 +665,7 @@ seo:
     Relive Paul Salopek's "Out of Eden Walk" as documented in NatGeo's "Forever
     Walk: China"! Explore Jade Dragon Snow Mountain & Wenhai Wetlands on our
     slow trekking ecotour in Yunnan. Book now!
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags:
     - type: MetaTag
       content: >-

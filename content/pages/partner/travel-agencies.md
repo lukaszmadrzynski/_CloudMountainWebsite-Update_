@@ -12,7 +12,7 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/About Us Banner.webp
+      url: /images/partner/consulting/About Us Banner.webp
       altText: Travel Agencies Partnership with Cloud Mountain
     badge:
       type: Badge
@@ -125,7 +125,7 @@ sections:
           the higher your commission tier.
         image:
           type: ImageBlock
-          url: /images/icon1.svg
+          url: /images/partner/consulting/icon1.svg
           altText: Competitive Commissions
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -148,7 +148,7 @@ sections:
           responses and personalized assistance.
         image:
           type: ImageBlock
-          url: /images/icon2.svg
+          url: /images/partner/consulting/icon2.svg
           altText: Dedicated Support
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -171,7 +171,7 @@ sections:
           marketing campaigns.
         image:
           type: ImageBlock
-          url: /images/icon3.svg
+          url: /images/partner/consulting/icon3.svg
           altText: Marketing Materials
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -194,7 +194,7 @@ sections:
           our tours firsthand.
         image:
           type: ImageBlock
-          url: /images/icon1.svg
+          url: /images/partner/consulting/icon1.svg
           altText: Familiarization Tours
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -217,7 +217,7 @@ sections:
           available to direct bookings.
         image:
           type: ImageBlock
-          url: /images/icon2.svg
+          url: /images/partner/consulting/icon2.svg
           altText: Exclusive Itineraries
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -240,7 +240,7 @@ sections:
           to keep you ahead.
         image:
           type: ImageBlock
-          url: /images/icon3.svg
+          url: /images/partner/consulting/icon3.svg
           altText: Training and Updates
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -298,7 +298,7 @@ sections:
           Heritage Lijiang Old Town.
         image:
           type: ImageBlock
-          url: /images/DY-Banner Icon.webp
+          url: /images/tours/lijiang-old-town/card.webp
           altText: Naxi Heritage Walk
         actions:
           - type: Button
@@ -324,7 +324,7 @@ sections:
           homestays await.
         image:
           type: ImageBlock
-          url: /images/YL-Banner Icon 5.webp
+          url: /images/tours/hidden-jade-dragon/YL-Banner Icon 5.webp
           altText: Hidden Jade Dragon
         actions:
           - type: Button
@@ -350,7 +350,7 @@ sections:
           and sleep in a 400-year-old monastery.
         image:
           type: ImageBlock
-          url: /images/TC-Banner Icon.webp
+          url: /images/tours/shangri-la-monkey/card.webp
           altText: Shangri-La Monkey Trip
         actions:
           - type: Button
@@ -439,7 +439,7 @@ seo:
     travel experiences in Yunnan, China. Competitive commissions, dedicated support,
     and professional marketing materials.
   addTitleSuffix: true
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags:
     - type: MetaTag
       content: >

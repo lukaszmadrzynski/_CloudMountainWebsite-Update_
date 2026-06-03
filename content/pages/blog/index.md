@@ -113,7 +113,7 @@ topSections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/About Us Banner OPT.webp
+      url: /images/blog/iscovering-naxi-culinary-traditions/About Us Banner OPT.webp
       altText: Cloud Mountain Ecotours and Nature Education
     badge:
       type: Badge
@@ -139,7 +139,7 @@ seo:
   metaDescription: >-
     Read inspiring stories, travel insights, and eco-adventure experiences from
     the Yunnan highlands. Discover the beauty of sustainable travel.
-  socialImage: /images/img-placeholder.svg
+  socialImage: /images/blog/ndex/img-placeholder.svg
   type: Seo
 type: PostFeedLayout
 bottomSections: []

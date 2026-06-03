@@ -16,7 +16,7 @@
                     "Feature four"
                 ],
                 "image": {
-                    "url": "/images/abstract-feature1.svg",
+                    "url": "/images/shared/presets/abstract-feature1.svg",
                     "altText": "Pricing plan 1",
                     "elementId": null,
                     "styles": null,

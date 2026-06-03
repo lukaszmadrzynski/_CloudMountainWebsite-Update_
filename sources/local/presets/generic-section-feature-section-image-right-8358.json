@@ -38,7 +38,7 @@
                     }
                 ],
                 "media": {
-                    "url": "/images/hero2.svg",
+                    "url": "/images/shared/presets/hero2.svg",
                     "altText": "Fun feature preview",
                     "elementId": null,
                     "styles": null,

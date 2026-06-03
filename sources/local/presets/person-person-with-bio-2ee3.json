@@ -9,7 +9,7 @@
                 "role": "Job title",
                 "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.\n\n",
                 "image": {
-                    "url": "/images/avatar1.svg",
+                    "url": "/images/shared/brand/avatar1.svg",
                     "altText": "First Last",
                     "elementId": null,
                     "styles": {

@@ -23,7 +23,7 @@
                         "subtitle": "Numbers Done",
                         "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
                         "image": {
-                            "url": "/images/icon1.svg",
+                            "url": "/images/partner/consulting/icon1.svg",
                             "altText": "Lightning bolt symbol on red background",
                             "elementId": "",
                             "styles": {
@@ -58,7 +58,7 @@
                         "subtitle": "The Job Stuff",
                         "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
                         "image": {
-                            "url": "/images/icon2.svg",
+                            "url": "/images/partner/consulting/icon2.svg",
                             "altText": "Featured icon two",
                             "elementId": "",
                             "styles": null,
@@ -89,7 +89,7 @@
                         "subtitle": "Faster",
                         "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
                         "image": {
-                            "url": "/images/icon3.svg",
+                            "url": "/images/partner/consulting/icon3.svg",
                             "altText": "Featured icon three",
                             "elementId": "",
                             "styles": null,

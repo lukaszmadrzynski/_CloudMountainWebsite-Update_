@@ -5,7 +5,7 @@ date: '2026-04-01'
 excerpt: >
   Meet the passionate local experts who share their homeland's secrets, from Naxi historians to Tibetan yak herders turned nature guides.
 featuredImage:
-  url: /images/CM Hero OPTIMIZED.webp
+  url: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
   altText: Local guide sharing stories with travelers
   type: ImageBlock
   styles:
@@ -18,7 +18,7 @@ seo:
   metaTitle: Stories from Our Local Guides
   metaDescription: >
     Meet the passionate local experts who share their homeland's secrets through our ecotours.
-  socialImage: /images/CM Hero OPTIMIZED.webp
+  socialImage: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
   type: Seo
 colors: bg-light-fg-dark
 styles:
@@ -78,7 +78,7 @@ bottomSections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/About Us Banner OPT.webp
+      url: /images/blog/iscovering-naxi-culinary-traditions/About Us Banner OPT.webp
       altText: Cloud Mountain Ecotours and Nature Education
     badge:
       type: Badge
@@ -99,7 +99,7 @@ bottomSections:
 
 Behind every memorable journey through Yunnan stands a guide whose connection to the land runs deeper than any guidebook. Our local guides are the heart of Cloud Mountain, bringing decades of knowledge and genuine passion to every tour.
 
-![Naxi guide at historic site](/images/LJ-icon1.jpg)
+![Naxi guide at historic site](/images/tours/wild-heart-of-lijiang/highlight-1.webp)
 
 ## Master's Stories: A Naxi Historian
 
@@ -107,7 +107,7 @@ Master Zhang grew up in Lijiang's Old Town, learning the Dongba script from his 
 
 His tours aren't just about facts—they're about understanding how the Naxi people developed a unique society with matriarchal traditions and a written language that predates many civilizations.
 
-![Guide explaining local traditions](/images/YL-icon4.jpg)
+![Guide explaining local traditions](/images/tours/hidden-jade-dragon/highlight-4.webp)
 
 ## From the Mountains: A Tibetan Nature Guide
 
@@ -115,7 +115,7 @@ Dorje never imagined leaving his yak herding village in the Shangri-La highlands
 
 Now a certified nature guide, Dorje leads trekking expeditions through alpine meadows and high mountain passes. He knows every plant used by traditional healers, every bird call in the forest, and the ancient stories that explain the landscape's dramatic features.
 
-![Mountain guide leading trek](/images/FW-Icon3.jpg)
+![Mountain guide leading trek](/images/tours/natgeo-forever-walk/highlight-3.webp)
 
 ## Preserving Heritage Through Tourism
 
@@ -123,13 +123,13 @@ Each of our guides represents a generation of knowledge that might otherwise be 
 
 Our guides don't just show visitors a place—they share living traditions, connecting past and present in ways that enrich everyone involved.
 
-![Guide with traditional instruments](/images/Guides.jpg)
+![Guide with traditional instruments](/images/blog/irst-year-sustainable-ecotourism-yunnan/Guides.jpg)
 
 ## More Than Guides—Cultural Ambassadors
 
 Meeting our local guides transforms a standard tour into an authentic cultural exchange. Whether learning traditional cooking, hearing ancient stories around a fire, or simply walking the same paths generations have walked, travelers leave with more than photos—they carry meaningful connections that last a lifetime.
 
-![Community gathering at sunset](/images/WH-Banner.webp)
+![Community gathering at sunset](/images/tours/wenhai-sanctuary/banner.webp)
 
 ## Join Our Guided Experiences
 

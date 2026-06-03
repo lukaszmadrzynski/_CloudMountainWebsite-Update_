@@ -38,7 +38,7 @@
                     }
                 ],
                 "media": {
-                    "url": "/images/hero3.svg",
+                    "url": "/images/shared/presets/hero3.svg",
                     "altText": "Dope design preview",
                     "elementId": null,
                     "styles": null,

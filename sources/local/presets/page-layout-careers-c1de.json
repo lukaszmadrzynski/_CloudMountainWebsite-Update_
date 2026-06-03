@@ -39,7 +39,7 @@
                         "elementId": null,
                         "colors": "bg-neutral-fg-dark",
                         "backgroundImage": {
-                            "url": "/images/abstract-background.svg",
+                            "url": "/images/shared/presets/abstract-background.svg",
                             "altText": "Placeholder image",
                             "backgroundSize": "cover",
                             "backgroundPosition": "center",

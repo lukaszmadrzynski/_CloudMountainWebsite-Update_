@@ -5,7 +5,7 @@ date: '2026-04-10'
 excerpt: >
   A guide to the breathtaking alpine meadows bursting with color during springtime in the Yunnan highlands, from rhododendrons to rare orchids.
 featuredImage:
-  url: /images/CM Hero OPTIMIZED.webp
+  url: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
   altText: Alpine meadow with colorful wildflowers
   type: ImageBlock
   styles:
@@ -18,7 +18,7 @@ seo:
   metaTitle: Spring Wildflowers of the Yunnan Highlands
   metaDescription: >
     A guide to the breathtaking alpine meadows bursting with color during springtime in the Yunnan highlands.
-  socialImage: /images/CM Hero OPTIMIZED.webp
+  socialImage: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
   type: Seo
 colors: bg-light-fg-dark
 styles:
@@ -78,7 +78,7 @@ bottomSections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/About Us Banner OPT.webp
+      url: /images/blog/iscovering-naxi-culinary-traditions/About Us Banner OPT.webp
       altText: Cloud Mountain Ecotours and Nature Education
     badge:
       type: Badge
@@ -99,31 +99,31 @@ bottomSections:
 
 Spring in the Yunnan highlands is a spectacular showcase of nature's artistry. As the snow melts and temperatures rise, the alpine meadows transform into carpets of vibrant wildflowers that attract botanists, photographers, and nature lovers from around the world.
 
-![Rhododendron blooms in the highlands](/images/LJ-icon1.jpg)
+![Rhododendron blooms in the highlands](/images/tours/wild-heart-of-lijiang/highlight-1.webp)
 
 ## The Magic of Rhododendron Season
 
 From March through May, the mountainsides come alive with over 400 species of rhododendrons. The famous "Rhododendron Highway" between Lijiang and Shangri-La offers one of the most spectacular drives in China, with flowers ranging from pure white to deep crimson lining the winding roads.
 
-![Alpine meadow with diverse flowers](/images/YL-icon4.jpg)
+![Alpine meadow with diverse flowers](/images/tours/hidden-jade-dragon/highlight-4.webp)
 
 ## Hidden Botanical Treasures
 
 Beyond the famous rhododendrons, spring reveals rare orchids, gentians, and primulas that exist nowhere else on Earth. Our guides know the secret spots where these botanical treasures bloom in abundance, far from the tourist crowds.
 
-![Rare orchid species](/images/FW-Icon3.jpg)
+![Rare orchid species](/images/tours/natgeo-forever-walk/highlight-3.webp)
 
 ## Best Locations for Wildflower Viewing
 
 The Wenhai Basin, Lashi Lake area, and the slopes of Jade Dragon Snow Mountain offer exceptional opportunities for wildflower photography and exploration. Each location has its own unique floral signature shaped by altitude and microclimate.
 
-![Mountain trail through flower fields](/images/Guides.jpg)
+![Mountain trail through flower fields](/images/blog/irst-year-sustainable-ecotourism-yunnan/Guides.jpg)
 
 ## Conservation Through Ecotourism
 
 By choosing sustainable travel, you help protect these fragile ecosystems. Our wildflower tours support local communities and fund conservation efforts that keep these meadows pristine for generations to come.
 
-![Traditional village in the highlands](/images/WH-Banner.webp)
+![Traditional village in the highlands](/images/tours/wenhai-sanctuary/banner.webp)
 
 ## Planning Your Spring Visit
 

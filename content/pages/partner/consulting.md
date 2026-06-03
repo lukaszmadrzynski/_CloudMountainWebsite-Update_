@@ -12,7 +12,7 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/About Us Banner.webp
+      url: /images/partner/consulting/About Us Banner.webp
       altText: Sustainability Consulting with Cloud Mountain
     badge:
       type: Badge
@@ -123,7 +123,7 @@ sections:
           international sustainability standards with actionable recommendations.
         image:
           type: ImageBlock
-          url: /images/icon1.svg
+          url: /images/partner/consulting/icon1.svg
           altText: Sustainability Audits
         colors: bg-dark-fg-light
         styles:
@@ -144,7 +144,7 @@ sections:
           and international certification requirements.
         image:
           type: ImageBlock
-          url: /images/icon2.svg
+          url: /images/partner/consulting/icon2.svg
           altText: Strategy Development
         colors: bg-dark-fg-light
         styles:
@@ -165,7 +165,7 @@ sections:
           sustainability certification processes.
         image:
           type: ImageBlock
-          url: /images/icon3.svg
+          url: /images/partner/consulting/icon3.svg
           altText: Certification Support
         colors: bg-dark-fg-light
         styles:
@@ -186,7 +186,7 @@ sections:
           awareness, and community engagement.
         image:
           type: ImageBlock
-          url: /images/icon1.svg
+          url: /images/partner/consulting/icon1.svg
           altText: Training Programs
         colors: bg-dark-fg-light
         styles:
@@ -242,7 +242,7 @@ sections:
           and international best practices.
         image:
           type: ImageBlock
-          url: /images/icon1.svg
+          url: /images/partner/consulting/icon1.svg
           altText: IUCN Partnership
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -265,7 +265,7 @@ sections:
           operations in diverse environments.
         image:
           type: ImageBlock
-          url: /images/icon2.svg
+          url: /images/partner/consulting/icon2.svg
           altText: Field Experience
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -288,7 +288,7 @@ sections:
           and environmental context.
         image:
           type: ImageBlock
-          url: /images/icon3.svg
+          url: /images/partner/consulting/icon3.svg
           altText: Local Knowledge
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -311,7 +311,7 @@ sections:
           and evaluation frameworks.
         image:
           type: ImageBlock
-          url: /images/icon1.svg
+          url: /images/partner/consulting/icon1.svg
           altText: Measurable Impact
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -446,7 +446,7 @@ seo:
     backed consulting services for sustainable tourism development, certification
     support, and ESG strategy in China and Asia.
   addTitleSuffix: true
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags:
     - type: MetaTag
       content: >

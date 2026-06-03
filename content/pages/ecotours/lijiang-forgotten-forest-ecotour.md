@@ -4,7 +4,7 @@ title: "Lijiang's Forgotten Forest Ecotour"
 sections:
   - type: HeroSection
     media:
-      url: /images/XS-Banner.webp
+      url: /images/tours/lijiang-forgotten-forest/banner.webp
       altText: Lijiang Forgotten Forest Ecotour scenic view
     badge:
       label: Half-day EcoTour
@@ -41,19 +41,19 @@ sections:
           textAlign: center
     subtitle: Essential Information at a Glance
     items:
-      - icon: /images/special.png
+      - icon: /images/shared/key-details/special.png
         title: "What's Special"
         subtitle: Biodiversity Focus
         highlight: 'Rare orchids, birdwatching, & panoramic mountain views'
-      - icon: /images/duration.png
+      - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: Half Day
         highlight: 'Morning: 8:00 AM to 1:00 PM | Afternoon: 2:00 PM to 6:00 PM'
-      - icon: /images/location.png
+      - icon: /images/shared/key-details/location.png
         title: Location
         subtitle: Elephant Hill Forest
         highlight: 'Black Dragon Pool Water Source Protected Area | Altitudes 2,400-2,700m'
-      - icon: /images/level.png
+      - icon: /images/shared/key-details/level.png
         title: Activity Level
         subtitle: Moderate
         highlight: 'Walking: 5-6 km per session'
@@ -96,7 +96,7 @@ sections:
         text: 'Escape the crowds and reconnect with nature on a peaceful forest walk. Breathe fresh air and occasionally meet friendly locals foraging for mushrooms or pasturing their animals.'
         image:
           type: ImageBlock
-          url: /images/XS-Icon1.webp
+          url: /images/tours/lijiang-forgotten-forest/highlight-1.webp
           altText: Peaceful forest walk
           styles:
             self:
@@ -123,7 +123,7 @@ sections:
         text: 'Discover a secret garden of wildflowers. Be captivated by a vibrant display of rare blooms, including many wild orchid species. A stunning visual feast and perfect photo opportunity.'
         image:
           type: ImageBlock
-          url: /images/XS-Icon2.webp
+          url: /images/tours/lijiang-forgotten-forest/highlight-2.webp
           altText: Secret garden of wildflowers
           styles:
             self:
@@ -150,7 +150,7 @@ sections:
         text: 'Enhance your hike with the insights of a passionate local biodiversity expert. Gain in-depth knowledge about the ecosystem, making your nature walk both educational and deeply enriching.'
         image:
           type: ImageBlock
-          url: /images/XS-Icon3.webp
+          url: /images/tours/lijiang-forgotten-forest/highlight-3.webp
           altText: Local biodiversity expert
           styles:
             self:
@@ -177,7 +177,7 @@ sections:
         text: "Encounter nature's curiosities. Marvel at bizarre and intriguing plants like the ghostly Ghost Pipes, sticky Shield Sundew, and elusive Chamaegastrodia. Prepare to be amazed by the plant kingdom."
         image:
           type: ImageBlock
-          url: /images/XS-Icon4.webp
+          url: /images/tours/lijiang-forgotten-forest/highlight-4.webp
           altText: Curious plants Ghost Pipes
           styles:
             self:
@@ -204,7 +204,7 @@ sections:
         text: "Unlock the secrets of nature's pharmacy. Explore plants traditionally used for healing and well-being. Your guide will reveal fascinating stories and local knowledge of these time-honored medicinal treasures."
         image:
           type: ImageBlock
-          url: /images/XS-Icon5.webp
+          url: /images/tours/lijiang-forgotten-forest/highlight-5.webp
           altText: Medicinal plants traditional knowledge
           styles:
             self:
@@ -231,7 +231,7 @@ sections:
         text: "Let birdsongs be your guide as you spot flashes of vibrant colour. Listen for the distinctive sounds of Grey Woodpeckers and look out for the striking plumage of Lady Amherst's pheasant. A real treat for bird lovers."
         image:
           type: ImageBlock
-          url: /images/XS-Icon6.webp
+          url: /images/tours/lijiang-forgotten-forest/highlight-6.webp
           altText: Birdwatching woodland birds
           styles:
             self:
@@ -258,7 +258,7 @@ sections:
         text: 'Keep your eyes peeled for adorable forest residents. Playful squirrels dart through trees, while curious treeshrews may peek out. With luck, you might even glimpse a shy muntjac deer in its natural habitat.'
         image:
           type: ImageBlock
-          url: /images/XS-Icon7.webp
+          url: /images/tours/lijiang-forgotten-forest/highlight-7.webp
           altText: Forest wildlife squirrels
           styles:
             self:
@@ -285,7 +285,7 @@ sections:
         text: 'Reach the summit and be rewarded with breathtaking panoramic views! Gaze upon Lijiang city sprawling below, framed by the majestic, snow-capped Jade Dragon Snow Mountain.'
         image:
           type: ImageBlock
-          url: /images/XS-Icon8.webp
+          url: /images/tours/lijiang-forgotten-forest/highlight-8.webp
           altText: Panoramic views Jade Dragon Snow Mountain
           styles:
             self:
@@ -312,7 +312,7 @@ sections:
         text: "Step back in time amongst old Naxi minority tombs nestled within the tranquil forest. Connect with local history and culture as you discover these intriguing relics hidden in nature's embrace."
         image:
           type: ImageBlock
-          url: /images/XS-Icon9.webp
+          url: /images/tours/lijiang-forgotten-forest/highlight-9.webp
           altText: Naxi minority tombs in forest
           styles:
             self:
@@ -339,7 +339,7 @@ sections:
         text: 'Enter the miniature world of insects, a realm of hidden wonders! Observe delicate butterflies, busy beetles and countless other fascinating invertebrates that play vital roles in this thriving ecosystem.'
         image:
           type: ImageBlock
-          url: /images/XS-Icon10.webp
+          url: /images/tours/lijiang-forgotten-forest/highlight-10.webp
           altText: Insect world butterflies
           styles:
             self:
@@ -366,7 +366,7 @@ sections:
         text: 'Venture into a hidden kingdom of fungi, a world of diverse shapes and colours! Explore the amazing variety of mushrooms and toadstools, and learn about their crucial role in forest health.'
         image:
           type: ImageBlock
-          url: /images/XS-Icon11.webp
+          url: /images/tours/lijiang-forgotten-forest/highlight-11.webp
           altText: Fungi kingdom mushrooms
           styles:
             self:
@@ -393,7 +393,7 @@ sections:
         text: 'Conclude your nature immersion with a serene stroll through Black Dragon Pool Park. Reflect on your forest discoveries amidst classic Chinese gardens and tranquil waters, a perfect peaceful ending.'
         image:
           type: ImageBlock
-          url: /images/XS-Icon12.webp
+          url: /images/tours/lijiang-forgotten-forest/highlight-12.webp
           altText: Black Dragon Pool Park serene ending
           styles:
             self:
@@ -450,9 +450,7 @@ sections:
         schedule:
           - period: Morning or Afternoon
             activities:
-              - 'Begin your forest journey on Elephant Hill, escaping the crowds to reconnect with pristine nature. Discover rare wildflowers including wild orchids, and spot woodland birds like woodpeckers and pheasants.'
-              - 'Explore curious plants like Ghost Pipes with a local biodiversity expert. Learn about medicinal plants and fungi, discover Naxi minority tombs, and reach the Top Pagoda for breathtaking panoramic views of Lijiang and Jade Dragon Snow Mountain.'
-              - 'Conclude with a serene stroll through Black Dragon Pool Park, reflecting on your discoveries amidst classic Chinese gardens and tranquil waters before returning to your accommodation.'
+              - "Begin with a pickup from your Lijiang hotel and head to Elephant Hill, escaping the crowds to reconnect with pristine nature. Discover rare wildflowers including wild orchids, and spot woodland birds like woodpeckers and pheasants. Explore curious plants like Ghost Pipes with a local biodiversity expert, learn about medicinal plants and fungi, and discover Naxi minority tombs before reaching the Top Pagoda for breathtaking panoramic views of Lijiang and Jade Dragon Snow Mountain. Conclude with a serene stroll through Black Dragon Pool Park, reflecting on your discoveries amidst classic Chinese gardens and tranquil waters, before returning to your accommodation."
     accentColors:
       morning: "#01aed9"
       afternoon: "#007dbd"
@@ -637,7 +635,7 @@ seo:
     Escape Lijiang! Discover Forgotten Forest ecotour: a hidden biodiversity
     hotspot near Lijiang. Rare orchids, birds, & views await! Book your nature
     walk.
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags:
     - type: MetaTag
       content: >-

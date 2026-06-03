@@ -4,7 +4,7 @@ title: Wenhai Sanctuary Ecotour
 sections:
   - type: HeroSection
     media:
-      url: /images/WH-Banner.webp
+      url: /images/tours/wenhai-sanctuary/banner.webp
       altText: Wenhai Lake panoramic view
     badge:
       label: One-day EcoTour
@@ -41,19 +41,19 @@ sections:
           textAlign: center
     subtitle: Essential Information at a Glance
     items:
-      - icon: /images/special.png
+      - icon: /images/shared/key-details/special.png
         title: What's Special
         subtitle: Cultural Immersion
         highlight: 'Naxi culture and UNESCO heritage villages'
-      - icon: /images/duration.png
+      - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: One Day
         highlight: '9:00 AM to 8:00 PM (approximately 11 hours)'
-      - icon: /images/location.png
+      - icon: /images/shared/key-details/location.png
         title: Location
         subtitle: Wenhai Wetlands Nature Reserve
         highlight: 'Wenhai Lake area | Altitudes 2,400-3,250m'
-      - icon: /images/level.png
+      - icon: /images/shared/key-details/level.png
         title: Activity Level
         subtitle: Moderate
         highlight: 'Walking: 7-8 km per day'
@@ -96,7 +96,7 @@ sections:
         text: Discover the peaceful ambiance of Fuguo Tibetan Buddhist Temple, a serene sanctuary offering a genuine spiritual experience. Explore the temple grounds, admire traditional architecture, and immerse yourself in the tranquil atmosphere away from everyday bustle.
         image:
           type: ImageBlock
-          url: /images/WH-icon1.jpg
+          url: /images/tours/wenhai-sanctuary/highlight-1.webp
           altText: Tibetan Buddhist Temple
           styles:
             self:
@@ -123,7 +123,7 @@ sections:
         text: Explore the pristine Wenhai Wetland Nature Reserve alongside a knowledgeable local conservationist. Learn about the delicate alpine wetland ecosystem, observe unique birds and flowers native to this environment, and gain insights into conservation efforts.
         image:
           type: ImageBlock
-          url: /images/WH-icon2.webp
+          url: /images/tours/wenhai-sanctuary/highlight-2.webp
           altText: Wenhai Wetlands scenic view
           styles:
             self:
@@ -150,7 +150,7 @@ sections:
         text: Experience the warm hospitality of the Naxi people with a visit to Wenhai village. Enjoy a delicious and authentic local lunch at a traditional fish farm, savoring regional flavors and learning about Naxi culture and sustainable practices directly from the community.
         image:
           type: ImageBlock
-          url: /images/WH-icon4.webp
+          url: /images/tours/wenhai-sanctuary/highlight-4.webp
           altText: Naxi village cultural experience
           styles:
             self:
@@ -177,7 +177,7 @@ sections:
         text: Immerse yourself in the vibrant biodiversity of Wenhai Wetland, observing unique birds and flowers that thrive in this alpine ecosystem. Discover their specialized adaptations and appreciate the delicate balance of nature in this pristine setting.
         image:
           type: ImageBlock
-          url: /images/WH-icon3.webp
+          url: /images/tours/wenhai-sanctuary/highlight-3.webp
           altText: Alpine wetland biodiversity
           styles:
             self:
@@ -204,7 +204,7 @@ sections:
         text: Embark on an invigorating hike through lush forests to the magnificent Tiger Cave. From this stunning vantage point, enjoy panoramic views overlooking Wenhai Lake and the charming village below, capturing breathtaking scenery.
         image:
           type: ImageBlock
-          url: /images/WH-icon5.webp
+          url: /images/tours/wenhai-sanctuary/highlight-5.webp
           altText: Tiger Cave panoramic view
           styles:
             self:
@@ -231,7 +231,7 @@ sections:
         text: Discover the rich history and cultural significance of Baisha Village, a designated UNESCO Heritage site. Explore the ancient village, admire its traditional architecture, and delve into its fascinating past and enduring legacy.
         image:
           type: ImageBlock
-          url: /images/WH-icon6.webp
+          url: /images/tours/wenhai-sanctuary/highlight-6.webp
           altText: Baisha UNESCO village
           styles:
             self:
@@ -284,20 +284,17 @@ sections:
     timelineLayout: true
     days:
       - day: One Day
-        title: Wetlands, Culture and Mountain Views
+        title: Wenhai Sanctuary Discovery
         schedule:
           - period: Morning
             activities:
-              - 'Begin your journey at Fuguo Tibetan Buddhist Temple for a serene morning exploring the temple grounds and admiring traditional architecture.'
-              - 'Journey to Wenhai Wetland Nature Reserve with a local conservationist, learning about the delicate alpine wetland ecosystem and observing unique birds and flowers.'
+              - "Begin with a pickup from your Lijiang hotel and visit Fuguo Tibetan Buddhist Temple for a serene morning exploring the temple grounds and admiring traditional architecture. Then journey to Wenhai Wetland Nature Reserve with a local conservationist, learning about the delicate alpine wetland ecosystem and observing unique birds and flowers."
           - period: Afternoon
             activities:
-              - 'Enjoy an authentic local lunch at Wenhai village fish farm, experiencing Naxi hospitality and sustainable practices firsthand.'
-              - 'Trek through lush forests to Tiger Cave, enjoying panoramic views over Wenhai Lake and the surrounding village landscapes.'
+              - "Enjoy an authentic local lunch at Wenhai village fish farm, experiencing Naxi hospitality and sustainable practices firsthand. Then trek through lush forests to Tiger Cave, enjoying panoramic views over Wenhai Lake and the surrounding village landscapes."
           - period: Evening
             activities:
-              - 'Explore Baisha Village, a designated UNESCO Heritage site, and discover its ancient architecture and fascinating history.'
-              - "Return to Lijiang as the sun sets, carrying memories of Yunnan's rich natural beauty and cultural tapestry."
+              - "Explore Baisha Village, a designated UNESCO Heritage site, and discover its ancient architecture and fascinating history. Then return to Lijiang as the sun sets, carrying memories of Yunnan's rich natural beauty and cultural tapestry."
     accentColors:
       morning: '#01aed9'
       afternoon: '#007dbd'
@@ -480,7 +477,7 @@ seo:
   metaTitle: Wenhai Sanctuary Ecotour | Tea & Horse Road Adventure
   metaDescription: >-
     Escape to Wenhai Sanctuary in Lijiang, Yunnan: Ecotour along the ancient Tea & Horse Road. Explore pristine wetlands, Naxi culture, hike to Tiger Cave, and discover UNESCO's Baisha Village. Book your Yunnan eco-cultural adventure!
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags:
     - type: MetaTag
       content: >-

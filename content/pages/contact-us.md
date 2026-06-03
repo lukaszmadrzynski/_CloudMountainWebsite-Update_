@@ -4,7 +4,7 @@ title: Contact Us
 sections:
   - type: EcotoursHeroSection
     media:
-      url: /images/Contact-Us-Hero.webp
+      url: /images/pages/contact-us/Contact-Us-Hero.webp
       altText: Contact Us - Cloud Mountain Team
   - type: GenericSection
     title:
@@ -63,7 +63,7 @@ sections:
           **Tel/WhatsApp/Wechat:** 0086 19813252518
         image:
           type: ImageBlock
-          url: /images/Lynne2.webp
+          url: /images/shared/presets/Lynne2.webp
           altText: Lynne Lyu - Cofounder of Lijiang Cloud Mountain Education
           styles:
             self:
@@ -93,7 +93,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/Lukas2.webp
+          url: /images/shared/presets/Lukas2.webp
           altText: Lukasz Madrzynski - Cofounder of Lijiang Cloud Mountain Education
           styles:
             self:
@@ -325,6 +325,6 @@ seo:
     to plan your Lijiang & Shangri-La adventure. Follow our sustainable
     adventures on our social media.
   addTitleSuffix: true
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags: []
 ---

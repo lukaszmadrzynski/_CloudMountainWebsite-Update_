@@ -5,7 +5,7 @@ date: '2026-03-10'
 excerpt: >
   Exploring the unique food culture of Lijiang's Naxi people, from traditional markets to cooking with local families.
 featuredImage:
-  url: /images/CM Hero OPTIMIZED.webp
+  url: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
   altText: Naxi traditional food and ingredients
   type: ImageBlock
   styles:
@@ -18,7 +18,7 @@ seo:
   metaTitle: Discovering Naxi Culinary Traditions
   metaDescription: >
     Exploring the unique food culture of Lijiang's Naxi people, from traditional markets to cooking with local families.
-  socialImage: /images/CM Hero OPTIMIZED.webp
+  socialImage: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
   type: Seo
 colors: bg-light-fg-dark
 styles:
@@ -71,7 +71,7 @@ bottomSections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/About Us Banner OPT.webp
+      url: /images/blog/iscovering-naxi-culinary-traditions/About Us Banner OPT.webp
       altText: Cloud Mountain Ecotours and Nature Education
     badge:
       type: Badge
@@ -92,7 +92,7 @@ bottomSections:
 
 Exploring the unique food culture of Lijiang's Naxi people, from traditional markets to cooking with local families.
 
-![Traditional Naxi ingredients at the market](/images/LJ-icon2.jpg)
+![Traditional Naxi ingredients at the market](/images/tours/wild-heart-of-lijiang/highlight-2.webp)
 
 ## The Heart of Naxi Cuisine
 
@@ -104,13 +104,13 @@ The Naxi people of Lijiang have developed a rich culinary tradition over centuri
 
 Our food tours take you beyond restaurants and into the homes of local families, where you'll learn to prepare dishes using fresh ingredients from the morning markets. From hand-pulled noodles to medicinal herb soups, each recipe tells a story of the land and people.
 
-![Fresh ingredients from Lijiang market](/images/DY-icon6b.jpg)
+![Fresh ingredients from Lijiang market](/images/tours/lijiang-old-town/highlight-6.webp)
 
 ## A Journey of Flavors
 
 The journey through Naxi cuisine is also a journey through the seasons. Spring brings wild mushrooms from the forests, summer offers fresh river fish, autumn delivers丰收 of vegetables, and winter features hearty root vegetables and preserved meats.
 
-![Traditional Naxi restaurant in Old Town](/images/LJ-icon9.jpg)
+![Traditional Naxi restaurant in Old Town](/images/tours/wild-heart-of-lijiang/highlight-9.webp)
 
 ## Bringing It Home
 

@@ -115,7 +115,7 @@ export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
             title: 'Amazing',
             text: 'We had the great pleasure of experiencing this tour with Lukasz and Lynne in early Spring. It was rather cold but very worth while. Amazing views of the countryside villages and neatly tilled fields. We did some birdwatching from the lakeside and viewed yaks and goats grazing on the slopes above. We had a delicious lunch at one of the villages. (All food in Yunnan was delicious) It was exciting to have this opportunity to explore this unique off the beaten track area with such helpful and knowledgeable guides.',
             avatar: 'S',
-            image: '/images/reviewers/shirley-o.jpg'
+            image: '/images/shared/reviews/shirley-o.jpg'
         },
         {
             name: 'Paradise57589505611',
@@ -123,7 +123,7 @@ export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
             title: 'Local, genuine and ethical experience in Lijiang',
             text: 'My wife and I had the pleasure of being guided by Lynne and Lukas in the best of authentic Lijiang. Local, genuine culture meeting local villagers, walk in natural hills, guided walk through Lijiang\'s amazing streets and markets with everything covered and no hidden (negative) surprises or cost. All this while having meaningful and informed discussions. Thoroughly recommend this for anybody who want to experience the real Lijiang while making a positive impact as eco tourist.',
             avatar: 'P',
-            image: '/images/reviewers/paradise.jpg'
+            image: '/images/shared/reviews/paradise.jpg'
         },
         {
             name: 'Sven',
@@ -131,7 +131,7 @@ export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
             title: 'Fantastic Experience with Cloud Mountain Eco Tours',
             text: 'We had an unforgettable time with Cloud Mountain Eco Tours, thanks to our amazing guide Lukas. He was incredibly friendly and connected with the kids right away. Lukas has a wonderful way of explaining things to children and made the whole experience exciting and engaging for all of us. The highlight was definitely seeing the monkeys up close and enjoying a warm, authentic dinner with a local family. Lukas is incredibly knowledgeable about the local nature. A truly special adventure for families. Highly recommended!',
             avatar: 'S',
-            image: '/images/reviewers/sven.jpg'
+            image: '/images/shared/reviews/sven.jpg'
         },
       {
             name: 'James O',
@@ -139,7 +139,7 @@ export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
             title: 'Magical landscape of Jade Dragon Snow Mountain',
             text: 'Really awesome and memorable day out in some magical landscapes around the foothills of Jade Dragon Snow mountain. It was a great opportunity to take my parents and a friend visiting from NZ to see some of the natural beauty of Yunnan, as well as some ethnic diversity. I absolutely love the aesthetic and charm of the villages. It was a rather cold day in March, but that seemed to add to the mystique of the landscape. Lukas and Lynne are great hosts, with an intimate knowledge of the places, people and biodiversity. Highly recommended! The meals with the locals were also incredible.',
             avatar: 'J',
-            image: '/images/reviewers/james-o.jpg'
+            image: '/images/shared/reviews/james-o.jpg'
         },
         {
             name: 'John M',
@@ -147,7 +147,7 @@ export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
             title: 'We saw the beautiful snub nosed monkey',
             text: 'Lukas is the man, his seemly endless knowledge and enthusiasm for nature is amazing. It was a privilege to have him share his love of this wonderful part of the world with us. Thank you Lukas',
             avatar: 'J',
-            image: '/images/reviewers/john-m.jpg'
+            image: '/images/shared/reviews/john-m.jpg'
         },
         {
             name: 'Lisa_in_Lijiang',
@@ -155,7 +155,7 @@ export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
             title: 'Unforgettable experience with wonderful people',
             text: 'I had the pleasure of participating on a trip with Lukas as part of a student group. We had an unforgettable experience getting up close to the endangered Yunnan snub-nosed monkey, hiking through pristine forests, and eating home-cooked meals with local families. Lukas and Lynne are wonderful guides with extensive knowledge about the region\'s culture, history and wildlife. I highly recommend Cloud Mountain, especially if you like traveling at your own pace, going off the beaten path, and getting an authentic, personalized experience.',
             avatar: 'L',
-            image: '/images/reviewers/lisa.jpg'
+            image: '/images/shared/reviews/lisa.jpg'
         },
         {
             name: 'J M',
@@ -163,7 +163,7 @@ export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
             title: 'The real deal',
             text: 'It\'s an experience on a completely different level than anything that you\'d be able to put together on your own, and so worth it! The views are simply breathtaking, the trail is totally manageable and the best part is the company. Lukas has so much knowledge about Yunnan, its people and nature, he feels at home there and makes you feel the same too. If you have a chance to make this trip, do it. We\'ve been all around Yunnan and this trip is ontop of our list!',
             avatar: 'J',
-            image: '/images/reviewers/j-m.jpg'
+            image: '/images/shared/reviews/j-m.jpg'
         },
         {
             name: 'Internationalbabe001',
@@ -171,7 +171,7 @@ export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
             title: 'Meeting the endangered black-snub nosed monkeys',
             text: 'I went on a solo trip in February arranged by my guide, Lukas, a Biologist/Conservationist into the Baima Snow Mountain National Park. With his vast knowledge of the local area, he took me first to the Lashi Wetlands and spotted over a dozen species of birds. Finally, made it to Tacheng, a reserve within Baima Snow Mountain where we spent a night in a cozy log cabin. The next morning, after a simple breakfast we went up to 3,000 metres and finally glimpsed the incredible endangered Black Snub-Nosed Monkeys. It was an amazing trip!',
             avatar: 'I',
-            image: '/images/reviewers/internationalbabe.jpg'
+            image: '/images/shared/reviews/internationalbabe.jpg'
         },
         {
             name: 'Hollie C',
@@ -179,7 +179,7 @@ export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
             title: 'Unforgettable',
             text: 'We took a one-day tour with Lukas to explore a few places in Lijiang, and it was truly an unforgettable experience. From the start, Lukas was incredibly thoughtful in tailoring the tour to suit our preferences and needs. One of the highlights was having lunch at a local family\'s home. After lunch, we went on a hike in the mountains, where we had the chance to enjoy some fresh air and a truly breathtaking view. The landscape was absolutely stunning. We would highly recommend this tour to anyone visiting Lijiang!',
             avatar: 'H',
-            image: '/images/reviewers/hollie-c.jpg'
+            image: '/images/shared/reviews/hollie-c.jpg'
         }
     ];
 
@@ -363,7 +363,7 @@ export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
                     className="inline-block"
                 >
                     <img 
-                        src="/images/tripadvisor-logo.webp" 
+                        src="/images/shared/trust/tripadvisor-logo.webp" 
                         alt="TripAdvisor" 
                         className="h-14 md:h-20 w-auto mx-auto"
                     />

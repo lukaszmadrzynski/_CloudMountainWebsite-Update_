@@ -42,7 +42,7 @@
                             }
                         ],
                         "media": {
-                            "url": "/images/main-hero.svg",
+                            "url": "/images/shared/presets/main-hero.svg",
                             "altText": "Unblock your team boost your time to production preview",
                             "elementId": "",
                             "styles": null,
@@ -85,7 +85,7 @@
                                 "subtitle": "Numbers Done",
                                 "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
                                 "image": {
-                                    "url": "/images/icon1.svg",
+                                    "url": "/images/partner/consulting/icon1.svg",
                                     "altText": "Placeholder image",
                                     "elementId": "",
                                     "styles": {
@@ -115,7 +115,7 @@
                                 "subtitle": "The Job Stuff",
                                 "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
                                 "image": {
-                                    "url": "/images/icon2.svg",
+                                    "url": "/images/partner/consulting/icon2.svg",
                                     "altText": "Placeholder image",
                                     "elementId": "",
                                     "styles": null,
@@ -141,7 +141,7 @@
                                 "subtitle": "Faster",
                                 "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
                                 "image": {
-                                    "url": "/images/icon3.svg",
+                                    "url": "/images/partner/consulting/icon3.svg",
                                     "altText": "Placeholder image",
                                     "elementId": "",
                                     "styles": null,
@@ -203,49 +203,49 @@
                         "subtitle": "Award winning enterprises trust us",
                         "images": [
                             {
-                                "url": "/images/empathy-logo.svg",
+                                "url": "/images/shared/trust/partner-empathy.svg",
                                 "altText": "Empathy logo",
                                 "elementId": null,
                                 "styles": null,
                                 "$$type": "ImageBlock"
                             },
                             {
-                                "url": "/images/wellster-logo.svg",
+                                "url": "/images/shared/trust/partner-wellster.svg",
                                 "altText": "Wellster logo",
                                 "elementId": null,
                                 "styles": null,
                                 "$$type": "ImageBlock"
                             },
                             {
-                                "url": "/images/vise-logo.svg",
+                                "url": "/images/shared/trust/partner-vise.svg",
                                 "altText": "Vise logo",
                                 "elementId": null,
                                 "styles": null,
                                 "$$type": "ImageBlock"
                             },
                             {
-                                "url": "/images/telus-logo.svg",
+                                "url": "/images/shared/trust/partner-telus.svg",
                                 "altText": "Telus logo",
                                 "elementId": null,
                                 "styles": null,
                                 "$$type": "ImageBlock"
                             },
                             {
-                                "url": "/images/contenful-logo.svg",
+                                "url": "/images/shared/trust/partner-contenful.svg",
                                 "altText": "Contentful logo",
                                 "elementId": null,
                                 "styles": null,
                                 "$$type": "ImageBlock"
                             },
                             {
-                                "url": "/images/sanity-logo.svg",
+                                "url": "/images/shared/trust/partner-sanity.svg",
                                 "altText": "Sanity logo",
                                 "elementId": null,
                                 "styles": null,
                                 "$$type": "ImageBlock"
                             },
                             {
-                                "url": "/images/rangle-logo.svg",
+                                "url": "/images/shared/trust/partner-rangle.svg",
                                 "altText": "Rangle logo",
                                 "elementId": null,
                                 "styles": null,
@@ -454,7 +454,7 @@
                             }
                         ],
                         "media": {
-                            "url": "/images/hero2.svg",
+                            "url": "/images/shared/presets/hero2.svg",
                             "altText": "Fun feature preview",
                             "elementId": null,
                             "styles": null,
@@ -510,7 +510,7 @@
                             }
                         ],
                         "media": {
-                            "url": "/images/hero3.svg",
+                            "url": "/images/shared/presets/hero3.svg",
                             "altText": "Dope design preview",
                             "elementId": null,
                             "styles": null,
@@ -554,7 +554,7 @@
                                 "subtitle": "Maria Walters, Company",
                                 "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
                                 "image": {
-                                    "url": "/images/person-placeholder-light.png",
+                                    "url": "/images/shared/presets/person-placeholder-light.png",
                                     "altText": "Maria Walters",
                                     "elementId": null,
                                     "styles": {
@@ -584,7 +584,7 @@
                                 "subtitle": "Jane Doe, Company",
                                 "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
                                 "image": {
-                                    "url": "/images/img-placeholder-dark.png",
+                                    "url": "/images/shared/presets/img-placeholder-dark.png",
                                     "altText": "Jane Doe",
                                     "elementId": null,
                                     "styles": {
@@ -643,7 +643,7 @@
                                 "subtitle": "This is the item subtitle",
                                 "text": "Follow the tutorial to build your first Netlify site.\n",
                                 "image": {
-                                    "url": "/images/abstract-feature1.svg",
+                                    "url": "/images/shared/presets/abstract-feature1.svg",
                                     "altText": "Placholder image",
                                     "elementId": null,
                                     "styles": {
@@ -671,7 +671,7 @@
                                 "subtitle": "This is the item subtitle",
                                 "text": "Follow the tutorial to build your first awesome Netlify site.\n",
                                 "image": {
-                                    "url": "/images/abstract-feature2.svg",
+                                    "url": "/images/shared/presets/abstract-feature2.svg",
                                     "altText": "Placeholder image",
                                     "elementId": null,
                                     "styles": {
@@ -699,7 +699,7 @@
                                 "subtitle": "This is the item subtitle",
                                 "text": "Learn from the tutorial and build your first awesome Netlify site.\n",
                                 "image": {
-                                    "url": "/images/abstract-feature3.svg",
+                                    "url": "/images/shared/presets/abstract-feature3.svg",
                                     "altText": "Placeholder image",
                                     "elementId": null,
                                     "styles": {
@@ -818,7 +818,7 @@
                     "metaTitle": "Home - Demo site",
                     "metaDescription": "This demo site is built with Netlify Create",
                     "addTitleSuffix": null,
-                    "socialImage": "/images/main-hero.jpg",
+                    "socialImage": "/images/shared/presets/main-hero.jpg",
                     "metaTags": [],
                     "$$type": "Seo"
                 },

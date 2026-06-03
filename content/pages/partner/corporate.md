@@ -12,7 +12,7 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/About Us Banner.webp
+      url: /images/partner/consulting/About Us Banner.webp
       altText: Corporate Groups Partnership with Cloud Mountain
     badge:
       type: Badge
@@ -124,7 +124,7 @@ sections:
           communication, and problem-solving skills in a natural setting.
         image:
           type: ImageBlock
-          url: /images/icon1.svg
+          url: /images/partner/consulting/icon1.svg
           altText: Team Building
         colors: bg-dark-fg-light
         styles:
@@ -145,7 +145,7 @@ sections:
           leadership coaching in inspiring natural environments.
         image:
           type: ImageBlock
-          url: /images/icon2.svg
+          url: /images/partner/consulting/icon2.svg
           altText: Leadership Retreats
         colors: bg-dark-fg-light
         styles:
@@ -166,7 +166,7 @@ sections:
           to real conservation projects and community initiatives.
         image:
           type: ImageBlock
-          url: /images/icon3.svg
+          url: /images/partner/consulting/icon3.svg
           altText: CSR Programs
         colors: bg-dark-fg-light
         styles:
@@ -187,7 +187,7 @@ sections:
           timeline, and team dynamics.
         image:
           type: ImageBlock
-          url: /images/icon1.svg
+          url: /images/partner/consulting/icon1.svg
           altText: Custom Experiences
         colors: bg-dark-fg-light
         styles:
@@ -243,7 +243,7 @@ sections:
           contribution to conservation and community projects.
         image:
           type: ImageBlock
-          url: /images/icon1.svg
+          url: /images/partner/consulting/icon1.svg
           altText: Verified Impact
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -266,7 +266,7 @@ sections:
           certified offset contributions.
         image:
           type: ImageBlock
-          url: /images/icon2.svg
+          url: /images/partner/consulting/icon2.svg
           altText: Carbon Offsetting
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -289,7 +289,7 @@ sections:
           credentials and ESG reporting.
         image:
           type: ImageBlock
-          url: /images/icon3.svg
+          url: /images/partner/consulting/icon3.svg
           altText: IUCN Partnership
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -348,7 +348,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/icon1.svg
+          url: /images/partner/consulting/icon1.svg
           altText: Corporate testimonial
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -373,7 +373,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/icon2.svg
+          url: /images/partner/consulting/icon2.svg
           altText: Corporate testimonial
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -455,7 +455,7 @@ seo:
     CSR trips, and team adventures with ESG benefits. Custom programs for
     companies with sustainability goals.
   addTitleSuffix: true
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags:
     - type: MetaTag
       content: >

@@ -12,7 +12,7 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/Family Hero.webp
+      url: /images/partner/family-ecocamps/Family Hero.webp
       altText: Dope design preview
     badge:
       type: Badge
@@ -40,7 +40,7 @@ sections:
     media:
       type: ImageBlock
       altText: 'Families with kids enjoying beautiful nature of Yunnan province, China'
-      url: /images/Family Hero2.webp
+      url: /images/partner/family-ecocamps/Family Hero2.webp
     badge:
       type: Badge
       label: Cloud Mountain
@@ -76,7 +76,7 @@ sections:
         style: primary
     media:
       type: ImageBlock
-      url: /images/Article Preview Header v2.webp
+      url: /images/partner/family-ecocamps/Article Preview Header v2.webp
       altText: 2026 Yunnan Monkey Conservation Winter Family EcoCamp
     badge:
       type: Badge
@@ -117,7 +117,7 @@ sections:
           Spend an unforgetable and rewarding summer holiday with your family.
         image:
           type: ImageBlock
-          url: /images/Fun Icon.webp
+          url: /images/partner/family-ecocamps/Fun Icon.webp
           altText: Kids learning about nature
           styles:
             self:
@@ -143,7 +143,7 @@ sections:
           conservation.
         image:
           type: ImageBlock
-          url: /images/Monkey Icon.webp
+          url: /images/tours/shangri-la-monkey/card.webp
           altText: 'Yunnan Snub-nosed Monkey, Yunnan Golden Monkey'
           styles:
             self:
@@ -169,7 +169,7 @@ sections:
           cultures.
         image:
           type: ImageBlock
-          url: /images/Culture Icon.webp
+          url: /images/partner/family-ecocamps/Culture Icon.webp
           altText: Ethnic Minorities in Yunnan
           styles:
             self:
@@ -195,7 +195,7 @@ sections:
           of Yunnan.
         image:
           type: ImageBlock
-          url: /images/Nature Icon.webp
+          url: /images/partner/family-ecocamps/Nature Icon.webp
           altText: 'Spectacular natural wonders of Yunnan, First bend of Yangtzee River'
           styles:
             self:
@@ -221,7 +221,7 @@ sections:
           development.
         image:
           type: ImageBlock
-          url: /images/Sustainability Icon.webp
+          url: /images/partner/family-ecocamps/Sustainability Icon.webp
           altText: Families learning about sustainable development
           styles:
             self:
@@ -261,7 +261,7 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/Article Preview Header v2.webp
+      url: /images/partner/family-ecocamps/Article Preview Header v2.webp
       altText: Family Summer Camp in Yunnan
     badge:
       type: Badge
@@ -349,7 +349,7 @@ seo:
     Explore nature, culture, and monkey conservation in Lijiang & Shangri-La.
     Book your sustainable family trip today!
   addTitleSuffix: true
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags:
     - type: MetaTag
       content: >-

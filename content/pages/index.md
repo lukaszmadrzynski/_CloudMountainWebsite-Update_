@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: HomepageHeroSection
     media:
-      url: /images/CM Hero OPTIMIZED.webp
+      url: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
       altText: Cloud Mountain Ecotours - Sustainable Adventures in Lijiang and Shangri-La
     badge:
       label: Cloud Mountain
@@ -60,7 +60,7 @@ sections:
           Wander through a UNESCO World Heritage Site where ancient Naxi culture comes alive. Discover hidden courtyards, bustling markets, and panoramic mountain views on this immersive half-day journey.
         image:
           type: ImageBlock
-          url: /images/DY-Banner Icon.webp
+          url: /images/tours/lijiang-old-town/card.webp
           altText: Naxi Heritage Walk Ecotour Lijiang - Cloud Mountain
           elementId: ''
           styles:
@@ -100,7 +100,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/YL-Banner Icon 5.webp
+          url: /images/tours/hidden-jade-dragon/YL-Banner Icon 5.webp
           altText: Hidden Jade Dragon Ecotour Lijiang - Off the Beaten Path Adventure
           elementId: ''
           styles:
@@ -139,7 +139,7 @@ sections:
           Observe endangered Yunnan snub-nosed monkeys in their natural habitat, explore Tibetan highlands and meet friendly locals. This two-day journey weaves wildlife conservation with authentic cultural immersion.
         image:
           type: ImageBlock
-          url: /images/TC-Banner Icon.webp
+          url: /images/tours/shangri-la-monkey/card.webp
           altText: Shangri-La Monkey Trip Eco Tour Yunnan - Wildlife and Natur
           elementId: ''
           styles:
@@ -226,7 +226,7 @@ sections:
           team of local guides and international conservation experts.
         image:
           type: ImageBlock
-          url: /images/FW-Icon1.webp
+          url: /images/tours/natgeo-forever-walk/highlight-1.webp
           altText: Yunnan Lijiang & Tibetan Shangri-La Ecotours Off the Beaten Path
           styles:
             self:
@@ -254,7 +254,7 @@ sections:
           Every tour supports local communities and conservation efforts.
         image:
           type: ImageBlock
-          url: /images/Sustainable Icon.webp
+          url: /images/pages/home/Sustainable Icon.webp
           altText: Sustainable and Responsible Ecotours
           styles:
             self:
@@ -282,7 +282,7 @@ sections:
           guides and comprehensive safety standards for peace of mind.
         image:
           type: ImageBlock
-          url: /images/off the beaten path.webp
+          url: /images/pages/home/off the beaten path.webp
           altText: Safe and Trusted Ecotours Yunnan
           styles:
             self:
@@ -419,7 +419,7 @@ sections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/About Us Banner OPT.webp
+      url: /images/blog/iscovering-naxi-culinary-traditions/About Us Banner OPT.webp
       altText: Cloud Mountain Ecotours and Nature Education
       styles:
         self:
@@ -476,7 +476,7 @@ sections:
         elementId: ''
 seo:
   type: Seo
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTitle: Authentic Sustainable Adventures in Lijiang and Shangri-La
   metaDescription: >
     Immerse yourself in the breathtaking landscapes and vibrant cultures of

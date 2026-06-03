@@ -4,8 +4,8 @@ title: Living Waters of Lashi Ecotour
 sections:
   - type: HeroSection
     media:
-      url: /images/LS-banner 1.webp
-      altText: Lashi Wetlands scenic view
+      url: /images/tours/lijiang-heavenly-valley/banner.webp
+      altText: Lashi Wetlands scenic view (placeholder — re-export a Living Waters hero when ready)
     badge:
       label: One-day EcoTour
       color: text-white
@@ -46,19 +46,19 @@ sections:
           textAlign: center
     subtitle: Essential Information at a Glance
     items:
-      - icon: /images/special.png
+      - icon: /images/shared/key-details/special.png
         title: What's Special
         subtitle: Cultural Immersion
         highlight: 'Naxi and Yi minority traditions'
-      - icon: /images/duration.png
+      - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: One Day
         highlight: '9:00 AM to 8:00 PM (approximately 11 hours)'
-      - icon: /images/location.png
+      - icon: /images/shared/key-details/location.png
         title: Location
         subtitle: Lashi Wetlands Nature Reserve
         highlight: 'Lashi Wetlands | Altitudes 2,400-3,250m'
-      - icon: /images/level.png
+      - icon: /images/shared/key-details/level.png
         title: Activity Level
         subtitle: Mild
         highlight: 'Walking: 5-6 km per day'
@@ -101,7 +101,7 @@ sections:
         text: Visit the Lashi Wetland Park and delve into the heart of its ecosystem. Learn about the intricate relationships within the wetland environment, understanding the delicate balance of flora and fauna in this critical habitat.
         image:
           type: ImageBlock
-          url: /images/LS-Icon1.webp
+          url: /images/tours/lijiang-heavenly-valley/highlight-1.webp
           altText: Lashi Wetland Park scenic view
           styles:
             self:
@@ -128,7 +128,7 @@ sections:
         text: Gain exclusive insights into wetland conservation at the Lashi Wetland Conservation Bureau. Meet with conservationists, learn about their ongoing projects, and understand the challenges and strategies involved in preserving this crucial ecosystem.
         image:
           type: ImageBlock
-          url: /images/LS-Icon2.webp
+          url: /images/tours/lijiang-heavenly-valley/highlight-2.webp
           altText: Conservation Bureau visit
           styles:
             self:
@@ -155,7 +155,7 @@ sections:
         text: Venture into the Lashi Wetland Nature Reserve, experiencing its rich tapestry of wildlife and flora. Learn to identify unique bird species and native plants, understanding their vital role within this fragile ecosystem.
         image:
           type: ImageBlock
-          url: /images/LS-Icon3.webp
+          url: /images/tours/lijiang-heavenly-valley/highlight-3.webp
           altText: Wildlife in Lashi Wetlands
           styles:
             self:
@@ -182,7 +182,7 @@ sections:
         text: Connect with the local Naxi community during a visit to Nanyao Village, relishing the authentic flavours of a traditional fish farm lunch. Share in a taste of their culture, their sustainable practices, and the warm hospitality that has been their hallmark for generations.
         image:
           type: ImageBlock
-          url: /images/LS-Icon4.webp
+          url: /images/tours/lijiang-heavenly-valley/highlight-4.webp
           altText: Naxi village cultural experience
           styles:
             self:
@@ -209,7 +209,7 @@ sections:
         text: Undertake a short but memorable trek through the forests to the dramatic Luoma Cliffs, where sweeping views of the surrounding landscape await. Enriched by insights into local forest biodiversity and conservation.
         image:
           type: ImageBlock
-          url: /images/LS-Icon5.webp
+          url: /images/tours/lijiang-heavenly-valley/highlight-5.webp
           altText: Luoma Cliffs panoramic view
           styles:
             self:
@@ -236,7 +236,7 @@ sections:
         text: Conclude your day with a visit to Boduoluo Yi minority village and enjoy a traditional dinner with the locals. Experience the local Yi culture, enjoy local flavors, and interact with the community in a genuinely authentic and memorable cultural exchange.
         image:
           type: ImageBlock
-          url: /images/LS-Icon6.webp
+          url: /images/tours/lijiang-heavenly-valley/highlight-6.webp
           altText: Yi village traditional dinner
           styles:
             self:
@@ -289,19 +289,17 @@ sections:
     timelineLayout: true
     days:
       - day: One Day
-        title: Wetlands, Conservation & Cultural Discovery
+        title: Wetland Birding and Yi Culture
         schedule:
           - period: Morning
             activities:
-              - 'Begin your adventure at the serene Lashi Wetland Park, where misty mornings awaken the wetland ecosystem. Learn about the intricate relationships within this critical habitat and observe diverse bird species in their natural environment.'
-              - 'Visit the Lashi Wetland Conservation Bureau and meet with passionate conservationists. Gain exclusive insights into ongoing conservation projects and the challenges of preserving this crucial ecosystem.'
+              - "Begin your day with a pickup from your Lijiang hotel, then head to Lashi Wetland Park where misty mornings awaken the wetland ecosystem. Learn about the intricate relationships within this critical habitat and observe diverse bird species in their natural environment. Continue to the Laski Wetland Conservation Bureau and meet with passionate conservationists, gaining exclusive insights into ongoing conservation projects."
           - period: Afternoon
             activities:
-              - 'Explore the Lashi Wetland Nature Reserve, learning to identify unique bird species and native plants. Understand their vital role within this fragile ecosystem and the importance of preserving this natural treasure.'
-              - 'Trek through the forests to the dramatic Luoma Cliffs, where sweeping views of the surrounding landscape await. Enriched by insights into local forest biodiversity and conservation efforts.'
+              - "Venture into the Lashi Wetland Nature Reserve, learning to identify unique bird species and native plants. Trek through the forests to the dramatic Luoma Cliffs, where sweeping views of the surrounding landscape await, enriched by insights into local forest biodiversity and conservation efforts."
           - period: Evening
             activities:
-              - 'Visit Boduoluo Yi minority village and enjoy a traditional dinner with the locals. Experience the local Yi culture, savor authentic local cuisine, and interact with the community in a genuinely memorable cultural exchange.'
+              - "End your day at Boduoluo Yi minority village with a traditional dinner. Experience the local Yi culture, savor authentic local cuisine, and interact with the community in a genuinely memorable cultural exchange, before returning to your Lijiang hotel."
     accentColors:
       morning: '#01aed9'
       afternoon: '#007dbd'
@@ -484,7 +482,7 @@ seo:
   metaTitle: Living Waters of Lashi Ecotour | Lashi Wetlands Nature Reserve
   metaDescription: >-
     Experience the alpine wetland, grassland and forests ecosystems on an unforgettable ecotour in Lijiang. Explore biodiversity & conservation at Lashi Wetlands, discover Naxi & Yi ethnic cultures, admire the spectacular Luoma Cliffs & enjoy village life. Perfect for nature lovers & cultural travelers seeking authentic Yunnan travel experience.
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags:
     - type: MetaTag
       content: >-

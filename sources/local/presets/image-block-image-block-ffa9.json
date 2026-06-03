@@ -5,7 +5,7 @@
             "label": "Default image",
             "locale": null,
             "data": {
-                "url": "/images/hero2.svg",
+                "url": "/images/shared/presets/hero2.svg",
                 "altText": "Image alt text placeholder",
                 "elementId": "",
                 "styles": {

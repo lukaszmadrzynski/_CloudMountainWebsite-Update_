@@ -174,7 +174,7 @@ sections:
           **Tel/WhatsApp/WeChat:** 0086 19813252518
         image:
           type: ImageBlock
-          url: /images/Lynne2.webp
+          url: /images/shared/presets/Lynne2.webp
           altText: Lynne Lyu - Cofounder of Lijiang Cloud Mountain Education
           styles:
             self:
@@ -201,7 +201,7 @@ sections:
           **Tel/WhatsApp/WeChat:** 0086 18687958551
         image:
           type: ImageBlock
-          url: /images/Lukas2.webp
+          url: /images/shared/presets/Lukas2.webp
           altText: Lukasz Madrzynski - Cofounder of Lijiang Cloud Mountain Education
           styles:
             self:
@@ -298,6 +298,6 @@ seo:
   metaDescription: >-
     Ready to book your Yunnan eco-adventure? Fill out our booking form to reserve your private eco-tour, or contact Lynne & Lukasz directly for immediate assistance.
   addTitleSuffix: true
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags: []
 ---

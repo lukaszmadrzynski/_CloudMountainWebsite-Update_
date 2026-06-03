@@ -12,7 +12,7 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/About Us Banner.webp
+      url: /images/partner/consulting/About Us Banner.webp
       altText: Schools and Education Partnership with Cloud Mountain
     badge:
       type: Badge
@@ -125,7 +125,7 @@ sections:
           development, teamwork, and environmental conservation.
         image:
           type: ImageBlock
-          url: /images/Ledership Hero Icon2.webp
+          url: /images/partner/schools/Ledership Hero Icon2.webp
           altText: Student EcoCamps
         colors: bg-dark-fg-light
         styles:
@@ -146,7 +146,7 @@ sections:
           nature, sustainability, and cultural heritage.
         image:
           type: ImageBlock
-          url: /images/Family Camp Hero Icon.webp
+          url: /images/partner/schools/Family Camp Hero Icon.webp
           altText: Family EcoCamps
         colors: bg-dark-fg-light
         styles:
@@ -202,7 +202,7 @@ sections:
           and Theory of Knowledge connections.
         image:
           type: ImageBlock
-          url: /images/icon1.svg
+          url: /images/partner/consulting/icon1.svg
           altText: IB Programme
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -225,7 +225,7 @@ sections:
           with documented learning outcomes.
         image:
           type: ImageBlock
-          url: /images/icon2.svg
+          url: /images/partner/consulting/icon2.svg
           altText: AP and A-Level
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -248,7 +248,7 @@ sections:
           contribute to real conservation projects.
         image:
           type: ImageBlock
-          url: /images/icon3.svg
+          url: /images/partner/consulting/icon3.svg
           altText: SDGs Integration
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -271,7 +271,7 @@ sections:
           academic content for holistic education.
         image:
           type: ImageBlock
-          url: /images/icon1.svg
+          url: /images/partner/consulting/icon1.svg
           altText: Service Learning
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -331,7 +331,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/icon1.svg
+          url: /images/partner/consulting/icon1.svg
           altText: School testimonial
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -356,7 +356,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/icon2.svg
+          url: /images/partner/consulting/icon2.svg
           altText: School testimonial
         colors: bg-neutralAlt-fg-dark
         styles:
@@ -439,7 +439,7 @@ seo:
     sustainability camps for students. Project-Based Learning with real-world
     conservation impact.
   addTitleSuffix: true
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags:
     - type: MetaTag
       content: >

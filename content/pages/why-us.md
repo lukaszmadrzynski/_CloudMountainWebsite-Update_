@@ -4,7 +4,7 @@ title: About Cloud Mountain
 sections:
   - type: EcotoursHeroSection
     media:
-      url: /images/Why-Us-Hero.webp
+      url: /images/pages/why-us/Why-Us-Hero.webp
       altText: About Us Banner - Cloud Mountain Team
   - type: GenericSection
     title:
@@ -82,7 +82,7 @@ sections:
           communities.
         image:
           type: ImageBlock
-          url: /images/Lynne2.webp
+          url: /images/shared/presets/Lynne2.webp
           altText: Lynne Lyu - Cofounder of Lijiang Cloud Mountain Education
           styles:
             self:
@@ -116,7 +116,7 @@ sections:
           to conservation to every program.
         image:
           type: ImageBlock
-          url: /images/Lukas2.webp
+          url: /images/shared/presets/Lukas2.webp
           altText: Lukasz Madrzynski - Cofounder of Lijiang Cloud Mountain Education
           styles:
             self:
@@ -176,7 +176,7 @@ sections:
       home.
     media:
       type: ImageBlock
-      url: /images/Guides-4.webp
+      url: /images/pages/why-us/Guides-4.webp
       altText: Local partners and community guides
       styles:
         self:
@@ -232,7 +232,7 @@ sections:
           Yunnan and the Tibetan areas within China.
         image:
           type: ImageBlock
-          url: /images/Private.webp
+          url: /images/pages/why-us/Private.webp
           altText: An international family enjoying a private ecotour with Lijiang
             Cloud Mountain.
           styles:
@@ -263,7 +263,7 @@ sections:
           experiences over mass tourism destinations.
         image:
           type: ImageBlock
-          url: /images/Handcrafted.jpg
+          url: /images/pages/why-us/Handcrafted.jpg
           altText: Kids and Parents visit authentic minority villages on handcrafted
             ecotours in Lijiang, Yunnan, China.
           styles:
@@ -291,7 +291,7 @@ sections:
           our travel destinations.
         image:
           type: ImageBlock
-          url: /images/Sustainable.webp
+          url: /images/pages/why-us/Sustainable.webp
           altText: A family with teenage kid helping to protect nature in Lijiang,
             Yunnan, China.
           styles:
@@ -320,7 +320,7 @@ sections:
           diverse cultures of China.
         image:
           type: ImageBlock
-          url: /images/Immersion4.webp
+          url: /images/pages/why-us/Immersion4.webp
           altText: An international traveller interacting with a local musician on an
             authentic ecotourism experience in Yunnan's minority village.
           styles:
@@ -348,7 +348,7 @@ sections:
           actively involved in protecting the natural beauty of Yunnan province and China at large.
         image:
           type: ImageBlock
-          url: /images/Contributing3.webp
+          url: /images/pages/why-us/Contributing3.webp
           altText: Group photos of nature conservation and sustainable development
             projects in Yunnan that Cloud Mountain team was contributing in.
           styles:
@@ -376,7 +376,7 @@ sections:
           Geographic, and Discovery Channel.
         image:
           type: ImageBlock
-          url: /images/Recognized.webp
+          url: /images/pages/why-us/Recognized.webp
           altText: Media reports and documentaries that showcase Cloud Mountain
             engagement in conservation and sustainability of Lijiang, Yunnan, China.
           styles:
@@ -438,7 +438,7 @@ sections:
           protect the natural beauty of destinations around Lijiang and Shangri-La.
         image:
           type: ImageBlock
-          url: /images/Minimizing.webp
+          url: /images/pages/why-us/Minimizing.webp
           altText: Placeholder image
           styles:
             self:
@@ -464,7 +464,7 @@ sections:
           visit in China.
         image:
           type: ImageBlock
-          url: /images/Supporting.webp
+          url: /images/pages/why-us/Supporting.webp
           altText: Placeholder image
           styles:
             self:
@@ -489,7 +489,7 @@ sections:
           the diverse cultures and intangible heritage of Yunnan province.
         image:
           type: ImageBlock
-          url: /images/Culture.webp
+          url: /images/pages/why-us/Culture.webp
           altText: Placeholder image
           styles:
             self:
@@ -553,7 +553,7 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/Sustainability2-.webp
+      url: /images/pages/why-us/Sustainability2-.webp
       altText: Dope design preview
       styles:
         self:
@@ -597,7 +597,7 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/Collaboration.webp
+      url: /images/pages/why-us/Collaboration.webp
       altText: Dope design preview
       styles:
         self:
@@ -645,7 +645,7 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/Outreach.webp
+      url: /images/pages/why-us/Outreach.webp
       altText: Dope design preview
       styles:
         self:
@@ -769,7 +769,7 @@ seo:
     China. Learn about our founders, expert local guides, and authentic natural
     and cultural experiences in Lijiang and Shangri-La.
   addTitleSuffix: true
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags:
     - type: MetaTag
       content: >

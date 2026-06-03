@@ -14,7 +14,7 @@
                         "subtitle": "Increase your reach",
                         "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
                         "image": {
-                            "url": "/images/img-placeholder.svg",
+                            "url": "/images/blog/ndex/img-placeholder.svg",
                             "altText": "Featured item",
                             "elementId": null,
                             "styles": {
@@ -49,7 +49,7 @@
                         "subtitle": "Be in good company",
                         "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
                         "image": {
-                            "url": "/images/img-placeholder.svg",
+                            "url": "/images/blog/ndex/img-placeholder.svg",
                             "altText": "Business consulting",
                             "elementId": "",
                             "styles": {

@@ -5,7 +5,7 @@ date: '2026-03-15'
 excerpt: >
   Reflecting on our journey to bring authentic, sustainable travel experiences to the Yunnan highlands. From humble beginnings to memorable encounters with local communities.
 featuredImage:
-  url: /images/CM Hero OPTIMIZED.webp
+  url: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
   altText: Yunnan highlands landscape with mountains and rice terraces
   type: ImageBlock
   styles:
@@ -18,7 +18,7 @@ seo:
   metaTitle: Our First Year of Sustainable Ecotourism in Yunnan
   metaDescription: >
     Reflecting on our journey to bring authentic, sustainable travel experiences to the Yunnan highlands.
-  socialImage: /images/CM Hero OPTIMIZED.webp
+  socialImage: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
   type: Seo
 colors: bg-light-fg-dark
 styles:
@@ -81,7 +81,7 @@ bottomSections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/About Us Banner OPT.webp
+      url: /images/blog/iscovering-naxi-culinary-traditions/About Us Banner OPT.webp
       altText: Cloud Mountain Ecotours and Nature Education
     badge:
       type: Badge
@@ -102,19 +102,19 @@ bottomSections:
 
 Reflecting on our journey to bring authentic, sustainable travel experiences to the Yunnan highlands. From humble beginnings to memorable encounters with local communities.
 
-![Naxi elders sharing traditions in Lijiang Old Town](/images/LJ-icon1.jpg)
+![Naxi elders sharing traditions in Lijiang Old Town](/images/tours/wild-heart-of-lijiang/highlight-1.webp)
 
 ## Where It All Began
 
 Our first year operating sustainable ecotours in the Yunnan highlands has been nothing short of transformative. What started as a simple idea to connect travelers with the authentic beauty of this region has evolved into something far more meaningful.
 
-![Hidden temple in Jade Dragon Snow Mountain Nature Reserve](/images/YL-icon4.jpg)
+![Hidden temple in Jade Dragon Snow Mountain Nature Reserve](/images/tours/hidden-jade-dragon/highlight-4.webp)
 
 ## The People We Met
 
 Every tour brought new faces, new stories, and new friendships. From the Naxi elders in Lijiang who shared centuries-old traditions, to the Tibetan families in Shangri-La who welcomed us into their homes, each encounter reminded us why sustainable travel matters.
 
-![Local family welcoming travelers with traditional tea ceremony](/images/FW-Icon3.jpg)
+![Local family welcoming travelers with traditional tea ceremony](/images/tours/natgeo-forever-walk/highlight-3.webp)
 
 ## Lessons Learned
 
@@ -122,10 +122,10 @@ Every tour brought new faces, new stories, and new friendships. From the Naxi el
 2. **Local knowledge is invaluable** - Our guides know secrets that no guidebook reveals
 3. **Sustainability starts with respect** - Respect for the land, the people, and their traditions
 
-![Guides leading nature walk through pristine wetlands](/images/Guides.jpg)
+![Guides leading nature walk through pristine wetlands](/images/blog/irst-year-sustainable-ecotourism-yunnan/Guides.jpg)
 
 ## Looking Ahead
 
 As we begin our second year, we're more committed than ever to providing meaningful travel experiences that benefit both visitors and the communities we work with. Thank you for being part of this journey.
 
-![Sunset over the Yunnan highlands](/images/WH-Banner.webp)
+![Sunset over the Yunnan highlands](/images/tours/wenhai-sanctuary/banner.webp)

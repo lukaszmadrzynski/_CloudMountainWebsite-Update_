@@ -4,7 +4,7 @@ title: Cloud Mountain Ecotours
 sections:
   - type: EcotoursHeroSection
     media:
-      url: /images/HERO-Ecotours.webp
+      url: /images/pages/ecotours-listing/HERO-Ecotours.webp
       altText: Explore the stunning landscapes of Yunnan with Cloud Mountain Ecotours. From alpine wetlands to ancient forests, authentic nature experiences await.
   - type: GenericSection
     title:
@@ -54,7 +54,7 @@ sections:
           Wander through a UNESCO World Heritage Site where ancient Naxi culture comes alive. Discover hidden courtyards, bustling markets, and panoramic mountain views on this immersive half-day journey.
         image:
           type: ImageBlock
-          url: /images/DY-Banner Icon.webp
+          url: /images/tours/lijiang-old-town/card.webp
           altText: lijiang old town ecotour
           elementId: ''
           styles:
@@ -95,7 +95,7 @@ sections:
           Discover Lijiang's best-kept secret! A gentle hike through pristine wilderness teeming with rare orchids and wildlife, culminating in breathtaking views of Jade Dragon Snow Mountain.
         image:
           type: ImageBlock
-          url: /images/XS-Banner Icon.webp
+          url: /images/tours/lijiang-forgotten-forest/card.webp
           altText: Lijiang's Forgotten Forest Ecotour
           elementId: ''
           styles:
@@ -143,7 +143,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/ZH-Banner Icon.webp
+          url: /images/tours/living-waters-of-lashi/card.webp
           altText: Lightning bolt symbol on red background
           elementId: ''
           styles:
@@ -166,14 +166,53 @@ sections:
               - ml-1
               - mr-1
       - type: FeaturedItem
+        title: Tea & Horse Road Snacks
+        tagline: Half-Day | Cultural Culinary Tour
+        subtitle: from $72 to $98 per person
+        text: >
+          Taste Lijiang's ancient Tea & Horse Road on this half-day culinary walking tour through the UNESCO Old Town. Sip traditional roasted tea, meet the last caravaneer, and sample Naxi snacks at Zhongyi Bazaar.
+        image:
+          type: ImageBlock
+          url: /images/tours/tea-horse-road-snacks/card.webp
+          altText: South Gate Square of Lijiang Old Town with traditional Naxi architecture
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /tea-horse-road-snacks-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
+      - type: FeaturedItem
         title: Hidden Jade Dragon
         subtitle: from $192 to $242 per person
         text: >
           Leave the tourist trails behind! Trek through sacred mountains, visit hidden villages, and share a traditional meal with local Yi families on this off-the-beaten-path adventure.
         image:
           type: ImageBlock
-          url: /images/YL-Banner Icon 5.webp
-          altText: Lightning bolt symbol on red background
+          url: /images/tours/hidden-jade-dragon/card.webp
+          altText: Misty mountain trail in the Hidden Jade Dragon region of Lijiang
           elementId: ''
           styles:
             self:
@@ -211,7 +250,7 @@ sections:
           Escape to a pristine alpine sanctuary most tourists never see. Trek through ancient villages, spot rare birds, and witness jaw-dropping vistas from Tiger Cave—all with expert local guides.
         image:
           type: ImageBlock
-          url: /images/WH-Banner Icon.webp
+          url: /images/tours/wenhai-sanctuary/card.webp
           altText: ''
           elementId: ''
           styles:
@@ -250,8 +289,8 @@ sections:
           Experience Lijiang's vital lake, wetland, grassland and forest ecosystems up close. Nature hikes, rare birds and authentic village encounters with local Naxi and Yi minorities await.
         image:
           type: ImageBlock
-          url: /images/LS-Banner Icon1.webp
-          altText: Lightning bolt symbol on red background
+          url: /images/tours/lijiang-heavenly-valley/card.webp
+          altText: Lashi Wetland lake view from the Heavenly Valley trail
           elementId: ''
           styles:
             self:
@@ -290,7 +329,7 @@ sections:
           Observe endangered Yunnan snub-nosed monkeys in their natural habitat, explore Tibetan highlands and meet friendly locals. This two-day journey weaves wildlife conservation with authentic cultural immersion.
         image:
           type: ImageBlock
-          url: /images/TC-Banner Icon.webp
+          url: /images/tours/shangri-la-monkey/card.webp
           altText: ''
           elementId: ''
           styles:
@@ -329,7 +368,7 @@ sections:
           Dive deep into Lijiang's wild heart. Two days of spectacular landscapes, pristine ancient forests, rare wildlife, and authentic encounters with mountain Lisu etnic group await — far from the tourist crowds.
         image:
           type: ImageBlock
-          url: /images/LJ-Banner Icon.webp
+          url: /images/tours/wild-heart-of-lijiang/card.webp
           altText: Lightning bolt symbol on red background
           elementId: ''
           styles:
@@ -368,7 +407,7 @@ sections:
           Walk in the footsteps of National Geographic's Paul Salopek on this extraordinary three-day journey. Traverse remote villages, ancient trails, and timeless landscapes—slow travel at its most profound.
         image:
           type: ImageBlock
-          url: /images/FW-Banner Icon.webp
+          url: /images/tours/natgeo-forever-walk/card.webp
           altText: Lightning bolt symbol on red background
           elementId: ''
           styles:
@@ -437,7 +476,7 @@ sections:
         style: primary
     media:
       type: ImageBlock
-      url: /images/expeditions banner.webp
+      url: /images/pages/ecotours-listing/expeditions banner.webp
       altText: Fun feature preview
       styles:
         self:
@@ -512,7 +551,7 @@ seo:
     discover the best of sustainable travel in China. Find your perfect
     adventure today!
   addTitleSuffix: true
-  socialImage: /images/CM Logo Color No Text.png
+  socialImage: /images/shared/brand/cm-logo-color.png
   metaTags:
     - type: MetaTag
       content: >-

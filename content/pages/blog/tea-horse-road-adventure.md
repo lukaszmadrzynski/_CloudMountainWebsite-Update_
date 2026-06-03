@@ -5,7 +5,7 @@ date: '2026-02-20'
 excerpt: >
   Following the historic trade routes that connected Yunnan to Tibet, discovering remote villages and ancient traditions along the way.
 featuredImage:
-  url: /images/CM Hero OPTIMIZED.webp
+  url: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
   altText: Mountain landscape along Tea Horse Road
   type: ImageBlock
   styles:
@@ -18,7 +18,7 @@ seo:
   metaTitle: Walking the Ancient Tea Horse Road
   metaDescription: >
     Following the historic trade routes that connected Yunnan to Tibet, discovering remote villages and ancient traditions along the way.
-  socialImage: /images/CM Hero OPTIMIZED.webp
+  socialImage: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
   type: Seo
 colors: bg-light-fg-dark
 styles:
@@ -71,7 +71,7 @@ bottomSections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/About Us Banner OPT.webp
+      url: /images/blog/iscovering-naxi-culinary-traditions/About Us Banner OPT.webp
       altText: Cloud Mountain Ecotours and Nature Education
     badge:
       type: Badge
@@ -92,25 +92,25 @@ bottomSections:
 
 Following the historic trade routes that connected Yunnan to Tibet, discovering remote villages and ancient traditions along the way.
 
-![Mountain villages along the ancient route](/images/YL-icon2.jpg)
+![Mountain villages along the ancient route](/images/tours/hidden-jade-dragon/highlight-2.webp)
 
 ## Echoes of Commerce and Culture
 
 The Tea Horse Road was once the lifeblood of Southwest China, a network of paths where merchants traded pu-erh tea for Tibetan horses. Today, these routes offer intrepid travelers a chance to step back in time, walking through landscapes that have changed little since the caravans passed through centuries ago.
 
-![Tibetan nomads on the high plateau](/images/TC-Icon3.jpg)
+![Tibetan nomads on the high plateau](/images/tours/shangri-la-monkey/highlight-3.webp)
 
 ## Villages Off the Beaten Path
 
 Our treks along the ancient road take you to villages where traditional life continues. You'll meet farmers tending terraced fields, herbalists collecting mountain medicine, and artisans keeping crafts alive. Each stop reveals another layer of the rich tapestry that makes this region extraordinary.
 
-![Ancient stone village](/images/LJ-icon4.jpg)
+![Ancient stone village](/images/tours/wild-heart-of-lijiang/highlight-4.webp)
 
 ## The Language of the Mountains
 
 Walking these paths, you begin to understand the mountains' language - the call of yaks across high passes, the whistle of wind through prayer flags, the silence of snow-capped peaks. This is travel at its most meditative, where the journey itself becomes the destination.
 
-![Mountain monastery](/images/TC-Icon8.jpg)
+![Mountain monastery](/images/tours/shangri-la-monkey/highlight-8.webp)
 
 ## Connecting Past to Present
 

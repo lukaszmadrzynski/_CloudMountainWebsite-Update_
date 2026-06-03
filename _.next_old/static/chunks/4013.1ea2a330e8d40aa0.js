@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[4013],{4013:(e,t,s)=>{s.r(t),s.d(t,{default:()=>n});var u=s(7876),a=s(7116);function n(e){return(0,u.jsx)(a.default,{...e,annotatePosts:!0})}}}]);
