@@ -73,11 +73,11 @@ export default function EcotourFilterSection(props) {
                         key={filter.id}
                         onClick={() => setActiveFilter(filter.id)}
                         className={classNames(
-                            'px-4 py-2 rounded-full font-medium transition-all duration-200',
-                            'border-2 focus:outline-none focus:ring-2 focus:ring-offset-2',
+                            'px-4 py-2 rounded-full font-medium border-2 transition-colors duration-200',
+                            'focus:outline-none focus:ring-0',
                             activeFilter === filter.id
                                 ? 'bg-primary text-white border-primary'
-                                : 'bg-white text-gray-700 border-gray-300 hover:border-primary hover:text-primary'
+                                : 'bg-transparent text-gray-700 border-gray-300 hover:bg-white hover:border-primary hover:text-primary'
                         )}
                     >
                         {filter.label}
