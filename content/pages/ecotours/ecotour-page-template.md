@@ -45,7 +45,6 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: Essential Information at a Glance
     items:
       - icon: /images/shared/key-details/special.png
         title: What's Special

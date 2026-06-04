@@ -23,15 +23,12 @@ sections:
         iconPosition: right
         style: primary
     colors: bg-dark-fg-light
-  - type: DividerSection
-    colors: bg-neutral-fg-dark
     styles:
       self:
         padding:
-          - pt-4
-          - pb-4
-          - pl-4
-          - pr-4
+          - pb-3
+  - type: DividerSection
+    hideOnDesktop: true
   - type: KeyDetailsSection
     title:
       text: EcoTour Overview
@@ -39,7 +36,6 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: Essential Information at a Glance
     items:
       - icon: /images/shared/key-details/special.png
         title: What's Special

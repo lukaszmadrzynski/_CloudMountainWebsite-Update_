@@ -324,7 +324,7 @@ sections:
           homestays await.
         image:
           type: ImageBlock
-          url: /images/tours/hidden-jade-dragon/YL-Banner Icon 5.webp
+          url: /images/tours/hidden-jade-dragon/card.webp
           altText: Hidden Jade Dragon
         actions:
           - type: Button

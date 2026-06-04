@@ -73,3 +73,13 @@ The listing cards in `content/pages/ecotours.md` (the `EcotourFilterSection.item
 ### Files:
 - `content/pages/ecotours.md` - The listing page
 - `src/components/sections/EcotourFilterSection/index.tsx` - Renders the listing cards in a 3-column grid
+
+## Card image path convention: `card.webp` (NOT legacy `XX-Banner Icon N.webp`)
+
+Every ecotour must have a `card.webp` in `/images/tours/<slug>/` (16:9, ~30-50KB WebP, ~38-40KB target). When **refactoring image paths or replacing the card image** for any tour, these locations may all reference it and need to be updated together — they are NOT auto-synced from the listing page:
+
+1. `content/pages/ecotours.md` — main listing (`EcotourFilterSection.items[]`)
+2. `content/pages/index.md` — homepage "Our Popular Ecotours" carousel (`EcotourCard` components)
+3. `content/pages/partner/travel-agencies.md` — partner/agency page cards
+
+**Bug pattern:** Refactor scripts that update only `ecotours.md` miss the homepage + partner page references. After any card image replacement, grep for the old filename in `content/**/*.md` to verify all three locations.

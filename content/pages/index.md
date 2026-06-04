@@ -100,7 +100,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/tours/hidden-jade-dragon/YL-Banner Icon 5.webp
+          url: /images/tours/hidden-jade-dragon/card.webp
           altText: Hidden Jade Dragon Ecotour Lijiang - Off the Beaten Path Adventure
           elementId: ''
           styles:
@@ -186,7 +186,7 @@ sections:
     styles:
       self:
         padding:
-          - pb-9
+          - pb-4
           - pt-6
           - pl-2
           - pr-2

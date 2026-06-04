@@ -71,7 +71,7 @@ export default function KeyDetailsSection(props: KeyDetailsSectionProps) {
                     {items.map((item, index) => (
                         <div
                             key={index}
-                            className="bg-white rounded-2xl p-8"
+                            className="bg-white rounded-2xl pt-0 pb-4 px-8"
                             data-sb-field-path={`.items.${index}`}
                         >
                             {/* Icon centered at top */}
