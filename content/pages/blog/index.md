@@ -113,7 +113,7 @@ topSections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/blog/iscovering-naxi-culinary-traditions/About Us Banner OPT.webp
+      url: /images/pages/home/About Us Banner OPT.webp
       altText: Cloud Mountain Ecotours and Nature Education
     badge:
       type: Badge

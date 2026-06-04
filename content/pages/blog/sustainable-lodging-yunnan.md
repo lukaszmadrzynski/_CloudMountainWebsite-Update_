@@ -5,7 +5,7 @@ date: '2026-04-05'
 excerpt: >
   Discover eco-friendly accommodations that blend traditional architecture with modern sustainability, from Naxi courtyard stays to Tibetan mountain lodges.
 featuredImage:
-  url: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
+  url: /images/pages/home/CM Hero OPTIMIZED.webp
   altText: Traditional Naxi courtyard with sustainable features
   type: ImageBlock
   styles:
@@ -18,7 +18,7 @@ seo:
   metaTitle: Sustainable Lodging in Yunnan
   metaDescription: >
     Discover eco-friendly accommodations that blend traditional architecture with modern sustainability in Yunnan.
-  socialImage: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
+  socialImage: /images/pages/home/CM Hero OPTIMIZED.webp
   type: Seo
 colors: bg-light-fg-dark
 styles:
@@ -78,7 +78,7 @@ bottomSections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/blog/iscovering-naxi-culinary-traditions/About Us Banner OPT.webp
+      url: /images/pages/home/About Us Banner OPT.webp
       altText: Cloud Mountain Ecotours and Nature Education
     badge:
       type: Badge

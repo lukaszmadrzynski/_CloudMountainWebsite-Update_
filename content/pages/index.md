@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: HomepageHeroSection
     media:
-      url: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
+      url: /images/pages/home/CM Hero OPTIMIZED.webp
       altText: Cloud Mountain Ecotours - Sustainable Adventures in Lijiang and Shangri-La
     badge:
       label: Cloud Mountain
@@ -419,7 +419,7 @@ sections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/blog/iscovering-naxi-culinary-traditions/About Us Banner OPT.webp
+      url: /images/pages/home/About Us Banner OPT.webp
       altText: Cloud Mountain Ecotours and Nature Education
       styles:
         self:

@@ -5,7 +5,7 @@ date: '2026-02-20'
 excerpt: >
   Following the historic trade routes that connected Yunnan to Tibet, discovering remote villages and ancient traditions along the way.
 featuredImage:
-  url: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
+  url: /images/pages/home/CM Hero OPTIMIZED.webp
   altText: Mountain landscape along Tea Horse Road
   type: ImageBlock
   styles:
@@ -18,7 +18,7 @@ seo:
   metaTitle: Walking the Ancient Tea Horse Road
   metaDescription: >
     Following the historic trade routes that connected Yunnan to Tibet, discovering remote villages and ancient traditions along the way.
-  socialImage: /images/blog/iscovering-naxi-culinary-traditions/CM Hero OPTIMIZED.webp
+  socialImage: /images/pages/home/CM Hero OPTIMIZED.webp
   type: Seo
 colors: bg-light-fg-dark
 styles:
@@ -71,7 +71,7 @@ bottomSections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/blog/iscovering-naxi-culinary-traditions/About Us Banner OPT.webp
+      url: /images/pages/home/About Us Banner OPT.webp
       altText: Cloud Mountain Ecotours and Nature Education
     badge:
       type: Badge
