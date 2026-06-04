@@ -90,8 +90,6 @@ sections:
         title: Lijiang's Forgotten Forest
         subtitle: from $38 to $58 per person
         text: >
-          **SEASONAL (July to September)**
-
           Discover Lijiang's best-kept secret! A gentle hike through pristine wilderness teeming with rare orchids and wildlife, culminating in breathtaking views of Jade Dragon Snow Mountain.
         image:
           type: ImageBlock
