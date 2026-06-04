@@ -130,26 +130,31 @@ sections:
       - type: FeaturedItem
         title: Living Waters of Lashi
         tagline: Half-Day | Bird Watching
-        subtitle: from $38 to $58 per person
+        subtitle: from $66 to $91 per person
         text: >+
-          <div style="text-align: left">**SEASONAL (November to
-          February)**</div>
-
-
-          <div style="text-align: center">#### COMING</div>
-
-
-          <div style="text-align: center">#### THIS FALL!</div>
+          Discover Lashi Alpine Wetland, one of Yunnan's most important
+          highland bird sanctuaries. Walk the boardwalks with a local
+          conservationist, join a citizen-science bird survey, and visit the
+          wildlife rescue station protecting migratory waterbirds.
 
         image:
           type: ImageBlock
           url: /images/tours/living-waters-of-lashi/card.webp
-          altText: Lightning bolt symbol on red background
+          altText: Lashi Alpine Wetland with waterbirds and mountain backdrop
           elementId: ''
           styles:
             self:
               borderRadius: x-large
-        actions: []
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /living-waters-of-lashi-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
         colors: bg-neutralAlt-fg-dark
         styles:
           self:

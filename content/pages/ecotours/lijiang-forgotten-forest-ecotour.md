@@ -52,7 +52,7 @@ sections:
       - icon: /images/shared/key-details/level.png
         title: Activity Level
         subtitle: Moderate
-        highlight: 'Walking: 5-6 km per session'
+        highlight: 'Walking: 5-6 km per session. Elevation gain of 350 meters.'
     badge:
       label: KEY DETAILS
       color: text-primary
@@ -446,11 +446,11 @@ sections:
         schedule:
           - period: Morning or Afternoon
             activities:
-              - "Begin with a pickup from your Lijiang hotel and head to Elephant Hill, escaping the crowds to reconnect with pristine nature. Discover rare wildflowers including wild orchids, and spot woodland birds like woodpeckers and pheasants. Explore curious plants like Ghost Pipes with a local biodiversity expert, learn about medicinal plants and fungi, and discover Naxi minority tombs before reaching the Top Pagoda for breathtaking panoramic views of Lijiang and Jade Dragon Snow Mountain. Conclude with a serene stroll through Black Dragon Pool Park, reflecting on your discoveries amidst classic Chinese gardens and tranquil waters, before returning to your accommodation."
+              - 'Begin with a pickup from your Lijiang hotel and head to Elephant Hill, escaping the crowds to reconnect with pristine nature. Discover rare wildflowers including wild orchids, and spot woodland birds like woodpeckers and pheasants. Explore curious plants like Ghost Pipes with a local biodiversity expert, learn about medicinal plants and fungi, and discover Naxi minority tombs before reaching the Top Pagoda for breathtaking panoramic views of Lijiang and Jade Dragon Snow Mountain. Conclude with a serene stroll through Black Dragon Pool Park, reflecting on your discoveries amidst classic Chinese gardens and tranquil waters, before returning to your accommodation.'
     accentColors:
-      morning: "#01aed9"
-      afternoon: "#007dbd"
-      evening: "#02558b"
+      morning: '#01aed9'
+      afternoon: '#007dbd'
+      evening: '#02558b'
     badge:
       label: DETAILED SCHEDULE
       color: text-primary
