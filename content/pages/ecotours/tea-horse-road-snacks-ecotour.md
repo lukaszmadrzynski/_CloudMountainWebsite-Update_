@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: Tea & Horse Road Snacks Ecotour
+title: Taste of Tea & Horse Road Ecotour
 sections:
   - type: HeroSection
     media:
@@ -10,7 +10,7 @@ sections:
       label: Half-day EcoTour
       color: text-white
     title:
-      text: Tea & Horse <br/> Road Snacks
+      text: Taste of <br/> Tea & Horse Road
       color: text-white
     subtitle: A Culinary Journey Through Ancient Lijiang
     text: >-
@@ -574,10 +574,10 @@ sections:
           - pb-4
           - pl-4
           - pr-4
-slug: /tea-horse-road-snacks-ecotour
+slug: /taste-of-tea-horse-road-ecotour
 seo:
   type: Seo
-  metaTitle: Tea & Horse Road Snacks Tour | Lijiang Culinary Walking Experience
+  metaTitle: Taste of Tea & Horse Road Tour | Lijiang Culinary Walking Experience
   metaDescription: >-
     Taste Lijiang's ancient Tea & Horse Road on this half-day culinary
     walking tour. Sip traditional roasted tea, try Naxi snacks, meet the

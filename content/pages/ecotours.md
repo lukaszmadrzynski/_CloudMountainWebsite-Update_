@@ -249,7 +249,7 @@ sections:
               - ml-1
               - mr-1
       - type: FeaturedItem
-        title: Tea & Horse Road Snacks
+        title: Taste of Tea & Horse Road
         tagline: Half-Day | Cultural Culinary Tour
         subtitle: from $72 to $98 per person
         text: >
@@ -266,7 +266,7 @@ sections:
           - type: Button
             label: Learn More
             altText: ''
-            url: /tea-horse-road-snacks-ecotour
+            url: /taste-of-tea-horse-road-ecotour
             showIcon: false
             icon: arrowRight
             iconPosition: right
@@ -327,14 +327,19 @@ sections:
               - mr-1
         tagline: One Day | Off-the-beaten-path
       - type: FeaturedItem
-        title: Wenhai Sanctuary
-        subtitle: from $192 to $242 per person
+        title: Lijiang Heritage In-Depth
+        tagline: One Day | Full Naxi Heritage Immersion
+        subtitle: from $128 to $186 per person
         text: >
-          Escape to a pristine alpine sanctuary most tourists never see. Trek through ancient villages, spot rare birds, and witness jaw-dropping vistas from Tiger Cave—all with expert local guides.
+          Spend a full day inside Lijiang's UNESCO Old Town — Heritage
+          Museum and Black Dragon Pond in the morning, crossing-bridge
+          noodles for lunch, a Dongba pictograph workshop and Mu Palace
+          in the afternoon, and a specialty dinner plus live Naxi
+          Ancient Music in the evening. The whole Old Town in one day.
         image:
           type: ImageBlock
-          url: /images/tours/wenhai-sanctuary/card.webp
-          altText: ''
+          url: /images/tours/lijiang-heritage-in-depth/card.webp
+          altText: Lijiang Old Town rooftops with Jade Dragon Snow Mountain in the background
           elementId: ''
           styles:
             self:
@@ -343,7 +348,7 @@ sections:
           - type: Button
             label: Learn More
             altText: ''
-            url: /wenhai-sanctuary-ecotour
+            url: /lijiang-heritage-in-depth-ecotour
             showIcon: false
             icon: arrowRight
             iconPosition: right
@@ -364,7 +369,6 @@ sections:
             margin:
               - ml-1
               - mr-1
-        tagline: One Day | Off-the-beaten-path
       - type: FeaturedItem
         title: Lijiang Heavenly Valley
         subtitle: from $199 to $251 per person
