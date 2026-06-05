@@ -169,6 +169,86 @@ sections:
               - ml-1
               - mr-1
       - type: FeaturedItem
+        title: Dongba Culture Hands-On
+        tagline: Half-Day | Cultural Heritage Workshop
+        subtitle: from $68 to $91 per person
+        text: >
+          Write ancient Dongba pictographs, craft traditional Naxi paper,
+          and walk the hidden alleys of Lijiang's UNESCO Old Town with a
+          local heritage expert — a hands-on half-day of living culture.
+        image:
+          type: ImageBlock
+          url: /images/tours/dongba-culture-hands-on/card.webp
+          altText: Traditional Dongba script writing in Lijiang Old Town
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /dongba-culture-hands-on-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
+      - type: FeaturedItem
+        title: E-Biking Lijiang Villages
+        tagline: Half-Day | Active Village Discovery
+        subtitle: from $72 to $98 per person
+        text: >
+          Trade the Old Town crowds for quiet Naxi villages and mountain air.        E-bike 10 km on peaceful lanes, stop for a tea, discover vegetable gardens, farms and century-old courtyards — all in one relaxed half-day.
+        image:
+          type: ImageBlock
+          url: /images/tours/e-biking-lijiang-villages/card.webp
+          altText: E-bike on a quiet Naxi village lane with mountains in the background
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /e-biking-lijiang-villages-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
+      - type: FeaturedItem
         title: Tea & Horse Road Snacks
         tagline: Half-Day | Cultural Culinary Tour
         subtitle: from $72 to $98 per person
