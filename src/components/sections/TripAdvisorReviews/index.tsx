@@ -107,8 +107,24 @@ function ReviewCard({ review, cardWidth, cardMargin }) {
     );
 }
 
-export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
+export default function TripAdvisorReviews({ reviewCount = 11, badge }) {
     const reviews = [
+        {
+            name: 'Michael B',
+            date: 'June 2025',
+            title: 'Excellent real experience with great company',
+            text: 'I spent a fantastic day with Lukasz and his local friends Mr Lu and Mr He - Following a scenic drive, with a lakeside stop to hang out with some yaks, and a delicious home cooked meal at Mr Lu\'s house, we set out on a trek into the hills that didn\'t disappoint, with the jewel in the crown being the end point of an open pasture with just brilliant views out over Jade Dragon Snow Mountain. Not a single person in sight and feeling at one with nature, this was exactly the experience I was hoping for and Lukasz helped deliver, with good humour, and excellent company. An experience I won\'t be forgetting and a top highlight of my three week trip to China.',
+            avatar: 'M',
+            image: '/images/shared/reviews/michael-b.jpg'
+        },
+        {
+            name: 'Rapheephan R',
+            date: 'May 2025',
+            title: 'We are a couple from Thailand',
+            text: 'Our first trip to China was a wonderful experience. The price was reasonable, the accommodations were comfortable, and having a car to take us around made everything unforgettable. A big thank you to Lynne for helping us with everything we needed — truly superb.',
+            avatar: 'R',
+            image: '/images/shared/reviews/rapheephan-r.png'
+        },
         {
             name: 'Shirley O',
             date: 'April 2025',
@@ -241,20 +257,12 @@ export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
                 // Calculate next position
                 let nextPosition = scrollLeft + singleCardScroll;
                 
-                // If about to go past the last original card, jump back to start
-                const lastOriginalCardPosition = (totalCards - 1) * scrollAmount;
-                
-                if (scrollLeft >= lastOriginalCardPosition && scrollLeft < lastOriginalCardPosition + singleCardScroll * 2) {
-                    // Close to or at last original card, jump back to start
-                    isTransitioning.current = true;
-                    scrollRef.current.scrollTo({ left: 0, behavior: 'instant' });
-                    setTimeout(() => {
-                        isTransitioning.current = false;
-                    }, 100);
-                    return;
+                // Stop at the last card (no loop without duplicates)
+                if (nextPosition >= maxScroll) {
+                    nextPosition = maxScroll;
                 }
                 
-                // Normal scroll forward
+                // Scroll to next position
                 scrollRef.current.scrollTo({
                     left: nextPosition,
                     behavior: 'smooth'
@@ -274,11 +282,12 @@ export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
                 const scrollLeft = scrollRef.current.scrollLeft;
                 let cardIndex = Math.round(scrollLeft / scrollAmount);
                 
+                // Cap at the last card (no duplicates = no wrap-around needed)
                 if (cardIndex >= totalCards) {
-                    cardIndex = cardIndex - totalCards;
+                    cardIndex = totalCards - 1;
                 }
                 
-                setCurrentIndex(cardIndex % totalCards);
+                setCurrentIndex(cardIndex);
             }
         };
 
@@ -403,19 +412,10 @@ export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
                         transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)'
                     }}
                 >
-                    {/* First set of reviews */}
+                    {/* Reviews - no duplicates */}
                     {reviews.map((review, index) => (
                         <ReviewCard 
-                            key={`orig-${index}`} 
-                            review={review} 
-                            cardWidth={cardWidth}
-                            cardMargin={cardMargin}
-                        />
-                    ))}
-                    {/* Duplicate set for seamless loop */}
-                    {reviews.map((review, index) => (
-                        <ReviewCard 
-                            key={`dup-${index}`} 
+                            key={`review-${index}`} 
                             review={review} 
                             cardWidth={cardWidth}
                             cardMargin={cardMargin}
@@ -444,9 +444,9 @@ export default function TripAdvisorReviews({ reviewCount = 9, badge }) {
                 </p>
             )}
 
-            {/* Dots Indicator */}
+            {/* Dots Indicator - only 9 dots for visible reviews */}
             <div className="flex justify-center gap-2 mt-2">
-                {reviews.map((_, index) => (
+                {reviews.slice(0, 9).map((_, index) => (
                     <button
                         key={index}
                         onClick={() => handleDotClick(index)}
