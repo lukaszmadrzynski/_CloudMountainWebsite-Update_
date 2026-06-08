@@ -14,15 +14,7 @@ sections:
       color: text-white
     subtitle: A Full Day Inside the Soul of the Naxi Old Town
     text: >-
-      A full day, end to end, inside Lijiang's UNESCO Old Town and the
-      wider Naxi world. Start at the Heritage Museum and the famous Black
-      Dragon Pond, then eat your way across town with a bowl of
-      crossing-bridge noodles. Spend the afternoon in a Dongba
-      workshop — writing pictographs, meeting the heritage keepers,
-      crafting your own paper — and finish with a Mu Palace visit, a
-      specialty dinner, a night market wander, and live ancient Naxi
-      music. The whole Old Town in one day, with a local guide who
-      actually knows the alleyways.
+      A complete day inside Lijiang's UNESCO Old Town - museums, hidden alleys, Dongba workshop, and live Naxi music. The whole soul of the Naxi world in one day, with a local guide who actually knows the alleyways.
     actions:
       - type: Button
         label: Book This EcoTour

@@ -367,9 +367,9 @@ sections:
             activities:
               - "Begin with a pickup from your Lijiang hotel and start at the Lijiang Heritage Museum to discover the traditions and heritage of the Naxi people. Stroll through Black Dragon Pool Park with stunning views of Jade Dragon Snow Mountain, then continue through Dayan Old Town's ancient streets, visiting the iconic Big Water Wheel, Wenchang Palace, and the charming Big Stone Bridge. Conclude at Square Street and Zhongyi Market, tasting local flavors and discovering authentic crafts, with Mufu Palace viewed from outside, before returning to your hotel."
     accentColors:
-      morning: "#01aed9"
-      afternoon: "#007dbd"
-      evening: "#02558b"
+      morning: '#01aed9'
+      afternoon: '#007dbd'
+      evening: '#02558b'
     badge:
       label: DETAILED SCHEDULE
       color: text-primary

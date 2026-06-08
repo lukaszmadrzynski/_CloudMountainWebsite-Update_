@@ -175,7 +175,7 @@ sections:
         text: >
           Write ancient Dongba pictographs, craft traditional Naxi paper,
           and walk the hidden alleys of Lijiang's UNESCO Old Town with a
-          local heritage expert â€” a hands-on half-day of living culture.
+          local heritage expert — a hands-on half-day of living culture.
         image:
           type: ImageBlock
           url: /images/tours/dongba-culture-hands-on/card.webp
@@ -214,7 +214,7 @@ sections:
         tagline: Half-Day | Active Village Discovery
         subtitle: from $72 to $98 per person
         text: >
-          Trade the Old Town crowds for quiet Naxi villages and mountain air.        E-bike 10 km on peaceful lanes, stop for a tea, discover vegetable gardens, farms and century-old courtyards â€” all in one relaxed half-day.
+          Trade the Old Town crowds for quiet Naxi villages and mountain air.        E-bike 10 km on peaceful lanes, stop for a tea, discover vegetable gardens, farms and century-old courtyards — all in one relaxed half-day.
         image:
           type: ImageBlock
           url: /images/tours/e-biking-lijiang-villages/card.webp
@@ -330,16 +330,12 @@ sections:
         title: Lijiang Heritage In-Depth
         tagline: One Day | Full Naxi Heritage Immersion
         subtitle: from $128 to $186 per person
-        text: >
-          Spend a full day inside Lijiang's UNESCO Old Town â€” Heritage
-          Museum and Black Dragon Pond in the morning, crossing-bridge
-          noodles for lunch, a Dongba pictograph workshop and Mu Palace
-          in the afternoon, and a specialty dinner plus live Naxi
-          Ancient Music in the evening. The whole Old Town in one day.
+        text: >-
+          A complete day devoted to Lijiang's cultural heritage - museums, palaces,  Dongba writing / paper making workshops, traditional food and live ancient music. The whole soul of the Naxi world in one day.
         image:
           type: ImageBlock
           url: /images/tours/lijiang-heritage-in-depth/card.webp
-          altText: Lijiang Old Town rooftops with Jade Dragon Snow Mountain in the background
+          altText: Traditional Naxi architecture in Lijiang UNESCO Old Town
           elementId: ''
           styles:
             self:
@@ -452,7 +448,7 @@ sections:
         tagline: Two Days | Deep Into Wilderness
         subtitle: from $313 to $458 per person
         text: >
-          Dive deep into Lijiang's wild heart. Two days of spectacular landscapes, pristine ancient forests, rare wildlife, and authentic encounters with mountain Lisu etnic group await â€” far from the tourist crowds.
+          Dive deep into Lijiang's wild heart. Two days of spectacular landscapes, pristine ancient forests, rare wildlife, and authentic encounters with mountain Lisu etnic group await — far from the tourist crowds.
         image:
           type: ImageBlock
           url: /images/tours/wild-heart-of-lijiang/card.webp
@@ -491,7 +487,7 @@ sections:
         tagline: Three Days | Long Hike Experience
         subtitle: from $506 to $687 per person
         text: >
-          Walk in the footsteps of National Geographic's Paul Salopek on this extraordinary three-day journey. Traverse remote villages, ancient trails, and timeless landscapesâ€”slow travel at its most profound.
+          Walk in the footsteps of National Geographic's Paul Salopek on this extraordinary three-day journey. Traverse remote villages, ancient trails, and timeless landscapes—slow travel at its most profound.
         image:
           type: ImageBlock
           url: /images/tours/natgeo-forever-walk/card.webp

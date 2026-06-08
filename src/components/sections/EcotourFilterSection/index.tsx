@@ -109,7 +109,7 @@ export default function EcotourFilterSection(props) {
                 </div>
             ) : (
                 <div className="w-full text-center py-12 text-gray-500">
-                    <p className="text-lg">No tours available for this filter.</p>
+                    <p className="text-lg">Coming Soon!</p>
                     <p className="text-sm mt-2">Contact us to inquire about custom multi-day adventures!</p>
                 </div>
             )}
