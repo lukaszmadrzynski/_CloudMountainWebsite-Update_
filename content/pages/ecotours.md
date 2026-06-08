@@ -407,7 +407,7 @@ sections:
       - type: FeaturedItem
         title: Shangri-La Monkey Trip
         tagline: Two Days | Tibetan Nature and Culture
-        subtitle: from $340 to $469 per person
+        subtitle: from $358 to $527 per person
         text: >
           Observe endangered Yunnan snub-nosed monkeys in their natural habitat, explore Tibetan highlands and meet friendly locals. This two-day journey weaves wildlife conservation with authentic cultural immersion.
         image:
@@ -485,7 +485,7 @@ sections:
       - type: FeaturedItem
         title: NatGeo's "Forever Walk"
         tagline: Three Days | Long Hike Experience
-        subtitle: from $506 to $687 per person
+        subtitle: from $506 to $741 per person
         text: >
           Walk in the footsteps of National Geographic's Paul Salopek on this extraordinary three-day journey. Traverse remote villages, ancient trails, and timeless landscapes - slow travel at its most profound.
         image:

@@ -134,7 +134,7 @@ sections:
       - type: EcotourCard
         title: Shangri-La Monkey Trip
         tagline: Two Days | Tibetan Nature and Culture
-        subtitle: from $340 to $469 per person
+        subtitle: from $358 to $527 per person
         text: >-
           Observe endangered Yunnan snub-nosed monkeys in their natural habitat, explore Tibetan highlands and meet friendly locals. This two-day journey weaves wildlife conservation with authentic cultural immersion.
         image:

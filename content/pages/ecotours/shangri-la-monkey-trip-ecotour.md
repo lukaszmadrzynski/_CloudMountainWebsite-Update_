@@ -449,19 +449,19 @@ sections:
               - "Begin with a pickup from your Lijiang hotel and head to the serene Lashi Wetlands, where misty mornings awaken thousands of migratory birds. Watch the sunrise paint the wetlands in golden hues as elegant waterbirds glide across mirror-still waters. Continue through ancient Tibetan and Lisu villages nestled among rolling hills, where you'll feel the warmth of traditional hospitality, explore centuries-old customs, and hike to breathtaking viewpoints overlooking the legendary First Bend of the Yangtze River."
           - period: Afternoon
             activities:
-              - "Visit the Baima Snow Mountain Nature Conservation Bureau for exclusive insights into conservation work, then explore the dedicated monkey exhibition. Trek through ancient primeval forests, discovering rare biodiversity, and learn citizen science techniques for wildlife monitoring with infrared cameras."
+              - 'Visit the Baima Snow Mountain Nature Conservation Bureau for exclusive insights into conservation work, then explore the dedicated monkey exhibition. Trek through ancient primeval forests, discovering rare biodiversity, and learn citizen science techniques for wildlife monitoring with infrared cameras.'
           - period: Evening
             activities:
-              - "Savor authentic local cuisine as twilight descends, then visit a Himalayan bee farm to learn about traditional beekeeping and conservation. Settle into your mountain retreat where stars emerge in crystal-clear skies."
+              - 'Savor authentic local cuisine as twilight descends, then visit a Himalayan bee farm to learn about traditional beekeeping and conservation. Settle into your mountain retreat where stars emerge in crystal-clear skies.'
       - day: Day Two
         title: Conservation and Nature
         schedule:
           - period: Morning
             activities:
-              - "Awaken to crisp mountain air and venture into the heart of Baima Snow Mountain Nature Reserve. Meet passionate conservation rangers at the bureau and embark on an enchanting trek through pristine forests to encounter the elusive Yunnan Snub-nosed Monkeys in their natural sanctuary."
+              - 'Awaken to crisp mountain air and venture into the heart of Baima Snow Mountain Nature Reserve. Meet passionate conservation rangers at the bureau and embark on an enchanting trek through pristine forests to encounter the elusive Yunnan Snub-nosed Monkeys in their natural sanctuary.'
           - period: Afternoon
             activities:
-              - "Immerse yourself in the wonder of ancient primeval forests, continue wildlife monitoring, and discover the sweet secrets of Himalayan beekeeping at a local farm where nature and tradition harmonize. Then explore Shigu Naxi Minority Town market, uncover Ming Dynasty history, and visit Boduoluo Yi village for authentic cultural exchange."
+              - 'Immerse yourself in the wonder of ancient primeval forests, continue wildlife monitoring, and discover the sweet secrets of Himalayan beekeeping at a local farm where nature and tradition harmonize. Then explore Shigu Naxi Minority Town market, uncover Ming Dynasty history, and visit Boduoluo Yi village for authentic cultural exchange.'
           - period: Evening
             activities:
               - "Begin your return journey to Lijiang, and return to your hotel as the sun sets, carrying memories of an extraordinary encounter with China's incredible biodiversity."
@@ -503,13 +503,13 @@ sections:
       color: text-primary
     plans:
       - people: 2 People
-        price: $469
+        price: $527
         url: /book?tour=Shangri-La+Monkey+Trip&group=2
       - people: 3-4 People
-        price: $400
+        price: $462
         url: /book?tour=Shangri-La+Monkey+Trip&group=3-4
       - people: 5-6 People
-        price: $340
+        price: $358
         url: /book?tour=Shangri-La+Monkey+Trip&group=5-6
     contactNote:
       text: For groups of 1 person or more than 6 people

@@ -44,15 +44,15 @@ sections:
       - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: Three Days
-        highlight: "Day 1: 9:00 AM to 8:00 PM | Day 2: Full Day | Day 3: 9:00 AM to 8:00 PM"
+        highlight: 'Day 1: 9:00 AM to 8:00 PM | Day 2: Full Day | Day 3: 9:00 AM to 8:00 PM'
       - icon: /images/shared/key-details/location.png
         title: Location
         subtitle: Jade Dragon Snow Mountain & Wenhai
-        highlight: "Jade Dragon Snow Mountain Nature Reserve | Altitudes 2,400-3,250m"
+        highlight: 'Jade Dragon Snow Mountain Nature Reserve | Altitudes 2,400-3,250m'
       - icon: /images/shared/key-details/level.png
         title: Activity Level
         subtitle: High
-        highlight: "Walking: Up to 18 km per day"
+        highlight: 'Walking: Up to 18 km per day'
     badge:
       label: KEY DETAILS
       color: text-primary
@@ -89,7 +89,7 @@ sections:
         title: Forever Walk Trail
         tagline: National Geographic Documentation
         subtitle: Forever Walk Trail
-        text: "Walk a renowned section of the \"Forever Walk: China\" trail, as documented by National Geographic. Immerse yourself in the very landscapes and cultural encounters that captivated the world."
+        text: 'Walk a renowned section of the "Forever Walk: China" trail, as documented by National Geographic. Immerse yourself in the very landscapes and cultural encounters that captivated the world.'
         image:
           type: ImageBlock
           url: /images/tours/natgeo-forever-walk/highlight-3.webp
@@ -449,38 +449,38 @@ sections:
               - "Depart from your Lijiang hotel and journey to Wenhai Wetlands. Walk sections of the 'Forever Walk: China' trail as documented by National Geographic."
           - period: Afternoon
             activities:
-              - "Explore biodiversity of Wenhai Wetlands alongside local conservationists. Learn about unique species and delicate ecosystems."
+              - 'Explore biodiversity of Wenhai Wetlands alongside local conservationists. Learn about unique species and delicate ecosystems.'
           - period: Evening
             activities:
-              - "Arrive at your overnight village stay in Wenhai. Share authentic dinner with local Naxi families and gather around a cozy bonfire."
+              - 'Arrive at your overnight village stay in Wenhai. Share authentic dinner with local Naxi families and gather around a cozy bonfire.'
       - day: Day Two
         title: Into the Wilderness
         schedule:
           - period: Morning
             activities:
-              - "After breakfast, venture into the wilderness of Jade Dragon Snow Mountain Nature Reserve with a local forest ranger. Begin your trek through ancient primeval forests."
+              - 'After breakfast, venture into the wilderness of Jade Dragon Snow Mountain Nature Reserve with a local forest ranger. Begin your trek through ancient primeval forests.'
           - period: Afternoon
             activities:
-              - "Continue wilderness exploration, discovering rich plant and animal life. Hike to breathtaking viewpoints. Uncover the mysteries of Tiger Cave."
+              - 'Continue wilderness exploration, discovering rich plant and animal life. Hike to breathtaking viewpoints. Uncover the mysteries of Tiger Cave.'
           - period: Evening
             activities:
-              - "Journey to Runangu village for your second overnight stay. Immerse yourself in Yi culture and engage with welcoming villagers."
+              - 'Journey to Runangu village for your second overnight stay. Immerse yourself in Yi culture and engage with welcoming villagers.'
       - day: Day Three
         title: The Return
         schedule:
           - period: Morning
             activities:
-              - "Embark on a final morning trek through charming minority villages and tranquil hamlets. Observe diverse architectural styles and local traditions."
+              - 'Embark on a final morning trek through charming minority villages and tranquil hamlets. Observe diverse architectural styles and local traditions.'
           - period: Afternoon
             activities:
-              - "Begin your scenic return journey to Lijiang. Arrive back at your hotel with memories of walking in the footsteps of Paul Salopek."
+              - 'Begin your scenic return journey to Lijiang. Arrive back at your hotel with memories of walking in the footsteps of Paul Salopek.'
           - period: Evening
             activities:
-              - "Celebrate your journey with a farewell dinner, sharing stories and reflections on your transformative experience along the Forever Walk trail."
+              - 'Celebrate your journey with a farewell dinner, sharing stories and reflections on your transformative experience along the Forever Walk trail.'
     accentColors:
-      morning: "#01aed9"
-      afternoon: "#007dbd"
-      evening: "#02558b"
+      morning: '#01aed9'
+      afternoon: '#007dbd'
+      evening: '#02558b'
     badge:
       label: DETAILED SCHEDULE
       color: text-primary
@@ -515,10 +515,10 @@ sections:
       color: text-primary
     plans:
       - people: 2 People
-        price: $687
+        price: $741
         url: /book?tour=Forever+Walk+Adventure&group=2
       - people: 3-4 People
-        price: $570
+        price: $625
         url: /book?tour=Forever+Walk+Adventure&group=3-4
       - people: 5-6 People
         price: $506
@@ -529,7 +529,7 @@ sections:
     included:
       text: English-Speaking Coordinator/Guide (Lukasz Madrzynski), Local Guides, Entrance Tickets to the National Park, Traditional Local Food (Breakfasts, Lunches, Dinners), Comfortable Accommodation, Private Transportation, Outdoor Travel Insurance.
       notIncluded: Personal Expenses (Souvenirs, Snacks, etc.), Voluntary Gratuities for the Coordinators/Guides
-      meetingPoint: "Pickup: 9:00 AM at your Lijiang hotel | Return: Approximately 8:00 PM to your Lijiang hotel"
+      meetingPoint: 'Pickup: 9:00 AM at your Lijiang hotel | Return: Approximately 8:00 PM to your Lijiang hotel'
     bookingUrl: /book?tour=Forever+Walk+Adventure
     colors: bg-neutral-fg-dark
     styles:
