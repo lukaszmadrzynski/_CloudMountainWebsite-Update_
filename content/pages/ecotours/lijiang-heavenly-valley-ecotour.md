@@ -284,13 +284,13 @@ sections:
         schedule:
           - period: Morning
             activities:
-              - "Begin your day with a pickup from your Lijiang hotel, then head to Lashi Wetland Park to explore the heart of its ecosystem. Learn about the delicate balance of flora and fauna, then visit the Lashi Wetland Conservation Bureau for exclusive insights into ongoing preservation projects."
+              - 'Begin your day with a pickup from your Lijiang hotel, then head to Lashi Wetland Park to explore the heart of its ecosystem. Learn about the delicate balance of flora and fauna, then visit the Lashi Wetland Conservation Bureau for exclusive insights into ongoing preservation projects.'
           - period: Afternoon
             activities:
-              - "After the bureau, continue to the Lashi Wetland Nature Reserve to discover its rich wildlife and bird species. Then visit Nanyao Village for an authentic Naxi cultural experience with a traditional fish farm lunch, learning about their sustainable practices."
+              - 'After the bureau, continue to the Lashi Wetland Nature Reserve to discover its rich wildlife and bird species. Then visit Nanyao Village for an authentic Naxi cultural experience with a traditional fish farm lunch, learning about their sustainable practices.'
           - period: Evening
             activities:
-              - "Embark on a memorable trek to Luoma Cliffs for breathtaking panoramic views. End your day at Boduoluo Yi minority village with a traditional dinner and genuine cultural exchange with the local community, before returning to your Lijiang hotel."
+              - 'Embark on a memorable trek to Luoma Cliffs for breathtaking panoramic views. End your day at Boduoluo Yi minority village with a traditional dinner and genuine cultural exchange with the local community, before returning to your Lijiang hotel.'
     accentColors:
       morning: '#01aed9'
       afternoon: '#007dbd'
@@ -329,13 +329,13 @@ sections:
       color: text-primary
     plans:
       - people: 2 People
-        price: $251
+        price: $203
         url: /book?tour=Lijiang+Heavenly+Valley&group=2
       - people: 3-4 People
-        price: $225
+        price: $196
         url: /book?tour=Lijiang+Heavenly+Valley&group=3-4
       - people: 5-6 People
-        price: $199
+        price: $182
         url: /book?tour=Lijiang+Heavenly+Valley&group=5-6
     contactNote:
       text: For groups of 1 person or more than 6 people

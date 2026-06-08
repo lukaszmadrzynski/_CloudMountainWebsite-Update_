@@ -1,4 +1,4 @@
----
+ï»¿---
 type: PageLayout
 title: Cloud Mountain Ecotours
 sections:
@@ -88,7 +88,7 @@ sections:
         tagline: Half-Day | Cultural Heritage Walk
       - type: FeaturedItem
         title: Lijiang's Forgotten Forest
-        subtitle: from $38 to $58 per person
+        subtitle: from $46 to $66 per person
         text: >
           Discover Lijiang's best-kept secret! A gentle hike through pristine wilderness teeming with rare orchids and wildlife, culminating in breathtaking views of Jade Dragon Snow Mountain.
         image:
@@ -175,7 +175,7 @@ sections:
         text: >
           Write ancient Dongba pictographs, craft traditional Naxi paper,
           and walk the hidden alleys of Lijiang's UNESCO Old Town with a
-          local heritage expert — a hands-on half-day of living culture.
+          local heritage expert - a hands-on half-day of living culture.
         image:
           type: ImageBlock
           url: /images/tours/dongba-culture-hands-on/card.webp
@@ -214,7 +214,7 @@ sections:
         tagline: Half-Day | Active Village Discovery
         subtitle: from $72 to $98 per person
         text: >
-          Trade the Old Town crowds for quiet Naxi villages and mountain air.        E-bike 10 km on peaceful lanes, stop for a tea, discover vegetable gardens, farms and century-old courtyards — all in one relaxed half-day.
+          Trade the Old Town crowds for quiet Naxi villages and mountain air.        E-bike 10 km on peaceful lanes, stop for a tea, discover vegetable gardens, farms and century-old courtyards - all in one relaxed half-day.
         image:
           type: ImageBlock
           url: /images/tours/e-biking-lijiang-villages/card.webp
@@ -367,7 +367,7 @@ sections:
               - mr-1
       - type: FeaturedItem
         title: Lijiang Heavenly Valley
-        subtitle: from $199 to $251 per person
+        subtitle: from $182 to $203 per person
         text: >
           Experience Lijiang's vital lake, wetland, grassland and forest ecosystems up close. Nature hikes, rare birds and authentic village encounters with local Naxi and Yi minorities await.
         image:
@@ -448,7 +448,7 @@ sections:
         tagline: Two Days | Deep Into Wilderness
         subtitle: from $313 to $458 per person
         text: >
-          Dive deep into Lijiang's wild heart. Two days of spectacular landscapes, pristine ancient forests, rare wildlife, and authentic encounters with mountain Lisu etnic group await — far from the tourist crowds.
+          Dive deep into Lijiang's wild heart. Two days of spectacular landscapes, pristine ancient forests, rare wildlife, and authentic encounters with mountain Lisu etnic group await - far from the tourist crowds.
         image:
           type: ImageBlock
           url: /images/tours/wild-heart-of-lijiang/card.webp
@@ -487,7 +487,7 @@ sections:
         tagline: Three Days | Long Hike Experience
         subtitle: from $506 to $687 per person
         text: >
-          Walk in the footsteps of National Geographic's Paul Salopek on this extraordinary three-day journey. Traverse remote villages, ancient trails, and timeless landscapes—slow travel at its most profound.
+          Walk in the footsteps of National Geographic's Paul Salopek on this extraordinary three-day journey. Traverse remote villages, ancient trails, and timeless landscapes - slow travel at its most profound.
         image:
           type: ImageBlock
           url: /images/tours/natgeo-forever-walk/card.webp

@@ -485,13 +485,13 @@ sections:
       color: text-primary
     plans:
       - people: 2 People
-        price: $58
+        price: $66
         url: /book?tour=Lijiang+Forgotten+Forest+Adventure&group=2
       - people: 3-4 People
-        price: $48
+        price: $58
         url: /book?tour=Lijiang+Forgotten+Forest+Adventure&group=3-4
       - people: 5-6 People
-        price: $38
+        price: $46
         url: /book?tour=Lijiang+Forgotten+Forest+Adventure&group=5-6
     contactNote:
       text: For groups of 1 person or more than 6 people
