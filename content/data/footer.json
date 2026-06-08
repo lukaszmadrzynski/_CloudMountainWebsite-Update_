@@ -42,17 +42,6 @@
             },
             {
                 "type": "Link",
-                "label": "Blog",
-                "altText": "",
-                "url": "/blog",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "elementId": ""
-            },
-            {
-                "type": "Link",
                 "label": "Contact Us",
                 "altText": "",
                 "url": "/contact-us",
