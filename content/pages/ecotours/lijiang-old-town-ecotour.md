@@ -12,9 +12,13 @@ sections:
     title:
       text: Naxi Heritage <br/> Walking Tour
       color: text-white
-    subtitle: "A Cultural Journey Through Lijiang's Historic Heart"
+    subtitle: Cobblestone lanes, Ming-era palace, hidden courtyards
     text: >-
-      Wander ancient UNESCO streets and discover Naxi culture at iconic landmarks. From Black Dragon Pool to bustling markets, experience timeless heritage.
+      Pickup from your Lijiang hotel and a half-day through the UNESCO Old
+      Town with Lynne or Lukasz. We start at the Heritage Museum, walk
+      across Black Dragon Pond Park, then visit the Wenchang Palace and the
+      Big Stone Bridge, and end at Zhongyi Market. You'll leave knowing the
+      hidden lanes the way a local does.
     actions:
       - type: Button
         label: Book This EcoTour
@@ -39,8 +43,8 @@ sections:
     items:
       - icon: /images/shared/key-details/special.png
         title: What's Special
-        subtitle: Cultural Heritage
-        highlight: 'UNESCO World Heritage Site with Naxi, Han, Tibetan & Bai influences'
+        subtitle: Old Town In-a-Pill
+        highlight: 'Lijiang Old Town UNESCO World Heritage Site Essentials'
       - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: Half Day
@@ -51,8 +55,8 @@ sections:
         highlight: 'Lijiang Dayan Old Town & Black Dragon Pool Park | Altitudes 2,400-2,450m'
       - icon: /images/shared/key-details/level.png
         title: Activity Level
-        subtitle: Moderate
-        highlight: 'Walking: 7-8 km per session'
+        subtitle: Easy
+        highlight: 'Walking: 5-6 km per session'
     badge:
       label: KEY DETAILS
       color: text-primary
@@ -143,7 +147,7 @@ sections:
         title: Dayan Old Town
         tagline: UNESCO Heritage
         subtitle: Dayan Old Town
-        text: 'Wander through the ancient streets of Dayan Old Town, a UNESCO World Heritage site known for its well-preserved architecture and rich cultural tapestry reflecting Naxi, Han, Tibetan, and Bai influences.'
+        text: 'Wander through the ancient streets of Dayan Old Town, a UNESCO World Heritage site known for its well-preserved architecture and rich cultural tapestry.'
         image:
           type: ImageBlock
           url: /images/tours/lijiang-old-town/highlight-3.webp
@@ -251,7 +255,7 @@ sections:
         title: Big Stone Bridge
         tagline: Scenic Views
         subtitle: Big Stone Bridge
-        text: 'Cross the charming Big Stone Bridge, adorned with plants, providing a scenic connection between different parts of the old town and enhancing your cultural experience.'
+        text: 'Cross the charming Big Stone Bridge, surrounded by colorful flowers, providing a scenic connection between different parts of the old town.'
         image:
           type: ImageBlock
           url: /images/tours/lijiang-old-town/highlight-7.webp
@@ -416,8 +420,8 @@ sections:
       text: For groups of 1 person or more than 6 people
       url: /book?tour=Naxi+Heritage+Walking+Tour
     included:
-      text: English-Speaking Guide, Tickets to Black Dragon Pool Park, Traditional Local Snacks.
-      notIncluded: 'Personal Expenses (Souvenirs, etc.), Voluntary Gratuities for the Guide'
+      text: English-Speaking Guide, Traditional Local Snacks.
+      notIncluded: 'Personal Expenses (Souvenirs, etc.), Voluntary Gratuities for the Guide.'
       meetingPoint: 'Morning: 9:00 AM pickup | Afternoon: 2:00 PM pickup - Your Lijiang hotel or preferred location'
     bookingUrl: /book?tour=Naxi+Heritage+Walking+Tour
     colors: bg-neutral-fg-dark
@@ -450,10 +454,10 @@ sections:
     items:
       - type: AccordionItem
         question: What should I bring?
-        answer: We recommend comfortable walking shoes, sun protection, a water bottle, and your camera. A light jacket is advisable for cooler mornings.
+        answer: We recommend comfortable walking shoes, sun protection, a water bottle, and your camera. A light jacket is advisable for cooler days.
       - type: AccordionItem
         question: Is this suitable for children?
-        answer: Yes! This walking tour is family-friendly. The moderate walking distance (7-8 km) is achievable for most ages with plenty of rest stops.
+        answer: Yes! This walking tour is family-friendly. The moderate walking distance (5-6 km) is achievable for most ages with plenty of rest stops.
       - type: AccordionItem
         question: What's the cancellation policy?
         answer: Full refund if cancelled 48+ hours before the tour. 50% refund for 24-48 hours. No refund within 24 hours.
@@ -465,13 +469,10 @@ sections:
         answer: We provide pickup from any hotel in Lijiang Old Town area. Contact us to arrange an alternative meeting point if needed.
       - type: AccordionItem
         question: What language do the guides speak?
-        answer: Our guides are fluent in English. For other languages, please inquire about availability.
+        answer: We are fluent in English, Polish and Chinese.
       - type: AccordionItem
         question: What's included in local snacks?
-        answer: Traditional Naxi snacks such as酥油茶(butter tea), 粑粑(flatbread), and local pastries are provided during the tour.
-      - type: AccordionItem
-        question: Is this tour wheelchair accessible?
-        answer: The old town has uneven cobblestones and narrow passages. While some areas are accessible, certain sites may be challenging. Contact us for specific accessibility concerns.
+        answer: Traditional Naxi snacks such as butter tea, flatbread and local pastries are provided during the tour.
     badge:
       label: FAQ
       color: text-primary

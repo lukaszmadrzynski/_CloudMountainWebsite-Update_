@@ -51,7 +51,9 @@ sections:
         title: Naxi Heritage Walk
         subtitle: from $48 to $68 per person
         text: >
-          Wander through a UNESCO World Heritage Site where ancient Naxi culture comes alive. Discover hidden courtyards, bustling markets, and panoramic mountain views on this immersive half-day journey.
+          A great introduction to the Lijiang Old Town UNESCO Heritage Site —
+          Museums, Parks, Palaces, Landmarks, Hidden Alleys and Local Markets.
+          For those curious but with limited time.
         image:
           type: ImageBlock
           url: /images/tours/lijiang-old-town/card.webp
@@ -132,10 +134,10 @@ sections:
         tagline: Half-Day | Bird Watching
         subtitle: from $66 to $91 per person
         text: >+
-          Discover Lashi Alpine Wetland, one of Yunnan's most important
-          highland bird sanctuaries. Walk the boardwalks with a local
-          conservationist, join a citizen-science bird survey, and visit the
-          wildlife rescue station protecting migratory waterbirds.
+          Wander the Lashi Alpine Wetland with a local conservationist — join
+          a citizen-science bird survey, meet the people rescuing injured
+          waterbirds, and walk the most pristine stretch of the reserve. For
+          the curious birder.
 
         image:
           type: ImageBlock
@@ -257,7 +259,9 @@ sections:
         tagline: Half-Day | Cultural Culinary Tour
         subtitle: from $72 to $98 per person
         text: >
-          Taste Lijiang's ancient Tea & Horse Road on this half-day culinary walking tour through the UNESCO Old Town. Sip traditional roasted tea, meet the last caravaneer, and sample Naxi snacks at Zhongyi Bazaar.
+          Roasted tea over a charcoal brazier, a story by the last caravaneer,
+          and Zhongyi Bazaar stalls. For travelers who want to taste the Old
+          Town, not photograph it.
         image:
           type: ImageBlock
           url: /images/tours/tea-horse-road-snacks/card.webp

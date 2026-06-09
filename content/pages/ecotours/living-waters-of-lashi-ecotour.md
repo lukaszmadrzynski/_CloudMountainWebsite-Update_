@@ -12,15 +12,15 @@ sections:
     title:
       text: Living Waters <br/> of Lashi
       color: text-white
-    subtitle: A Birdwatching & Wetland Conservation Journey
+    subtitle: Rare birds, wetland conservationists, real rescues
     text: >-
-      Discover Lashi Alpine Wetland, one of Yunnan's most important highland
-      bird sanctuaries, just 30 minutes from Lijiang Old Town. Walk the wetland
-      boardwalks alongside a local conservationist, learn how the Naxi people
-      have protected this landscape for centuries, and join a citizen-science
-      bird survey with binoculars and field cards. Visit a wildlife rescue
-      station, meet the people rehabilitating injured waterbirds, and end with
-      a quiet walk through the most pristine section of the reserve.
+      Pickup from your Lijiang hotel and transfer 30 minutes to Lashi Alpine
+      Wetland. We start with the Naxi worldview that protected this
+      landscape, tour the bird museum, then walk a wetland survey with
+      binoculars. Then on to the wildlife rescue station to meet local
+      conservationists, and a quiet final walk through the most pristine
+      section of the reserve. You'll leave knowing new bird species and how
+      they are protected.
     actions:
       - type: Button
         label: Book This EcoTour
@@ -45,7 +45,7 @@ sections:
     items:
       - icon: /images/shared/key-details/special.png
         title: What's Special
-        subtitle: Bird Biodiversity Haven
+        subtitle: Wetland birding with binoculars
         highlight: 'A guided wetland walk with hands-on bird survey and a behind-the-scenes look at local conservation work'
       - icon: /images/shared/key-details/duration.png
         title: Duration
@@ -53,8 +53,8 @@ sections:
         highlight: 'Morning: 9:00 AM to 1:00 PM | Afternoon: 2:00 PM to 6:00 PM'
       - icon: /images/shared/key-details/location.png
         title: Location
-        subtitle: Lashi Alpine Wetland
-        highlight: 'Lashi Alpine Wetland Nature Reserve | Altitude 2,440m'
+        subtitle: Alpine Wetland
+        highlight: 'Lashi Plateau Wetland Nature Reserve | Altitude 2,440m'
       - icon: /images/shared/key-details/level.png
         title: Activity Level
         subtitle: Easy
@@ -96,9 +96,9 @@ sections:
         tagline: Cultural Insight
         subtitle: Dongba Worldview
         text: >-
-          Learn how Naxi Dongba tradition views mountains, rivers, and animals
-          as relatives — a worldview that has shaped wetland protection in
-          this valley for centuries.
+          Learn how Naxi tradition views mountains, rivers, and animals as
+          relatives — a worldview that has shaped wetland protection in this
+          valley for centuries.
         image:
           type: ImageBlock
           url: /images/tours/living-waters-of-lashi/highlight-1.webp
@@ -122,12 +122,12 @@ sections:
             justifyContent: center
             textAlign: left
       - type: FeaturedItem
-        title: Stroll around Lashi Wetland Park
+        title: Visit Lashi Wetland Park
         tagline: Wetland Walk
         subtitle: Boardwalk Trail
         text: >-
           Wander the easy lakeside boardwalk, watching for herons, grebes, and
-          the occasional black-necked crane feeding in the shallows.
+          the occasional crane feeding in the shallows.
         image:
           type: ImageBlock
           url: /images/tours/living-waters-of-lashi/highlight-2.webp
@@ -156,7 +156,7 @@ sections:
         subtitle: Species Briefing
         text: >-
           Tour the small but well-curated wetland museum to identify the
-          species you're likely to spot — from resident black storks to
+          species you're likely to spot — from resident swamphens to
           wintering bar-headed geese.
         image:
           type: ImageBlock
@@ -216,7 +216,8 @@ sections:
         subtitle: Rehab in Action
         text: >-
           Meet the team rehabilitating injured waterbirds and learn what it
-          takes to return a black stork or an oriental stork back to the wild.
+          takes to return a black stork or a black-necked crane back to the
+          wild.
         image:
           type: ImageBlock
           url: /images/tours/living-waters-of-lashi/highlight-5.webp
@@ -244,7 +245,7 @@ sections:
         tagline: Real-World Stories
         subtitle: Reserve Staff
         text: >-
-          Sit down with reserve staff and hear their daily work: patrolling
+          Meet the reserve staff and hear their daily work: patrolling
           wetlands, monitoring nests, and negotiating with farmers to protect
           bird habitat.
         image:
@@ -396,7 +397,7 @@ sections:
         schedule:
           - period: Morning or Afternoon
             activities:
-              - "Meet your guide at your Lijiang hotel and drive 30 minutes to Lashi Wetland Park, where you'll start with an introduction to Naxi beliefs about nature and the wetland's ecological role. Tour the bird museum to learn the local species, then walk into the wetland on a guided biodiversity survey — binoculars and field cards in hand, recording the waterbirds you spot. Continue to the wildlife rescue station and conservation bureau, where you'll meet the staff, learn about wetland protection efforts, and hear stories of birds returned to the wild. Finish with a quiet walk in the most pristine section of the nature reserve, spotting endemic plants and more birds, before driving back to your Lijiang hotel."
+              - "Meet your guide at your Lijiang hotel and transfer 30 minutes to Lashi Wetland Park, where you'll start with an introduction to Naxi beliefs about nature and the wetland's ecological role. Tour the bird museum to learn the local species, then walk into the wetland on a guided biodiversity survey — binoculars and field cards in hand, recording the waterbirds you spot. Continue to the wildlife rescue station and conservation bureau, where you'll meet the staff, learn about wetland protection efforts, and hear stories of birds returned to the wild. Finish with a quiet walk in the most pristine section of the nature reserve, spotting endemic plants and more birds, before driving back to your Lijiang hotel."
     accentColors:
       morning: '#01aed9'
       afternoon: '#007dbd'
@@ -447,8 +448,8 @@ sections:
       text: For groups of 1 person or more than 6 people
       url: /book?tour=Living+Waters+of+Lashi
     included:
-      text: English-Speaking Coordinator/Guide (Lynne Lyu or Lukasz Madrzynski), Local Conservationist Guide, Entrance Fees to Lashi Wetland Park & Bird Museum, Binoculars and Bird Field Cards, Bottled Water, Outdoor Travel Insurance.
-      notIncluded: 'Personal Expenses (Souvenirs, Optional Donations to the Wildlife Rescue Station), Voluntary Gratuities for the Guides'
+      text: English-Speaking Coordinator/Guide (Lynne Lyu and/or Lukasz Madrzynski), Entrance Fees to Lashi Wetland Park & Bird Museum, Binoculars and Bird Field Cards, Outdoor Travel Insurance.
+      notIncluded: 'Personal Expenses (Souvenirs, etc.), Voluntary Gratuities for the Guide'
       meetingPoint: 'Pickup: 9:00 AM (morning tour) or 2:00 PM (afternoon tour) at your Lijiang hotel | Return: Approximately 1:00 PM or 6:00 PM to your Lijiang hotel'
     bookingUrl: /book?tour=Living+Waters+of+Lashi
     colors: bg-neutral-fg-dark
@@ -481,19 +482,19 @@ sections:
     items:
       - type: AccordionItem
         question: Which season is the best for bird watching?
-        answer: There are many bird species that can be seen throughout the year, but the best time is between November and March when great numbers of migratory birds fly in to spend winter here. Resident species like black storks, egrets, and grebes are visible year-round.
+        answer: There are many bird species that can be seen throughout the year, but the best time is between November and March when great numbers of migratory birds fly in to spend winter here. Resident species like swamphens, egrets, and grebes among others are visible year-round.
       - type: AccordionItem
         question: What should I bring?
-        answer: Comfortable walking shoes, layers for changing temperatures (the wetland is cooler than Lijiang Old Town), sun protection, a water bottle, and your camera. We provide binoculars and field cards. Detailed packing list provided upon booking.
+        answer: Comfortable walking shoes, layers for changing temperatures (the wetland is cooler and more windy than Lijiang Old Town), sun protection, umbrella and/or raincoat, a water bottle, and your camera. We provide binoculars and field cards.
       - type: AccordionItem
         question: Is this suitable for children?
-        answer: Yes! This tour is family-friendly. Children under 12 should be accompanied by an adult. The 4-5 km walk is at a slow pace with frequent stops, achievable for most ages. The bird survey in particular is a hit with kids who enjoy using binoculars.
+        answer: Yes! This tour is family-friendly. Children under 12 should be accompanied by an adult. The 4-5 km walk is at a slow pace with frequent stops, achievable for most ages. The bird survey in particular is a hit with kids who enjoy looking for birds and using binoculars.
       - type: AccordionItem
         question: What's the cancellation policy?
-        answer: Full refund if cancelled 7+ days before the tour. 50% refund for 3-6 days. No refund within 48 hours. Weather contingencies always have alternatives or rescheduling.
+        answer: Full refund if cancelled 7+ days before the tour. 50% refund for 3-6 days. No refund within 48 hours.
       - type: AccordionItem
         question: What happens if it rains?
-        answer: The tour runs in light rain with umbrellas provided. For heavy storms we'll shorten the outdoor boardwalk portions and spend more time at the bird museum and conservation bureau, then reschedule the wetland walk for a clear day when possible.
+        answer: The tour runs in light rain (remember to bring umbrellas and/or raincoats). For heavy storms we'll shorten the outdoor boardwalk portions and spend more time at the bird museum and conservation bureau.
       - type: AccordionItem
         question: Are there any physical requirements?
         answer: Basic mobility is enough. You'll walk 4-5 km on flat wetland boardwalks and gentle paths at a slow pace, with frequent stops for birdwatching and storytelling. Suitable for most fitness levels.
@@ -502,10 +503,10 @@ sections:
         answer: We provide pickup from any hotel in Lijiang Old Town or the surrounding area. If you're staying outside Lijiang, please contact us to arrange an alternative meeting point.
       - type: AccordionItem
         question: What language do the guides speak?
-        answer: Our guides are fluent in English. For other languages, please inquire about availability.
+        answer: We are fluent in English, Polish and Chinese.
       - type: AccordionItem
         question: How does this trip support conservation and sustainable development?
-        answer: Each booking directly supports the Lashi Wetland Reserve and the local conservation team. Part of your fee goes to the wildlife rescue station's rehabilitation work, and your survey counts feed the reserve's biodiversity database. Our small-group format (max 6) minimizes impact on this fragile wetland while maximizing the benefit to the people protecting it.
+        answer: Each booking directly supports the Lashi Wetland Park. Your survey counts feed the reserve's biodiversity database. Our small-group format (max 6) minimizes impact on this fragile wetland while maximizing the benefit to the people protecting it.
     badge:
       label: FAQ
       color: text-primary
@@ -545,7 +546,7 @@ sections:
           - pr-4
   - type: GenericSection
     title:
-      text: Ready to Walk Yunnan's Wetlands?
+      text: Ready to Observe Rare Birds?
       color: text-dark
       styles:
         self:

@@ -12,11 +12,15 @@ sections:
     title:
       text: Taste of <br/> Tea & Horse Road
       color: text-white
-    subtitle: A Culinary Journey Through Ancient Lijiang
+    subtitle: Roasted tea with the last caravaneer
     text: >-
-      Walk Lijiang's UNESCO Old Town and taste the ancient Tea & Horse Road
-      — from roasted tea ceremonies to bustling bazaar snacks, all in one
-      flavorful half-day.
+      A few small cups of roasted tea, a piece of baba bread, and a Zhongyi
+      Bazaar stall you won't find on your own. We guide you from the South
+      Gate through the Tea & Horse Road Museum, sit you down with the last
+      caravaneer for a fire-pit tea, then end at Zhongyi Bazaar for chickpea
+      jelly, yak butter tea and other historic delicacies. You'll come home
+      smelling faintly of charcoal-roasted tea, and with a caravaneer story
+      lingering in your head.
     actions:
       - type: Button
         label: Book This EcoTour
@@ -41,8 +45,8 @@ sections:
     items:
       - icon: /images/shared/key-details/special.png
         title: What's Special
-        subtitle: Culinary journey
-        highlight: 'A guided tasting trail through Lijiang Old Town with the last living caravaneer of the Tea & Horse Road'
+        subtitle: Tea ceremony, caravaneer stories, bazaar snacks
+        highlight: 'A guided tasting trail through ancient Tea & Horse Road'
       - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: Half-day
@@ -92,9 +96,8 @@ sections:
         tagline: Historic Gateway
         subtitle: South Gate Square
         text: >-
-          Step into Lijiang's Old Town at South Gate Square, the historic
-          UNESCO entry where locals dance in Naxi costume and handicrafts
-          line the plaza.
+          Step into Lijiang's Old Town at South Gate Square, a hidden
+          historic market place where old handicrafts line the plaza.
         image:
           type: ImageBlock
           url: /images/tours/tea-horse-road-snacks/highlight-1.webp
@@ -153,8 +156,8 @@ sections:
         subtitle: Caravaneer Tradition
         text: >-
           Watch tea leaves dance over a charcoal brazier, then sip the
-          smoky, earthy brew that once fueled traders on month-long mountain
-          crossings.
+          smoky, earthy brew that once fueled traders on long and
+          strenuous mountain crossings.
         image:
           type: ImageBlock
           url: /images/tours/tea-horse-road-snacks/highlight-3.webp
@@ -213,8 +216,8 @@ sections:
         subtitle: Zhongyi Market
         text: >-
           Wander Lijiang's most authentic bazaar since the Qing Dynasty:
-          mountain vegetables, dried mushrooms, yak cheese, and seasonal
-          fruits haggled in three languages.
+          mountain vegetables, dangerous mushrooms, yak cheese, and seasonal
+          fruits.
         image:
           type: ImageBlock
           url: /images/tours/tea-horse-road-snacks/highlight-5.webp
@@ -242,7 +245,7 @@ sections:
         tagline: Street Bites
         subtitle: Many Local Snacks
         text: >-
-          Sample chickpea jelly, fried baba bread, griddled rice cakes, and
+          Sample chickpea jelly, fried baba bread, griddled cheese, and
           sweet rose-flavored pastries — each with a story rooted in
           mountain agriculture and Naxi grandmothers.
         image:
@@ -328,11 +331,11 @@ sections:
             justifyContent: center
             textAlign: left
       - type: FeaturedItem
-        title: Mountain Fruits & Vegetables
+        title: Yunnan Fruits & Vegetables
         tagline: Exotic Produce
         subtitle: Unique Local Harvest
         text: >-
-          Discover Yunnan's mountain biodiversity: rose apples, Buddha's
+          Discover Yunnan's mountain biodiversity: snake fruits, Buddha's
           hand citron, tree tomatoes, and wild mushrooms in season. The
           bazaar is a living agricultural museum.
         image:
@@ -445,8 +448,8 @@ sections:
       text: For groups of 1 person or more than 6 people
       url: /book?tour=Tea+%26+Horse+Road+Snacks
     included:
-      text: English-Speaking Coordinator/Guide (Lynne Lyu or Lukasz Madrzynski), Local Caravaneer Guide, Entrance Fees to Tea & Horse Road Museum, Traditional Roasted Tea Ceremony, All Food Tastings, Bottled Water, Outdoor Travel Insurance.
-      notIncluded: 'Personal Expenses (Souvenirs, Extra Snacks, etc.), Voluntary Gratuities for the Guides'
+      text: English-Speaking Coordinator/Guide (Lynne Lyu or Lukasz Madrzynski), Local Caravaneer Guide, Entrance Fees to Tea & Horse Road Museum, Traditional Roasted Tea Ceremony, All Food Tastings, Outdoor Travel Insurance.
+      notIncluded: 'Personal Expenses (Souvenirs, etc.), Voluntary Gratuities for the Guide'
       meetingPoint: 'Pickup: 9:00 AM (morning tour) or 2:00 PM (afternoon tour) at your Lijiang hotel | Return: Approximately 1:00 PM or 6:00 PM to your Lijiang hotel'
     bookingUrl: /book?tour=Tea+%26+Horse+Road+Snacks
     colors: bg-neutral-fg-dark
@@ -479,7 +482,7 @@ sections:
     items:
       - type: AccordionItem
         question: What should I bring?
-        answer: Comfortable walking shoes, layers for changing temperatures, sun protection, a water bottle, and your camera. Detailed packing list provided upon booking.
+        answer: Comfortable walking shoes, layers for changing temperatures, sun protection, umbrella and/or raincoat, a water bottle, and your camera. Detailed packing list provided upon booking.
       - type: AccordionItem
         question: Is this suitable for children?
         answer: Yes! This tour is family-friendly. Children under 12 should be accompanied by an adult. The slow pace and 2-3 km walk are achievable for most ages. Note that some market snacks (spicy, fried) may be too strong for very young children.
@@ -488,7 +491,7 @@ sections:
         answer: Full refund if cancelled 7+ days before the tour. 50% refund for 3-6 days. No refund within 48 hours. Weather contingencies always have alternatives.
       - type: AccordionItem
         question: What happens if it rains?
-        answer: The tour runs in light rain with umbrellas provided. For heavy storms we'll switch to a covered bazaar experience and reschedule the outdoor portions when possible.
+        answer: The tour continues during light rain. For heavy storms we'll adjust to spend more time indoors (covered sections of bazaar, museum and caravaneer's courtyard house).
       - type: AccordionItem
         question: Are there any physical requirements?
         answer: Basic mobility is enough. You'll walk 2-3 km on flat cobblestone streets at a slow pace, with frequent stops for tasting and storytelling. Suitable for most fitness levels.
@@ -497,10 +500,10 @@ sections:
         answer: We provide pickup from any hotel in Lijiang Old Town or the surrounding area. If you're staying outside Lijiang, please contact us to arrange an alternative meeting point.
       - type: AccordionItem
         question: What language do the guides speak?
-        answer: Our guides are fluent in English. For other languages, please inquire about availability.
+        answer: We are fluent in English, Polish and Chinese.
       - type: AccordionItem
         question: How does this trip support conservation and sustainable development?
-        answer: Each booking directly supports local Naxi families and the last caravaneer community. We partner with small market vendors and traditional tea masters, ensuring your fees stay in the Old Town. Our small-group format minimizes impact on this fragile UNESCO site while maximizing benefit to its living culture.
+        answer: Each booking directly supports local Naxi families, the last caravaneer and Tea & Horse Museum. We support small market vendors and traditional tea masters, ensuring your fees stay in the Old Town. Our small-group format minimizes impact on this fragile UNESCO site while maximizing benefit to its living culture.
       - type: AccordionItem
         question: Do I have to eat the insects?
         answer: No, you don't. The deep-fried insects are an optional tasting. You're welcome to skip them and try the many other snacks on offer — there's plenty for every palate.
