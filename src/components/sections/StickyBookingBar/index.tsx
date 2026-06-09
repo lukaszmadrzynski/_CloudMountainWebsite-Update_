@@ -82,6 +82,7 @@ export default function StickyBookingBar({
             {/* Desktop: Floating bar on the right side */}
             <div
                 className={classNames(
+                    'sb-component-sticky-booking-bar',
                     'fixed right-0 transition-all duration-300 hidden lg:block',
                     'bg-gray-900',
                     'shadow-lg rounded-l-xl',
@@ -128,6 +129,7 @@ export default function StickyBookingBar({
             {/* Mobile only (below md): Price + Book Now only */}
             <div
                 className={classNames(
+                    'sb-component-sticky-booking-bar',
                     'fixed left-0 right-0 transition-all duration-300 md:hidden',
                     'bg-gray-900',
                     'shadow-lg',
@@ -172,6 +174,7 @@ export default function StickyBookingBar({
             {/* Tablet (md to lg): Tour name + Price + Book Now */}
             <div
                 className={classNames(
+                    'sb-component-sticky-booking-bar',
                     'fixed left-0 right-0 transition-all duration-300 hidden md:block lg:hidden',
                     'bg-gray-900',
                     'shadow-lg',

@@ -10,7 +10,7 @@ sections:
       label: Half-day EcoTour
       color: text-white
     title:
-      text: Naxi Heritage <br/> Walking Tour
+      text: Naxi Heritage <br/> Walk
       color: text-white
     subtitle: Cobblestone lanes, Ming-era palace, hidden courtyards
     text: >-

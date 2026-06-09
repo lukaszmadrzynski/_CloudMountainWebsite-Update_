@@ -185,6 +185,8 @@ function HeaderLogoCenteredPrimaryCentered(props) {
 function MobileMenu(props) {
     const { title, logo, primaryLinks = [], secondaryLinks = [], colors = 'bg-light-fg-dark', styles = {}, enableAnnotations } = props;
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [headerHeight, setHeaderHeight] = useState(64);
+    const [bookingBarHeight, setBookingBarHeight] = useState(0);
     const router = useRouter();
 
     const openMobileMenu = () => {
@@ -209,14 +211,74 @@ function MobileMenu(props) {
         };
     }, [router.events]);
 
+    // Measure the header (so the menu can sit directly below it) and the
+    // mobile/tablet StickyBookingBar so the menu can end exactly at the
+    // bottom of the Book Now button. The bar is `fixed` at
+    // `top: ${headerHeight}px` and ~60px tall, so the bottom of the bar
+    // is at `headerHeight + barHeight` from the top of the viewport, or
+    // `windowHeight - headerHeight - barHeight` from the bottom. We use
+    // the bottom-anchored value for `bottom:` so the menu's lower edge
+    // aligns with the bar's lower edge.
+    useEffect(() => {
+        if (!isMenuOpen) return;
+
+        const measure = () => {
+            // On desktop, no mobile menu / booking bar to worry about.
+            const isDesktop = typeof window !== 'undefined' && window.matchMedia('(min-width: 1024px)').matches;
+            if (isDesktop) {
+                setHeaderHeight(0);
+                setBookingBarHeight(0);
+                return;
+            }
+            const header = document.querySelector('header');
+            if (header) {
+                setHeaderHeight(header.getBoundingClientRect().height);
+            }
+            // StickyBookingBar renders three variants (desktop, mobile,
+            // tablet). The mobile/tablet one is `display:none` on desktop,
+            // and the desktop one is `display:none` on mobile/tablet, so
+            // pick the one with non-zero offsetHeight (offsetHeight is 0
+            // for display:none elements and unaffected by transforms).
+            const bars = document.querySelectorAll('.sb-component-sticky-booking-bar');
+            let barHeight = 0;
+            for (const bar of bars) {
+                if (bar.offsetHeight > 0) {
+                    barHeight = bar.offsetHeight;
+                    break;
+                }
+            }
+            // Fallback to a reasonable default (~60px) if nothing is found.
+            if (barHeight === 0) barHeight = 60;
+            // The bar sits at `top: ${headerHeight}px`, so its bottom edge
+            // is at headerHeight + barHeight from the top. Convert to the
+            // distance from the screen bottom for the menu's `bottom` style.
+            const h = header ? header.getBoundingClientRect().height : 64;
+            setBookingBarHeight(h + barHeight);
+        };
+
+        measure();
+        window.addEventListener('resize', measure);
+        const t1 = setTimeout(measure, 50);
+        const t2 = setTimeout(measure, 300);
+
+        return () => {
+            window.removeEventListener('resize', measure);
+            clearTimeout(t1);
+            clearTimeout(t2);
+        };
+    }, [isMenuOpen]);
+
     return (
         <div className="ml-auto lg:hidden">
-            <button aria-label={isMenuOpen ? "Close Menu" : "Open Menu"} title={isMenuOpen ? "Close Menu" : "Open Menu"} className="p-2 -mr-1 focus:outline-none" onClick={isMenuOpen ? closeMobileMenu : openMobileMenu}>
+            <button aria-label={isMenuOpen ? "Close Menu" : "Open Menu"} title={isMenuOpen ? "Close Menu" : "Open Menu"} className="relative z-50 p-2 -mr-1 focus:outline-none" onClick={isMenuOpen ? closeMobileMenu : openMobileMenu}>
                 <span className="sr-only">{isMenuOpen ? "Close Menu" : "Open Menu"}</span>
-                <MenuIcon className="fill-current h-6 w-6" />
+                {isMenuOpen ? <CloseIcon className="fill-current h-6 w-6" /> : <MenuIcon className="fill-current h-6 w-6" />}
             </button>
-            <div className={classNames('bg-white/60', 'backdrop-blur-lg', 'fixed', 'inset-0', 'overflow-y-auto', 'z-10', isMenuOpen ? 'block' : 'hidden')}>
-                <div className="flex flex-col min-h-full">
+            <div
+                className={classNames('bg-white/60', 'backdrop-blur-lg', 'fixed', 'left-0', 'right-0', 'overflow-y-auto', 'z-10', isMenuOpen ? 'block' : 'hidden')}
+                style={{ top: `${headerHeight}px`, maxHeight: `calc(100vh - ${headerHeight}px - ${bookingBarHeight}px)` }}
+            >
+                <div className="flex flex-col">
                     {primaryLinks.length > 0 && (
                         <ul className="px-4" {...(enableAnnotations && { 'data-sb-field-path': 'primaryLinks' })}>
                             <ListOfLinks links={primaryLinks} enableAnnotations={enableAnnotations} inMobileMenu />
