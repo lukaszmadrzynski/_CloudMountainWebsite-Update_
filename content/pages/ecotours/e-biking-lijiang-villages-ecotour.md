@@ -12,15 +12,14 @@ sections:
     title:
       text: E-Biking <br/> Lijiang Villages
       color: text-white
-    subtitle: Pedal Through Authentic Naxi Villages on Electric Wheels
+    subtitle: Ride across real Naxi villages
     text: >-
-      Trade the Old Town crowds for quiet Naxi lanes and mountain air. We
-      pick you up at your Lijiang hotel, hand you a quality e-bike, and
-      lead you on a relaxed 10 km loop through working villages, vegetable
-      gardens, and historic courtyards — stopping for a gongfu tea
-      ceremony, an old hidden church, a wander through Green Dragon Park,
-      and a final stroll through ancient Shuhe Old Town. Easy, scenic, and
-      far from the tour buses.
+      Pickup from your Lijiang hotel, then set off on an e-bike handed to
+      Naxi villages. Lukasz leads a relaxed 10 km loop past gardens and
+      groves to a hidden church, century-old courtyards, and a gongfu tea
+      ceremony in a peaceful village. Stop by at the Green Dragon Park and
+      ancient Shuhe Old Town. You'll come home knowing where your Lijiang
+      vegetables came from.
     actions:
       - type: Button
         label: Book This EcoTour
@@ -45,8 +44,8 @@ sections:
     items:
       - icon: /images/shared/key-details/special.png
         title: What's Special
-        subtitle: Active Village Discovery
-        highlight: 'An e-bike ride through authentic Naxi villages, tea ceremony, hidden church, and the ancient Shuhe Old Town — all in one relaxed half-day'
+        subtitle: Authentic village life
+        highlight: 'An e-bike ride through Naxi villages away from tourist crowds.'
       - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: Half-day
@@ -54,7 +53,7 @@ sections:
       - icon: /images/shared/key-details/location.png
         title: Location
         subtitle: Villages around Lijiang
-        highlight: 'Lijiang & Shuhe rural villages | Altitude 2,400-2,600m'
+        highlight: 'Lijiang & Shuhe rural villages | Altitude 2,400-2,500m'
       - icon: /images/shared/key-details/level.png
         title: Activity Level
         subtitle: Easy
@@ -97,9 +96,7 @@ sections:
         subtitle: Off-the-Tourist-Path
         text: >-
           Ride past the Old Town straight into the slow, lived-in rhythm of
-          Naxi villages — drying corn on the walls, ladies washing cabbage
-          at the well, kids on bikes. The kind of village the tour buses
-          never reach.
+          real Naxi villages — the kind of places tour buses never reach.
         image:
           type: ImageBlock
           url: /images/tours/e-biking-lijiang-villages/highlight-1.webp
@@ -127,10 +124,9 @@ sections:
         tagline: Historic Residence
         subtitle: Ming & Qing Architecture
         text: >-
-          Step into a Naxi courtyard home that's been lived in for over a
-          century — carved wooden gates, blue-tiled roofs, and a central
-          courtyard with a sky well. Your host will explain how the layout
-          protects against the mountain winds.
+          Step into a courtyard home of a Dongba culture master that's been
+          lived in for over a century — learn about its history and
+          architectural mastery.
         image:
           type: ImageBlock
           url: /images/tours/e-biking-lijiang-villages/highlight-2.webp
@@ -158,9 +154,9 @@ sections:
         tagline: Slow-Paced Tea
         subtitle: Mountain Tea House
         text: >-
-          Pause for a traditional gongfu tea ceremony with a village host —
-          three small cups, roasted mountain tea, and a quiet conversation
-          about the seasons and the harvest.
+          Pause for a traditional gongfu tea ceremony in a peaceful hamlet —
+          local mountain tea leaves and a quiet conversation about village
+          life.
         image:
           type: ImageBlock
           url: /images/tours/e-biking-lijiang-villages/highlight-3.webp
@@ -189,8 +185,8 @@ sections:
         subtitle: Flat Countryside Lanes
         text: >-
           The e-bike makes the gentle hills feel flat. Glide along quiet
-          village lanes with hardly a car, surrounded by bean fields and
-          walnut trees. It's cycling in slippers.
+          village lanes with hardly a car, surrounded by fields, meadows and
+          gardens.
         image:
           type: ImageBlock
           url: /images/tours/e-biking-lijiang-villages/highlight-4.webp
@@ -218,9 +214,8 @@ sections:
         tagline: Farm to Field
         subtitle: Working Farm Plots
         text: >-
-          Roll past village kitchen gardens bursting with chili, broad
-          beans, cabbage, and fruit trees. Your guide will explain the
-          Naxi seasonal rotation and what's growing right now.
+          Roll past grain fields, vegetable gardens and fruit tree grooves.
+          Learn about Naxi seasonal rotation and what's growing right now.
         image:
           type: ImageBlock
           url: /images/tours/e-biking-lijiang-villages/highlight-5.webp
@@ -248,10 +243,8 @@ sections:
         tagline: Heritage Home
         subtitle: 龙门居
         text: >-
-          Visit the Dragon Gate Residence, a striking example of Lijiang's
-          traditional merchant architecture — with carved beams, a
-          dragon-themed gate, and a quiet back garden you'd miss without a
-          local guide.
+          Visit the Dragon Gate Residence, an opulent and strikingly
+          impressive example of Lijiang's traditional merchant architecture.
         image:
           type: ImageBlock
           url: /images/tours/e-biking-lijiang-villages/highlight-6.webp
@@ -279,9 +272,8 @@ sections:
         tagline: Mountain Backdrop
         subtitle: Yulong Range
         text: >-
-          Stop at a viewpoint where the road opens up and Jade Dragon Snow
-          Mountain appears in full above the green fields. Photo stop,
-          deep breath, then on.
+          Stop at viewpoints where the Jade Dragon Snow Mountain appears in
+          full above the fields. Photo stop, deep breath, then carry on.
         image:
           type: ImageBlock
           url: /images/tours/e-biking-lijiang-villages/highlight-7.webp
@@ -309,9 +301,8 @@ sections:
         tagline: Local Treat
         subtitle: Seasonal Snack
         text: >-
-          Try a scoop of mung-bean ice cream from a village vendor — a
-          cool, lightly sweet Yunnan specialty that's perfect on a sunny
-          ride. Optional but strongly recommended.
+          Try a mung-bean ice cream from a village vendor — a cool, lightly
+          sweet Yunnan specialty that's perfect on a sunny ride.
         image:
           type: ImageBlock
           url: /images/tours/e-biking-lijiang-villages/highlight-8.webp
@@ -339,10 +330,9 @@ sections:
         tagline: Off-the-Beaten-Path
         subtitle: Local Curiosity
         text: >-
-          Tucked into a quiet side street stands a small Catholic church
-          that has served the local Naxi community for generations — a
-          fascinating, almost-secret piece of the region's missionary
-          history. Most travelers walk right past it.
+          Tucked into a quiet side street stands a small church that serves
+          local Naxi community — a secret piece of the region's missionary
+          history.
         image:
           type: ImageBlock
           url: /images/tours/e-biking-lijiang-villages/highlight-9.webp
@@ -371,8 +361,8 @@ sections:
         subtitle: Rural Panoramas
         text: >-
           Between villages the road opens into wide fields and grasslands
-          that change colour with the season — rapeseed yellow in spring,
-          barley gold in late summer, soft green in the rains.
+          that change colour with the season — gold in the winter and soft
+          green in the spring.
         image:
           type: ImageBlock
           url: /images/tours/e-biking-lijiang-villages/highlight-10.webp
@@ -400,9 +390,8 @@ sections:
         tagline: Village Oasis
         subtitle: Park Walk
         text: >-
-          Park the bikes for a short walk through Green Dragon Park, a
-          leafy, spring-fed village oasis with a small stream, a wooden
-          pavilion, and the kind of quiet that feels like a deep exhale.
+          Park the bikes for a short walk through Green Dragon Park, a leafy
+          oasis along a small stream and a quiet wooden pavilion.
         image:
           type: ImageBlock
           url: /images/tours/e-biking-lijiang-villages/highlight-11.webp
@@ -430,10 +419,9 @@ sections:
         tagline: Ancient Trading Town
         subtitle: 束河古镇
         text: >-
-          End the ride at Shuhe Old Town (束河古镇), the older, quieter
-          sister of Lijiang's UNESCO centre. Cobblestone streets, horse
-          caravan inns, and a small market square — perfect for a slow
-          wander before the drive back.
+          Enter Shuhe Old Town, the older sister of Lijiang Old Town.
+          Cobblestone streets and horse caravan inns — perfect for a stroll
+          before the ride back.
         image:
           type: ImageBlock
           url: /images/tours/e-biking-lijiang-villages/highlight-12.webp
@@ -493,7 +481,7 @@ sections:
         schedule:
           - period: Morning or Afternoon
             activities:
-              - "Meet your guide at your Lijiang hotel for a short drive out of the Old Town, then hop on your e-bike for a relaxed 10 km loop through authentic Naxi villages. Ride past vegetable gardens and walnut groves to a hundred-year-old courtyard residence and the Dragon Gate Residence, with a quick stop at a hidden local church most travelers walk right past. Pause mid-ride for a gongfu tea ceremony with a village host, then continue past the fields and grasslands to Green Dragon Park, where you leave the bikes for a short walk through the spring-fed oasis. Finish the loop at Shuhe Old Town (束河古镇) with a slow wander through its cobblestone streets, before transferring back to your Lijiang hotel."
+              - "Meet your guide at your Lijiang hotel for a short drive out of the Old Town, then hop on your e-bike for a relaxed 10 km loop through authentic Naxi villages. Ride past vegetable gardens and walnut groves to a hundred-year-old courtyard residence and the Dragon Gate Residence, with a quick stop at a hidden local church. Pause mid-ride for a gongfu tea ceremony, then continue past the fields and grasslands to Green Dragon Park, where you leave the bikes for a short walk through the spring-fed oasis and Shuhe Old Town, before riding back to Lijiang."
     accentColors:
       morning: '#01aed9'
       afternoon: '#007dbd'
@@ -544,8 +532,8 @@ sections:
       text: For groups of 1 person or more than 6 people
       url: /book?tour=E-Biking+Lijiang+Villages
     included:
-      text: English-Speaking Coordinator/Guide (Lynne Lyu or Lukasz Madrzynski), Quality E-Bike and Helmet, Gongfu Tea Ceremony, Entrance Fees to Courtyard Residences, Bottled Water, Outdoor Travel Insurance.
-      notIncluded: 'Personal Expenses (Souvenirs, Snacks Like Green Bean Ice Cream), Voluntary Gratuities for the Guides'
+      text: English-Speaking Coordinator/Guide (Lukasz Madrzynski), E-Bike and Helmet, Gongfu Tea Ceremony, Green Bean Ice Creams, Outdoor Travel Insurance.
+      notIncluded: 'Personal Expenses (Souvenirs, etc.), Voluntary Gratuities for the Guide'
       meetingPoint: 'Pickup: 9:00 AM (morning tour) or 2:00 PM (afternoon tour) at your Lijiang hotel | Return: Approximately 1:00 PM or 6:00 PM to your Lijiang hotel'
     bookingUrl: /book?tour=E-Biking+Lijiang+Villages
     colors: bg-neutral-fg-dark
@@ -581,28 +569,28 @@ sections:
         answer: You must be at least 16 years old to ride electric bikes in China. Younger guests can ride as a passenger or follow the group in the support vehicle — please let us know in advance so we can arrange it.
       - type: AccordionItem
         question: What should I bring?
-        answer: Comfortable closed-toe shoes, sunglasses, sunscreen, a light jacket for the breeze, and your camera. Helmets are provided. Detailed packing list provided upon booking.
+        answer: Comfortable closed-toe shoes, sunglasses, sunscreen, a jacket for the breeze, and your camera. Helmets are provided.
       - type: AccordionItem
         question: Is this suitable for children?
-        answer: Yes for kids 16+ who ride their own e-bike. Younger children can join as passengers on a tandem e-bike or follow in the support vehicle (please request in advance). The 10 km route is at a relaxed pace with frequent stops.
+        answer: Only 16+ year olds are legally allowed to ride E-bikes on their own in China. Please contact us if you would like your younger child to join you as your passenger.
       - type: AccordionItem
         question: What's the cancellation policy?
-        answer: Full refund if cancelled 7+ days before the tour. 50% refund for 3-6 days. No refund within 48 hours. Weather contingencies always have alternatives or rescheduling.
+        answer: Full refund if cancelled 7+ days before the tour. 50% refund for 3-6 days. No refund within 48 hours. Weather contingencies are treated as exceptions and are fully refunded.
       - type: AccordionItem
         question: What happens if it rains?
-        answer: Light rain is fine — we provide lightweight ponchos. For heavy rain we swap the e-bike portion for a guided village walk in covered lanes and reschedule the open-field sections when possible.
+        answer: This is a seasonal ecotour that happens during dry season with very little chances of rain. However, in case of rain we might need to cancel the tour and will fully refund your fee.
       - type: AccordionItem
-        question: Are there any physical requirements?
-        answer: Basic bike-riding confidence is enough. The e-bike handles the hills, and the route is on flat village roads. You should be comfortable riding a bicycle in a group.
+        question: Are there any skill requirements?
+        answer: Basic bike-riding skill is enough. The route is mostly on flat village roads and e-bike handles the slight inclinations well.
       - type: AccordionItem
         question: How do I get to the meeting point?
-        answer: We provide pickup from any hotel in Lijiang Old Town or the surrounding area, then drive you to the village starting point (about 20 minutes). If you're staying outside Lijiang, please contact us to arrange an alternative meeting point.
+        answer: We will pick you up from any hotel in Lijiang Old Town or the surrounding area, then drive you to the starting point (around 10-20 min). If you're staying outside Lijiang, please contact us to arrange an alternative meeting point.
       - type: AccordionItem
         question: What language do the guides speak?
-        answer: Our guides are fluent in English. For other languages, please inquire about availability.
+        answer: We are fluent in English, Polish and Chinese.
       - type: AccordionItem
         question: How does this trip support conservation and sustainable development?
-        answer: Each booking directly supports the Naxi village families you visit — the courtyard host, the tea ceremony host, the church caretaker, and the local bike outfitter. E-bikes are zero-emission at the point of use, and our small-group format (max 6) keeps the village lanes quiet and respectful.
+        answer: Each booking directly supports local village business that are outside of tourist spots. E-bikes are zero-emission at the point of use, and our small-group format (max 6) keeps the village lanes quiet and respectful.
     badge:
       label: FAQ
       color: text-primary
@@ -642,7 +630,7 @@ sections:
           - pr-4
   - type: GenericSection
     title:
-      text: Ready to Pedal Through Real Naxi Villages?
+      text: Ready to Ride Across Real Naxi Villages?
       color: text-dark
       styles:
         self:

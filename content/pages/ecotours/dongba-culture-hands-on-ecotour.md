@@ -12,14 +12,13 @@ sections:
     title:
       text: Dongba Culture <br/> Hands-On
       color: text-white
-    subtitle: Write, Craft, and Walk Through Naxi Living Heritage
+    subtitle: A thousand-year-old script you can create yourself
     text: >-
-      Step into the living culture of the Naxi people in Lijiang's UNESCO Old
-      Town. Visit the Big Water Wheel and Wenchang Temple, learn the basics of
-      ancient Dongba pictographs from a local heritage expert, craft your own
-      sheet of traditional Dongba paper, and finish with a guided walk through
-      the Old Town's hidden alleys and panoramic viewpoints. A hands-on
-      half-day that turns Lijiang's stone streets into a classroom.
+      Pickup from your Lijiang hotel and a half-day that turns the UNESCO Old
+      Town into a workshop. We start at the Big Water Wheel, sit down with a
+      Dongba heritage master to write ancient pictographs and then go to
+      craft your own sheet of traditional Dongba paper. You'll leave with
+      your own script that's been used for a thousand years.
     actions:
       - type: Button
         label: Book This EcoTour
@@ -44,8 +43,8 @@ sections:
     items:
       - icon: /images/shared/key-details/special.png
         title: What's Special
-        subtitle: Active Cultural Experience
-        highlight: 'Hands-on Dongba script and traditional paper-making, guided by Naxi heritage experts in the UNESCO Old Town'
+        subtitle: Hands-on Dongba Culture
+        highlight: 'Create your own Dongba script, guided by Naxi heritage experts.'
       - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: Half-day
@@ -95,9 +94,9 @@ sections:
         tagline: Town Landmark
         subtitle: Big Water Wheel
         text: >-
-          Begin at the Big Water Wheel, Lijiang's most photographed landmark
-          and a symbol of the Naxi relationship with water and the mountain
-          rivers that feed the Old Town's canals.
+          Begin at the Big Water Wheel, Lijiang's most iconic landmark and a
+          symbol of the Naxi relationship with water and the mountain rivers
+          that feed the Old Town's canals.
         image:
           type: ImageBlock
           url: /images/tours/dongba-culture-hands-on/highlight-1.webp
@@ -127,8 +126,7 @@ sections:
         text: >-
           Step into Wenchang Temple, a quiet courtyard temple dedicated to the
           god of literature — a perfect prelude to learning about Dongba
-          pictographs, the Naxi script often called the only living pictograph
-          in the world.
+          pictographs, the last living hieroglyphs in the world.
         image:
           type: ImageBlock
           url: /images/tours/dongba-culture-hands-on/highlight-2.webp
@@ -156,10 +154,9 @@ sections:
         tagline: Living Script
         subtitle: Dongba Workshop
         text: >-
-          Take a brush and learn to draw a few of the ancient Dongba
-          pictographs under the guidance of a local heritage expert. You'll
-          leave with your own paper keepsake — a piece of script that has
-          been used by Dongba priests for a thousand years.
+          Take a brush and learn to draw the ancient Dongba pictographs under
+          the guidance of a local heritage expert. You'll leave with your own
+          calligraphy.
         image:
           type: ImageBlock
           url: /images/tours/dongba-culture-hands-on/highlight-3.webp
@@ -187,10 +184,9 @@ sections:
         tagline: Historic Academy
         subtitle: 雪山书院
         text: >-
-          Visit the Snow Mountain Academy (雪山书院), one of the highest-
-          altitude academies in China and a 300-year-old centre of Naxi and
-          Han scholarship — a quiet space to feel how education, language,
-          and place intertwined in this corner of Yunnan.
+          Visit the Snow Mountain Academy, a 300-year-old centre of Naxi
+          scholarship — a quiet space to feel how education, culture, and
+          place intertwine.
         image:
           type: ImageBlock
           url: /images/tours/dongba-culture-hands-on/highlight-4.webp
@@ -218,10 +214,9 @@ sections:
         tagline: Local Masters
         subtitle: Naxi Culture Keepers
         text: >-
-          Sit down with the Naxi culture keepers who run the workshops —
-          descendants of Dongba priests, paper makers, and Old Town
-          historians — and hear what it means to keep a written tradition
-          alive in the 21st century.
+          Meet Naxi culture keepers who run the workshops — heritage masters,
+          paper makers, and historians — hear what it means to keep Naxi
+          tradition alive in the 21st century.
         image:
           type: ImageBlock
           url: /images/tours/dongba-culture-hands-on/highlight-5B.webp
@@ -250,8 +245,7 @@ sections:
         subtitle: Handmade Paper
         text: >-
           Try your hand at the traditional Dongba paper-making process — a
-          slow, meditative craft using local plant fibres. The paper you
-          make becomes the surface for the pictographs you write next.
+          slow, meditative process that turns local plant fibres into a living fossil.
         image:
           type: ImageBlock
           url: /images/tours/dongba-culture-hands-on/highlight-6.webp
@@ -279,9 +273,8 @@ sections:
         tagline: Old Town Vista
         subtitle: Lion Hill Viewpoint
         text: >-
-          Climb gently to the Lion Hill viewpoint (or equivalent lookout in
-          the Old Town) for a sweeping panorama over Lijiang's grey-tiled
-          rooftops with Jade Dragon Snow Mountain on the horizon.
+          Climb gently to the Lion Hill and Eye of Lijiang viewpoints for
+          sweeping panoramas over Lijiang's grey-tiled rooftops.
         image:
           type: ImageBlock
           url: /images/tours/dongba-culture-hands-on/highlight-7.webp
@@ -310,8 +303,7 @@ sections:
         subtitle: Backstreet Walks
         text: >-
           Wander the backstreet alleys most tourists miss — small courtyard
-          homes, neighbourhood wells, and quiet lanes where you can still
-          hear Naxi grandmothers chatting in the old language.
+          homes, neighbourhood wells, and quiet lanes where time slows down.
         image:
           type: ImageBlock
           url: /images/tours/dongba-culture-hands-on/highlight-8.webp
@@ -339,9 +331,8 @@ sections:
         tagline: Town Centre
         subtitle: Square Street (四方街)
         text: >-
-          End your tour at the famous Square Street (四方街), the historic
-          market crossroads at the heart of the Old Town — the perfect spot
-          to keep exploring on your own, or sit down for a Naxi lunch nearby.
+          Cross the famous Square Street, the historic market crossroads at
+          the heart of the Old Town and learn its stories.
         image:
           type: ImageBlock
           url: /images/tours/dongba-culture-hands-on/highlight-9.webp
@@ -401,7 +392,7 @@ sections:
         schedule:
           - period: Morning or Afternoon
             activities:
-              - "Meet your guide at your Lijiang hotel and walk together into the Old Town, starting at the Big Water Wheel. Continue to Wenchang Temple for an introduction to the Dongba tradition, then take a guided walk through the Old Town's hidden alleys to Snow Mountain Academy (雪山书院), where you'll meet a Naxi heritage expert. Spend a quiet session learning the basics of Dongba pictographs — writing your own name and a few symbols on paper — then try your hand at traditional Dongba paper-making. Finish the half-day with a climb to a panoramic viewpoint over the rooftops and a final stroll to Square Street (四方街), where your guide will leave you free to keep exploring or recommend a Naxi lunch nearby."
+              - "Meet your guide at your Lijiang hotel and go together into the Old Town, starting at the Big Water Wheel. Continue to Wenchang Temple for an introduction to the Dongba tradition, then take a guided walk through the Old Town's hidden alleys to Dongba writing workshop. Spend a quiet session learning the basics of Dongba pictographs — writing the ancient symbols on traditional paper. Continue to Dongba paper workshop and try your hand at traditional paper-crafting. Finish the half-day with a climb to a panoramic viewpoint over the rooftops and a final stroll to Big Water Wheel passing a few hidden spots on the way."
     accentColors:
       morning: '#01aed9'
       afternoon: '#007dbd'
@@ -452,9 +443,9 @@ sections:
       text: For groups of 1 person or more than 6 people
       url: /book?tour=Dongba+Culture+Hands-On
     included:
-      text: English-Speaking Coordinator/Guide (Lynne Lyu or Lukasz Madrzynski), Local Naxi Heritage Expert, Workshop Materials (Brush, Ink, Handmade Dongba Paper), Entrance Fees to Wenchang Temple and Snow Mountain Academy, Bottled Water, Outdoor Travel Insurance.
-      notIncluded: 'Personal Expenses (Souvenirs, Optional Donations to the Heritage Workshops), Voluntary Gratuities for the Guides'
-      meetingPoint: 'Pickup: 9:00 AM (morning tour) or 2:00 PM (afternoon tour) at your Lijiang hotel | Return: Approximately 1:00 PM or 6:00 PM to your Lijiang hotel'
+      text: English-Speaking Coordinator/Guide (Lynne Lyu or Lukasz Madrzynski), Local Naxi Heritage Experts, Workshop Materials (Brush, Ink, Handmade Dongba Paper), Workshop Fees, Outdoor Travel Insurance.
+      notIncluded: 'Personal Expenses (souvenirs, etc.), Voluntary Gratuities for the Guide.'
+      meetingPoint: 'Pickup: 9:00 AM (morning tour) or 2:00 PM (afternoon tour) at your Lijiang hotel | Return: Approximately 1:00 PM or 6:00 PM to your Lijiang hotel.'
     bookingUrl: /book?tour=Dongba+Culture+Hands-On
     colors: bg-neutral-fg-dark
     styles:
@@ -486,28 +477,28 @@ sections:
     items:
       - type: AccordionItem
         question: What should I bring?
-        answer: Comfortable walking shoes, layers for changing temperatures, sun protection, a water bottle, and your camera. Detailed packing list provided upon booking.
+        answer: Comfortable walking shoes, layers for changing temperatures, sun protection for sunny days, raincoat or umbrella for rainy days, a water bottle.
       - type: AccordionItem
         question: Is this suitable for children?
-        answer: Yes! This tour is family-friendly. Children under 12 should be accompanied by an adult. The 3 km walk is at a slow pace with frequent stops, achievable for most ages. The hands-on paper-making and pictograph writing are a hit with kids.
+        answer: Yes! This tour is family-friendly. The 3 km walk is at a slow pace with frequent stops, achievable for most ages. The hands-on paper-making and pictograph writing are a hit with kids.
       - type: AccordionItem
         question: What's the cancellation policy?
         answer: Full refund if cancelled 7+ days before the tour. 50% refund for 3-6 days. No refund within 48 hours. Weather contingencies always have alternatives or rescheduling.
       - type: AccordionItem
         question: What happens if it rains?
-        answer: The tour runs in light rain with umbrellas provided. For heavy storms we'll move the workshop portions into the covered courtyard of Snow Mountain Academy, then reschedule the rooftop viewpoint for a clear day when possible.
+        answer: The tour runs in light and medium rain. Have your umbrellas and/or raincoats handy. We will spend big portions of the tour in indoor workshops.
       - type: AccordionItem
         question: Are there any physical requirements?
-        answer: Basic mobility is enough. You'll walk 3 km on flat cobblestone streets at a slow pace, with frequent stops for storytelling and workshop time. Suitable for most fitness levels.
+        answer: Basic mobility is enough. You'll walk 3 km on flat cobblestone streets (elevation gain no more than 50m) at a slow pace, with frequent stops for storytelling and workshop time. Suitable for most fitness levels.
       - type: AccordionItem
         question: How do I get to the meeting point?
-        answer: We provide pickup from any hotel in Lijiang Old Town or the surrounding area. If you're staying outside Lijiang, please contact us to arrange an alternative meeting point.
+        answer: We provide pickup from any hotel in Lijiang Old Town or the surrounding area. If you're staying outside Lijiang, please contact us to discuss options.
       - type: AccordionItem
         question: What language do the guides speak?
-        answer: Our guides are fluent in English. For other languages, please inquire about availability.
+        answer: We are fluent in English, Polish and Chinese.
       - type: AccordionItem
         question: How does this trip support conservation and sustainable development?
-        answer: Each booking directly supports the Naxi heritage workshops and the local culture keepers who run them. Part of your fee goes to maintaining Dongba script classes and traditional paper-making supplies. Our small-group format (max 6) keeps the workshop intimate and ensures your fees stay in the Old Town.
+        answer: Each booking directly supports the Naxi heritage workshops and the local culture keepers who run them. Our small-group format (max 6) keeps the workshops intimate non-disturbing to the intangible heritage practitioners.
     badge:
       label: FAQ
       color: text-primary
@@ -547,7 +538,7 @@ sections:
           - pr-4
   - type: GenericSection
     title:
-      text: Ready to Write Your Own Dongba Page?
+      text: Ready to Create Your Own Dongba Script?
       color: text-dark
       styles:
         self:

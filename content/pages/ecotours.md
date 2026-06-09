@@ -90,7 +90,9 @@ sections:
         title: Lijiang's Forgotten Forest
         subtitle: from $46 to $66 per person
         text: >
-          Discover Lijiang's best-kept secret! A gentle hike through pristine wilderness teeming with rare orchids and wildlife, culminating in breathtaking views of Jade Dragon Snow Mountain.
+          A half-day hike through a highland forest — rare orchids, peculiar
+          plants, strange fungi, woodland birds, and a hilltop pagoda view of
+          Jade Dragon Snow Mountain. For the quiet nature walker.
         image:
           type: ImageBlock
           url: /images/tours/lijiang-forgotten-forest/card.webp
@@ -173,9 +175,9 @@ sections:
         tagline: Half-Day | Cultural Heritage Workshop
         subtitle: from $68 to $91 per person
         text: >
-          Write ancient Dongba pictographs, craft traditional Naxi paper,
-          and walk the hidden alleys of Lijiang's UNESCO Old Town with a
-          local heritage expert - a hands-on half-day of living culture.
+          Learn to write Dongba pictographs & craft Naxi paper with heritage
+          practitioners. Walk Lijiang's hidden alleys. For travelers who'd
+          rather participate than photograph.
         image:
           type: ImageBlock
           url: /images/tours/dongba-culture-hands-on/card.webp
@@ -214,7 +216,9 @@ sections:
         tagline: Half-Day | Active Village Discovery
         subtitle: from $72 to $98 per person
         text: >
-          Trade the Old Town crowds for quiet Naxi villages and mountain air.        E-bike 10 km on peaceful lanes, stop for a tea, discover vegetable gardens, farms and century-old courtyards - all in one relaxed half-day.
+          Ride 10 km through real Naxi villages – vegetable gardens, fruit tree
+          groves, century-old courtyards and village life. For travelers who'd
+          rather ride an e-bike than a tour bus.
         image:
           type: ImageBlock
           url: /images/tours/e-biking-lijiang-villages/card.webp

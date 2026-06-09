@@ -12,9 +12,13 @@ sections:
     title:
       text: "Lijiang's Forgotten <br/> Forest"
       color: text-white
-    subtitle: A Wild Biodiversity Hotspot in the Heart of Lijiang
+    subtitle: Rare orchids, strange fungi, and a hilltop pagoda
     text: >-
-      Discover hidden orchids, rare Ghost Pipes, and vibrant birdlife in a peaceful forest sanctuary. With expert guidance, explore pristine trails and uncover nature's secrets.
+      A half-day with a local botanist through a forest most Lijiang visitors
+      don't know exists — orchids, medicinal plants, plentiful fungi and
+      woodland birds. We end at a hilltop pagoda with the full Jade Dragon
+      Snow Mountain laid in front. You'll come home with head full of
+      botanical fun facts.
     actions:
       - type: Button
         label: Book This EcoTour
@@ -39,8 +43,8 @@ sections:
     items:
       - icon: /images/shared/key-details/special.png
         title: "What's Special"
-        subtitle: Biodiversity Focus
-        highlight: 'Rare orchids, birdwatching, & panoramic mountain views'
+        subtitle: High-altitude orchids and medicinal plants
+        highlight: 'Biodiversity haven & panoramic mountain views'
       - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: Half Day
@@ -113,10 +117,10 @@ sections:
             justifyContent: center
             textAlign: left
       - type: FeaturedItem
-        title: Wildflower Gardens
+        title: Wildflower Meadows
         tagline: Rare Orchids
         subtitle: Secret Garden
-        text: 'Discover a secret garden of wildflowers. Be captivated by a vibrant display of rare blooms, including many wild orchid species. A stunning visual feast and perfect photo opportunity.'
+        text: 'Discover secret meadows full of wildflowers. Be captivated by a vibrant display of rare blooms, including many wild orchid species. A stunning visual feast and perfect photo opportunity.'
         image:
           type: ImageBlock
           url: /images/tours/lijiang-forgotten-forest/highlight-2.webp
@@ -497,9 +501,9 @@ sections:
       text: For groups of 1 person or more than 6 people
       url: /book?tour=Lijiang+Forgotten+Forest+Adventure
     included:
-      text: English-Speaking Guides (Lynne and/or Lukasz), Entrance to Black Dragon Pool Park, Traditional Local Snacks.
-      notIncluded: 'Personal Expenses (Souvenirs, etc.), Voluntary Gratuities for the Guides'
-      meetingPoint: 'Morning: 8:00 AM pickup | Afternoon: 2:00 PM pickup - Your Lijiang hotel or preferred location'
+      text: English-Speaking Guides/Biodiversity Experts (Lynne and/or Lukasz), Transfer to the Park Entrance, Traditional Local Hiking Snacks, Binoculars for Birdwatching.
+      notIncluded: 'Personal Expenses (Souvenirs, etc.), Voluntary Gratuities for the Guide.'
+      meetingPoint: 'Morning: 8:00 AM pickup | Afternoon: 2:00 PM pickup - Your Lijiang hotel or preferred location.'
     bookingUrl: /book?tour=Lijiang+Forgotten+Forest+Adventure
     colors: bg-neutral-fg-dark
     styles:
@@ -531,16 +535,16 @@ sections:
     items:
       - type: AccordionItem
         question: What should I bring?
-        answer: We recommend comfortable hiking shoes, sun protection, a water bottle, binoculars for birdwatching, and your camera. A light jacket is advisable for cooler mornings.
+        answer: Comfortable hiking shoes, raincoat and/or umbrella, a water bottle, and your camera. A light jacket is advisable for cooler days.
       - type: AccordionItem
         question: Is this suitable for beginners?
-        answer: "Yes! This is a moderate-level tour suitable for most fitness levels. You'll walk 5-6 km on forest trails at altitudes of 2,400-2,700m."
+        answer: Yes! This is a moderate-level tour suitable for most fitness levels. You'll walk 5-6 km on forest trails at altitudes of 2,400-2,700m.
       - type: AccordionItem
         question: "What's the cancellation policy?"
-        answer: Full refund if cancelled 48+ hours before the tour. 50% refund for 24-48 hours. No refund within 24 hours. Weather contingencies always have alternatives.
+        answer: Full refund if cancelled 48+ hours before the tour. 50% refund for 24-48 hours. No refund within 24 hours.
       - type: AccordionItem
         question: What happens if it rains?
-        answer: "Most activities continue in light rain. For safety during heavy storms, we'll adjust the itinerary to covered areas and cultural experiences."
+        answer: This is a seasonal ecotour that happens during the rainy season. Expect sudden showers and have your raincoat/umbrella handy. Activities continue in light to moderate rain. For safety during heavy storms, we'll adjust the itinerary accordingly.
       - type: AccordionItem
         question: Will we see wildlife?
         answer: Wildlife sightings depend on luck and conditions. Common species include squirrels, treeshrews, and various birds. Rare sightings may include muntjac deer.
@@ -549,10 +553,10 @@ sections:
         answer: We provide pickup from any hotel in Lijiang Old Town area. Contact us to arrange an alternative meeting point if needed.
       - type: AccordionItem
         question: What language do the guides speak?
-        answer: Our guides are fluent in English. For other languages, please inquire about availability.
+        answer: We are fluent in English, Polish and Chinese.
       - type: AccordionItem
         question: What about altitude sickness?
-        answer: The altitude is moderate (2,400-2,700m). We ascend gradually and take breaks. Most people adjust well, but inform your guide if you feel unwell.
+        answer: The altitude is moderate (2,400-2,700m). We ascend gradually and take breaks. Most people adjust well, but please inform us in advance if you feel unwell after your arrival in Lijiang.
     badge:
       label: FAQ
       color: text-primary
