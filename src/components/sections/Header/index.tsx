@@ -241,7 +241,7 @@ function MobileMenu(props) {
             // for display:none elements and unaffected by transforms).
             const bars = document.querySelectorAll('.sb-component-sticky-booking-bar');
             let barHeight = 0;
-            for (const bar of bars) {
+            for (const bar of Array.from(bars) as HTMLElement[]) {
                 if (bar.offsetHeight > 0) {
                     barHeight = bar.offsetHeight;
                     break;
