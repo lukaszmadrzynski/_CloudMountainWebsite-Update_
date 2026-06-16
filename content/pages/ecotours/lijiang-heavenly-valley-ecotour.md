@@ -39,8 +39,8 @@ sections:
     items:
       - icon: /images/shared/key-details/special.png
         title: What's Special
-        subtitle: Biodiversity Focus
-        highlight: 'Ecosystem Conservation & Ethnic Culture Immersion'
+        subtitle: Sustainability Focus
+        highlight: 'Nature Conservation & Ethnic Cultures'
       - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: One Day
