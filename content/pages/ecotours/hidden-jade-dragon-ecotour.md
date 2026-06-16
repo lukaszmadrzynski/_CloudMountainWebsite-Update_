@@ -7,14 +7,18 @@ sections:
       url: /images/tours/hidden-jade-dragon/banner.webp
       altText: Hidden jade dragon ecotour scenic view
     badge:
-      label: One-day EcoTour
+      label: One-Day EcoTour
       color: text-white
     title:
       text: "Jade Dragon's <br/> Hidden Trails"
       color: text-white
-    subtitle: An Authentic Lijiang Ecotour Beyond the Crowds
+    subtitle: Pristine nature, Naxi and Yi Minorities, local conservationist
     text: >-
-      Escape to hidden temples, pristine wetlands, and authentic Yi village life beyond the tourist crowds. A private journey through Naxi heritage and untamed nature.
+      Pickup at your Lijiang hotel, then a private day beyond the tourist
+      loop. Morning at Fuguo Tibetan Buddhist Temple and Wenhai Wetlands
+      with local conservationist, then home-cooked Yi lunch and a real
+      ranger patrol hike in the Jade Dragon reserve. End the day in Baisha
+      Village over a Lijiang specialty dinner. You'll leave richer in new local friends and a head full of stories.
     actions:
       - type: Button
         label: Book This EcoTour
@@ -39,20 +43,20 @@ sections:
     items:
       - icon: /images/shared/key-details/special.png
         title: "What's Special"
-        subtitle: Cultural Immersion
-        highlight: 'Fuguo Temple, Wenhai Wetlands & Yi Village Stay'
+        subtitle: Off-the-beaten-path
+        highlight: 'Nature Reserves, Minority Villages and Real Conservation'
       - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: One Day
         highlight: 'Approximately 11 hours (9:00 AM to 8:00 PM)'
       - icon: /images/shared/key-details/location.png
         title: Location
-        subtitle: Jade Dragon Snow Mountain
-        highlight: 'Jade Dragon Snow Mountain Nature Reserve | Altitudes 2,400-3,300m'
+        subtitle: Protected Areas
+        highlight: 'Wenhai Wetlands and Jade Dragon Snow Mountain | Altitudes 3,000-3,300m'
       - icon: /images/shared/key-details/level.png
         title: Activity Level
         subtitle: Moderate
-        highlight: 'Walking: 8-9 km per day'
+        highlight: 'Walking: 8-10 km per day'
     badge:
       label: KEY DETAILS
       color: text-primary
@@ -116,7 +120,7 @@ sections:
         title: Wenhai Wetlands
         tagline: Pristine Biodiversity
         subtitle: Wenhai Wetland Nature Reserve
-        text: 'Stop by at Wenhai Wetland Nature Reserve and uncover its pristine beauty. This hidden ecological haven allows you to witness authentic wetland biodiversity in peaceful solitude, experiencing the unspoiled natural wonders of this gem.'
+        text: 'Stop by at Wenhai Wetland Nature Reserve and uncover its pristine beauty. This hidden ecological haven allows you to witness authentic wetland biodiversity in peaceful solitude, experiencing the unspoiled natural wonders with a local conservationist.'
         image:
           type: ImageBlock
           url: /images/tours/hidden-jade-dragon/highlight-2.webp
@@ -140,10 +144,10 @@ sections:
             justifyContent: center
             textAlign: left
       - type: FeaturedItem
-        title: Yi Village Experience
+        title: Yi Minority Village
         tagline: Runangu Village
         subtitle: Runangu Village
-        text: "Venture to Runangu Village and experience authentic Yi minority culture and hospitality. Enjoy a genuine cultural immersion, sharing a delicious local lunch in the village chief's home and connecting with the warm spirit of the Yi people."
+        text: "Venture to Runangu Village and experience authentic Yi minority culture and hospitality. Enjoy a genuine local immersion, sharing a delicious home-cooked lunch in the village chief's home and connecting with the unique culture of the Yi people."
         image:
           type: ImageBlock
           url: /images/tours/hidden-jade-dragon/highlight-4.webp
@@ -284,17 +288,17 @@ sections:
         schedule:
           - period: Morning
             activities:
-              - "Begin with a convenient pickup from your Lijiang hotel. First stop is Fuguo Tibetan Buddhist Temple, a secluded sanctuary where you can immerse yourself in the peaceful atmosphere of Tibetan Buddhism and discover hidden serenity."
+              - 'Begin with a convenient pickup from your Lijiang hotel. First stop is Fuguo Tibetan Buddhist Temple, a secluded sanctuary where you can immerse yourself in the peaceful atmosphere of Tibetan Buddhism and discover hidden serenity. After the temple, continue to Wenhai Wetland Nature Reserve to uncover pristine wetland biodiversity.'
           - period: Afternoon
             activities:
-              - "After the temple, continue to Wenhai Wetland Nature Reserve to uncover pristine wetland biodiversity. Then venture to Runangu Village for an authentic Yi cultural immersion, enjoying a delicious home-cooked lunch in the village chief's home."
+              - "Venture to Runangu Village for an authentic Yi cultural immersion, enjoying a delicious home-cooked lunch in the village chief's home. Embark on an exclusive conservation patrol hike in Jade Dragon Snow Mountain Nature Reserve."
           - period: Evening
             activities:
-              - "Embark on an exclusive conservation patrol hike in Jade Dragon Snow Mountain Nature Reserve. End your day at Baisha Village for a traditional dinner, exploring this UNESCO heritage site before returning to your Lijiang hotel."
+              - 'End your day at Baisha Village for a Lijiang specialty dinner and explore this UNESCO heritage site before returning to your Lijiang hotel.'
     accentColors:
-      morning: "#01aed9"
-      afternoon: "#007dbd"
-      evening: "#02558b"
+      morning: '#01aed9'
+      afternoon: '#007dbd'
+      evening: '#02558b'
     badge:
       label: DETAILED SCHEDULE
       color: text-primary
@@ -341,8 +345,8 @@ sections:
       text: For groups of 1 person or more than 6 people
       url: /book?tour=Hidden+Jade+Dragon+Adventure
     included:
-      text: English-Speaking Guide (Lynne Lyu or Lukasz Madrzynski), Two Local Conservation Guides from Naxi and Yi Villages, Home-Cooked Lunch in Yi Village, Restaurant Dinner in Baisha, Private Transportation, Outdoor Travel Insurance.
-      notIncluded: 'Personal Expenses (Souvenirs, Snacks, etc.), Voluntary Gratuities for the Guides'
+      text: English-Speaking Guide (Lynne Lyu or Lukasz Madrzynski), Two Local Conservation Guides from Naxi and Yi Villages, Home-Cooked Lunch in Yi Village, Restaurant Dinner in Baisha, Private Transportation, Traditional Hiking Snacks, Outdoor Travel Insurance.
+      notIncluded: 'Personal Expenses (Souvenirs, etc.), Voluntary Gratuities for the Guides'
       meetingPoint: 'Pickup: 9:00 AM at your Lijiang hotel | Return: Approximately 8:00 PM to your Lijiang hotel'
     bookingUrl: /book?tour=Hidden+Jade+Dragon+Adventure
     colors: bg-neutral-fg-dark
@@ -375,28 +379,28 @@ sections:
     items:
       - type: AccordionItem
         question: What should I bring?
-        answer: We recommend comfortable hiking shoes, layers for changing temperatures, sun protection, a water bottle, and your camera.
+        answer: We recommend comfortable hiking shoes, layers for changing temperatures, raincoat or umbrella for cloudy days, sun protection, a water bottle, and your camera.
       - type: AccordionItem
         question: Is this suitable for beginners?
-        answer: Yes! This is a moderate-level tour suitable for most fitness levels. You'll walk 8-9 km on mountain trails at altitudes of 2,400-3,300m.
+        answer: Yes. This is a moderate-level tour suitable for most fitness levels. You'll walk 8-9 km on mountain trails at altitudes of 3,100-3,300m.
+      - type: AccordionItem
+        question: What about altitude sickness?
+        answer: We ascend gradually. Our guides monitor everyone closely. If symptoms occur, we can rest and descend if needed.
       - type: AccordionItem
         question: What's the cancellation policy?
         answer: Full refund if cancelled 7+ days before the tour. 50% refund for 3-6 days. No refund within 48 hours.
       - type: AccordionItem
         question: What happens if it rains?
-        answer: Most activities continue in light rain. For safety during heavy storms, we'll adjust the itinerary to indoor cultural experiences.
+        answer: Most activities continue in light rain. For safety during heavy storms, we'll adjust the itinerary to indoor experiences.
       - type: AccordionItem
         question: How do I get to the meeting point?
         answer: We provide pickup from any hotel in Lijiang. Contact us if you need an alternative meeting point.
       - type: AccordionItem
         question: What language do the guides speak?
-        answer: Our guides are fluent in English. For other languages, please inquire about availability.
+        answer: We are fluent in English, Polish and Chinese.
       - type: AccordionItem
-        question: How does this trip support local communities?
-        answer: Each booking directly supports local Naxi and Yi communities through village homestays, local guides, and traditional meals.
-      - type: AccordionItem
-        question: What about altitude sickness?
-        answer: We ascend gradually. Our guides monitor everyone closely. If symptoms occur, we can rest and descend if needed.
+        question: How does this trip support conservation and sustainable development?
+        answer: Each booking directly supports local Naxi and Yi communities through local meals and drivers. Our small-group format (max 6) minimizes impact on these fragile ecosystems while maximizing the benefit to the people protecting it. Additionally, you are directly supporting financially two local conservationists that serve as our guides and contribute to their biodiversity monitoring and nature protection work by joining the patrol activities.
     badge:
       label: FAQ
       color: text-primary

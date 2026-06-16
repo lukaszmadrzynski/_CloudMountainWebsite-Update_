@@ -299,7 +299,10 @@ sections:
         title: Hidden Jade Dragon
         subtitle: from $192 to $242 per person
         text: >
-          Leave the tourist trails behind! Trek through sacred mountains, visit hidden villages, and share a traditional meal with local Yi families on this off-the-beaten-path adventure.
+          Walk pristine wetlands with a local conservationist, share a meal
+          with Yi minority family and then trek Jade Dragon Snow Mountain
+          with a patrol ranger. For the traveler who's tired of touristic
+          spots.
         image:
           type: ImageBlock
           url: /images/tours/hidden-jade-dragon/card.webp
@@ -339,7 +342,10 @@ sections:
         tagline: One Day | Full Naxi Heritage Immersion
         subtitle: from $128 to $186 per person
         text: >-
-          A complete day devoted to Lijiang's cultural heritage - museums, palaces,  Dongba writing / paper making workshops, traditional food and live ancient music. The whole soul of the Naxi world in one day.
+          A full day inside Lijiang's UNESCO Old Town — Heritage Museum,
+          Black Dragon Pond, Dongba Paper and Writing workshops, Mu
+          Palace, traditional meals, and live Naxi music. For the
+          traveler who wants the whole Old Town in one day.
         image:
           type: ImageBlock
           url: /images/tours/lijiang-heritage-in-depth/card.webp
@@ -374,10 +380,10 @@ sections:
               - ml-1
               - mr-1
       - type: FeaturedItem
-        title: Lijiang Heavenly Valley
+        title: Heavenly Valley
         subtitle: from $182 to $203 per person
         text: >
-          Experience Lijiang's vital lake, wetland, grassland and forest ecosystems up close. Nature hikes, rare birds and authentic village encounters with local Naxi and Yi minorities await.
+          One day, four ecosystems, and a Yi minority dinner. Hike lake, wetland, grassland, and ancient forest, then end the day in a Yi village on the Tea-Horse Road. For the curious naturalist.
         image:
           type: ImageBlock
           url: /images/tours/lijiang-heavenly-valley/card.webp

@@ -10,11 +10,11 @@ sections:
       label: One-day EcoTour
       color: text-white
     title:
-      text: Lijiang Heavenly Valley
+      text: Heavenly Valley
       color: text-white
-    subtitle: An Ecotour of Biodiversity Conservation & Ethnic Culture
+    subtitle: Four ecosystems and three villages
     text: >-
-      Explore critical wetland ecosystems and meet conservation pioneers at the Lashi bureau. Then immerse in Naxi and Yi village life with authentic local cuisine.
+      Alpine lake, biodiverse wetland, vast grassland, ancient forest and hidden minority villages. Join our conservation and sustainability expert Lukas and a local Yi minority guide to experience and understand the rich nature and culture of this rich valley. You'll leave knowing four local ecosystems and two ethnic groups.
     actions:
       - type: Button
         label: Book This EcoTour
@@ -89,7 +89,7 @@ sections:
         title: Lashi Wetland Park
         tagline: Alpine Wetland
         subtitle: Lashi Wetland Park
-        text: 'Visit Lashi Wetland Park and delve into the heart of its ecosystem. Learn about the intricate relationships within the wetland environment, understanding the delicate balance of flora and fauna in this critical habitat.'
+        text: 'Walk the high-altitude wetland at 2,440m, where 235 bird species — including 7 nationally-protected kinds — feed, rest, and breed. Stand on the boardwalk and hear the wind comb through the reeds.'
         image:
           type: ImageBlock
           url: /images/tours/lijiang-heavenly-valley/highlight-1.webp
@@ -113,14 +113,14 @@ sections:
             justifyContent: center
             textAlign: left
       - type: FeaturedItem
-        title: Conservation Bureau
+        title: Wildlife Rescue Station
         tagline: Wetland Preservation
         subtitle: Lashi Wetland Conservation Bureau
-        text: 'Gain exclusive insights into wetland conservation at the Lashi Wetland Conservation Bureau. Meet with conservationists, learn about their ongoing projects, and understand the challenges and strategies involved in preserving this crucial ecosystem.'
+        text: 'Gain exclusive insights into wetland protection at the Conservation Bureau. Meet with conservationists, learn about their work, and understand the challenges and strategies involved in preserving this crucial ecosystem.'
         image:
           type: ImageBlock
           url: /images/tours/lijiang-heavenly-valley/highlight-2.webp
-          altText: Lashi Wetland Conservation Bureau
+          altText: Lashi Wetland Conservation Bureau & Wildlife Rescue Station
           styles:
             self:
               borderRadius: full
@@ -140,10 +140,10 @@ sections:
             justifyContent: center
             textAlign: left
       - type: FeaturedItem
-        title: Nature Reserve
+        title: Bird Survey
         tagline: Wildlife Discovery
         subtitle: Lashi Wetland Nature Reserve
-        text: 'Venture into the Lashi Wetland Nature Reserve, experiencing its rich tapestry of wildlife and flora. Learn to identify unique bird species and native plants, understanding their vital role within this fragile ecosystem.'
+        text: 'Pick up binoculars and a bird manual to read the wetland by its birds: a great cormorant fishing alone, a flock of bar-headed geese commuting between lake and field, a pair of crested grebes in their spectacular mating dance.'
         image:
           type: ImageBlock
           url: /images/tours/lijiang-heavenly-valley/highlight-3.webp
@@ -167,14 +167,14 @@ sections:
             justifyContent: center
             textAlign: left
       - type: FeaturedItem
-        title: Nanyao Village
-        tagline: Naxi Culture
-        subtitle: Nanyao Village
-        text: 'Connect with the local Naxi community during a visit to Nanyao Village, relishing the authentic flavors of a traditional fish farm lunch. Share in a taste of their culture, their sustainable practices, and the warm hospitality that has been their hallmark for generations.'
+        title: Dayu Naxi Village
+        tagline: Lakeside Walk
+        subtitle: Dayu Naxi Village
+        text: 'Walk around the picturesque village, enjoy traditional lunch where locals gather for the best cured meats, Tibetan barley bread, seasonal vegetables and yak butter tea. Sip on local coffee enjoying views of the lake.'
         image:
           type: ImageBlock
           url: /images/tours/lijiang-heavenly-valley/highlight-4.webp
-          altText: Nanyao Village Naxi culture
+          altText: Local coffee with views of grassland, wetland and lake at Dayu village
           styles:
             self:
               borderRadius: full
@@ -197,7 +197,7 @@ sections:
         title: Luoma Cliffs
         tagline: Panoramic Views
         subtitle: Luoma Cliffs
-        text: 'Undertake a short but memorable trek through the forests to the dramatic Luoma Cliffs, where sweeping views of the surrounding landscape await. Enriched by insights into local forest biodiversity and conservation, witness the powerful forces of nature shaping the region.'
+        text: 'Undertake a short but memorable trek through the forests to the dramatic Luoma Cliffs, where sweeping views of the surrounding landscape await, enriched by insights into local forest biodiversity and conservation.'
         image:
           type: ImageBlock
           url: /images/tours/lijiang-heavenly-valley/highlight-5.webp
@@ -224,11 +224,92 @@ sections:
         title: Boduoluo Yi Village
         tagline: Cultural Exchange
         subtitle: Boduoluo Yi Minority Village
-        text: 'Conclude your day with a visit to Boduoluo Yi minority village and enjoy a traditional dinner with the locals. Experience the local Yi culture, enjoy local flavors, and interact with the community in a genuinely authentic and memorable cultural exchange.'
+        text: 'End the day in Boduoluo, a Yi minority village tucked into the hills where the Tea-Horse Road once climbed from Southeast Asia to Tibet. Witness the daily life and customs of the unique Yi ethnic group.'
         image:
           type: ImageBlock
           url: /images/tours/lijiang-heavenly-valley/highlight-6.webp
           altText: Boduoluo Yi village cultural experience
+          styles:
+            self:
+              borderRadius: full
+        colors: bg-white-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pb-4
+              - pl-4
+              - pr-4
+            borderRadius: large
+            borderWidth: 1
+            borderStyle: solid
+            borderColor: border-neutral
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+      - type: FeaturedItem
+        title: Ancient Forest Walk
+        tagline: Old-Growth Trail
+        subtitle: Headwater Forest
+        text: 'Step into the original forest that crowns the ridges above Lashi — spot rare alpine plants and mushrooms, listen for rare birds, and feel the quiet of a forest the village has protected for generations.'
+        image:
+          type: ImageBlock
+          url: /images/tours/lijiang-heavenly-valley/highlight-7.webp
+          altText: Mossy old-growth forest above Lashi Wetland
+          styles:
+            self:
+              borderRadius: full
+        colors: bg-white-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pb-4
+              - pl-4
+              - pr-4
+            borderRadius: large
+            borderWidth: 1
+            borderStyle: solid
+            borderColor: border-neutral
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+      - type: FeaturedItem
+        title: Sustainability in Action
+        tagline: People + Wetland
+        subtitle: Community Conservation
+        text: 'Gain an exclusive insight into the Lashi Community Conservation Project — the village-led program protecting wetland, watershed forest, and old water-source rules. Your visit helps the project to live on.'
+        image:
+          type: ImageBlock
+          url: /images/tours/lijiang-heavenly-valley/highlight-8.webp
+          altText: Lashi Community Conservation Project participants
+          styles:
+            self:
+              borderRadius: full
+        colors: bg-white-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pb-4
+              - pl-4
+              - pr-4
+            borderRadius: large
+            borderWidth: 1
+            borderStyle: solid
+            borderColor: border-neutral
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+      - type: FeaturedItem
+        title: Nanyao Naxi Village
+        tagline: Tea-Horse Heritage
+        subtitle: Nanyao Village
+        text: 'Conclude your day with a visit to Nanyao Yi minority village and enjoy a traditional dinner of Huotang – a mix of hotpot and teppanyaki. Experience the Naxi hospitality and join a bonfire dance with the locals.'
+        image:
+          type: ImageBlock
+          url: /images/tours/lijiang-heavenly-valley/highlight-9.webp
+          altText: Traditional Nanyao Naxi village house with tiered roof
           styles:
             self:
               borderRadius: full
@@ -284,13 +365,13 @@ sections:
         schedule:
           - period: Morning
             activities:
-              - 'Begin your day with a pickup from your Lijiang hotel, then head to Lashi Wetland Park to explore the heart of its ecosystem. Learn about the delicate balance of flora and fauna, then visit the Lashi Wetland Conservation Bureau for exclusive insights into ongoing preservation projects.'
+              - 'Begin your day with a pickup from your Lijiang hotel, then head to Lashi Wetland Park to explore the heart of its ecosystem. Learn about the delicate balance of flora and fauna, then visit the Lashi Wetland Conservation Bureau for exclusive insights into ongoing preservation projects. After the bureau, continue to the Lashi Wetland Nature Reserve to discover its rich wildlife and bird species.'
           - period: Afternoon
             activities:
-              - 'After the bureau, continue to the Lashi Wetland Nature Reserve to discover its rich wildlife and bird species. Then visit Nanyao Village for an authentic Naxi cultural experience with a traditional fish farm lunch, learning about their sustainable practices.'
+              - 'After the morning at the Wetland Park, Conservation Bureau, and Nature Reserve, drive to Dayu Naxi Village for a traditional lunch with locals — cured meats, Tibetan barley bread, and yak butter tea — paired with locally roasted coffee and views of grassland, wetland, and lake. Then take a short trek to Luoma Cliffs for sweeping views of the valley, before stepping into the original headwater forest that feeds Lashi. End the afternoon in Boduoluo Yi village, tucked into the hills where the Tea-Horse Road once climbed from Southeast Asia to Tibet — witness the daily life and customs of the unique Yi ethnic group.'
           - period: Evening
             activities:
-              - 'Embark on a memorable trek to Luoma Cliffs for breathtaking panoramic views. End your day at Boduoluo Yi minority village with a traditional dinner and genuine cultural exchange with the local community, before returning to your Lijiang hotel.'
+              - 'Conclude your day with a visit to Nanyao Yi minority village, where you sit down to a traditional dinner of Huotang — a mix of hotpot and teppanyaki — and join a bonfire dance with the locals. After dinner, Lukas will lead a final discussion on the Lashi Community Conservation Project — the village-led program protecting wetland, watershed forest, and old water-source rules that your visit has helped sustain. Then return to your Lijiang hotel.'
     accentColors:
       morning: '#01aed9'
       afternoon: '#007dbd'
@@ -341,8 +422,8 @@ sections:
       text: For groups of 1 person or more than 6 people
       url: /book?tour=Lijiang+Heavenly+Valley
     included:
-      text: English-Speaking Guide (Lynne Lyu or Lukasz Madrzynski), Local Guide, Traditional Local Lunch and Dinner, Private Transportation, Outdoor Travel Insurance.
-      notIncluded: 'Personal Expenses (Souvenirs, Snacks, etc.), Voluntary Gratuities for the Guides'
+      text: English-Speaking Guide (Lynne Lyu or Lukasz Madrzynski), Local Guide, Traditional Local Lunch and Dinner, Private Transportation, Entrance Tickets, Binoculars for Birdwatching, Outdoor Travel Insurance.
+      notIncluded: 'Personal Expenses (Souvenirs, etc.), Voluntary Gratuities for the Guides'
       meetingPoint: 'Pickup: 9:00 AM at your Lijiang hotel | Return: Approximately 8:00 PM to your Lijiang hotel'
     bookingUrl: /book?tour=Lijiang+Heavenly+Valley
     colors: bg-neutral-fg-dark
@@ -375,7 +456,7 @@ sections:
     items:
       - type: AccordionItem
         question: What should I bring?
-        answer: We recommend comfortable hiking shoes, layers for changing temperatures, sun protection, a water bottle, binoculars for birdwatching, and your camera.
+        answer: We recommend comfortable hiking shoes, layers for changing temperatures, raincoat or umbrella for rainy days, sun protection, a water bottle and your camera.
       - type: AccordionItem
         question: Is this suitable for beginners?
         answer: Yes! This is a mild-level tour suitable for all fitness levels. You'll walk 5-6 km on gentle trails at altitudes of 2,400-3,250m.
@@ -393,10 +474,10 @@ sections:
         answer: We provide pickup from any hotel in Lijiang Old Town area. Contact us to arrange an alternative meeting point if needed.
       - type: AccordionItem
         question: What language do the guides speak?
-        answer: Our guides are fluent in English. For other languages, please inquire about availability.
+        answer: We are fluent in English, Polish and Chinese.
       - type: AccordionItem
         question: How does this trip support conservation?
-        answer: Each booking directly supports local conservation efforts and community development. We partner with wetland conservation bureaus, employ local Naxi and Yi guides, and contribute to environmental protection initiatives.
+        answer: Each booking directly supports local conservation efforts and community development. We partner with wetland conservation bureaus, employ local Naxi and Yi guides, and contribute to local environmental protection initiatives. Your bird survey counts feed the reserve's biodiversity database. Our small-group format (max 6) minimizes impact on these fragile ecosystems while maximizing the benefit to the people protecting it.
     badge:
       label: FAQ
       color: text-primary
@@ -436,7 +517,7 @@ sections:
           - pr-4
   - type: GenericSection
     title:
-      text: Ready to Visit Lashi Wetlands and Villages?
+      text: Ready to Visit the Heavenly Valley?
       color: text-dark
       styles:
         self:

@@ -7,14 +7,20 @@ sections:
       url: /images/tours/lijiang-heritage-in-depth/banner.webp
       altText: Lijiang Old Town rooftops with Jade Dragon Snow Mountain in the background
     badge:
-      label: One-day EcoTour
+      label: ONE-DAY ECOTOUR
       color: text-white
     title:
       text: Lijiang Heritage <br/> In-Depth
       color: text-white
-    subtitle: A Full Day Inside the Soul of the Naxi Old Town
+    subtitle: Complete Lijiang Old Town Experience
     text: >-
-      A complete day inside Lijiang's UNESCO Old Town - museums, hidden alleys, Dongba workshop, and live Naxi music. The whole soul of the Naxi world in one day, with a local guide who actually knows the alleyways.
+      After your pickup at 9 AM, we start with the Heritage Museum
+      and then walk the Black Dragon Pond park. After a traditional
+      lunch we will spend the afternoon writing Dongba pictographs
+      and crafting traditional paper. Later on, we'll visit Mu
+      Palace among other historical landmarks, and end the day with
+      Lijiang specialty dinner and Naxi Ancient Music. You'll come
+      home with the Old Town's full rhythm in your bones.
     actions:
       - type: Button
         label: Book This EcoTour
@@ -39,8 +45,8 @@ sections:
     items:
       - icon: /images/shared/key-details/special.png
         title: What's Special
-        subtitle: Full Naxi Heritage Immersion
-        highlight: 'A complete day of Old Town, museum, Dongba workshop, Mu Palace, dinner, night market, and live Naxi music — all in one guided deep-dive'
+        subtitle: The whole Old Town in one day
+        highlight: 'A complete day of museums, workshops, palaces, markets, traditional meals and live music — all in one guided deep-dive'
       - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: One Day
@@ -148,7 +154,7 @@ sections:
             justifyContent: center
             textAlign: left
       - type: FeaturedItem
-        title: Stroll across UNESCO Old Town
+        title: Stroll across the Old Town
         tagline: UNESCO Heritage
         subtitle: Dayan Old Town
         text: >-
@@ -179,18 +185,18 @@ sections:
             justifyContent: center
             textAlign: left
       - type: FeaturedItem
-        title: Try Legendary Crossing Bridge Noodles
+        title: Crossing Bridge Noodles
         tagline: Yunnan Classic
         subtitle: 過橋米線
         text: >-
-          Lunch is a bowl of crossing-bridge noodles (過橋米線) — the
-          Yunnan dish with the story: rice noodles, piping-hot broth,
-          and a tray of fresh toppings you add at the table. A local
-          institution and a delicious way to slow down midday.
+          Lunch is a bowl of legendary noodles — the Yunnan dish with
+          the story: rice noodles, piping-hot broth, and a tray of
+          fresh toppings you add at the table. A local institution and
+          a delicious way to slow down midday.
         image:
           type: ImageBlock
           url: /images/tours/lijiang-heritage-in-depth/highlight-4.webp
-          altText: Bowl of crossing bridge noodles (過橋米線) in Lijiang
+          altText: Bowl of crossing bridge noodles in Lijiang
           styles:
             self:
               borderRadius: full
@@ -216,9 +222,7 @@ sections:
         text: >-
           Take a brush and learn to draw a few of the ancient Dongba
           pictographs under the guidance of a local heritage expert.
-          You'll leave with your own paper keepsake — a piece of
-          script that has been used by Dongba priests for a thousand
-          years.
+          You'll leave with your own calligraphy.
         image:
           type: ImageBlock
           url: /images/tours/lijiang-heritage-in-depth/highlight-5.webp
@@ -278,9 +282,9 @@ sections:
         subtitle: Handmade Paper
         text: >-
           Try your hand at the traditional Dongba paper-making process
-          — a slow, meditative craft using local plant fibres. The
-          paper you make becomes the surface for the pictographs you
-          write next.
+          — a slow, meditative craft using local plant fibers. Bring a
+          sheet of the ancient hand-made paper home with you and
+          create a calligraphy masterpiece of your own.
         image:
           type: ImageBlock
           url: /images/tours/lijiang-heritage-in-depth/highlight-7.webp
@@ -373,12 +377,43 @@ sections:
         text: >-
           Sit down for a relaxed Lijiang specialty dinner — a
           multi-dish Naxi meal that may include cured pork, wild
-          mushroom hotpot, walnut oil salad, and griddled baba bread.
-          A proper, unhurried introduction to mountain home cooking.
+          mushroom hotpot, hand-made tofu, and pu-er tea shrimps. A
+          proper, unhurried introduction to mountain home cooking.
         image:
           type: ImageBlock
           url: /images/tours/lijiang-heritage-in-depth/highlight-10.webp
           altText: Lijiang specialty dinner spread
+          styles:
+            self:
+              borderRadius: full
+        colors: bg-white-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pb-4
+              - pl-4
+              - pr-4
+            borderRadius: large
+            borderWidth: 1
+            borderStyle: solid
+            borderColor: border-neutral
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+      - type: FeaturedItem
+        title: Immerse in Ancient Naxi Music
+        tagline: Living Tradition
+        subtitle: Naxi Ancient Music
+        text: >-
+          Enjoy the evening performance of Naxi Ancient Music — a
+          UNESCO-recognised tradition that blends Tang, Song, and
+          local Dongba instrumentation. About an hour of music, in a
+          courtyard, with the mountain night behind you.
+        image:
+          type: ImageBlock
+          url: /images/tours/lijiang-heritage-in-depth/highlight-12.webp
+          altText: Naxi Ancient Music performance in a courtyard
           styles:
             self:
               borderRadius: full
@@ -410,38 +445,6 @@ sections:
           type: ImageBlock
           url: /images/tours/lijiang-heritage-in-depth/highlight-11.webp
           altText: Lijiang Old Town night market
-          styles:
-            self:
-              borderRadius: full
-        colors: bg-white-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-4
-              - pb-4
-              - pl-4
-              - pr-4
-            borderRadius: large
-            borderWidth: 1
-            borderStyle: solid
-            borderColor: border-neutral
-            flexDirection: col
-            justifyContent: center
-            textAlign: left
-      - type: FeaturedItem
-        title: Immerse in Ancient Naxi Music
-        tagline: Living Tradition
-        subtitle: Naxi Ancient Music
-        text: >-
-          Close the evening with a performance of Naxi Ancient Music
-          (纳西古乐) — a UNESCO-recognised tradition that blends
-          Tang, Song, and local Dongba instrumentation. About an hour
-          of music, in a courtyard, with the mountain night behind
-          you.
-        image:
-          type: ImageBlock
-          url: /images/tours/lijiang-heritage-in-depth/highlight-12.webp
-          altText: Naxi Ancient Music performance in a courtyard
           styles:
             self:
               borderRadius: full
@@ -497,13 +500,13 @@ sections:
         schedule:
           - period: Morning
             activities:
-              - "Meet your guide at your Lijiang hotel at 9:00 AM and head straight to the Lijiang Heritage Museum for a focused introduction to Naxi history, Dongba script, and the Old Town's centuries of trade. Walk next door into Black Dragon Pond Park for the spring water, the Moon-Arch Bridge, and the full Jade Dragon Snow Mountain view. Stroll back into Dayan Old Town through the cobblestone lanes — ducking into quiet courtyards and backstreet wells with a guide who knows the alleyways. By lunchtime you're ready for a proper bowl of crossing-bridge noodles (過橋米線) at a local institution."
+              - "Meet your guide at your Lijiang hotel at 9:00 AM and head straight to the Lijiang Heritage Museum for a focused introduction to Naxi history, Dongba culture, and the Old Town's centuries of trade. Walk next door into Black Dragon Pond Park for the spring water, the Moon-Arch Bridge, and the full Jade Dragon Snow Mountain view. Stroll back into Dayan Old Town through the cobblestone lanes — ducking into quiet courtyards and backstreet wells with a guide who knows the alleyways. By lunchtime you're ready for a proper bowl of crossing-bridge noodles at a local institution."
           - period: Afternoon
             activities:
-              - "After lunch, settle into a Dongba workshop: meet the Naxi heritage keepers, take a brush and learn to draw a few of the ancient Dongba pictographs on paper you've just helped make by hand. Take part in a guided heritage scavenger hunt through the backstreets — clues lead past centuries-old wells, a tucked-away temple, and the neighbourhood's best photo spot. End the afternoon at the Mu Palace (木府), the former seat of the Naxi chieftains, with its carved-beam halls and small dynasty museum."
+              - "After lunch, take part in heritage workshops. Meet the Naxi heritage keepers and learn to draw the ancient Dongba pictographs and craft traditional local paper. Take part in a guided heritage scavenger hunt through the backstreets that lead past centuries-old wells, tucked-away temples, and the neighbourhood's best photo spots. End the afternoon at the Mu Palace, the former seat of the Naxi chieftains."
           - period: Evening
             activities:
-              - "Sit down for an unhurried Lijiang specialty dinner — cured pork, wild mushroom hotpot, walnut oil salad, griddled baba bread — and a real introduction to mountain home cooking. Wander the lit-up Old Town night market as the squares fill with dancers and snack vendors. Close the night with a one-hour performance of Naxi Ancient Music (纳西古乐) in a courtyard — a UNESCO-recognised tradition that blends Tang, Song, and Dongba instrumentation. Your guide will drop you back at your Lijiang hotel by 9:00 PM."
+              - "Sit down for an unhurried Lijiang specialty dinner —a real introduction to mountain home cooking. Immerse in a one-hour performance of Naxi Ancient Music in a courtyard — a UNESCO-recognised tradition that blends Tang, Song, and Dongba instrumentation. Close the night with a stroll around the lit-up Old Town night market as the squares fill with dancers and snack vendors. Your guide will drop you back at your Lijiang hotel around 9:00 PM."
     accentColors:
       morning: '#01aed9'
       afternoon: '#007dbd'
@@ -554,8 +557,8 @@ sections:
       text: For groups of 1 person or more than 6 people
       url: /book?tour=Lijiang+Heritage+In-Depth
     included:
-      text: English-Speaking Coordinator/Guide (Lynne Lyu or Lukasz Madrzynski), Local Dongba Heritage Expert, All Entrance Fees (Heritage Museum, Black Dragon Pond Park, Mu Palace), Dongba Workshop Materials, Crossing-Bridge Noodles Lunch, Lijiang Specialty Dinner, Naxi Ancient Music Performance, Bottled Water, Outdoor Travel Insurance.
-      notIncluded: 'Personal Expenses (Souvenirs, Optional Donations to the Heritage Workshops), Voluntary Gratuities for the Guides'
+      text: English-Speaking Coordinator/Guide (Lynne Lyu or Lukasz Madrzynski), Local Dongba Heritage Experts, All Entrance Fees (Heritage Museum, Black Dragon Pond Park, Mu Palace), Dongba Workshop Materials, Crossing-Bridge Noodles Lunch, Lijiang Specialty Dinner, Naxi Ancient Music Performance, Outdoor Travel Insurance.
+      notIncluded: 'Personal Expenses (Souvenirs, etc.), Voluntary Gratuities for the Guide'
       meetingPoint: 'Pickup: 9:00 AM at your Lijiang hotel | Return: Approximately 9:00 PM to your Lijiang hotel'
     bookingUrl: /book?tour=Lijiang+Heritage+In-Depth
     colors: bg-neutral-fg-dark
@@ -588,7 +591,7 @@ sections:
     items:
       - type: AccordionItem
         question: What should I bring?
-        answer: Comfortable walking shoes, layers for changing temperatures, sun protection, a water bottle, and your camera. Detailed packing list provided upon booking.
+        answer: Comfortable walking shoes, layers for changing temperatures, raincoat or umbrella for cloudy days, sun protection, a water bottle, and your camera.
       - type: AccordionItem
         question: Is this suitable for children?
         answer: Yes! This tour is family-friendly. Children under 12 should be accompanied by an adult. The 7-8 km walk is at a slow pace with frequent stops, achievable for most ages. The scavenger hunt in particular is a hit with kids.
@@ -597,19 +600,19 @@ sections:
         answer: Full refund if cancelled 7+ days before the tour. 50% refund for 3-6 days. No refund within 48 hours. Weather contingencies always have alternatives or rescheduling.
       - type: AccordionItem
         question: What happens if it rains?
-        answer: The tour runs in light rain with umbrellas provided. For heavy storms we'll move the Dongba workshop, dinner, and music performance fully indoors, and shorten or reschedule the outdoor Old Town walk and Black Dragon Pond sections when possible.
+        answer: The tour runs in light rain. For heavy storms we'll shorten the outdoor activities and spend more time indoors (museums, palaces, workshops etc.).
       - type: AccordionItem
         question: Are there any physical requirements?
-        answer: Basic mobility is enough. You'll walk 7-8 km on flat cobblestone streets at a slow pace, with frequent stops for storytelling, museum time, and meals. The full day is long (12 hours) so a reasonable level of stamina helps, but no technical terrain.
+        answer: Basic mobility is enough. You'll walk 7-8 km on flat cobblestone streets at a slow pace, with frequent stops for storytelling, museum time, and meals. The full day is long (12 hours) so a reasonable level of stamina helps, but we will adjust the pace to your preferences.
       - type: AccordionItem
         question: How do I get to the meeting point?
         answer: We provide pickup from any hotel in Lijiang Old Town or the surrounding area. If you're staying outside Lijiang, please contact us to arrange an alternative meeting point.
       - type: AccordionItem
         question: What language do the guides speak?
-        answer: Our guides are fluent in English. For other languages, please inquire about availability.
+        answer: We are fluent in English, Polish and Chinese.
       - type: AccordionItem
         question: How does this trip support conservation and sustainable development?
-        answer: Each booking directly supports the Naxi heritage workshops, the museum, the music ensemble, and the local food partners featured on the day. Part of your fee goes to maintaining the Dongba script and paper-making traditions, and the small-group format (max 6) keeps the experience intimate and ensures your fees stay with the Old Town community.
+        answer: Each booking directly supports the Naxi heritage workshops, museums, the music ensemble, and the local food partners featured on the day. Part of your fee goes to supporting the heritage preservation practitioners of the Dongba script and paper-making traditions, and the small-group format (max 6) keeps the experience intimate and ensures your fees stay with the Old Town community.
     badge:
       label: FAQ
       color: text-primary
