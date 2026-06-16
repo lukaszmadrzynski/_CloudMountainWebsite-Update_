@@ -276,7 +276,7 @@ sections:
             textAlign: left
       - type: FeaturedItem
         title: Sustainability in Action
-        tagline: People + Wetland
+        tagline: People + Ecosystems
         subtitle: Community Conservation
         text: 'Gain an exclusive insight into the Lashi Community Conservation Project — the village-led program protecting wetland, watershed forest, and old water-source rules. Your visit helps the project to live on.'
         image:
