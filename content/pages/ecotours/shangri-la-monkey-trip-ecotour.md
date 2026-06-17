@@ -12,9 +12,9 @@ sections:
     title:
       text: Shangri-La <br/> Monkey Trip
       color: text-white
-    subtitle: Discovering Nature and Culture of the Tibetan Shangri-La
+    subtitle: Snub-nosed monkeys in Tibetan Highlands
     text: >-
-      Embark on an unforgettable journey into Shangri-La's pristine wilderness! Discover breathtaking landscapes from vibrant wetlands to ancient forests, and immerse yourself in the rich cultures of Tibetan and Lisu minorities. Witness rare Yunnan Snub-nosed Monkeys in their natural habitat, learn about biodiversity conservation with expert guides, and experience authentic countryside life.
+      Pickup from Lijiang and travel to Baima Snow Mountain. Witness rare Black Snub-nosed Monkeys in their natural habitat, learn about biodiversity conservation with expert guides, and experience authentic countryside life. Embark on an unforgettable journey into Shangri-La's pristine wilderness. Discover breathtaking landscapes from vibrant wetlands to ancient forests, and immerse yourself in the rich cultures of Tibetan and Lisu minorities.
     actions:
       - type: Button
         label: Book This EcoTour
@@ -39,12 +39,12 @@ sections:
     items:
       - icon: /images/shared/key-details/special.png
         title: What's Special
-        subtitle: Wildlife Focus
-        highlight: 'Yunnan Snub-nosed Monkeys and biodiversity conservation'
+        subtitle: Discover endangered primates
+        highlight: 'Black Snub-nosed Monkeys and biodiversity conservation'
       - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: Two Days
-        highlight: 'Day 1: 9:00 AM to 8:00 PM<br/>Day 2: 8:00 AM to 6:00 PM'
+        highlight: 'Day 1: 9:00 AM to 9:00 PM<br/>Day 2: 8:00 AM to 9:00 PM'
       - icon: /images/shared/key-details/location.png
         title: Location
         subtitle: Lijiang & Shangri-La
@@ -86,14 +86,14 @@ sections:
       color: text-primary
     items:
       - type: FeaturedItem
-        title: Cultural Immersion
-        tagline: Tibetan and Lisu Villages
-        subtitle: Tibetan and Lisu Villages
-        text: Experience the vibrant cultures of Tibetan and Lisu ethnic minorities in their quaint villages and hamlets. Explore unique customs, admire distinctive traditional architecture, feel their warm hospitality, and savor authentic local cuisine.
+        title: Monkey Encounter
+        tagline: Yunnan Snub-nosed Monkeys
+        subtitle: Yunnan Snub-nosed Monkeys
+        text: Experience the magic of observing Yunnan Snub-nosed Monkeys in their pristine natural mountain habitat. Witness their daily life unfold and meet the dedicated conservation rangers who protect these incredible primates.
         image:
           type: ImageBlock
-          url: /images/tours/shangri-la-monkey/highlight-1.webp
-          altText: Tibetan village with traditional architecture
+          url: /images/tours/shangri-la-monkey/highlight-2.webp
+          altText: Yunnan Snub-nosed Monkey in natural habitat
           styles:
             self:
               borderRadius: full
@@ -113,14 +113,14 @@ sections:
             justifyContent: center
             textAlign: left
       - type: FeaturedItem
-        title: Alpine Wetlands
-        tagline: Lashi Nature Reserve
-        subtitle: Lashi Nature Reserve
-        text: Discover a breathtaking haven for migratory waterbirds at Lashi Wetlands Nature Reserve. Explore this rare alpine wetland ecosystem and learn about crucial conservation efforts underway to protect this precious environment.
+        title: Cultural Immersion
+        tagline: Tibetan and Lisu Villages
+        subtitle: Tibetan and Lisu Villages
+        text: Experience the vibrant cultures of Tibetan and Lisu ethnic minorities in their quaint villages and hamlets. Explore unique customs, admire distinctive traditional architecture, feel their warm hospitality, and savor authentic local cuisine.
         image:
           type: ImageBlock
-          url: /images/tours/shangri-la-monkey/highlight-3.webp
-          altText: Lashi Wetlands scenic view
+          url: /images/tours/shangri-la-monkey/highlight-1.webp
+          altText: Tibetan village with traditional architecture
           styles:
             self:
               borderRadius: full
@@ -167,14 +167,14 @@ sections:
             justifyContent: center
             textAlign: left
       - type: FeaturedItem
-        title: Monkey Encounter
-        tagline: Yunnan Snub-nosed Monkeys
-        subtitle: Yunnan Snub-nosed Monkeys
-        text: Experience the magic of observing Yunnan Snub-nosed Monkeys in their pristine natural mountain habitat. Witness their daily life unfold and meet the dedicated conservation rangers who protect these incredible primates.
+        title: Panoramic Views
+        tagline: First Bend of the Yangtze
+        subtitle: First Bend of the Yangtze
+        text: Embark on a rewarding short hike to panoramic viewpoints overlooking the legendary First Bend of the Yangtze River and the picturesque Shigu town. Capture iconic photographs of Yunnan's most breathtaking landscapes.
         image:
           type: ImageBlock
-          url: /images/tours/shangri-la-monkey/highlight-2.webp
-          altText: Yunnan Snub-nosed Monkey in natural habitat
+          url: /images/tours/shangri-la-monkey/highlight-7.webp
+          altText: First Bend of Yangtze River panorama
           styles:
             self:
               borderRadius: full
@@ -194,14 +194,14 @@ sections:
             justifyContent: center
             textAlign: left
       - type: FeaturedItem
-        title: Panoramic Views
-        tagline: First Bend of the Yangtze
-        subtitle: First Bend of the Yangtze
-        text: Embark on a rewarding short hike to panoramic viewpoints overlooking the legendary First Bend of the Yangtze River and the picturesque Shigu town. Capture iconic photographs of Yunnan's most breathtaking landscapes.
+        title: Alpine Wetlands
+        tagline: Lashi Nature Reserve
+        subtitle: Lashi Nature Reserve
+        text: Discover a breathtaking haven for migratory waterbirds at Lashi Wetlands Nature Reserve. Explore this rare alpine wetland ecosystem and learn about crucial conservation efforts underway to protect this precious environment.
         image:
           type: ImageBlock
-          url: /images/tours/shangri-la-monkey/highlight-7.webp
-          altText: First Bend of Yangtze River panorama
+          url: /images/tours/shangri-la-monkey/highlight-3.webp
+          altText: Lashi Wetlands scenic view
           styles:
             self:
               borderRadius: full
@@ -251,7 +251,7 @@ sections:
         title: Monkey Exhibition
         tagline: Learn About the Species
         subtitle: Learn About the Species
-        text: Gain a comprehensive introduction to the endangered Yunnan snub-nosed monkey at a dedicated exhibition. Learn about their unique physical characteristics, fascinating social behaviors, and critical conservation initiatives.
+        text: Gain a comprehensive introduction to the endangered Yunnan snub-nosed monkey at a dedicated exhibition. Learn about their unique characteristics, fascinating social behaviors, and critical conservation initiatives.
         image:
           type: ImageBlock
           url: /images/tours/shangri-la-monkey/highlight-8.webp
@@ -386,7 +386,7 @@ sections:
         title: Rural Life
         tagline: Countryside Experience
         subtitle: Countryside Experience
-        text: Immerse yourself in the authentic traditional countryside lifestyle of local villagers. Observe time-honored farming and pasturing practices, gaining a deeper appreciation for their intimate connection to the land and rhythms of nature.
+        text: Immerse yourself in the authentic traditional countryside lifestyle of local Tibetan and Lisu minorities. Observe time-honored farming and pasturing practices, gaining a deeper appreciation for their intimate connection to the land.
         image:
           type: ImageBlock
           url: /images/tours/shangri-la-monkey/highlight-1.webp
@@ -446,25 +446,25 @@ sections:
         schedule:
           - period: Morning
             activities:
-              - "Begin with a pickup from your Lijiang hotel and head to the serene Lashi Wetlands, where misty mornings awaken thousands of migratory birds. Watch the sunrise paint the wetlands in golden hues as elegant waterbirds glide across mirror-still waters. Continue through ancient Tibetan and Lisu villages nestled among rolling hills, where you'll feel the warmth of traditional hospitality, explore centuries-old customs, and hike to breathtaking viewpoints overlooking the legendary First Bend of the Yangtze River."
+              - "Begin with a pickup from your Lijiang hotel and head to the pristine Lashi Wetlands, where misty mornings awaken thousands of migratory birds. Watch the sunrise paint the wetlands in golden hues as elegant waterbirds glide across mirror-still waters. Continue your journey and hike to breathtaking viewpoints overlooking the legendary First Bend of the Yangtze River."
           - period: Afternoon
             activities:
-              - 'Visit the Baima Snow Mountain Nature Conservation Bureau for exclusive insights into conservation work, then explore the dedicated monkey exhibition. Trek through ancient primeval forests, discovering rare biodiversity, and learn citizen science techniques for wildlife monitoring with infrared cameras.'
+              - 'After a local lunch, explore Shigu Naxi Minority Town market and uncover Ming Dynasty history. After this quick stop, travel along the picturesque Yangtze River passing through serene minority villages where time seem to have slowed down. In the late afternoon, visit a Himalayan bee farm to learn about traditional beekeeping and experience first-hand the day-to-day village life.  Before the sunset, join a short hike with a local guide to the sacred forest spring and discover the local community’s deep relationship with nature.'
           - period: Evening
             activities:
-              - 'Savor authentic local cuisine as twilight descends, then visit a Himalayan bee farm to learn about traditional beekeeping and conservation. Settle into your mountain retreat where stars emerge in crystal-clear skies.'
+              - 'As twilight descends, savor authentic local cuisine, then settle into your mountain retreat where stars emerge in crystal-clear skies.'
       - day: Day Two
         title: Conservation and Nature
         schedule:
           - period: Morning
             activities:
-              - 'Awaken to crisp mountain air and venture into the heart of Baima Snow Mountain Nature Reserve. Meet passionate conservation rangers at the bureau and embark on an enchanting trek through pristine forests to encounter the elusive Yunnan Snub-nosed Monkeys in their natural sanctuary.'
+              - 'Awaken to crisp mountain air and venture into the heart of Baima Snow Mountain Nature Reserve. Embark on an enchanting trek through biodiverse ancient forests to encounter the elusive Yunnan Snub-nosed Monkeys in their natural habitat and meet the passionate monkey conservation rangers. '
           - period: Afternoon
             activities:
-              - 'Immerse yourself in the wonder of ancient primeval forests, continue wildlife monitoring, and discover the sweet secrets of Himalayan beekeeping at a local farm where nature and tradition harmonize. Then explore Shigu Naxi Minority Town market, uncover Ming Dynasty history, and visit Boduoluo Yi village for authentic cultural exchange.'
+              - 'After a delicious lunch at a trout fish farm, visit the Baima Snow Mountain Nature Conservation Bureau for exclusive insights into ecosystem conservation work, then explore a dedicated Black Snub-nosed Monkey exhibition. Set out for a journey back to Lijiang. '
           - period: Evening
             activities:
-              - "Begin your return journey to Lijiang, and return to your hotel as the sun sets, carrying memories of an extraordinary encounter with China's incredible biodiversity."
+              - "After arriving back in Lijiang, enjoy a hearty traditional feast of Yunnan delicacies and return to your hotel as the sun sets, carrying memories of an extraordinary encounter with China's incredible biodiversity."
     accentColors:
       morning: '#01aed9'
       afternoon: '#007dbd'
@@ -516,8 +516,8 @@ sections:
       url: /book?tour=Shangri-La+Monkey+Trip
     included:
       text: English-Speaking Coordinator/Guide (Lynne Lyu or Lukasz Madrzynski), Local Guides, Entrance Tickets to the National Park, Traditional Local Food (Breakfasts, Lunches, Dinners), Comfortable Accommodation, Private Transportation, Outdoor Travel Insurance.
-      notIncluded: 'Personal Expenses (Souvenirs, Snacks, etc.), Voluntary Gratuities for the Coordinators/Guides'
-      meetingPoint: 'Pickup: 9:00 AM at your Lijiang hotel | Return: Approximately 8:00 PM to your Lijiang hotel'
+      notIncluded: 'Personal Expenses (Souvenirs, etc.), Voluntary Gratuities for the Coordinators/Guides'
+      meetingPoint: 'Pickup: 9:00 AM at your Lijiang hotel | Return: Approximately 9:00 PM to your Lijiang hotel'
     bookingUrl: /book?tour=Shangri-La+Monkey+Trip
     colors: bg-neutral-fg-dark
     styles:
@@ -549,13 +549,13 @@ sections:
     items:
       - type: AccordionItem
         question: What should I bring?
-        answer: We recommend comfortable hiking shoes, layers for changing temperatures, sun protection, a water bottle, binoculars for wildlife observation, and your camera. Detailed packing list provided upon booking.
+        answer: We recommend comfortable hiking shoes, layers for changing temperatures, sun protection, a water bottle, raincoat or umbrella for rainy days, and your camera.
       - type: AccordionItem
         question: Is this suitable for children?
         answer: Yes! This tour is family-friendly. Children under 12 should be accompanied by an adult. The moderate hiking distance (8-9 km/day) is achievable for most fitness levels.
       - type: AccordionItem
         question: What's the cancellation policy?
-        answer: Full refund if cancelled 7+ days before the tour. 50% refund for 3-6 days. No refund within 48 hours. Weather contingencies always have alternatives.
+        answer: Full refund if cancelled 7+ days before the tour. 50% refund for 3-6 days. No refund within 48 hours.
       - type: AccordionItem
         question: What happens if it rains?
         answer: Most activities continue in light rain. For safety during heavy storms, we'll adjust the itinerary to indoor cultural experiences and conservation center visits.
@@ -567,10 +567,10 @@ sections:
         answer: We provide pickup from any hotel in Lijiang Old Town area. If you're staying outside this area, please contact us to arrange an alternative meeting point.
       - type: AccordionItem
         question: What language do the guides speak?
-        answer: Our guides are fluent in English. For other languages, please inquire about availability.
+        answer: We are fluent in English, Polish and Chinese.
       - type: AccordionItem
         question: How does this trip support conservation and sustainable development?
-        answer: Each booking directly supports local conservation efforts and community development. We partner with nature reserves for wildlife monitoring, employ local Naxi, Yi, and Tibetan guides and community hosts, and contribute a portion of proceeds to environmental protection initiatives.
+        answer: Each booking directly supports local conservation efforts and community development. We partner with nature reserves for wildlife monitoring, employ local Naxi, Lisu, and Tibetan guides and community hosts, and are actively involved in local environmental protection and sustainable development initiatives.
     badge:
       label: FAQ
       color: text-primary

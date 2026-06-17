@@ -5,16 +5,16 @@ sections:
   - type: HeroSection
     media:
       url: /images/tours/wild-heart-of-lijiang/banner.webp
-      altText: Laojun Mountains scenic view
+      altText: Lush green trees frame steep mountain slopes covered in thick mist
     badge:
       label: Two-day EcoTour
       color: text-white
     title:
       text: Wild Heart of Lijiang
       color: text-white
-    subtitle: Delve Deeper into the Mountains
+    subtitle: Primeval Yunnan Forests and Minority Cultures
     text: >-
-      Journey through UNESCO mountains, from wetlands teeming with rare birds to ancient forests alive with minority culture. Hike alpine meadows, taste Himalayan honey, and dance around a bonfire with Lisu locals.
+      Two days in the Laojun Mountains, far from the Lijiang crowds. We start at Lashi Wetlands at dawn, stand at the First Bend of the Yangtze, visit traditional Naxi, Bai, Pumi and Lisu minority villages, then join a Lisu bonfire dance in the evening and a forest walk at night. Day two is a bird watching station visit and a primeval forest trek to grasslands overlooking the highest peaks of Laojun Mountains. You'll leave with a slower pulse and mountain stories to tell.
     actions:
       - type: Button
         label: Book This EcoTour
@@ -39,8 +39,8 @@ sections:
     items:
       - icon: /images/shared/key-details/special.png
         title: What's Special
-        subtitle: Cultural Immersion
-        highlight: 'Naxi, Bai, and Lisu minority traditions'
+        subtitle: Deep into Ancient Mountains
+        highlight: 'Biodiversity and Minority Cultures Haven'
       - icon: /images/shared/key-details/duration.png
         title: Duration
         subtitle: Two Days
@@ -86,33 +86,6 @@ sections:
       color: text-primary
     items:
       - type: FeaturedItem
-        title: Alpine Wetlands
-        tagline: Lashi Nature Reserve
-        subtitle: Lashi Nature Reserve
-        text: Witness a breathtaking spectacle of nature at Lashi Wetlands Nature Reserve, a vital haven for diverse waterbirds. Explore this protected reserve, learn about its ecological significance, and marvel at the vibrant tapestry of avian life in a stunning wetland landscape.
-        image:
-          type: ImageBlock
-          url: /images/tours/wild-heart-of-lijiang/highlight-1.webp
-          altText: Lashi Wetlands scenic view
-          styles:
-            self:
-              borderRadius: full
-        colors: bg-white-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-4
-              - pb-4
-              - pl-4
-              - pr-4
-            borderRadius: large
-            borderWidth: 1
-            borderStyle: solid
-            borderColor: border-neutral
-            flexDirection: col
-            justifyContent: center
-            textAlign: left
-      - type: FeaturedItem
         title: Panoramic Views
         tagline: First Bend of the Yangtze
         subtitle: First Bend of the Yangtze
@@ -121,114 +94,6 @@ sections:
           type: ImageBlock
           url: /images/tours/wild-heart-of-lijiang/highlight-2.webp
           altText: First Bend of Yangtze River panorama
-          styles:
-            self:
-              borderRadius: full
-        colors: bg-white-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-4
-              - pb-4
-              - pl-4
-              - pr-4
-            borderRadius: large
-            borderWidth: 1
-            borderStyle: solid
-            borderColor: border-neutral
-            flexDirection: col
-            justifyContent: center
-            textAlign: left
-      - type: FeaturedItem
-        title: Cultural Heritage
-        tagline: Bai Minority Village
-        subtitle: Taohua Village
-        text: Discover the idyllic beauty of Taohua, a traditional Bai ethnic minority village. Admire the elegant white pagodas and a historic stone bridge. Immerse yourself in the peaceful rhythm of rural life.
-        image:
-          type: ImageBlock
-          url: /images/tours/wild-heart-of-lijiang/highlight-4.webp
-          altText: Bai village scenic view
-          styles:
-            self:
-              borderRadius: full
-        colors: bg-white-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-4
-              - pb-4
-              - pl-4
-              - pr-4
-            borderRadius: large
-            borderWidth: 1
-            borderStyle: solid
-            borderColor: border-neutral
-            flexDirection: col
-            justifyContent: center
-            textAlign: left
-      - type: FeaturedItem
-        title: Historical Market
-        tagline: Shigu Naxi Heritage
-        subtitle: Shigu Town
-        text: Step back in time in charming Shigu Town, a cultural gem of the Naxi minority. Discover the historic relict of Stone Drum, wander through local market, and immerse yourself in the unique history of this quaint town.
-        image:
-          type: ImageBlock
-          url: /images/tours/wild-heart-of-lijiang/highlight-3.webp
-          altText: Shigu Naxi town market scene
-          styles:
-            self:
-              borderRadius: full
-        colors: bg-white-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-4
-              - pb-4
-              - pl-4
-              - pr-4
-            borderRadius: large
-            borderWidth: 1
-            borderStyle: solid
-            borderColor: border-neutral
-            flexDirection: col
-            justifyContent: center
-            textAlign: left
-      - type: FeaturedItem
-        title: Bird Watching
-        tagline: Rare Bird Species
-        subtitle: Bird Watching Station
-        text: Venture into pristine forests and spot some of the world's rarest birds at a local bird watching station. Learn from passionate conservationists about their vital work protecting these endangered species.
-        image:
-          type: ImageBlock
-          url: /images/tours/wild-heart-of-lijiang/highlight-5.webp
-          altText: Bird watching scenic view
-          styles:
-            self:
-              borderRadius: full
-        colors: bg-white-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-4
-              - pb-4
-              - pl-4
-              - pr-4
-            borderRadius: large
-            borderWidth: 1
-            borderStyle: solid
-            borderColor: border-neutral
-            flexDirection: col
-            justifyContent: center
-            textAlign: left
-      - type: FeaturedItem
-        title: SustainableBeekeeping
-        tagline: Himalayan Bee Farm
-        subtitle: Himalayan Bee Farm
-        text: Delve into the fascinating world of Himalayan bee-keeping, a unique local tradition. Discover sustainable practices, learn about the bees' vital role, and savor the exquisite taste of pure, locally sourced honey.
-        image:
-          type: ImageBlock
-          url: /images/tours/wild-heart-of-lijiang/highlight-6.webp
-          altText: Himalayan bee farm with beekeeper
           styles:
             self:
               borderRadius: full
@@ -302,6 +167,141 @@ sections:
             justifyContent: center
             textAlign: left
       - type: FeaturedItem
+        title: Historical Market
+        tagline: Shigu Naxi Heritage
+        subtitle: Shigu Town
+        text: Step back in time in charming Shigu Town, a cultural gem of the Naxi minority. Discover the historic relict of Stone Drum, wander through local market, and immerse yourself in the unique history of this quaint town.
+        image:
+          type: ImageBlock
+          url: /images/tours/wild-heart-of-lijiang/highlight-3.webp
+          altText: Shigu Naxi town market scene
+          styles:
+            self:
+              borderRadius: full
+        colors: bg-white-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pb-4
+              - pl-4
+              - pr-4
+            borderRadius: large
+            borderWidth: 1
+            borderStyle: solid
+            borderColor: border-neutral
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+      - type: FeaturedItem
+        title: Bird Watching
+        tagline: Rare Bird Species
+        subtitle: Bird Watching Station
+        text: Track the critically-endangered Biet's Laughingthrush at a Laojun Mountain village birding station — one of the highest reliable viewing spots in the world, with 30+ other Yunnan endemics possible in a single morning.
+        image:
+          type: ImageBlock
+          url: /images/tours/wild-heart-of-lijiang/highlight-5.webp
+          altText: Three people in a camouflaged hide using binoculars and a camera
+          styles:
+            self:
+              borderRadius: full
+        colors: bg-white-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pb-4
+              - pl-4
+              - pr-4
+            borderRadius: large
+            borderWidth: 1
+            borderStyle: solid
+            borderColor: border-neutral
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+      - type: FeaturedItem
+        title: Sustainable Beekeeping
+        tagline: Himalayan Bee Farm
+        subtitle: Himalayan Bee Farm
+        text: Delve into the fascinating world of Himalayan bee-keeping, a unique local tradition. Discover sustainable practices, learn about the bees' vital role, and savor the exquisite taste of pure, locally sourced honey.
+        image:
+          type: ImageBlock
+          url: /images/tours/wild-heart-of-lijiang/highlight-6.webp
+          altText: Himalayan bee farm with beekeeper
+          styles:
+            self:
+              borderRadius: full
+        colors: bg-white-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pb-4
+              - pl-4
+              - pr-4
+            borderRadius: large
+            borderWidth: 1
+            borderStyle: solid
+            borderColor: border-neutral
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+      - type: FeaturedItem
+        title: Cultural Heritage
+        tagline: Bai Minority Village
+        subtitle: Taohua Village
+        text: Discover the idyllic beauty of Taohua, a traditional Bai ethnic minority village. Admire the elegant white pagodas and a historic stone bridge. Immerse yourself in the peaceful rhythm of rural life.
+        image:
+          type: ImageBlock
+          url: /images/tours/wild-heart-of-lijiang/highlight-4.webp
+          altText: Bai village scenic view
+          styles:
+            self:
+              borderRadius: full
+        colors: bg-white-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pb-4
+              - pl-4
+              - pr-4
+            borderRadius: large
+            borderWidth: 1
+            borderStyle: solid
+            borderColor: border-neutral
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+      - type: FeaturedItem
+        title: Alpine Wetlands
+        tagline: Lashi Nature Reserve
+        subtitle: Lashi Nature Reserve
+        text: Witness a breathtaking spectacle of nature at Lashi Wetlands Nature Reserve, a vital haven for diverse waterbirds. Explore this protected reserve, learn about its ecological significance, and marvel at the vibrant tapestry of avian life in a stunning wetland landscape.
+        image:
+          type: ImageBlock
+          url: /images/tours/wild-heart-of-lijiang/highlight-1.webp
+          altText: Lashi Wetlands scenic view
+          styles:
+            self:
+              borderRadius: full
+        colors: bg-white-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pb-4
+              - pl-4
+              - pr-4
+            borderRadius: large
+            borderWidth: 1
+            borderStyle: solid
+            borderColor: border-neutral
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+      - type: FeaturedItem
         title: Citizen Science
         tagline: Wildlife Monitoring
         subtitle: Biodiversity Monitoring
@@ -329,14 +329,14 @@ sections:
             justifyContent: center
             textAlign: left
       - type: FeaturedItem
-        title: Alpine Meadows
-        tagline: Panoramic Views
-        subtitle: Laojun Mountains Peaks
-        text: Embark on a rewarding hike with a local conservationist, following a pristine forest stream to a stunning alpine meadow. Be captivated by panoramic views of Laojun Mountains' peaks and learn about the unique alpine ecosystem.
+        title: Rural Life
+        tagline: Lisu Minority
+        subtitle: Liju Village
+        text: Experience the authentic daily life of the Lisu minority in Liju village. Feel their warm hospitality, learn about their sustainable way of living, and gain insights into a culture deeply connected to nature.
         image:
           type: ImageBlock
-          url: /images/tours/wild-heart-of-lijiang/highlight-10.webp
-          altText: Alpine meadow with mountain views
+          url: /images/tours/wild-heart-of-lijiang/highlight-11.webp
+          altText: Lisu village lifestyle
           styles:
             self:
               borderRadius: full
@@ -356,14 +356,14 @@ sections:
             justifyContent: center
             textAlign: left
       - type: FeaturedItem
-        title: Rural Life
-        tagline: Lisu Minority
-        subtitle: Liju Village
-        text: Experience the authentic daily life of the Lisu minority in Liju village. Feel their warm hospitality, learn about their sustainable way of living, and gain insights into a culture deeply connected to nature.
+        title: Alpine Meadows
+        tagline: Panoramic Views
+        subtitle: Laojun Mountains Peaks
+        text: Embark on a rewarding hike with a local conservationist, following a pristine forest stream to a stunning alpine meadow. Be captivated by panoramic views of Laojun Mountains' peaks and learn about the unique alpine ecosystem.
         image:
           type: ImageBlock
-          url: /images/tours/wild-heart-of-lijiang/highlight-11.webp
-          altText: Lisu village lifestyle
+          url: /images/tours/wild-heart-of-lijiang/highlight-10.webp
+          altText: Alpine meadow with mountain views
           styles:
             self:
               borderRadius: full
@@ -446,25 +446,25 @@ sections:
         schedule:
           - period: Morning
             activities:
-              - "Begin with a pickup from your Lijiang hotel and head to the breathtaking Lashi Wetlands, where misty mornings awaken thousands of migratory birds. Watch elegant waterbirds glide across mirror-still waters as the sun paints the wetlands in golden hues."
+              - "Begin with a pickup from your Lijiang hotel and head to the breathtaking Lashi Wetlands and watch elegant waterbirds glide across mirror-still waters as the sun paints the wetlands in golden hues. Stand in awe at the legendary First Bend of the Yangtze River."
           - period: Afternoon
             activities:
-              - "Stand in awe at the legendary First Bend of the Yangtze River, then immerse yourself in the rich traditions of the Bai minority at Taohua village. Admire ancient white pagodas, cross historic stone bridges, and feel the warm hospitality of local villagers."
+              - "Discover the vibrant market of Shigu Town, steeped in Tang dynasty history, Naxi heritage and revolutionary stories. Immerse yourself in the rich traditions of the Bai minority at Taohua village. Admire ancient white pagodas, cross historic stone bridges, and feel the warm hospitality of local villagers. Arrive at your overnight destination deep in the mountain forests to learn infrared camera techniques and contribute to vital biodiversity monitoring."
           - period: Evening
             activities:
-              - "Discover the vibrant market of Shigu Town, steeped in Naxi heritage and revolutionary history. Savor authentic local cuisine before settling into your mountain retreat under a canopy of stars."
+              - "Savor authentic local cuisine before connecting with Lisu traditions through an enchanting bonfire dance and music experience. Create lasting memories as you join in festivities around the warm bonfire. Take a short stroll into the wild primeval forest at night, hear nocturnal animals and observe rare insects that come out during cool nights. Finally, settle into your comfortable mountain retreat."
       - day: Day Two
-        title: Forest and Fire
+        title: Rare Birds, Old Forests and Mountain Views
         schedule:
           - period: Morning
             activities:
-              - "Awaken with birdsong and venture into pristine forests at a local bird watching station. Learn from passionate conservationists as you spot some of the world's rarest birds in their natural habitat."
+              - "Awaken with birdsong and venture into pristine forests at a local bird watching station. Learn from passionate conservationists as you spot some of the world's rarest birds in their natural habitat. Follow a crystal-clear stream into ancient forests. Spot beautiful endemic flowers, medicinal plants and curious mushrooms along the leisurely path. Arrive at alpine meadows with panoramic views of the Laojun Mountains."
           - period: Afternoon
             activities:
-              - "Follow a crystal-clear stream into ancient primeval forests, becoming a citizen scientist along the way. Learn infrared camera techniques and contribute to vital biodiversity monitoring, then hike to a stunning alpine meadow with panoramic mountain views."
+              - "After a hearty local BBQ lunch it's time for a desert. A few spoonfuls of pure honey produced by the laborious Himalayan bees from countless species of wild flowers in these primeval forests. Take a peek into the traditional beehives and learn about the vital role the bees play in preserving this rich ecosystem. Before heading back to Lijiang, pay your last respect to the majestically sacred Dragon Spruce tree that stands as a local symbol of natures resilience."
           - period: Evening
             activities:
-              - "Connect with Lisu traditions through an enchanting bonfire dance and music experience. Create lasting memories as you join in festivities under the stars, before returning to your Lijiang hotel."
+              - "Conclude your journey with a feast of Lijiang specialties in an Old Town restaurant before returning to your hotel full of wild memories."
     accentColors:
       morning: '#01aed9'
       afternoon: '#007dbd'
@@ -515,8 +515,8 @@ sections:
       text: For groups of 1 person or more than 6 people
       url: /book?tour=Wild+Heart+of+Laojun
     included:
-      text: English-Speaking Coordinator/Guide (Lynne Lyu or Lukasz Madrzynski), Local Guides, Traditional Local Food (Breakfasts, Lunches, Dinners), Comfortable Accommodation, Private Transportation, Outdoor Travel Insurance.
-      notIncluded: 'Personal Expenses (Souvenirs, Snacks, etc.), Voluntary Gratuities for the Coordinators/Guides'
+      text: English-Speaking Coordinator/Guide (Lynne Lyu or Lukasz Madrzynski), Local Guides, Traditional Local Food (Breakfasts, Lunches, Dinners), Comfortable Accommodation in Lisu minority Guesthouse, Private Transportation, Outdoor Travel Insurance.
+      notIncluded: 'Personal Expenses (Souvenirs, etc.), Voluntary Gratuities for the Coordinators/Guides'
       meetingPoint: 'Pickup: 9:00 AM at your Lijiang hotel | Return: Approximately 8:00 PM to your Lijiang hotel'
     bookingUrl: /book?tour=Wild+Heart+of+Laojun
     colors: bg-neutral-fg-dark
@@ -549,16 +549,16 @@ sections:
     items:
       - type: AccordionItem
         question: What should I bring?
-        answer: We recommend comfortable hiking shoes, layers for changing temperatures, sun protection, a water bottle, and your camera. A headlamp or flashlight is useful for the night forest walk. Detailed packing list provided upon booking.
+        answer: We recommend comfortable hiking shoes, layers for changing temperatures, raincoat or umbrella for rainy days, sun protection, a water bottle, and your camera. A headlamp or flashlight is useful for the night forest walk.
       - type: AccordionItem
         question: Is this suitable for children?
-        answer: Yes! This tour is family-friendly. Children under 12 should be accompanied by an adult. The moderate hiking distance (8-9 km/day) is achievable for most fitness levels, and the cultural activities are engaging for all ages.
+        answer: Yes! This tour is family-friendly. Children under 12 should be accompanied by an adult. The moderate hiking distance (8-9 km/day) is achievable for most fitness levels, and the nature and culture activities are engaging for all ages.
       - type: AccordionItem
         question: What's the cancellation policy?
-        answer: Full refund if cancelled 7+ days before the tour. 50% refund for 3-6 days. No refund within 48 hours. Weather contingencies always have alternatives.
+        answer: Full refund if cancelled 7+ days before the tour. 50% refund for 3-6 days. No refund within 48 hours.
       - type: AccordionItem
         question: What happens if it rains?
-        answer: Most activities continue in light rain. For safety during heavy storms, we'll adjust the itinerary to indoor cultural experiences and conservation center visits. The night forest walk may be rescheduled.
+        answer: Most activities continue in light rain. For safety during heavy storms, we'll adjust the itinerary to indoor nature and culture activities.
       - type: AccordionItem
         question: Are there any physical requirements?
         answer: Basic fitness is recommended. You'll hike up to 9 km per day on mountain trails. The terrain is generally gentle but at altitude (up to 3,100m), pace will be slower.
@@ -567,10 +567,10 @@ sections:
         answer: We provide pickup from any hotel in Lijiang Old Town area. If you're staying outside this area, please contact us to arrange an alternative meeting point.
       - type: AccordionItem
         question: What language do the guides speak?
-        answer: Our guides are fluent in English. For other languages, please inquire about availability.
+        answer: We are fluent in English, Polish and Chinese.
       - type: AccordionItem
         question: How does this trip support conservation and sustainable development?
-        answer: Each booking directly supports local conservation efforts and community development. We partner with nature reserves for wildlife monitoring, employ local Naxi, Bai, and Lisu guides and community hosts, and contribute a portion of proceeds to environmental protection initiatives.
+        answer: Each booking directly supports local conservation efforts and community development. We partner with nature reserves for wildlife monitoring, employ local and Lisu guides and community hosts, contribute a portion of proceeds to the local bird watching station and are actively involved in local environmental protection and sustainability initiatives.
     badge:
       label: FAQ
       color: text-primary
@@ -646,17 +646,16 @@ seo:
   type: Seo
   metaTitle: Laojun's Wild Heart Ecotour | Laojun Mountains UNESCO Site Adventure
   metaDescription: >-
-    Escape to Laojun Mountain Ecotour, Yunnan, China! Hike alpine meadows, spot
-    rare birds, & immerse in minority cultures. Discover Yangtze First Bend &
-    Himalayan honey. Authentic China nature & culture adventure.
+    Escape to Laojun Mountain Ecotour, Yunnan, China! Track Biet's Laughingthrush at a village birding station, hike alpine meadows, spot rare birds, & immerse in Naxi, Bai, Pumi and Lisu minority cultures. Discover Yangtze First Bend & Himalayan honey. Authentic China nature & culture adventure.
   socialImage: /images/shared/brand/cm-logo-color.png
   metaTags:
     - type: MetaTag
       content: >-
         laojun mountain ecotour, yunnan ecotours, china nature tours, china
-        culture tours, laojun mountains hiking, birdwatching china, yangtze
-        first bend tour, minority culture yunnan, naxi culture, bai culture,
-        lisu culture, himalayan honey tour, china adventure travel, sustainable
-        tourism china, biodiversity monitoring, alpine meadows yunnan,
-        primeval forest china, ecotourism yunnan, 2-day yunnan tour
+        culture tours, laojun mountains hiking, biet laughingthrush china,
+        birdwatching china, yangtze first bend tour, minority culture yunnan,
+        naxi culture, bai culture, pumi culture, lisu culture, himalayan honey
+        tour, china adventure travel, sustainable tourism china, biodiversity
+        monitoring, alpine meadows yunnan, primeval forest china, ecotourism
+        yunnan, 2-day yunnan tour
 ---

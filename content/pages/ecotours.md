@@ -93,7 +93,7 @@ sections:
         subtitle: from $46 to $66 per person
         text: >
           A half-day hike through a highland forest — rare orchids, peculiar
-          plants, strange fungi, woodland birds, and a hilltop pagoda view of
+          plants, strange fungi, woodland birds, and hilltop views of
           Jade Dragon Snow Mountain. For the quiet nature walker.
         image:
           type: ImageBlock
@@ -134,9 +134,9 @@ sections:
         tagline: Half-Day | Bird Watching
         subtitle: from $66 to $91 per person
         text: >+
-          Wander the Lashi Alpine Wetland with a local conservationist — join
+          Wander the Lashi Alpine Wetland — join
           a citizen-science bird survey, meet the people rescuing injured
-          waterbirds, and walk the most pristine stretch of the reserve. For
+          waterbirds, and walk in pristine nature reserve. For
           the curious birder.
 
         image:
@@ -342,9 +342,8 @@ sections:
         tagline: One Day | Full Naxi Heritage Immersion
         subtitle: from $128 to $186 per person
         text: >-
-          A full day inside Lijiang's UNESCO Old Town — Heritage Museum,
-          Black Dragon Pond, Dongba Paper and Writing workshops, Mu
-          Palace, traditional meals, and live Naxi music. For the
+          A full day inside Lijiang's UNESCO Old Town — Museums,
+          Parks, Palaces, Dongba Paper and Writing Workshops, traditional meals, and live Naxi music. For the
           traveler who wants the whole Old Town in one day.
         image:
           type: ImageBlock
@@ -383,7 +382,7 @@ sections:
         title: Heavenly Valley
         subtitle: from $182 to $203 per person
         text: >
-          One day, four ecosystems, and a Yi minority dinner. Hike lake, wetland, grassland, and ancient forest, then end the day in a Yi village on the Tea-Horse Road. For the curious naturalist.
+          One day, four ecosystems, and a Yi minority dinner. Hike lake, wetland, grassland, and ancient forest, then end the day in a Yi village on the Tea-Horse Road. For those interested in nature, culture and sustainability.
         image:
           type: ImageBlock
           url: /images/tours/lijiang-heavenly-valley/card.webp
@@ -417,7 +416,7 @@ sections:
             margin:
               - ml-1
               - mr-1
-        tagline: One Day | Off-the-beaten-path
+        tagline: One Day | Sustainability Focus
       - type: FeaturedItem
         title: Shangri-La Monkey Trip
         tagline: Two Days | Tibetan Nature and Culture
@@ -466,7 +465,7 @@ sections:
         image:
           type: ImageBlock
           url: /images/tours/wild-heart-of-lijiang/card.webp
-          altText: Lightning bolt symbol on red background
+          altText: Lush green forested mountains shrouded in thick white mist
           elementId: ''
           styles:
             self:
@@ -505,7 +504,7 @@ sections:
         image:
           type: ImageBlock
           url: /images/tours/natgeo-forever-walk/card.webp
-          altText: Lightning bolt symbol on red background
+          altText: Four hikers walk across a wide golden meadow towards distant mountains
           elementId: ''
           styles:
             self:

@@ -5,16 +5,16 @@ sections:
   - type: HeroSection
     media:
       url: /images/tours/natgeo-forever-walk/banner.webp
-      altText: Wenhai Wetlands and Jade Dragon Snow Mountain scenic view
+      altText: Four hikers walk across a wide golden meadow towards distant mountains
     badge:
       label: Three-day EcoTour
       color: text-white
     title:
       text: "NatGeo's Forever <br/> Walk"
       color: text-white
-    subtitle: A Slow Trekking Journey of Connection
+    subtitle: Three days on Paul Salopek's trail
     text: >-
-      Walk the legendary trails documented by National Geographic with Paul Salopek. Trek through Jade Dragon Snow Mountain wilderness and discover pristine wetlands with local experts.
+      Three days on Paul Salopek's slow-travel trail — a stretch of the Jade Dragon Snow Mountain corridor we walked together for the iconic National Geographic documentary "The Forever Walk: China": remote hamlets, alpine meadows, a quiet slice of the old Tea & Horse Road. Join the guides featured in the documentary: Mr. Lukasz, Mr. He and Mr. Lu to guide you through the biodiversity and cultures of this unforgettable trail. You'll come home with a slower pulse and new, long-lasting friendships.
     actions:
       - type: Button
         label: Book This EcoTour
@@ -39,7 +39,7 @@ sections:
     items:
       - icon: /images/shared/key-details/special.png
         title: What's Special
-        subtitle: NatGeo Forever Walk Trail
+        subtitle: Paul Salopek's National Geographic trail
         highlight: Walk the same path as Paul Salopek documented for NatGeo
       - icon: /images/shared/key-details/duration.png
         title: Duration
@@ -116,7 +116,7 @@ sections:
         title: Paul Salopek's Path
         tagline: Pulitzer Prize Walk
         subtitle: Paul Salopek's Path
-        text: "Follow a part of Pulitzer Prize winner Paul Salopek's epic global walk. Reflect on humanity and our planet as you trace his path through culturally rich Yunnan."
+        text: "Follow a part of Pulitzer Prize winner Paul Salopek's epic global walk. Reflect on humanity and our planet as you trace his path through nature and culture of Yunnan."
         image:
           type: ImageBlock
           url: /images/tours/natgeo-forever-walk/highlight-9.webp
@@ -442,41 +442,41 @@ sections:
     timelineLayout: true
     days:
       - day: Day One
-        title: Walking the Path Less Traveled
+        title: Ascent to Alpine Lake
         schedule:
           - period: Morning
             activities:
-              - "Depart from your Lijiang hotel and journey to Wenhai Wetlands. Walk sections of the 'Forever Walk: China' trail as documented by National Geographic."
+              - "Depart from your Lijiang hotel and hike to Wenhai Wetlands. Follow the exact path of 'Forever Walk: China' trail as documented by National Geographic."
           - period: Afternoon
             activities:
-              - 'Explore biodiversity of Wenhai Wetlands alongside local conservationists. Learn about unique species and delicate ecosystems.'
+              - "Explore biodiversity of Wenhai Wetlands alongside local conservationists. Learn about unique species and delicate ecosystems."
           - period: Evening
             activities:
-              - 'Arrive at your overnight village stay in Wenhai. Share authentic dinner with local Naxi families and gather around a cozy bonfire.'
+              - "Arrive at your overnight village stay in Wenhai. Share authentic dinner with local Naxi families and gather around a cozy bonfire."
       - day: Day Two
+        title: Caves and Villages
+        schedule:
+          - period: Morning
+            activities:
+              - "After breakfast, set out to uncover the mysteries of Tiger Cave."
+          - period: Afternoon
+            activities:
+              - "After a lunch in village fish farm, embark on a trek through charming minority villages and tranquil hamlets. Observe diverse architectural styles and local traditions."
+          - period: Evening
+            activities:
+              - "Arrive in Runangu Yi minority village for your second overnight stay. Immerse yourself in Yi culture and engage with welcoming villagers."
+      - day: Day Three
         title: Into the Wilderness
         schedule:
           - period: Morning
             activities:
-              - 'After breakfast, venture into the wilderness of Jade Dragon Snow Mountain Nature Reserve with a local forest ranger. Begin your trek through ancient primeval forests.'
+              - "Venture into the wilderness of Jade Dragon Snow Mountain Nature Reserve with a local forest ranger. Trek through ancient primeval forests filled with abundant species of flora, fauna and fungi. Arrive in yak meadow with spectacular panoramic views of Jade Dragon Snow Mountain."
           - period: Afternoon
             activities:
-              - 'Continue wilderness exploration, discovering rich plant and animal life. Hike to breathtaking viewpoints. Uncover the mysteries of Tiger Cave.'
+              - "Continue the ascent to a mountain top shrouded in local legends, enjoy the stories and views on the highest peaks of Jade Dragon Snow Mountain. Begin your scenic descent to Runangu village and return back to Lijiang by car."
           - period: Evening
             activities:
-              - 'Journey to Runangu village for your second overnight stay. Immerse yourself in Yi culture and engage with welcoming villagers.'
-      - day: Day Three
-        title: The Return
-        schedule:
-          - period: Morning
-            activities:
-              - 'Embark on a final morning trek through charming minority villages and tranquil hamlets. Observe diverse architectural styles and local traditions.'
-          - period: Afternoon
-            activities:
-              - 'Begin your scenic return journey to Lijiang. Arrive back at your hotel with memories of walking in the footsteps of Paul Salopek.'
-          - period: Evening
-            activities:
-              - 'Celebrate your journey with a farewell dinner, sharing stories and reflections on your transformative experience along the Forever Walk trail.'
+              - "Celebrate your journey with a farewell dinner, sharing stories and reflections on your transformative experience along the Forever Walk trail. After the dinner, arrive back at your hotel with memories of walking in the footsteps of Paul Salopek."
     accentColors:
       morning: '#01aed9'
       afternoon: '#007dbd'
@@ -527,8 +527,8 @@ sections:
       text: For groups of 1 person or more than 6 people
       url: /book?tour=Forever+Walk+Adventure
     included:
-      text: English-Speaking Coordinator/Guide (Lukasz Madrzynski), Local Guides, Entrance Tickets to the National Park, Traditional Local Food (Breakfasts, Lunches, Dinners), Comfortable Accommodation, Private Transportation, Outdoor Travel Insurance.
-      notIncluded: Personal Expenses (Souvenirs, Snacks, etc.), Voluntary Gratuities for the Coordinators/Guides
+      text: English-Speaking Coordinator/Guide (Lukasz Madrzynski), Local Guides, Traditional Local Food (Breakfasts, Lunches, Dinners), Accommodation (2 Nights), Private Transportation, Outdoor Travel Insurance.
+      notIncluded: Personal Expenses (Souvenirs, etc.), Voluntary Gratuities for the Coordinators/Guides
       meetingPoint: 'Pickup: 9:00 AM at your Lijiang hotel | Return: Approximately 8:00 PM to your Lijiang hotel'
     bookingUrl: /book?tour=Forever+Walk+Adventure
     colors: bg-neutral-fg-dark
@@ -570,7 +570,7 @@ sections:
         answer: Full refund if cancelled 14+ days before the tour. 50% refund for 7-13 days. No refund within 7 days. Weather contingencies always have alternatives.
       - type: AccordionItem
         question: What happens if it rains?
-        answer: Most activities continue in light rain. For safety during heavy storms, we'll adjust the itinerary to indoor cultural experiences and conservation center visits.
+        answer: Most activities continue in light rain. For safety during heavy storms, we'll take all necessary precautions and adjust the itinerary accordingly.
       - type: AccordionItem
         question: What about altitude sickness?
         answer: We ascend gradually to allow acclimatization. Our guides monitor everyone closely. If symptoms occur, we can descend and rest.
@@ -579,10 +579,10 @@ sections:
         answer: We provide pickup from any hotel in Lijiang Old Town area. Contact us to arrange an alternative meeting point if needed.
       - type: AccordionItem
         question: What's the accommodation like?
-        answer: You'll stay in comfortable guesthouses in Wenhai and Runangu villages, experiencing authentic local hospitality. Rooms are simple but clean and warm.
+        answer: You'll stay in family-run guesthouses in Wenhai and Runangu villages, experiencing authentic local hospitality. Rooms are simple but clean.
       - type: AccordionItem
         question: How does this trip support local communities?
-        answer: Each booking directly supports local Naxi and Yi communities through village homestays, local guides, and traditional meals. We contribute to conservation efforts.
+        answer: Each booking directly supports local Naxi and Yi communities through village homestays, local guides, and traditional meals. We contribute and are actively involved in local environmental protection and sustainability initiatives in the villages and nature reserves on this trail.
     badge:
       label: FAQ
       color: text-primary
@@ -602,9 +602,9 @@ sections:
       self:
         padding:
           - pt-4
-          - pl-4
+          - pl-1
           - pb-4
-          - pr-4
+          - pr-1
   - type: TripAdvisorReviews
     ratings: 5
     reviewCount: 8
@@ -617,9 +617,9 @@ sections:
       self:
         padding:
           - pt-4
-          - pl-4
+          - pl-1
           - pb-4
-          - pr-4
+          - pr-1
   - type: GenericSection
     title:
       text: Ready to Join the Forever Walk?
