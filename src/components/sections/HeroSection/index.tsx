@@ -1,4 +1,4 @@
-import * as React from 'react';
+﻿﻿import * as React from 'react';
 import classNames from 'classnames';
 import { Action, Badge } from '../../atoms';
 
@@ -48,7 +48,7 @@ export default function HeroSection(props: HeroSectionProps) {
                 </div>
             )}
 
-            {/* Desktop: Full-screen background image (LCP candidate � eager + high priority) */}
+            {/* Desktop: Full-screen background image (LCP candidate — eager + high priority) */}
             {media?.url && (
                 <div className="hidden lg:block absolute inset-0" style={{ minHeight: '100vh' }}>
                     <img
