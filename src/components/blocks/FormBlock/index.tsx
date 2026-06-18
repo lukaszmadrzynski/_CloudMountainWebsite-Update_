@@ -44,26 +44,46 @@ function FormBlockInner(props) {
         try {
             const formData = new FormData(formRef.current);
 
-            // Diagnostic: log field names only. NEVER log values — they contain PII
+            // Cloudflare Turnstile: the widget auto-inserts a hidden input named
+            // 'cf-turnstile-response' into the form when the challenge is solved.
+            // If Turnstile is enabled on the page but the user hasn't solved it,
+            // the value is empty. Block submission in that case.
+            const turnstileSiteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
+            if (turnstileSiteKey) {
+                const turnstileToken = formData.get('cf-turnstile-response');
+                if (!turnstileToken || typeof turnstileToken !== 'string' || turnstileToken.length === 0) {
+                    setSubmitStatus('error');
+                    setStatusMessage('Please complete the security check before submitting.');
+                    setIsSubmitting(false);
+                    return;
+                }
+            }
+
+            // Diagnostic: log field names only. NEVER log values - they contain PII
             // (name, email, phone). Console-logging PII leaks via browser extensions,
             // screen-share tools, and any future error reporter that auto-captures console.*.
             console.log('Submitting form to Worker', [...formData.keys()]);
 
-            // Send to Cloudflare Worker endpoint as FormData
+            // Send to Cloudflare Worker endpoint as FormData.
+            // The Worker must verify the 'cf-turnstile-response' token server-side
+            // (POST https://challenges.cloudflare.com/turnstile/v0/siteverify with
+            // secret + token). Reject the submission if siteverify returns success:false.
             const response = await fetch('https://contact-form.lukasz-madrzynski.workers.dev', {
                 method: 'POST',
                 body: formData,
             });
 
-            console.log('Response status:', response.status);
             const responseText = await response.text();
-            console.log('Response body:', responseText);
 
             if (response.ok || response.status === 200) {
                 setSubmitStatus('success');
                 setStatusMessage('Thank you for your message! We will get back to you soon.');
                 if (formRef.current) {
                     formRef.current.reset();
+                    // Reset the Turnstile widget so a returning visitor has to re-verify
+                    if (typeof (window as any).turnstile !== 'undefined') {
+                        (window as any).turnstile.reset();
+                    }
                 }
             } else {
                 throw new Error(`Server error: ${response.status} - ${responseText}`);
@@ -121,10 +141,23 @@ function FormBlockInner(props) {
             </div>
             {submitButton && (
                 <div className={classNames('mt-8', 'flex', 'justify-center')}>
-                    <SubmitButtonFormControl 
-                        {...submitButton} 
+                    <SubmitButtonFormControl
+                        {...submitButton}
                         disabled={isSubmitting}
-                        {...(fieldPath && { 'data-sb-field-path': '.submitButton' })} 
+                        {...(fieldPath && { 'data-sb-field-path': '.submitButton' })}
+                    />
+                </div>
+            )}
+
+            {/* Cloudflare Turnstile widget. Renders only when the site key is set.
+                When inside a <form>, Turnstile auto-inserts a hidden input named
+                'cf-turnstile-response' on successful challenge. */}
+            {process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY && (
+                <div className="mt-6 flex justify-center">
+                    <div
+                        className="cf-turnstile"
+                        data-sitekey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
+                        data-theme="light"
                     />
                 </div>
             )}
