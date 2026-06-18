@@ -1,0 +1,19 @@
+# Cloudflare Pages _redirects
+# Format: <from> <to> <status>[!]
+# Processed at the Pages layer (in addition to any DNS-level redirect rules).
+# See: https://developers.cloudflare.com/pages/configuration/redirects/
+
+# 1. Redirect the staging/preview domain to the production apex.
+#    Anyone who lands on the .pages.dev URL (e.g. via an old share link or search
+#    engine index) gets bounced to the canonical custom domain.
+https://cloudmountainwebsite-update.pages.dev/* https://cloudmountain.top/:splat 301!
+
+# 2. Redirect www to apex (canonical domain).
+#    NOTE: This is a belt-and-suspenders backup for the Cloudflare Redirect Rule
+#    configured at Rules -> Redirect Rules in the dashboard (name: "www-to-apex").
+#    That edge-level rule already handles www -> apex before the request reaches
+#    Pages, so this line should never fire in practice. It stays in as a
+#    defensive layer: if the dashboard rule is ever deleted by mistake, the
+#    _redirects file still enforces the canonicalization. You may delete this
+#    line if you prefer a single source of truth.
+https://www.cloudmountain.top/* https://cloudmountain.top/:splat 301!
