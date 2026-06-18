@@ -31,6 +31,5 @@
             "justifyContent": "center"
         }
     },
-    "type": "Person",
-    "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.\n"
+    "type": "Person"
 }

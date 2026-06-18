@@ -22,7 +22,7 @@ export const config = defineStackbitConfig({
     contentSources: [gitContentSource],
     presetSource: {
         type: 'files',
-        presetDirs: ['sources/local/presets']
+        presetDirs: []
     },
     siteMap: ({ documents, models }): SiteMapEntry[] => {
         const pageModels = models.filter((model) => model.type === 'page').map((model) => model.name);

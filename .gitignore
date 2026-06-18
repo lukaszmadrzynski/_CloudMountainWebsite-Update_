@@ -14,7 +14,14 @@
 
 # next.js
 /.next/
+/_.next_old/
 /out/
+
+# TypeScript incremental build cache
+/tsconfig.tsbuildinfo
+
+# Internal agent workspace (Mavis)
+/.mavis/
 
 # production
 /build
