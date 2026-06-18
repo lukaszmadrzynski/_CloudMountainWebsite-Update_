@@ -563,7 +563,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          **Email:** lynne@cloudmountain.top
+          **Email:** [lynne@cloudmountain.top](mailto:lynne@cloudmountain.top)
 
           **Tel/WhatsApp/WeChat:** 0086 19813252518
         image:
@@ -590,7 +590,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          **Email:** lukas@cloudmountain.top
+          **Email:** [lukas@cloudmountain.top](mailto:lukas@cloudmountain.top)
 
           **Tel/WhatsApp/WeChat:** 0086 18687958551
         image:

@@ -58,7 +58,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |
-          **Email:** <lynne@cloudmountain.top>
+          **Email:** [lynne@cloudmountain.top](mailto:lynne@cloudmountain.top)
 
           **Tel/WhatsApp/Wechat:** 0086 19813252518
         image:
