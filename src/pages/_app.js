@@ -1,16 +1,8 @@
-import { Inter, Roboto_Slab } from 'next/font/google';
+import { Roboto_Slab } from 'next/font/google';
 import Script from 'next/script';
 import '../css/main.css';
 
-// Configure Inter font
-const inter = Inter({
-  subsets: ['latin'],
-  weight: ['400', '500', '700'],
-  display: 'swap',
-  variable: '--font-inter',
-});
-
-// Configure Roboto Slab font
+// Configure Roboto Slab font (the serif headline font per style.json)
 const roboto_slab = Roboto_Slab({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
@@ -41,7 +33,7 @@ export default function MyApp({ Component, pageProps }) {
           `,
         }}
       />
-      <div className={`${inter.variable} ${roboto_slab.variable}`}>
+      <div className={roboto_slab.variable}>
         <Component {...pageProps} />
       </div>
     </>

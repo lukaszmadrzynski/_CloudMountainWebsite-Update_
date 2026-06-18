@@ -1,5 +1,5 @@
 {
-    "name": "content-ops-starter",
+    "name": "cloud-mountain-website",
     "version": "0.1.0",
     "scripts": {
         "dev": "next dev",
@@ -33,6 +33,5 @@
         "autoprefixer": "^10.5.0",
         "prettier": "^3.8.3",
         "typescript": "5.8.2"
-    },
-    "main": "next.config.js"
+    }
 }

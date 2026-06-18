@@ -85,7 +85,7 @@ sections:
         tagline: ''
         subtitle: ''
         text: |+
-          **Email:** [lukas@cloudmountain.top](mailto:lynne@cloudmountain.top)
+          **Email:** [lukas@cloudmountain.top](mailto:lukas@cloudmountain.top)
 
           **Tel/WhatsApp/Wechat:** 0086 18687958551
 

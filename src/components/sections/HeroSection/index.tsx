@@ -40,19 +40,22 @@ export default function HeroSection(props: HeroSectionProps) {
                         src={media.url}
                         alt={media.altText || ''}
                         className="w-full h-auto"
+                        loading="lazy"
+                        decoding="async"
                         data-sb-field-path=".media.url"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-transparent" />
                 </div>
             )}
 
-            {/* Desktop: Full-screen background image */}
+            {/* Desktop: Full-screen background image (LCP candidate — eager + high priority) */}
             {media?.url && (
                 <div className="hidden lg:block absolute inset-0" style={{ minHeight: '100vh' }}>
                     <img
                         src={media.url}
                         alt={media.altText || ''}
                         className="w-full h-full object-cover"
+                        fetchpriority="high"
                         style={{ minHeight: '100vh' }}
                         data-sb-field-path=".media.url"
                     />

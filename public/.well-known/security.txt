@@ -1,0 +1,4 @@
+Contact: mailto:lukasz.madrzynski@yahoo.com
+Expires: 2027-12-31T23:59:59z
+Preferred-Languages: en, pl, zh
+Canonical: https://cloudmountain.top/.well-known/security.txt

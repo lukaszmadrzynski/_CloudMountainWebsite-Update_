@@ -1,0 +1,35 @@
+# Cloudflare Pages _headers file
+# Reference: https://developers.cloudflare.com/pages/configuration/headers/
+# Applied automatically on every deploy.
+
+/*
+  # Force HTTPS for 2 years (HSTS preload-eligible)
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  # Prevent MIME-type sniffing
+  X-Content-Type-Options: nosniff
+  # Clickjacking protection (CSP frame-ancestors is the modern equivalent, both included for defense in depth)
+  X-Frame-Options: DENY
+  # Cross-origin isolation (COOP) - required for SharedArrayBuffer; safe to enable
+  Cross-Origin-Opener-Policy: same-origin
+  # Limit referrer leakage to first-party
+  Referrer-Policy: strict-origin-when-cross-origin
+  # Disable powerful browser features by default
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=(), interest-cohort=()
+  # Content Security Policy
+  # - default-src 'self': only same-origin by default
+  # - script-src: 'unsafe-inline' required for the Google Analytics inline init in _app.js and Next.js hydration
+  # - 'unsafe-eval' required by some legacy libraries (Swiper transitively); can be tightened once confirmed
+  # - frame-src allows YouTube/Vimeo embeds if you add them later
+  # - connect-src allows the contact-form Worker + Google Analytics
+  # - form-action 'self' blocks CSRF form submissions to other origins
+  # - object-src 'none' blocks Flash/Java applets
+  # - base-uri 'self' blocks <base> tag injection
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://*.cloudmountain.top; font-src 'self'; connect-src 'self' https://contact-form.lukasz-madrzynski.workers.dev https://www.google-analytics.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com; form-action 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'
+
+# Block access to leftover backup / orphan / preview files even if they ship to deploy
+/_backup/*
+  X-Robots-Tag: noindex
+/*.prev
+  X-Robots-Tag: noindex
+/.well-known/*
+  X-Robots-Tag: noindex

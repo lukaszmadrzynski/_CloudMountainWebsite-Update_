@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import { useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/router';
 
 import { getComponent } from '../../components-registry';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
@@ -10,10 +10,10 @@ function FormBlockInner(props) {
     const formRef = React.createRef<HTMLFormElement>();
     const { fields = [], elementId, submitButton, className, styles = {}, 'data-sb-field-path': fieldPath } = props;
 
-    // Get URL params using Next.js hook (avoids hydration mismatch)
-    const searchParams = useSearchParams();
-    const tourFromUrl = searchParams.get('tour');
-    const partnershipTypeFromUrl = searchParams.get('type');
+    // Get URL params via Pages Router (static-export safe; populated client-side after hydration)
+    const router = useRouter();
+    const tourFromUrl = typeof router.query.tour === 'string' ? router.query.tour : '';
+    const partnershipTypeFromUrl = typeof router.query.type === 'string' ? router.query.type : '';
     
     // State for form submission
     const [isSubmitting, setIsSubmitting] = React.useState(false);
@@ -43,13 +43,12 @@ function FormBlockInner(props) {
 
         try {
             const formData = new FormData(formRef.current);
-            
-            // Log form data for debugging
-            console.log('Submitting form to Worker...');
-            for (let [key, value] of formData.entries()) {
-                console.log(`${key}: ${value}`);
-            }
-            
+
+            // Diagnostic: log field names only. NEVER log values — they contain PII
+            // (name, email, phone). Console-logging PII leaks via browser extensions,
+            // screen-share tools, and any future error reporter that auto-captures console.*.
+            console.log('Submitting form to Worker', [...formData.keys()]);
+
             // Send to Cloudflare Worker endpoint as FormData
             const response = await fetch('https://contact-form.lukasz-madrzynski.workers.dev', {
                 method: 'POST',

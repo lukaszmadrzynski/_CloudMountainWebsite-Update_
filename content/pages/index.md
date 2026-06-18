@@ -1,6 +1,9 @@
 ---
 title: Cloud Mountain
 slug: /
+type: PageLayout
+isDraft: false
+addTitleSuffix: true
 sections:
   - type: HomepageHeroSection
     media:
@@ -497,7 +500,4 @@ seo:
         guides
       property: 'og:description'
     - type: MetaTag
-  addTitleSuffix: true
-type: PageLayout
-isDraft: false
 ---

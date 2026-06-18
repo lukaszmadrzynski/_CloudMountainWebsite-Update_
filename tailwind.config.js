@@ -25,7 +25,6 @@ module.exports = {
                 primary: themeStyle.primary
             },
             fontFamily: { // <<<< MODIFIED SECTION STARTS HERE
-                serif: ['var(--font-inter)', ...defaultTheme.fontFamily.serif],
                 serif: ['var(--font-roboto-slab)', ...defaultTheme.fontFamily.serif]
             }, // <<<< MODIFIED SECTION ENDS HERE
             gridTemplateColumns: {
