@@ -1,4 +1,4 @@
-# Netlify Content Ops Starter 
+# Netlify Content Ops Starters 
 
 ![Content Ops Starter](https://assets.stackbit.com/docs/content-ops-starter-thumb.png)
 
