@@ -48,7 +48,7 @@ function FormBlockInner(props) {
             // 'cf-turnstile-response' into the form when the challenge is solved.
             // If Turnstile is enabled on the page but the user hasn't solved it,
             // the value is empty. Block submission in that case.
-            const turnstileSiteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
+            const turnstileSiteKey = "0x4AAAAAADnCjXKlhofBqKD5"; // HARDCODED — Cloudflare Pages env var injection is broken; site key is public anyway
             if (turnstileSiteKey) {
                 const turnstileToken = formData.get('cf-turnstile-response');
                 if (!turnstileToken || typeof turnstileToken !== 'string' || turnstileToken.length === 0) {
@@ -152,11 +152,11 @@ function FormBlockInner(props) {
             {/* Cloudflare Turnstile widget. Renders only when the site key is set.
                 When inside a <form>, Turnstile auto-inserts a hidden input named
                 'cf-turnstile-response' on successful challenge. */}
-            {process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY && (
+            {true && (
                 <div className="mt-6 flex justify-center">
                     <div
                         className="cf-turnstile"
-                        data-sitekey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
+                        data-sitekey="0x4AAAAAADnCjXKlhofBqKD5"
                         data-theme="light"
                     />
                 </div>
