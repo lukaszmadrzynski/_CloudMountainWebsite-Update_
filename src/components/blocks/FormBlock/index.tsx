@@ -112,11 +112,13 @@ function FormBlockInner(props) {
             // screen-share tools, and any future error reporter that auto-captures console.*.
             console.log('Submitting form to Worker', [...formData.keys()]);
 
-            // Send to Cloudflare Worker endpoint as FormData.
-            // The Worker must verify the 'cf-turnstile-response' token server-side
-            // (POST https://challenges.cloudflare.com/turnstile/v0/siteverify with
-            // secret + token). Reject the submission if siteverify returns success:false.
-            const response = await fetch('https://contact-form.lukasz-madrzynski.workers.dev', {
+            // Send to Cloudflare Worker endpoint as FormData. The Worker is
+            // reached via a Workers Route on the apex domain (route:
+            // cloudmountain.top/api/contact* -> contact-form Worker), so the
+            // request is same-origin — no CORS round-trip, and no exposure to
+            // GFW throttling of `workers.dev`. The Worker still verifies the
+            // 'cf-turnstile-response' token server-side via siteverify.
+            const response = await fetch('https://cloudmountain.top/api/contact', {
                 method: 'POST',
                 body: formData,
             });
