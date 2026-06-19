@@ -23,6 +23,10 @@
 # Internal agent workspace (Mavis)
 /.mavis/
 
+# Backup / preview / orphan images (defense in depth — already cleaned up)
+/**/_backup/
+/**/*.prev
+
 # production
 /build
 
