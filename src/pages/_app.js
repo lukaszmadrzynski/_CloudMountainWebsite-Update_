@@ -14,7 +14,7 @@ const roboto_slab = Roboto_Slab({
 // Cloudflare Pages > Project Settings > Environment variables, and in .env.local
 // for local dev. The widget only renders when this is set, so dev/preview builds
 // without the env var will skip Turnstile (form still works, just no bot protection).
-const TURNSTILE_SITE_KEY = '0x4AAAAAADnCjXKlhofBqKD5'; // HARDCODED — Cloudflare Pages env var injection is broken; site key is public anyway
+const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || '';
 
 export default function MyApp({ Component, pageProps }) {
   const GA_MEASUREMENT_ID = 'G-JG1RTRLGQJ';
@@ -42,7 +42,7 @@ export default function MyApp({ Component, pageProps }) {
       {/* Cloudflare Turnstile - bot protection on the contact/booking forms.
           Loaded once globally; FormBlock renders the actual widget div per form.
           script is a no-op if TURNSTILE_SITE_KEY is empty. */}
-      {true && (
+      {TURNSTILE_SITE_KEY && (
         <Script
           src="https://challenges.cloudflare.com/turnstile/v0/api.js"
           strategy="afterInteractive"
