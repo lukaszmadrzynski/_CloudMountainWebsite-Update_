@@ -105,13 +105,24 @@ export default function EcotourCard(props) {
                         className="mt-4 w-full flex justify-center"
                         {...(fieldPath && { 'data-sb-field-path': '.actions' })}
                     >
-                        {actions.map((action, actionIndex) => (
-                            <Action
-                                key={actionIndex}
-                                {...action}
-                                className="text-sm"
-                            />
-                        ))}
+                        {actions.map((action, actionIndex) => {
+                            // Replace generic "Learn More" with a contextual label so
+                            // search engines, screen readers, and users see distinct
+                            // link text for each tour (avoids SEO "duplicate links" penalty
+                            // and gives users a clear expectation of what each link leads to).
+                            const isGenericLearnMore = !action.label || action.label.trim().toLowerCase() === 'learn more';
+                            const contextualLabel = isGenericLearnMore && title
+                                ? `Explore ${title}`
+                                : action.label;
+                            return (
+                                <Action
+                                    key={actionIndex}
+                                    {...action}
+                                    label={contextualLabel}
+                                    className="text-sm"
+                                />
+                            );
+                        })}
                     </div>
                 )}
             </div>
