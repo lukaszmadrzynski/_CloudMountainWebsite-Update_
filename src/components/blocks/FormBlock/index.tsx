@@ -8,6 +8,7 @@ import SubmitButtonFormControl from './SubmitButtonFormControl';
 
 function FormBlockInner(props) {
     const formRef = React.createRef<HTMLFormElement>();
+    const turnstileRef = React.createRef<HTMLDivElement>();
     const { fields = [], elementId, submitButton, className, styles = {}, 'data-sb-field-path': fieldPath } = props;
 
     // Get URL params via Pages Router (static-export safe; populated client-side after hydration)
@@ -19,6 +20,52 @@ function FormBlockInner(props) {
     const [isSubmitting, setIsSubmitting] = React.useState(false);
     const [submitStatus, setSubmitStatus] = React.useState<'idle' | 'success' | 'error'>('idle');
     const [statusMessage, setStatusMessage] = React.useState('');
+    // Turnstile token captured via the widget's callback. Used because the script
+    // is loaded with `?render=explicit` (see _app.js), so the token is NOT auto-
+    // inserted into the form as a hidden input — we have to pass it ourselves.
+    const [turnstileToken, setTurnstileToken] = React.useState<string>('');
+
+    // Render the Turnstile widget explicitly. The script is loaded with
+    // `?render=explicit` (auto-scan disabled), so we MUST call
+    // window.turnstile.render() ourselves or the widget never appears.
+    // Polls briefly because the script may not be ready at mount time.
+    React.useEffect(() => {
+        const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
+        if (!siteKey) return;
+        if (!turnstileRef.current) return;
+
+        let cancelled = false;
+        const tryRender = () => {
+            if (cancelled) return;
+            if (typeof window !== 'undefined' && (window as any).turnstile && turnstileRef.current) {
+                try {
+                    (window as any).turnstile.render(turnstileRef.current, {
+                        sitekey: siteKey,
+                        theme: 'light',
+                        callback: (token: string) => setTurnstileToken(token),
+                        'expired-callback': () => setTurnstileToken(''),
+                        'error-callback': () => setTurnstileToken(''),
+                    });
+                } catch (e) {
+                    console.error('Turnstile render failed:', e);
+                }
+            } else {
+                setTimeout(tryRender, 100);
+            }
+        };
+        tryRender();
+
+        return () => {
+            cancelled = true;
+            if (typeof window !== 'undefined' && (window as any).turnstile) {
+                try {
+                    (window as any).turnstile.reset();
+                } catch (e) {
+                    // ignore — widget may already be gone
+                }
+            }
+        };
+    }, []);
 
     if (fields.length === 0) {
         return null;
@@ -44,19 +91,20 @@ function FormBlockInner(props) {
         try {
             const formData = new FormData(formRef.current);
 
-            // Cloudflare Turnstile: the widget auto-inserts a hidden input named
-            // 'cf-turnstile-response' into the form when the challenge is solved.
-            // If Turnstile is enabled on the page but the user hasn't solved it,
-            // the value is empty. Block submission in that case.
+            // Cloudflare Turnstile: with `?render=explicit`, the token is NOT auto-
+            // inserted into the form as a hidden input. It's captured in component
+            // state via the widget's callback (see useEffect above). We append it
+            // to FormData ourselves so the Worker reads it from the same
+            // 'cf-turnstile-response' field name it already knows how to verify.
             const turnstileSiteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
             if (turnstileSiteKey) {
-                const turnstileToken = formData.get('cf-turnstile-response');
-                if (!turnstileToken || typeof turnstileToken !== 'string' || turnstileToken.length === 0) {
+                if (!turnstileToken || turnstileToken.length === 0) {
                     setSubmitStatus('error');
                     setStatusMessage('Please complete the security check before submitting.');
                     setIsSubmitting(false);
                     return;
                 }
+                formData.append('cf-turnstile-response', turnstileToken);
             }
 
             // Diagnostic: log field names only. NEVER log values - they contain PII
@@ -81,6 +129,7 @@ function FormBlockInner(props) {
                 if (formRef.current) {
                     formRef.current.reset();
                     // Reset the Turnstile widget so a returning visitor has to re-verify
+                    setTurnstileToken('');
                     if (typeof (window as any).turnstile !== 'undefined') {
                         (window as any).turnstile.reset();
                     }
@@ -150,15 +199,13 @@ function FormBlockInner(props) {
             )}
 
             {/* Cloudflare Turnstile widget. Renders only when the site key is set.
-                When inside a <form>, Turnstile auto-inserts a hidden input named
-                'cf-turnstile-response' on successful challenge. */}
+                The script is loaded with `?render=explicit` (see _app.js), so the
+                useEffect above MUST call window.turnstile.render() on this div
+                ref or the widget never appears. The token is captured via the
+                callback (turnstileToken state) and appended to FormData on submit. */}
             {process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY && (
                 <div className="mt-6 flex justify-center">
-                    <div
-                        className="cf-turnstile"
-                        data-sitekey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
-                        data-theme="light"
-                    />
+                    <div ref={turnstileRef} className="cf-turnstile" />
                 </div>
             )}
             

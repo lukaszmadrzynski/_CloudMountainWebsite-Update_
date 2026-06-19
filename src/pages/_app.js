@@ -40,11 +40,14 @@ export default function MyApp({ Component, pageProps }) {
         }}
       />
       {/* Cloudflare Turnstile - bot protection on the contact/booking forms.
-          Loaded once globally; FormBlock renders the actual widget div per form.
-          script is a no-op if TURNSTILE_SITE_KEY is empty. */}
+          Loaded once globally; FormBlock renders the actual widget per form via
+          window.turnstile.render() in a useEffect (see FormBlock/index.tsx).
+          `?render=explicit` disables the script's DOM auto-scan, which had a race
+          condition: the scan sometimes fired before React mounted the form,
+          missing the .cf-turnstile div. The script is a no-op if TURNSTILE_SITE_KEY is empty. */}
       {TURNSTILE_SITE_KEY && (
         <Script
-          src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+          src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
           strategy="afterInteractive"
           async
           defer
