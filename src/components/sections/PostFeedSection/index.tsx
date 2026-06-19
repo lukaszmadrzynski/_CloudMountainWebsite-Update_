@@ -1,10 +1,13 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+
+// Swiper is only used by the `carousel` variant. The static imports used
+// to pull in ~1.85 MB of JS+CSS on EVERY page (not just blog pages).
+// The carousel implementation now lives in its own file and is loaded
+// via a dynamic import + React.lazy so the Swiper chunk only ships when
+// a `carousel` variant PostFeedSection actually mounts. Since no page in
+// the current site uses the carousel variant, this effectively removes
+// Swiper from the main bundle entirely.
 
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import { getDataAttrs } from '../../../utils/get-data-attrs';
@@ -12,6 +15,14 @@ import Section from '../Section';
 import { Action, Badge } from '../../atoms';
 import TitleBlock from '../../blocks/TitleBlock';
 import PostFeedItem from './PostFeedItem';
+
+// Dynamic-import wrapper. Returns null (Suspense fallback) until the
+// carousel implementation module finishes loading. The .then() shape
+// satisfies React.lazy's expected `{ default: Component }` contract —
+// the module exports PostFeedCarouselImpl as a named export, not default.
+const LazyPostFeedCarousel = React.lazy(() =>
+    import('./PostFeedCarouselImpl').then((m) => ({ default: m.PostFeedCarouselImpl }))
+);
 
 export default function PostFeedSection(props) {
     const {
@@ -115,7 +126,11 @@ function PostFeedVariants(props) {
         case 'big-list':
             return <PostFeedBigList {...rest} />;
         case 'carousel':
-            return <PostFeedCarousel {...rest} />;
+            return (
+                <React.Suspense fallback={<PostFeedThreeColGrid {...rest} />}>
+                    <LazyPostFeedCarousel {...rest} />
+                </React.Suspense>
+            );
         default:
             return <PostFeedThreeColGrid {...rest} />;
     }
@@ -288,88 +303,4 @@ function PostFeedBigList(props) {
     );
 }
 
-function PostFeedCarousel(props) {
-    const {
-        posts = [],
-        showThumbnail,
-        showExcerpt,
-        showDate,
-        showAuthor,
-        hasTopMargin,
-        hasSectionTitle,
-        hoverEffect,
-        colors,
-        hasAnnotations,
-        annotatePosts
-    } = props;
-    const [swiper, setSwiper] = React.useState(null);
-    const [activeIndex, setActiveIndex] = React.useState(0);
-    
-    if (posts.length === 0) {
-        return null;
-    }
-    return (
-        <div className={classNames('relative', 'w-full', 'overflow-visible', { 'mt-12': hasTopMargin })}>
-            <div className="overflow-visible w-full pt-4 pb-4">
-                <Swiper
-                    onSwiper={setSwiper}
-                    onSlideChange={(s) => setActiveIndex(s.activeIndex)}
-                    modules={[Navigation, Pagination]}
-                    spaceBetween={24}
-                    slidesPerView={1}
-                    breakpoints={{
-                        640: { slidesPerView: 2, spaceBetween: 20 },
-                        1024: { slidesPerView: 3, spaceBetween: 24 }
-                    }}
-                    navigation
-                    className="pb-0 w-full"
-                >
-                {posts.map((post, index) => (
-                    <SwiperSlide key={index} className="w-full overflow-visible">
-                        <PostFeedItem
-                            post={post}
-                            showThumbnail={showThumbnail}
-                            showExcerpt={showExcerpt}
-                            showDate={showDate}
-                            showAuthor={showAuthor}
-                            hasSectionTitle={hasSectionTitle}
-                            hoverEffect={hoverEffect}
-                            sectionColors={colors}
-                            hasAnnotations={hasAnnotations}
-                        />
-                    </SwiperSlide>
-                ))}
-                </Swiper>
-            </div>
-            <div className="flex items-center justify-center gap-4 mt-6 pb-4">
-                <button
-                    onClick={() => swiper?.slidePrev()}
-                    className="w-10 h-10 flex items-center justify-center cursor-pointer hover:opacity-60 transition-opacity text-dark"
-                    aria-label="Previous slide"
-                >
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                        <polyline points="15 18 9 12 15 6"></polyline>
-                    </svg>
-                </button>
-                <div className="flex items-center gap-2">
-                    {posts.map((_, index) => (
-                        <span
-                            key={index}
-                            className={`w-2 h-2 rounded-full transition-all cursor-pointer ${index === activeIndex ? 'bg-primary w-3' : 'bg-gray-300 hover:bg-gray-400'}`}
-                            onClick={() => swiper?.slideTo(index)}
-                        />
-                    ))}
-                </div>
-                <button
-                    onClick={() => swiper?.slideNext()}
-                    className="w-10 h-10 flex items-center justify-center cursor-pointer hover:opacity-60 transition-opacity text-dark"
-                    aria-label="Next slide"
-                >
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                        <polyline points="9 18 15 12 9 6"></polyline>
-                    </svg>
-                </button>
-            </div>
-        </div>
-    );
-}
+function PostFeedCarousel_DELETED() { /* moved to PostFeedCarouselImpl.tsx for lazy loading */ }

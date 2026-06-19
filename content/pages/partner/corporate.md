@@ -12,7 +12,7 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/partner/consulting/About Us Banner.webp
+      url: /images/partner/consulting/about-us-banner.webp
       altText: Corporate Groups Partnership with Cloud Mountain
     badge:
       type: Badge

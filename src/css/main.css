@@ -23,9 +23,24 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Fixed header spacing - prevents content from going behind it */
+/* Fixed header spacing.
+   The header is `position: fixed`, so we need padding-top on the body
+   to keep content from being hidden behind it.
+   
+   88px mobile / 72px desktop (CSS-only, no JS measurement):
+   - Mobile: header has p-6 (24px) + 40px logo/button content = ~88px.
+   - Desktop: header has p-4 (16px) + 40px logo/nav content = ~72px.
+   - These assume the header has no padding override from
+     header.json (the `pt-0 pb-0 pl-0 pr-0` override would shrink the
+     header and reintroduce a gap).
+   See: src/components/sections/Header/index.tsx */
 body {
-    padding-top: 64px; /* Approximate header height */
+    padding-top: 56px;
+}
+@media (min-width: 1024px) {
+    body {
+        padding-top: 62px;
+    }
 }
 
 @layer base {

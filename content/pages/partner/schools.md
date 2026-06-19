@@ -12,7 +12,7 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/partner/consulting/About Us Banner.webp
+      url: /images/partner/consulting/about-us-banner.webp
       altText: Schools and Education Partnership with Cloud Mountain
     badge:
       type: Badge
@@ -125,7 +125,7 @@ sections:
           development, teamwork, and environmental conservation.
         image:
           type: ImageBlock
-          url: /images/partner/schools/Ledership Hero Icon2.webp
+          url: /images/partner/schools/ledership-hero-icon2.webp
           altText: Student EcoCamps
         colors: bg-dark-fg-light
         styles:
@@ -146,7 +146,7 @@ sections:
           nature, sustainability, and cultural heritage.
         image:
           type: ImageBlock
-          url: /images/partner/schools/Family Camp Hero Icon.webp
+          url: /images/partner/schools/family-camp-hero-icon.webp
           altText: Family EcoCamps
         colors: bg-dark-fg-light
         styles:

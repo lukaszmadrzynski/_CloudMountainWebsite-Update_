@@ -69,35 +69,49 @@ className={classNames(
                     >
                         {badge && (
                             <div className="text-center">
-                                <button 
-                                    onClick={handleToggle}
-                                    className={classNames(
-                                        'inline-block',
-                                        collapsible && 'cursor-pointer hover:opacity-80 transition-opacity'
-                                    )}
-                                    aria-expanded={isExpanded}
-                                    aria-controls={`${elementId}-content`}
-                                >
-                                    <Badge {...badge} />
-                                </button>
+                                {collapsible ? (
+                                    <button
+                                        type="button"
+                                        onClick={handleToggle}
+                                        className={classNames(
+                                            'inline-block cursor-pointer hover:opacity-80 transition-opacity'
+                                        )}
+                                        aria-expanded={isExpanded}
+                                        {...(elementId && { 'aria-controls': `${elementId}-content` })}
+                                    >
+                                        <Badge {...badge} />
+                                    </button>
+                                ) : (
+                                    // Non-interactive: render as a plain element so it
+                                    // doesn't show up as a focusable button with no
+                                    // accessible name (Badge may have an empty label).
+                                    <Badge {...badge} className="inline-block" />
+                                )}
                             </div>
                         )}
                         {title && (
                             <div className="text-center">
-                                <button 
-                                    onClick={handleToggle}
-                                    className={classNames(
-                                        'w-full',
-                                        collapsible && 'cursor-pointer hover:opacity-80 transition-opacity'
-                                    )}
-                                    disabled={!collapsible}
-                                >
+                                {collapsible ? (
+                                    <button
+                                        type="button"
+                                        onClick={handleToggle}
+                                        className="w-full cursor-pointer hover:opacity-80 transition-opacity"
+                                        aria-expanded={isExpanded}
+                                        {...(elementId && { 'aria-controls': `${elementId}-content` })}
+                                    >
+                                        <TitleBlock
+                                            {...title}
+                                            className={classNames({ 'mt-1': badge?.label })}
+                                            {...(enableAnnotations && { 'data-sb-field-path': '.title' })}
+                                        />
+                                    </button>
+                                ) : (
                                     <TitleBlock
                                         {...title}
                                         className={classNames({ 'mt-1': badge?.label })}
                                         {...(enableAnnotations && { 'data-sb-field-path': '.title' })}
                                     />
-                                </button>
+                                )}
                             </div>
                         )}
                         {subtitle && (

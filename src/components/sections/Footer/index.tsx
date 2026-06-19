@@ -4,7 +4,6 @@ import classNames from 'classnames';
 
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import { Social, Action, Link } from '../../atoms';
-import ImageBlock from '../../blocks/ImageBlock';
 
 export default function Footer(props) {
     const {
@@ -37,7 +36,28 @@ export default function Footer(props) {
                     {(logo?.url || title) && (
                         <Link href="/" className="flex flex-col items-center">
                             {logo && (
-                                <ImageBlock {...logo} imageClassName="h-36" {...(enableAnnotations && { 'data-sb-field-path': 'logo' })} />
+                                // Plain <img> instead of ImageBlock: ImageBlock
+                                // reserves aspect-ratio space (16:9 default) to
+                                // prevent CLS, which would render the logo at the
+                                // wrapper's full width × 16:9 — far too large.
+                                //
+                                // Wrap in a fixed-size box (h-36 w-36 = 144×144)
+                                // so the layout is stable BEFORE the image loads,
+                                // regardless of network conditions. Eager load so
+                                // the image appears immediately on short pages
+                                // where the footer is above the fold.
+                                <div className="h-36 w-36 flex items-center justify-center">
+                                    <img
+                                        src={logo.url}
+                                        alt={logo.altText || ''}
+                                        width={300}
+                                        height={300}
+                                        className="h-full w-auto max-w-full object-contain"
+                                        loading="eager"
+                                        decoding="async"
+                                        {...(enableAnnotations && { 'data-sb-field-path': 'logo' })}
+                                    />
+                                </div>
                             )}
                             {title && (
                                 <div className="h4" {...(enableAnnotations && { 'data-sb-field-path': 'title' })}>

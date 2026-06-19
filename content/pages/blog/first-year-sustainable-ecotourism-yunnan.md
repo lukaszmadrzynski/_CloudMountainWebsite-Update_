@@ -5,7 +5,7 @@ date: '2026-03-15'
 excerpt: >
   Reflecting on our journey to bring authentic, sustainable travel experiences to the Yunnan highlands. From humble beginnings to memorable encounters with local communities.
 featuredImage:
-  url: /images/pages/home/CM Hero OPTIMIZED.webp
+  url: /images/pages/home/cm-hero-optimized.webp
   altText: Yunnan highlands landscape with mountains and rice terraces
   type: ImageBlock
   styles:
@@ -18,7 +18,7 @@ seo:
   metaTitle: Our First Year of Sustainable Ecotourism in Yunnan
   metaDescription: >
     Reflecting on our journey to bring authentic, sustainable travel experiences to the Yunnan highlands.
-  socialImage: /images/pages/home/CM Hero OPTIMIZED.webp
+  socialImage: /images/pages/home/cm-hero-optimized.webp
   type: Seo
 colors: bg-light-fg-dark
 styles:
@@ -81,7 +81,7 @@ bottomSections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/pages/home/About Us Banner OPT.webp
+      url: /images/pages/home/about-us-banner-opt.webp
       altText: Cloud Mountain Ecotours and Nature Education
     badge:
       type: Badge

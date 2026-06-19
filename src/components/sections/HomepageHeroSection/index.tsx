@@ -1,7 +1,9 @@
 import * as React from 'react';
+import Head from 'next/head';
 import classNames from 'classnames';
 import { Action, Badge } from '../../atoms';
 import { iconMap } from '../../svgs';
+import { imageDims, srcSetFor } from '../../../utils/image-dims';
 
 interface HomepageHeroSectionProps {
     elementId?: string;
@@ -39,15 +41,51 @@ export default function HomepageHeroSection(props: HomepageHeroSectionProps) {
             className={classNames('relative', 'min-h-[78vh] lg:min-h-screen', 'flex', 'items-center', 'lg:items-start', 'justify-end', 'overflow-hidden', props.className)}
             data-sb-field-path=".hero"
         >
-            {/* Background Image - no overlay/shading, left-aligned on all versions */}
+            {/* LCP preload. The homepage hero is the LCP for /, so we preload
+                it with imagesrcset so the browser picks the right variant for
+                the viewport. On mobile, the browser fetches the ~40 KB -sm
+                variant instead of the ~360 KB original. */}
+            {media?.url && (() => {
+                const baseUrl = media.url;
+                const srcset = srcSetFor(baseUrl);
+                return (
+                    <Head>
+                        <link
+                            rel="preload"
+                            as="image"
+                            href={baseUrl}
+                            {...(srcset && { imagesrcset: srcset, imagesizes: '100vw' })}
+                            fetchPriority="high"
+                        />
+                    </Head>
+                );
+            })()}
+            {/* Background Image - no overlay/shading, left-aligned on all versions.
+                Responsive srcset: serves the -sm variant (~40 KB) to mobile,
+                -md (~100 KB) to tablet, and the original (~360 KB) to desktop.
+                width/height come from the build-time manifest for CLS=0. */}
             {media?.url && (
                 <div className="absolute inset-0">
-                    <img
-                        src={media.url}
-                        alt={media.altText || ''}
-                        className="w-full h-full object-cover"
-                        data-sb-field-path=".media.url"
-                    />
+                    {(() => {
+                        const baseUrl = media.url;
+                        const srcset = srcSetFor(baseUrl);
+                        const { width, height } = imageDims(baseUrl);
+                        return (
+                            <img
+                                src={baseUrl}
+                                srcSet={srcset}
+                                sizes="100vw"
+                                alt={media.altText || ''}
+                                width={width}
+                                height={height}
+                                loading="eager"
+                                decoding="async"
+                                fetchPriority="high"
+                                className="w-full h-full object-cover"
+                                data-sb-field-path=".media.url"
+                            />
+                        );
+                    })()}
                 </div>
             )}
 

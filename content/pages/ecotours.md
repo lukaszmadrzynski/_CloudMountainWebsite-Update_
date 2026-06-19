@@ -572,7 +572,7 @@ sections:
         style: primary
     media:
       type: ImageBlock
-      url: /images/pages/ecotours-listing/expeditions banner.webp
+      url: /images/pages/ecotours-listing/expeditions-banner.webp
       altText: Fun feature preview
       styles:
         self:

@@ -1,5 +1,7 @@
 import * as React from 'react';
+import Head from 'next/head';
 import classNames from 'classnames';
+import { imageDims, srcSetFor } from '../../../utils/image-dims';
 
 interface PartnerWithUsHeroSectionProps {
     elementId?: string;
@@ -24,18 +26,41 @@ export default function PartnerWithUsHeroSection(props: PartnerWithUsHeroSection
             className={classNames('relative', 'overflow-hidden', 'w-full', props.className)}
             data-sb-field-path=".hero"
         >
-            {/* Full-width image on all devices */}
-            {media?.url && (
-                <div className="relative w-full" style={{ width: '100vw', marginLeft: 'calc(-50vw + 50%)' }}>
-                    <img
-                        src={media.url}
-                        alt={media.altText || ''}
-                        className="w-full object-cover"
-                        style={{ maxHeight: '70vh' }}
-                        data-sb-field-path=".media.url"
-                    />
-                </div>
-            )}
+            {/* LCP preload + responsive srcset. width/height from manifest. */}
+            {media?.url && (() => {
+                const baseUrl = media.url;
+                const srcset = srcSetFor(baseUrl);
+                const { width, height } = imageDims(baseUrl);
+                return (
+                    <>
+                        <Head>
+                            <link
+                                rel="preload"
+                                as="image"
+                                href={baseUrl}
+                                {...(srcset && { imagesrcset: srcset, imagesizes: '100vw' })}
+                                fetchPriority="high"
+                            />
+                        </Head>
+                        <div className="relative w-full" style={{ width: '100vw', marginLeft: 'calc(-50vw + 50%)' }}>
+                            <img
+                                src={baseUrl}
+                                srcSet={srcset}
+                                sizes="100vw"
+                                alt={media.altText || ''}
+                                width={width}
+                                height={height}
+                                loading="eager"
+                                decoding="async"
+                                fetchPriority="high"
+                                className="w-full object-cover"
+                                style={{ maxHeight: '70vh' }}
+                                data-sb-field-path=".media.url"
+                            />
+                        </div>
+                    </>
+                );
+            })()}
         </section>
     );
 }

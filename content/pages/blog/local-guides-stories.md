@@ -5,7 +5,7 @@ date: '2026-04-01'
 excerpt: >
   Meet the passionate local experts who share their homeland's secrets, from Naxi historians to Tibetan yak herders turned nature guides.
 featuredImage:
-  url: /images/pages/home/CM Hero OPTIMIZED.webp
+  url: /images/pages/home/cm-hero-optimized.webp
   altText: Local guide sharing stories with travelers
   type: ImageBlock
   styles:
@@ -18,7 +18,7 @@ seo:
   metaTitle: Stories from Our Local Guides
   metaDescription: >
     Meet the passionate local experts who share their homeland's secrets through our ecotours.
-  socialImage: /images/pages/home/CM Hero OPTIMIZED.webp
+  socialImage: /images/pages/home/cm-hero-optimized.webp
   type: Seo
 colors: bg-light-fg-dark
 styles:
@@ -78,7 +78,7 @@ bottomSections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/pages/home/About Us Banner OPT.webp
+      url: /images/pages/home/about-us-banner-opt.webp
       altText: Cloud Mountain Ecotours and Nature Education
     badge:
       type: Badge

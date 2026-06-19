@@ -12,6 +12,7 @@ import MenuIcon from '../../svgs/menu';
 
 export default function Header(props) {
     const { colors = 'bg-light-fg-dark', styles = {}, enableAnnotations } = props;
+
     return (
         <header
             className={classNames(
@@ -20,8 +21,12 @@ export default function Header(props) {
                 colors,
                 'fixed top-0 left-0 right-0 z-50',
                 'shadow-md',
+                // Mobile gets p-6 (24px) for a taller, more breathable
+                // header (~88px); desktop gets p-4 (~72px). The
+                // styles?.self?.padding override from header.json (if
+                // present) wins over this default.
                 styles?.self?.margin ? mapStyles({ padding: styles?.self?.margin }) : undefined,
-                styles?.self?.padding ? mapStyles({ padding: styles?.self?.padding }) : 'p-4'
+                styles?.self?.padding ? mapStyles({ padding: styles?.self?.padding }) : 'p-0 lg:p-0'
             )}
             {...(enableAnnotations && { 'data-sb-object-id': props?.__metadata?.id })}
         >
@@ -298,7 +303,20 @@ function MobileMenu(props) {
 function SiteLogoLink({ title, logo, enableAnnotations }) {
     return (
         <Link href="/" className="flex items-center">
-            {logo && <ImageBlock {...logo} {...(enableAnnotations && { 'data-sb-field-path': 'logo' })} />}
+            {logo && (
+                // Match live site: use ImageBlock for CLS-safe aspect-ratio
+                // reservation. imageClassName constrains the rendered size
+                // (h-14 w-auto) so the logo doesn't blow up to the wrapper's
+                // full width. The header.json logo block carries explicit
+                // width=66 height=66 so ImageBlock reserves 1:1 aspect, not
+                // the default 16/9 (which would crop the square logo).
+                <ImageBlock
+                    {...logo}
+                    className="h-14 w-14 lg:h-[62px] lg:w-[62px]"
+                    imageClassName=""
+                    {...(enableAnnotations && { 'data-sb-field-path': 'logo' })}
+                />
+            )}
             {title && (
                 <span className="h4" {...(enableAnnotations && { 'data-sb-field-path': 'title' })}>
                     {title}

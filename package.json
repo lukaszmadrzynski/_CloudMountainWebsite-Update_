@@ -5,6 +5,8 @@
         "dev": "next dev",
         "build": "next build",
         "postbuild": "node scripts/copy-platform-files.js",
+        "prebuild": "node scripts/generate-image-dims.js || python scripts/generate-image-dims.py",
+        "dims": "node scripts/generate-image-dims.js || python scripts/generate-image-dims.py",
         "start": "next start"
     },
     "dependencies": {

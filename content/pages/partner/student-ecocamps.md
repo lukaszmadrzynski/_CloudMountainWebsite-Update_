@@ -12,7 +12,7 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/partner/student-ecocamps/Ledership Hero.webp
+      url: /images/partner/student-ecocamps/ledership-hero.webp
       altText: >-
         Middle and High School Students participate in Cloud Mountain Yunnan
         Sustainability Leadership Program.
@@ -42,7 +42,7 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/partner/student-ecocamps/Ledership Hero2.webp
+      url: /images/partner/student-ecocamps/ledership-hero2.webp
       altText: >-
         Chinese Students from International Schools Learn about Sustainable
         Development in Yunnan.
@@ -87,7 +87,7 @@ sections:
 
         image:
           type: ImageBlock
-          url: /images/partner/student-ecocamps/Journey Icon.webp
+          url: /images/partner/student-ecocamps/journey-icon.webp
           altText: '2025 Summer Yunnan Sustainability Journey '
           styles:
             self:
@@ -128,7 +128,7 @@ sections:
           Pioneer, equipped for real-world action!
         image:
           type: ImageBlock
-          url: /images/partner/student-ecocamps/Pioneers Icon.webp
+          url: /images/partner/student-ecocamps/pioneers-icon.webp
           altText: 2025 Summer Yunnan Sustainability Pioneers Program
           styles:
             self:

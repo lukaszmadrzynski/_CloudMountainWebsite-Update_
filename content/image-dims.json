@@ -1,0 +1,970 @@
+{
+  "/blog/ea-horse-road-adventure/Icon8.jpg": {
+    "w": 500,
+    "h": 300
+  },
+  "/pages/contact-us/Contact-Us-Hero.webp": {
+    "w": 1980,
+    "h": 615
+  },
+  "/pages/ecotours-listing/HERO-Ecotours-md.webp": {
+    "w": 1024,
+    "h": 385
+  },
+  "/pages/ecotours-listing/HERO-Ecotours-sm.webp": {
+    "w": 640,
+    "h": 240
+  },
+  "/pages/ecotours-listing/HERO-Ecotours.webp": {
+    "w": 1980,
+    "h": 744
+  },
+  "/pages/ecotours-listing/expeditions-banner.webp": {
+    "w": 1080,
+    "h": 680
+  },
+  "/pages/home/about-us-banner-opt.webp": {
+    "w": 1080,
+    "h": 680
+  },
+  "/pages/home/cm-hero-optimized-md.webp": {
+    "w": 1024,
+    "h": 576
+  },
+  "/pages/home/cm-hero-optimized-sm.webp": {
+    "w": 640,
+    "h": 360
+  },
+  "/pages/home/cm-hero-optimized.webp": {
+    "w": 1920,
+    "h": 1080
+  },
+  "/pages/home/off-the-beaten-path.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/pages/home/sustainable-icon.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/pages/partner-with-us/Partner-With-Us-Hero.webp": {
+    "w": 1980,
+    "h": 558
+  },
+  "/pages/partner-with-us/marketing-support.png": {
+    "w": 427,
+    "h": 427
+  },
+  "/pages/partner-with-us/new-growth-icon.png": {
+    "w": 427,
+    "h": 427
+  },
+  "/pages/partner-with-us/partner-custom-icon.png": {
+    "w": 427,
+    "h": 427
+  },
+  "/pages/partner-with-us/partner-impact-icon.png": {
+    "w": 427,
+    "h": 427
+  },
+  "/pages/partner-with-us/partner-reputation-icon.png": {
+    "w": 427,
+    "h": 427
+  },
+  "/pages/partner-with-us/partnership-corporate-groups.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/pages/partner-with-us/partnership-schools.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/pages/partner-with-us/partnership-sustainability-consulting.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/pages/partner-with-us/partnership-travel-agencies.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/pages/why-us/Collaboration.webp": {
+    "w": 1366,
+    "h": 768
+  },
+  "/pages/why-us/Contributing3.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/pages/why-us/Culture.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/pages/why-us/Guides-4.webp": {
+    "w": 1366,
+    "h": 768
+  },
+  "/pages/why-us/Handcrafted.jpg": {
+    "w": 500,
+    "h": 300
+  },
+  "/pages/why-us/Immersion4.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/pages/why-us/Minimizing.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/pages/why-us/Outreach.webp": {
+    "w": 1347,
+    "h": 749
+  },
+  "/pages/why-us/Private.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/pages/why-us/Recognized.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/pages/why-us/Supporting.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/pages/why-us/Sustainability2-.webp": {
+    "w": 1366,
+    "h": 768
+  },
+  "/pages/why-us/Sustainable.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/pages/why-us/Why-Us-Hero.webp": {
+    "w": 1980,
+    "h": 569
+  },
+  "/partner/consulting/about-us-banner.webp": {
+    "w": 1080,
+    "h": 680
+  },
+  "/partner/family-ecocamps/article-preview-header-v2.webp": {
+    "w": 2350,
+    "h": 1000
+  },
+  "/partner/family-ecocamps/culture-icon.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/partner/family-ecocamps/family-hero.webp": {
+    "w": 1366,
+    "h": 768
+  },
+  "/partner/family-ecocamps/family-hero2.webp": {
+    "w": 1366,
+    "h": 768
+  },
+  "/partner/family-ecocamps/fun-icon.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/partner/family-ecocamps/nature-icon.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/partner/family-ecocamps/sustainability-icon.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/partner/schools/family-camp-hero-icon.webp": {
+    "w": 600,
+    "h": 360
+  },
+  "/partner/schools/ledership-hero-icon2.webp": {
+    "w": 600,
+    "h": 360
+  },
+  "/partner/student-ecocamps/journey-icon.webp": {
+    "w": 800,
+    "h": 583
+  },
+  "/partner/student-ecocamps/ledership-hero.webp": {
+    "w": 1366,
+    "h": 768
+  },
+  "/partner/student-ecocamps/ledership-hero2.webp": {
+    "w": 1366,
+    "h": 768
+  },
+  "/partner/student-ecocamps/pioneers-icon.webp": {
+    "w": 800,
+    "h": 583
+  },
+  "/shared/brand/cm-logo-color.png": {
+    "w": 66,
+    "h": 66
+  },
+  "/shared/brand/cm-logo-footer.webp": {
+    "w": 300,
+    "h": 300
+  },
+  "/shared/brand/cm-logo-header.png": {
+    "w": 66,
+    "h": 66
+  },
+  "/shared/itinerary/afternoon.png": {
+    "w": 344,
+    "h": 344
+  },
+  "/shared/itinerary/evening.png": {
+    "w": 344,
+    "h": 344
+  },
+  "/shared/itinerary/morning.png": {
+    "w": 344,
+    "h": 344
+  },
+  "/shared/key-details/duration.png": {
+    "w": 316,
+    "h": 316
+  },
+  "/shared/key-details/level.png": {
+    "w": 315,
+    "h": 315
+  },
+  "/shared/key-details/location.png": {
+    "w": 319,
+    "h": 319
+  },
+  "/shared/key-details/special.png": {
+    "w": 312,
+    "h": 312
+  },
+  "/shared/presets/Lukas2.webp": {
+    "w": 600,
+    "h": 300
+  },
+  "/shared/presets/Lynne2.webp": {
+    "w": 600,
+    "h": 300
+  },
+  "/shared/reviews/hollie-c.jpg": {
+    "w": 100,
+    "h": 100
+  },
+  "/shared/reviews/internationalbabe.jpg": {
+    "w": 100,
+    "h": 100
+  },
+  "/shared/reviews/j-m.jpg": {
+    "w": 100,
+    "h": 100
+  },
+  "/shared/reviews/james-o.jpg": {
+    "w": 100,
+    "h": 100
+  },
+  "/shared/reviews/john-m.jpg": {
+    "w": 50,
+    "h": 50
+  },
+  "/shared/reviews/lisa.jpg": {
+    "w": 100,
+    "h": 100
+  },
+  "/shared/reviews/michael-b.jpg": {
+    "w": 150,
+    "h": 150
+  },
+  "/shared/reviews/paradise.jpg": {
+    "w": 100,
+    "h": 100
+  },
+  "/shared/reviews/rapheephan-r.png": {
+    "w": 123,
+    "h": 120
+  },
+  "/shared/reviews/shirley-o.jpg": {
+    "w": 100,
+    "h": 100
+  },
+  "/shared/reviews/sven.jpg": {
+    "w": 100,
+    "h": 100
+  },
+  "/shared/trust/tripadvisor-logo.webp": {
+    "w": 2176,
+    "h": 661
+  },
+  "/tours/dongba-culture-hands-on/banner-md.webp": {
+    "w": 1024,
+    "h": 576
+  },
+  "/tours/dongba-culture-hands-on/banner-sm.webp": {
+    "w": 640,
+    "h": 360
+  },
+  "/tours/dongba-culture-hands-on/banner.webp": {
+    "w": 2400,
+    "h": 1350
+  },
+  "/tours/dongba-culture-hands-on/card.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/dongba-culture-hands-on/highlight-1.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/dongba-culture-hands-on/highlight-2.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/dongba-culture-hands-on/highlight-3.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/dongba-culture-hands-on/highlight-4.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/dongba-culture-hands-on/highlight-5B.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/dongba-culture-hands-on/highlight-6.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/dongba-culture-hands-on/highlight-7.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/dongba-culture-hands-on/highlight-8.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/dongba-culture-hands-on/highlight-9.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/e-biking-lijiang-villages/banner-md.webp": {
+    "w": 1024,
+    "h": 576
+  },
+  "/tours/e-biking-lijiang-villages/banner-sm.webp": {
+    "w": 640,
+    "h": 360
+  },
+  "/tours/e-biking-lijiang-villages/banner.webp": {
+    "w": 1920,
+    "h": 1080
+  },
+  "/tours/e-biking-lijiang-villages/card.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/e-biking-lijiang-villages/highlight-1.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/e-biking-lijiang-villages/highlight-10.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/e-biking-lijiang-villages/highlight-11.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/e-biking-lijiang-villages/highlight-12.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/e-biking-lijiang-villages/highlight-2.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/e-biking-lijiang-villages/highlight-3.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/e-biking-lijiang-villages/highlight-4.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/e-biking-lijiang-villages/highlight-5.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/e-biking-lijiang-villages/highlight-6.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/e-biking-lijiang-villages/highlight-7.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/e-biking-lijiang-villages/highlight-8.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/e-biking-lijiang-villages/highlight-9.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/hidden-jade-dragon/banner-md.webp": {
+    "w": 1024,
+    "h": 576
+  },
+  "/tours/hidden-jade-dragon/banner-sm.webp": {
+    "w": 640,
+    "h": 360
+  },
+  "/tours/hidden-jade-dragon/banner.webp": {
+    "w": 1920,
+    "h": 1080
+  },
+  "/tours/hidden-jade-dragon/card.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/hidden-jade-dragon/highlight-1.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/hidden-jade-dragon/highlight-2.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/hidden-jade-dragon/highlight-3.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/hidden-jade-dragon/highlight-4.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/hidden-jade-dragon/highlight-5.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/hidden-jade-dragon/highlight-6.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-forgotten-forest/banner-md.webp": {
+    "w": 1024,
+    "h": 576
+  },
+  "/tours/lijiang-forgotten-forest/banner-sm.webp": {
+    "w": 640,
+    "h": 360
+  },
+  "/tours/lijiang-forgotten-forest/banner.webp": {
+    "w": 1920,
+    "h": 1080
+  },
+  "/tours/lijiang-forgotten-forest/card.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-forgotten-forest/highlight-1.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-forgotten-forest/highlight-10.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-forgotten-forest/highlight-11.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-forgotten-forest/highlight-12.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-forgotten-forest/highlight-2.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-forgotten-forest/highlight-3.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-forgotten-forest/highlight-4.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-forgotten-forest/highlight-5.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-forgotten-forest/highlight-6.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-forgotten-forest/highlight-7.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-forgotten-forest/highlight-8.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-forgotten-forest/highlight-9.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heavenly-valley/banner-md.webp": {
+    "w": 1024,
+    "h": 576
+  },
+  "/tours/lijiang-heavenly-valley/banner-sm.webp": {
+    "w": 640,
+    "h": 360
+  },
+  "/tours/lijiang-heavenly-valley/banner.webp": {
+    "w": 2400,
+    "h": 1350
+  },
+  "/tours/lijiang-heavenly-valley/card.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heavenly-valley/highlight-1.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heavenly-valley/highlight-2.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heavenly-valley/highlight-3.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heavenly-valley/highlight-4.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heavenly-valley/highlight-5.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heavenly-valley/highlight-6.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heavenly-valley/highlight-7.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heavenly-valley/highlight-8.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heavenly-valley/highlight-9.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heritage-in-depth/banner-md.webp": {
+    "w": 1024,
+    "h": 576
+  },
+  "/tours/lijiang-heritage-in-depth/banner-sm.webp": {
+    "w": 640,
+    "h": 360
+  },
+  "/tours/lijiang-heritage-in-depth/banner.webp": {
+    "w": 1920,
+    "h": 1080
+  },
+  "/tours/lijiang-heritage-in-depth/card.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heritage-in-depth/highlight-1.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heritage-in-depth/highlight-10.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heritage-in-depth/highlight-11.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heritage-in-depth/highlight-12.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heritage-in-depth/highlight-2.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heritage-in-depth/highlight-3.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heritage-in-depth/highlight-4.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heritage-in-depth/highlight-5.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heritage-in-depth/highlight-6.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heritage-in-depth/highlight-7.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heritage-in-depth/highlight-8.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-heritage-in-depth/highlight-9.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-old-town/banner-md.webp": {
+    "w": 1024,
+    "h": 576
+  },
+  "/tours/lijiang-old-town/banner-sm.webp": {
+    "w": 640,
+    "h": 360
+  },
+  "/tours/lijiang-old-town/banner.webp": {
+    "w": 2400,
+    "h": 1350
+  },
+  "/tours/lijiang-old-town/card.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-old-town/highlight-1.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-old-town/highlight-2.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-old-town/highlight-3.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-old-town/highlight-4.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-old-town/highlight-5.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-old-town/highlight-6.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-old-town/highlight-7.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-old-town/highlight-8.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/lijiang-old-town/highlight-9.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/living-waters-of-lashi/banner-md.webp": {
+    "w": 1024,
+    "h": 576
+  },
+  "/tours/living-waters-of-lashi/banner-sm.webp": {
+    "w": 640,
+    "h": 360
+  },
+  "/tours/living-waters-of-lashi/banner.webp": {
+    "w": 2400,
+    "h": 1350
+  },
+  "/tours/living-waters-of-lashi/card.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/living-waters-of-lashi/highlight-1.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/living-waters-of-lashi/highlight-2.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/living-waters-of-lashi/highlight-3.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/living-waters-of-lashi/highlight-4.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/living-waters-of-lashi/highlight-5.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/living-waters-of-lashi/highlight-6.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/living-waters-of-lashi/highlight-7.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/living-waters-of-lashi/highlight-8.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/living-waters-of-lashi/highlight-9.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/natgeo-forever-walk/banner-md.webp": {
+    "w": 1024,
+    "h": 576
+  },
+  "/tours/natgeo-forever-walk/banner-sm.webp": {
+    "w": 640,
+    "h": 360
+  },
+  "/tours/natgeo-forever-walk/banner.webp": {
+    "w": 2400,
+    "h": 1350
+  },
+  "/tours/natgeo-forever-walk/card.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/natgeo-forever-walk/highlight-1.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/natgeo-forever-walk/highlight-10.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/natgeo-forever-walk/highlight-11.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/natgeo-forever-walk/highlight-12.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/natgeo-forever-walk/highlight-13.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/natgeo-forever-walk/highlight-14.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/natgeo-forever-walk/highlight-15.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/natgeo-forever-walk/highlight-16.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/natgeo-forever-walk/highlight-17.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/natgeo-forever-walk/highlight-2.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/natgeo-forever-walk/highlight-3.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/natgeo-forever-walk/highlight-9.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/shangri-la-monkey/banner-alt.webp": {
+    "w": 1920,
+    "h": 1014
+  },
+  "/tours/shangri-la-monkey/card.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/shangri-la-monkey/highlight-1.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/shangri-la-monkey/highlight-11.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/shangri-la-monkey/highlight-12.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/shangri-la-monkey/highlight-2.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/shangri-la-monkey/highlight-3.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/shangri-la-monkey/highlight-4.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/shangri-la-monkey/highlight-5.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/shangri-la-monkey/highlight-6.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/shangri-la-monkey/highlight-7.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/shangri-la-monkey/highlight-8.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/shangri-la-monkey/highlight-9.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/tea-horse-road-snacks/banner-md.webp": {
+    "w": 1024,
+    "h": 541
+  },
+  "/tours/tea-horse-road-snacks/banner-sm.webp": {
+    "w": 640,
+    "h": 338
+  },
+  "/tours/tea-horse-road-snacks/banner.webp": {
+    "w": 1920,
+    "h": 1015
+  },
+  "/tours/tea-horse-road-snacks/card.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/tea-horse-road-snacks/highlight-1.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/tea-horse-road-snacks/highlight-2.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/tea-horse-road-snacks/highlight-3.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/tea-horse-road-snacks/highlight-4.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/tea-horse-road-snacks/highlight-5.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/tea-horse-road-snacks/highlight-6.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/tea-horse-road-snacks/highlight-7.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/tea-horse-road-snacks/highlight-8.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/tea-horse-road-snacks/highlight-9.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/wild-heart-of-lijiang/banner-md.webp": {
+    "w": 1024,
+    "h": 576
+  },
+  "/tours/wild-heart-of-lijiang/banner-sm.webp": {
+    "w": 640,
+    "h": 360
+  },
+  "/tours/wild-heart-of-lijiang/banner.webp": {
+    "w": 2400,
+    "h": 1350
+  },
+  "/tours/wild-heart-of-lijiang/card.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/wild-heart-of-lijiang/highlight-1.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/wild-heart-of-lijiang/highlight-10.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/wild-heart-of-lijiang/highlight-11.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/wild-heart-of-lijiang/highlight-12.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/wild-heart-of-lijiang/highlight-2.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/wild-heart-of-lijiang/highlight-3.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/wild-heart-of-lijiang/highlight-4.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/wild-heart-of-lijiang/highlight-5.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/wild-heart-of-lijiang/highlight-6.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/wild-heart-of-lijiang/highlight-7.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/wild-heart-of-lijiang/highlight-8.webp": {
+    "w": 500,
+    "h": 300
+  },
+  "/tours/wild-heart-of-lijiang/highlight-9.webp": {
+    "w": 500,
+    "h": 300
+  }
+}

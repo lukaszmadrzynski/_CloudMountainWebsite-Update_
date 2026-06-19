@@ -5,7 +5,7 @@ date: '2026-04-10'
 excerpt: >
   A guide to the breathtaking alpine meadows bursting with color during springtime in the Yunnan highlands, from rhododendrons to rare orchids.
 featuredImage:
-  url: /images/pages/home/CM Hero OPTIMIZED.webp
+  url: /images/pages/home/cm-hero-optimized.webp
   altText: Alpine meadow with colorful wildflowers
   type: ImageBlock
   styles:
@@ -18,7 +18,7 @@ seo:
   metaTitle: Spring Wildflowers of the Yunnan Highlands
   metaDescription: >
     A guide to the breathtaking alpine meadows bursting with color during springtime in the Yunnan highlands.
-  socialImage: /images/pages/home/CM Hero OPTIMIZED.webp
+  socialImage: /images/pages/home/cm-hero-optimized.webp
   type: Seo
 colors: bg-light-fg-dark
 styles:
@@ -78,7 +78,7 @@ bottomSections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/pages/home/About Us Banner OPT.webp
+      url: /images/pages/home/about-us-banner-opt.webp
       altText: Cloud Mountain Ecotours and Nature Education
     badge:
       type: Badge

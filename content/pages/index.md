@@ -7,7 +7,7 @@ addTitleSuffix: true
 sections:
   - type: HomepageHeroSection
     media:
-      url: /images/pages/home/CM Hero OPTIMIZED.webp
+      url: /images/pages/home/cm-hero-optimized.webp
       altText: Cloud Mountain Ecotours - Sustainable Adventures in Lijiang and Shangri-La
     badge:
       label: Cloud Mountain
@@ -257,7 +257,7 @@ sections:
           Every tour supports local communities and conservation efforts.
         image:
           type: ImageBlock
-          url: /images/pages/home/Sustainable Icon.webp
+          url: /images/pages/home/sustainable-icon.webp
           altText: Sustainable and Responsible Ecotours
           styles:
             self:
@@ -285,7 +285,7 @@ sections:
           guides and comprehensive safety standards for peace of mind.
         image:
           type: ImageBlock
-          url: /images/pages/home/off the beaten path.webp
+          url: /images/pages/home/off-the-beaten-path.webp
           altText: Safe and Trusted Ecotours Yunnan
           styles:
             self:
@@ -422,7 +422,7 @@ sections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/pages/home/About Us Banner OPT.webp
+      url: /images/pages/home/about-us-banner-opt.webp
       altText: Cloud Mountain Ecotours and Nature Education
       styles:
         self:

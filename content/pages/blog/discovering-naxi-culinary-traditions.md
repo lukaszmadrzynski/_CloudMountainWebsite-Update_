@@ -5,7 +5,7 @@ date: '2026-03-10'
 excerpt: >
   Exploring the unique food culture of Lijiang's Naxi people, from traditional markets to cooking with local families.
 featuredImage:
-  url: /images/pages/home/CM Hero OPTIMIZED.webp
+  url: /images/pages/home/cm-hero-optimized.webp
   altText: Naxi traditional food and ingredients
   type: ImageBlock
   styles:
@@ -18,7 +18,7 @@ seo:
   metaTitle: Discovering Naxi Culinary Traditions
   metaDescription: >
     Exploring the unique food culture of Lijiang's Naxi people, from traditional markets to cooking with local families.
-  socialImage: /images/pages/home/CM Hero OPTIMIZED.webp
+  socialImage: /images/pages/home/cm-hero-optimized.webp
   type: Seo
 colors: bg-light-fg-dark
 styles:
@@ -71,7 +71,7 @@ bottomSections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/pages/home/About Us Banner OPT.webp
+      url: /images/pages/home/about-us-banner-opt.webp
       altText: Cloud Mountain Ecotours and Nature Education
     badge:
       type: Badge

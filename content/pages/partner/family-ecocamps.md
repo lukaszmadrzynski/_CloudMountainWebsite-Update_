@@ -12,7 +12,7 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/partner/family-ecocamps/Family Hero.webp
+      url: /images/partner/family-ecocamps/family-hero.webp
       altText: Dope design preview
     badge:
       type: Badge
@@ -40,7 +40,7 @@ sections:
     media:
       type: ImageBlock
       altText: 'Families with kids enjoying beautiful nature of Yunnan province, China'
-      url: /images/partner/family-ecocamps/Family Hero2.webp
+      url: /images/partner/family-ecocamps/family-hero2.webp
     badge:
       type: Badge
       label: Cloud Mountain
@@ -76,7 +76,7 @@ sections:
         style: primary
     media:
       type: ImageBlock
-      url: /images/partner/family-ecocamps/Article Preview Header v2.webp
+      url: /images/partner/family-ecocamps/article-preview-header-v2.webp
       altText: 2026 Yunnan Monkey Conservation Winter Family EcoCamp
     badge:
       type: Badge
@@ -117,7 +117,7 @@ sections:
           Spend an unforgetable and rewarding summer holiday with your family.
         image:
           type: ImageBlock
-          url: /images/partner/family-ecocamps/Fun Icon.webp
+          url: /images/partner/family-ecocamps/fun-icon.webp
           altText: Kids learning about nature
           styles:
             self:
@@ -169,7 +169,7 @@ sections:
           cultures.
         image:
           type: ImageBlock
-          url: /images/partner/family-ecocamps/Culture Icon.webp
+          url: /images/partner/family-ecocamps/culture-icon.webp
           altText: Ethnic Minorities in Yunnan
           styles:
             self:
@@ -195,7 +195,7 @@ sections:
           of Yunnan.
         image:
           type: ImageBlock
-          url: /images/partner/family-ecocamps/Nature Icon.webp
+          url: /images/partner/family-ecocamps/nature-icon.webp
           altText: 'Spectacular natural wonders of Yunnan, First bend of Yangtzee River'
           styles:
             self:
@@ -221,7 +221,7 @@ sections:
           development.
         image:
           type: ImageBlock
-          url: /images/partner/family-ecocamps/Sustainability Icon.webp
+          url: /images/partner/family-ecocamps/sustainability-icon.webp
           altText: Families learning about sustainable development
           styles:
             self:
@@ -261,7 +261,7 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/partner/family-ecocamps/Article Preview Header v2.webp
+      url: /images/partner/family-ecocamps/article-preview-header-v2.webp
       altText: Family Summer Camp in Yunnan
     badge:
       type: Badge

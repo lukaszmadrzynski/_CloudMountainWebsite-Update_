@@ -1,6 +1,8 @@
 {
     "logo": {
         "altText": "Cloud Mountain Logo",
+        "width": 56,
+        "height": 56,
         "styles": {
             "self": {
                 "margin": [
@@ -61,15 +63,5 @@
     "variant": "logo-left-primary-nav-left",
     "colors": "bg-light-fg-dark",
     "type": "Header",
-    "styles": {
-        "self": {
-            "padding": [
-                "pt-0",
-                "pb-0",
-                "pl-0",
-                "pr-0"
-            ]
-        }
-    },
     "title": "Cloud Mountain"
 }
