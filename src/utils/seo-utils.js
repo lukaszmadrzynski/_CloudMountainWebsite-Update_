@@ -8,12 +8,14 @@ export function seoGenerateMetaTags(page, site) {
     }
 
     const seoTitle = seoGenerateTitle(page, site);
+    const seoDescription = seoGenerateMetaDescription(page, site);
     const ogImage = seoGenerateOgImage(page, site);
 
     pageMetaTags = {
         ...pageMetaTags,
         ...(seoTitle && { 'og:title': seoTitle }),
-        ...(ogImage && { 'og:image': ogImage })
+        ...(ogImage && { 'og:image': ogImage }),
+        ...(seoDescription && { 'og:description': seoDescription })
     };
 
     if (page.seo?.metaTags?.length) {
