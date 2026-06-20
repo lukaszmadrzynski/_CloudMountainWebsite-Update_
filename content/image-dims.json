@@ -3,6 +3,14 @@
     "w": 500,
     "h": 300
   },
+  "/pages/contact-us/Contact-Us-Hero-md.webp": {
+    "w": 1024,
+    "h": 318
+  },
+  "/pages/contact-us/Contact-Us-Hero-sm.webp": {
+    "w": 640,
+    "h": 199
+  },
   "/pages/contact-us/Contact-Us-Hero.webp": {
     "w": 1980,
     "h": 615
@@ -46,6 +54,14 @@
   "/pages/home/sustainable-icon.webp": {
     "w": 500,
     "h": 300
+  },
+  "/pages/partner-with-us/Partner-With-Us-Hero-md.webp": {
+    "w": 1024,
+    "h": 289
+  },
+  "/pages/partner-with-us/Partner-With-Us-Hero-sm.webp": {
+    "w": 640,
+    "h": 180
   },
   "/pages/partner-with-us/Partner-With-Us-Hero.webp": {
     "w": 1980,
@@ -138,6 +154,14 @@
   "/pages/why-us/Sustainable.webp": {
     "w": 500,
     "h": 300
+  },
+  "/pages/why-us/Why-Us-Hero-md.webp": {
+    "w": 1024,
+    "h": 294
+  },
+  "/pages/why-us/Why-Us-Hero-sm.webp": {
+    "w": 640,
+    "h": 184
   },
   "/pages/why-us/Why-Us-Hero.webp": {
     "w": 1980,

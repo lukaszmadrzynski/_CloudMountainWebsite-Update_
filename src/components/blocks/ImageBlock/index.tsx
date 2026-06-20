@@ -2,6 +2,7 @@ import * as React from 'react';
 import classNames from 'classnames';
 
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
+import { imageDims } from '../../../utils/image-dims';
 
 export default function ImageBlock(props) {
     const { elementId, className, imageClassName, url, altText = '', width, height, aspectRatio, styles = {} } = props;
@@ -14,17 +15,25 @@ export default function ImageBlock(props) {
         : {};
 
     // The wrapper reserves space for the image to prevent Cumulative Layout
-    // Shift (CLS). When the caller passes explicit width/height we use them
-    // as the wrapper's aspect-ratio so the browser reserves exactly that
-    // shape. Otherwise we fall back to the configured aspectRatio (or 16/9)
-    // so the image has SOME reserved space rather than collapsing the
-    // layout. Note: this makes small/portrait images like logos render at
-    // the wrapper's aspect ratio, which is usually too large. Callers that
-    // want natural sizing (e.g. the footer logo) should NOT use this
-    // component — render a plain <img> instead.
-    const hasExplicitDims = !!(width && height);
+    // Shift (CLS). Three sources of width/height, in priority order:
+    //   1. Explicit props.width/height (caller knows the dimensions)
+    //   2. Build-time manifest lookup (image-dims.json) — every image in
+    //      public/images/* is registered, so any image on the site can
+    //      reserve its actual aspect ratio without per-caller config
+    //   3. aspectRatio prop, or 16/9 default as a last resort
+    // The manifest lookup is the big CLS win: it means GenericSection,
+    // EcotourCard, FeaturedItem, and any other caller that uses
+    // ImageBlock with no explicit dims still gets accurate aspect-ratio
+    // reservation. Previously, the 16/9 default would crop non-16:9
+    // images (e.g. ecotours-listing/expeditions-banner.webp is 1.59:1)
+    // and the wrapper's mismatch with the image's natural ratio would
+    // cause subtle reflows when the image streamed in.
+    const manifestDims = imageDims(url);
+    const effectiveWidth = width ?? manifestDims.width;
+    const effectiveHeight = height ?? manifestDims.height;
+    const hasExplicitDims = !!(effectiveWidth && effectiveHeight);
     const wrapperStyle = hasExplicitDims
-        ? { aspectRatio: `${width} / ${height}` }
+        ? { aspectRatio: `${effectiveWidth} / ${effectiveHeight}` }
         : { aspectRatio: aspectRatio || '16 / 9' };
 
     return (
@@ -58,8 +67,8 @@ export default function ImageBlock(props) {
                 )}
                 src={url}
                 alt={altText}
-                width={width}
-                height={height}
+                width={effectiveWidth}
+                height={effectiveHeight}
                 loading={hasExplicitDims ? 'eager' : 'lazy'}
                 decoding="async"
             />

@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import Markdown from 'markdown-to-jsx';
 
 import { mapStylesToClassNames as mapStyles } from '../../../../utils/map-styles-to-class-names';
+import { imageDims } from '../../../../utils/image-dims';
 import Action from '../../../atoms/Action';
 
 export default function FeaturedItem(props) {
@@ -11,6 +12,14 @@ export default function FeaturedItem(props) {
     const TitleTag = hasSectionTitle ? 'h3' : 'h2';
     
     const hasImage = !!(image?.url || image?.altText);
+
+    // Look up image dimensions from the build-time manifest so the
+    // browser reserves the correct aspect-ratio space BEFORE the image
+    // loads. Without width/height, the card has 0 height for the image
+    // area and grows as the image streams in — that reflow shifts the
+    // whole grid below the card (huge CLS). See EcotourCard for the
+    // same fix.
+    const imgDims = image?.url ? imageDims(image.url) : { width: 500, height: 300, found: false };
 
     // Check if this is a testimonial
     const isTestimonial = !!(tagline && subtitle && text && image?.altText && !image?.url);
@@ -42,7 +51,11 @@ export default function FeaturedItem(props) {
                     <img
                         src={image.url}
                         alt={image.altText || ''}
-                        className="w-full object-contain block transition-transform duration-300 group-hover:scale-110"
+                        width={imgDims.width}
+                        height={imgDims.height}
+                        className="w-full h-auto object-contain block transition-transform duration-300 group-hover:scale-110"
+                        loading="lazy"
+                        decoding="async"
                     />
                 </div>
             )}

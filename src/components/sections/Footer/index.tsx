@@ -41,18 +41,21 @@ export default function Footer(props) {
                                 // prevent CLS, which would render the logo at the
                                 // wrapper's full width × 16:9 — far too large.
                                 //
-                                // Wrap in a fixed-size box (h-36 w-36 = 144×144)
-                                // so the layout is stable BEFORE the image loads,
-                                // regardless of network conditions. Eager load so
-                                // the image appears immediately on short pages
-                                // where the footer is above the fold.
+                                // Both the wrapper AND the img have explicit
+                                // h-36 w-36 (144×144) so the rendered size is
+                                // locked in. With object-contain, the 300×300
+                                // source image is letterboxed inside the 144×144
+                                // box (1:1 aspect matches the source, so no
+                                // letterboxing in practice). Eager load so the
+                                // image appears immediately on short pages where
+                                // the footer is above the fold.
                                 <div className="h-36 w-36 flex items-center justify-center">
                                     <img
                                         src={logo.url}
                                         alt={logo.altText || ''}
-                                        width={300}
-                                        height={300}
-                                        className="h-full w-auto max-w-full object-contain"
+                                        width={144}
+                                        height={144}
+                                        className="h-36 w-36 object-contain"
                                         loading="eager"
                                         decoding="async"
                                         {...(enableAnnotations && { 'data-sb-field-path': 'logo' })}

@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import Markdown from 'markdown-to-jsx';
 
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
+import { imageDims } from '../../../utils/image-dims';
 import Action from '../../atoms/Action';
 
 export default function EcotourCard(props) {
@@ -11,6 +12,14 @@ export default function EcotourCard(props) {
     const TitleTag = hasSectionTitle ? 'h3' : 'h2';
     
     const hasImage = !!(image?.url || image?.altText);
+
+    // Look up image dimensions from the build-time manifest so the
+    // browser reserves the correct aspect-ratio space BEFORE the image
+    // loads. Without width/height attrs, the card has 0 height for the
+    // image area and grows as the image streams in — that reflow shifts
+    // the whole grid below the card (huge CLS). With width/height, the
+    // browser computes the layout box from the intrinsic ratio.
+    const imgDims = image?.url ? imageDims(image.url) : { width: 500, height: 300, found: false };
 
     // Get the first action URL for card linking
     const firstActionUrl = actions?.[0]?.url;
@@ -57,8 +66,12 @@ export default function EcotourCard(props) {
                     <img
                         src={image.url}
                         alt={image.altText || ''}
+                        width={imgDims.width}
+                        height={imgDims.height}
                         className="w-full h-auto object-cover block"
                         style={{ maxWidth: '100%', display: 'block' }}
+                        loading="lazy"
+                        decoding="async"
                     />
                 </div>
             )}
@@ -112,7 +125,7 @@ export default function EcotourCard(props) {
                             // and gives users a clear expectation of what each link leads to).
                             const isGenericLearnMore = !action.label || action.label.trim().toLowerCase() === 'learn more';
                             const contextualLabel = isGenericLearnMore && title
-                                ? `Explore ${title}`
+                                ? `View ${title}`
                                 : action.label;
                             return (
                                 <Action

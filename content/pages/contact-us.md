@@ -14,6 +14,11 @@ sections:
       styles:
         self:
           textAlign: center
+          padding:
+            - pt-6
+            - pb-0
+            - pl-4
+            - pr-4
     subtitle: ''
     actions: []
     media:

@@ -1,75 +1,130 @@
-import dynamic from 'next/dynamic';
 import { ComponentType } from 'react';
 
-/**
- * The getComponent() function loads a component using dynamic import.
- *
- * Dynamic imports are useful when you wish to load a module conditionally. For example, if a home page renders the
- * "HeroSection" conditionally, then loading it with getComponent('HeroSection') will ensure that the "HeroSection"
- * is bundled only when used.
- */
+// Plain ES imports for every component in the registry.
+//
+// Why no next/dynamic: this project uses `output: 'export'` (full static
+// export). With that mode, components that come through `next/dynamic`
+// are NOT server-rendered even when `ssr: true` is specified — the
+// generated HTML is an empty <div id="__next"> shell with all the page
+// data in a <script id="__NEXT_DATA__"> tag, and React hydrates the
+// entire page on the client. As a side effect, the FOOTER ends up at
+// the top of the content area (right under the fixed header) in the
+// initial HTML, then sections stream in and push the footer down
+// ~700px — a catastrophic CLS (0.4+ score on every page).
+//
+// Plain imports: every component is bundled into the main JS chunk and
+// server-rendered to static HTML at build time. The footer lands in its
+// final position from the very first paint, CLS = 0 for this issue.
+// Code-splitting is not critical for a static export (all chunks ship
+// anyway, just on the same initial request).
 
-export function getComponent(key: string): ComponentType {
-    return components[key];
-}
+// Sections
+import AccordionSection from './sections/AccordionSection';
+import CarouselSection from './sections/CarouselSection';
+import DividerSection from './sections/DividerSection';
+import EcotoursHeroSection from './sections/EcotoursHeroSection';
+import FeaturedItemsSection from './sections/FeaturedItemsSection';
+import FeaturedItemsSectionShowMore from './sections/FeaturedItemsSectionShowMore';
+import FeaturedPeopleSection from './sections/FeaturedPeopleSection';
+import FeaturedPostsSection from './sections/FeaturedPostsSection';
+import GenericSection from './sections/GenericSection';
+import HeroSection from './sections/HeroSection';
+import HighlightsSection from './sections/HighlightsSection';
+import HomepageHeroSection from './sections/HomepageHeroSection';
+import ImageGallerySection from './sections/ImageGallerySection';
+import ItinerarySection from './sections/ItinerarySection';
+import KeyDetailsSection from './sections/KeyDetailsSection';
+import PartnerWithUsHeroSection from './sections/PartnerWithUsHeroSection';
+import PostFeedSection from './sections/PostFeedSection';
+import PricingSection from './sections/PricingSection';
+import RecentPostsSection from './sections/RecentPostsSection';
+import SimplifiedPricingSection from './sections/SimplifiedPricingSection';
+import StickyBookingBar from './sections/StickyBookingBar';
+import TestimonialsSection from './sections/TestimonialsSection';
+import TripAdvisorReviews from './sections/TripAdvisorReviews';
+
+// Section sub-components
+import EcotourFilterSection from './sections/EcotourFilterSection';
+import EcotourCard from './sections/FeaturedItemsSection/EcotourCard';
+import FeaturedItem from './sections/FeaturedItemsSection/FeaturedItem';
+import FeaturedItemToggle from './sections/FeaturedItemsSection/FeaturedItemToggle';
+
+// Blocks
+import CheckboxFormControl from './blocks/FormBlock/CheckboxFormControl';
+import EmailFormControl from './blocks/FormBlock/EmailFormControl';
+import FormBlock from './blocks/FormBlock';
+import ImageBlock from './blocks/ImageBlock';
+import SelectFormControl from './blocks/FormBlock/SelectFormControl';
+import TextareaFormControl from './blocks/FormBlock/TextareaFormControl';
+import TextFormControl from './blocks/FormBlock/TextFormControl';
+import VideoBlock from './blocks/VideoBlock';
+import AutoCompletePosts from './blocks/SearchBlock/AutoCompletePosts';
+
+// Layouts
+import PageLayout from './layouts/PageLayout';
+import PostLayout from './layouts/PostLayout';
+import PostFeedLayout from './layouts/PostFeedLayout';
+import PostFeedCategoryLayout from './layouts/PostFeedCategoryLayout';
+
+const components: Record<string, ComponentType> = {
+    // Sections
+    AccordionSection,
+    AccordionItem: AccordionSection,
+    CarouselSection,
+    DividerSection,
+    EcotoursHeroSection,
+    FeaturedItemsSection,
+    FeaturedItemsSectionShowMore,
+    FeaturedPeopleSection,
+    FeaturedPostsSection,
+    GenericSection,
+    HeroSection,
+    HighlightsSection,
+    HomepageHeroSection,
+    ImageGallerySection,
+    ItinerarySection,
+    KeyDetailsSection,
+    PartnerWithUsHeroSection,
+    PostFeedSection,
+    PricingSection,
+    RecentPostsSection,
+    SimplifiedPricingSection,
+    StickyBookingBar,
+    TestimonialsSection,
+    TripAdvisorReviews,
+
+    // Section sub-components
+    EcotourFilterSection,
+    EcotourCard,
+    FeaturedItem,
+    FeaturedItemToggle,
+
+    // Blocks
+    CheckboxFormControl,
+    EmailFormControl,
+    FormBlock,
+    ImageBlock,
+    SelectFormControl,
+    TextareaFormControl,
+    TextFormControl,
+    VideoBlock,
+    AutoCompletePosts,
+
+    // Layouts
+    PageLayout,
+    PostLayout,
+    PostFeedLayout,
+    PostFeedCategoryLayout
+};
 
 /**
- * Map of dynamically imported components.
- *
- * The mapping key of a dynamically imported component is the model name describing the props of that component.
- * And the value is the component imported via Next.js dynamic import. You should use dynamic components for large
- * components or components with heavy external dependencies that are used sparingly in your website's pages.
- * To learn more about Nextjs dynamic imports visit:
- * https://nextjs.org/docs/advanced-features/dynamic-import
- *
- * Dynamic components can be selected at run-time based on the type of their content (props). This is because
- * components are mapped by models that describe their content, and content's type always matches the model name.
- * For example, a page component can call `getComponent(section.__metadata.modelName)` function, passing it the type of section
- * data it needs to render, and get back the component that can render that type of data:
+ * The getComponent() function returns a component by its model name.
+ * Use this when you have a content modelName and need to render the
+ * matching component:
  *
  *     const Section = getComponent(section.__metadata.modelName);
  *     return <Section {...section} />;
  */
-const components = {
-    AccordionSection: dynamic(() => import('./sections/AccordionSection')),
-    AccordionItem: dynamic(() => import('./sections/AccordionSection')),
-    ItinerarySection: dynamic(() => import('./sections/ItinerarySection')),
-    HeroSection: dynamic(() => import('./sections/HeroSection')),
-    HomepageHeroSection: dynamic(() => import('./sections/HomepageHeroSection')),
-    EcotoursHeroSection: dynamic(() => import('./sections/EcotoursHeroSection')),
-    PartnerWithUsHeroSection: dynamic(() => import('./sections/PartnerWithUsHeroSection')),
-    KeyDetailsSection: dynamic(() => import('./sections/KeyDetailsSection')),
-    StickyBookingBar: dynamic(() => import('./sections/StickyBookingBar')),
-    AutoCompletePosts: dynamic(() => import('./blocks/SearchBlock/AutoCompletePosts')),
-    CarouselSection: dynamic(() => import('./sections/CarouselSection')),
-    TestimonialsSection: dynamic(() => import('./sections/TestimonialsSection')),
-    CheckboxFormControl: dynamic(() => import('./blocks/FormBlock/CheckboxFormControl')),
-    DividerSection: dynamic(() => import('./sections/DividerSection')),
-    EcotourCard: dynamic(() => import('./sections/FeaturedItemsSection/EcotourCard')),
-    EcotourFilterSection: dynamic(() => import('./sections/EcotourFilterSection')),
-    EmailFormControl: dynamic(() => import('./blocks/FormBlock/EmailFormControl')),
-    FeaturedItem: dynamic(() => import('./sections/FeaturedItemsSection/FeaturedItem')),
-    FeaturedItemToggle: dynamic(() => import('./sections/FeaturedItemsSection/FeaturedItemToggle')),
-    FeaturedItemsSection: dynamic(() => import('./sections/FeaturedItemsSection')),
-    FeaturedItemsSectionShowMore: dynamic(() => import('./sections/FeaturedItemsSectionShowMore')),
-    FeaturedPeopleSection: dynamic(() => import('./sections/FeaturedPeopleSection')),
-    FeaturedPostsSection: dynamic(() => import('./sections/FeaturedPostsSection')),
-    FormBlock: dynamic(() => import('./blocks/FormBlock')),
-    GenericSection: dynamic(() => import('./sections/GenericSection')),
-    HighlightsSection: dynamic(() => import('./sections/HighlightsSection')),
-    ImageBlock: dynamic(() => import('./blocks/ImageBlock')),
-    ImageGallerySection: dynamic(() => import('./sections/ImageGallerySection')),
-    PostFeedSection: dynamic(() => import('./sections/PostFeedSection')),
-    PricingSection: dynamic(() => import('./sections/PricingSection')),
-    SimplifiedPricingSection: dynamic(() => import('./sections/SimplifiedPricingSection')),
-    RecentPostsSection: dynamic(() => import('./sections/RecentPostsSection')),
-    SelectFormControl: dynamic(() => import('./blocks/FormBlock/SelectFormControl')),
-    TextareaFormControl: dynamic(() => import('./blocks/FormBlock/TextareaFormControl')),
-    TextFormControl: dynamic(() => import('./blocks/FormBlock/TextFormControl')),
-    VideoBlock: dynamic(() => import('./blocks/VideoBlock')),
-    PageLayout: dynamic(() => import('./layouts/PageLayout')),
-    PostLayout: dynamic(() => import('./layouts/PostLayout')),
-    PostFeedLayout: dynamic(() => import('./layouts/PostFeedLayout')),
-    PostFeedCategoryLayout: dynamic(() => import('./layouts/PostFeedCategoryLayout')),
-    TripAdvisorReviews: dynamic(() => import('./sections/TripAdvisorReviews'))
-};
+export function getComponent(key: string): ComponentType {
+    return components[key];
+}

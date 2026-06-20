@@ -2,11 +2,16 @@ import { Roboto_Slab } from 'next/font/google';
 import Script from 'next/script';
 import '../css/main.css';
 
-// Configure Roboto Slab font (the serif headline font per style.json)
+// Configure Roboto Slab font (the serif headline font per style.json).
+// `display: 'optional'` (vs the typical 'swap') means the browser only
+// uses Roboto Slab if it loads within ~100ms; otherwise the fallback
+// font stays for the page's lifetime. Trade-off: users on slow
+// connections see the fallback serif (no CLS) instead of a swap that
+// reflows every heading on the page (huge CLS).
 const roboto_slab = Roboto_Slab({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
-  display: 'swap',
+  display: 'optional',
   variable: '--font-roboto-slab',
 });
 

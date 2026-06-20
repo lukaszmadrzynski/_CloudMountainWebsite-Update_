@@ -1,11 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
 
-const CARD_WIDTH = 280;
-const CARD_WIDTH_MOBILE = 85; // Percentage of screen width on mobile
-const CARD_MARGIN = 16;
-const CARD_MARGIN_MOBILE = 8;
-
 const BubbleRating = () => (
     <svg viewBox="0 0 2894 543" className="h-3 md:h-4 w-auto">
         <g clipPath="url(#clip0)">
@@ -23,7 +18,7 @@ const BubbleRating = () => (
     </svg>
 );
 
-function ReviewCard({ review, cardWidth, cardMargin }) {
+function ReviewCard({ review }) {
     const [expanded, setExpanded] = React.useState(false);
     const textRef = React.useRef(null);
     const [isOverflowing, setIsOverflowing] = React.useState(false);
@@ -42,9 +37,13 @@ function ReviewCard({ review, cardWidth, cardMargin }) {
     const tripAdvisorUrl = 'https://www.tripadvisor.com/Attraction_Review-g303783-d17638375-Reviews-Lijiang_Cloud_Mountain_Ecotours-Lijiang_Yunnan.html';
     
     return (
+        // Card width and horizontal margins are CSS-driven (responsive
+        // via clamp() + md breakpoint) so the initial render is correct
+        // without JS measurement. Previously this component used a JS
+        // state default of 85px that expanded to ~85vw after mount,
+        // causing the carousel to reflow + push the footer down (CLS).
         <div 
-            className="bg-white rounded-xl shadow-md border border-gray-200 p-4 md:p-5 flex-shrink-0" 
-            style={{ width: cardWidth, marginLeft: cardMargin, marginRight: cardMargin }}
+            className="bg-white rounded-xl shadow-md border border-gray-200 p-4 md:p-5 flex-shrink-0 w-[min(85vw,320px)] md:w-[280px] mx-2 md:mx-4"
         >
             <div className="flex items-center gap-3 mb-3">
                 <a 
@@ -203,46 +202,40 @@ export default function TripAdvisorReviews({ reviewCount = 11, badge }) {
     const containerRef = React.useRef(null);
     const [isPaused, setIsPaused] = React.useState(false);
     const [currentIndex, setCurrentIndex] = React.useState(0);
-    const [cardWidth, setCardWidth] = React.useState(CARD_WIDTH_MOBILE);
-    const [cardMargin, setCardMargin] = React.useState(CARD_MARGIN_MOBILE);
     const [isMobile, setIsMobile] = React.useState(true);
     
     const totalCards = reviews.length;
 
-    // Handle responsive card sizing
+    // Detect mobile vs desktop for the swipe-hint and arrow visibility.
+    // Card sizing is CSS-driven now (see ReviewCard), so this is only
+    // for the "Swipe to see more" hint and the auto-scroll interval
+    // (which is desktop-only). Using mq.matchMedia instead of resize
+    // listener — single source of truth, no state thrash.
     React.useEffect(() => {
-        const updateCardSize = () => {
-            const width = window.innerWidth;
-            if (width < 768) {
-                // Mobile: use percentage width
-                const mobileCardWidth = Math.min(width * 0.85, 320);
-                setCardWidth(mobileCardWidth);
-                setCardMargin(CARD_MARGIN_MOBILE);
-                setIsMobile(true);
-            } else {
-                // Tablet/Desktop
-                setCardWidth(CARD_WIDTH);
-                setCardMargin(CARD_MARGIN);
-                setIsMobile(false);
-            }
-        };
-        
-        updateCardSize();
-        window.addEventListener('resize', updateCardSize);
-        return () => window.removeEventListener('resize', updateCardSize);
+        const mq = window.matchMedia('(min-width: 768px)');
+        const update = () => setIsMobile(!mq.matches);
+        update();
+        // Old Safari uses addListener/removeListener; new API uses addEventListener.
+        if (mq.addEventListener) {
+            mq.addEventListener('change', update);
+            return () => mq.removeEventListener('change', update);
+        }
+        mq.addListener(update);
+        return () => mq.removeListener(update);
     }, []);
 
-    const scrollAmount = cardWidth + (cardMargin * 2);
-    const originalSetEnd = totalCards * scrollAmount;
+    // Card outer width (incl. margins) is CSS-driven: mobile uses
+    // min(85vw, 320px) + mx-2 (8px each side); desktop uses 280px + mx-4
+    // (16px). Use the same values here for scroll math so each click /
+    // auto-scroll tick advances exactly one card.
+    //   Mobile: 320 (max card width) + 16 (8px each side) = 336
+    //   Desktop: 280 + 32 (16px each side) = 312
+    // Note: on smaller mobile viewports the actual rendered card is
+    // narrower (e.g. 85vw on a 360px screen = 306px), so one click
+    // advances slightly less than a full card. Acceptable — the auto-
+    // scroll only runs on desktop anyway.
+    const scrollAmount = isMobile ? 336 : 312;
     const isTransitioning = React.useRef(false);
-
-    // Reset scroll when card size changes
-    React.useEffect(() => {
-        if (scrollRef.current) {
-            scrollRef.current.scrollLeft = 0;
-            setCurrentIndex(0);
-        }
-    }, [cardWidth]);
 
     // Auto-scroll effect - scrolls every 4 seconds, loops infinitely
     React.useEffect(() => {
@@ -417,8 +410,6 @@ export default function TripAdvisorReviews({ reviewCount = 11, badge }) {
                         <ReviewCard 
                             key={`review-${index}`} 
                             review={review} 
-                            cardWidth={cardWidth}
-                            cardMargin={cardMargin}
                         />
                     ))}
                 </div>

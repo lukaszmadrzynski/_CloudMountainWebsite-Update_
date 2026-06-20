@@ -14,6 +14,11 @@ sections:
       styles:
         self:
           textAlign: center
+          padding:
+            - pt-6
+            - pb-0
+            - pl-4
+            - pr-4
     subtitle: Your Trusted Partner for Ecotourism, Education and Sustainability in Yunnan
     text: >+
       <div style="text-align: center">Cloud Mountain emerged from a shared
@@ -36,7 +41,7 @@ sections:
         alignItems: flex-start
         justifyContent: center
         padding:
-          - pt-0
+          - pt-2
           - pl-3
           - pr-3
           - pb-4

@@ -25,18 +25,55 @@ const dims: DimsMap = imageDimsJson as DimsMap;
 
 export function imageDims(url: string | undefined | null): { width: number; height: number; found: boolean } {
     if (!url) return { width: FALLBACK.w, height: FALLBACK.h, found: false };
-    const entry = dims[url];
-    if (entry) return { width: entry.w, height: entry.h, found: true };
+    // The manifest stores paths WITHOUT the /images prefix (e.g.
+    // "/pages/why-us/Why-Us-Hero.webp"), but callers pass the full
+    // public URL ("/images/pages/why-us/Why-Us-Hero.webp"). Try both
+    // forms so the lookup always works.
+    const candidates = [url, url.startsWith('/images/') ? url.slice('/images'.length) : null].filter(
+        (x): x is string => !!x
+    );
+    for (const key of candidates) {
+        const entry = dims[key];
+        if (entry) return { width: entry.w, height: entry.h, found: true };
+    }
     return { width: FALLBACK.w, height: FALLBACK.h, found: false };
 }
 
 /**
  * Build a srcset string from an image URL by inserting -sm/-md size
- * suffixes before the .webp extension. Returns undefined if the URL
- * doesn't end in .webp (the srcset is silently omitted).
+ * suffixes before the .webp extension. Only emits a variant if that
+ * file actually exists in the build-time manifest — otherwise the
+ * browser would request a 404 URL, which can either fail silently
+ * (no LCP image) or fall back unpredictably.
+ *
+ * Returns undefined if:
+ * - the URL is missing
+ * - the URL doesn't end in .webp
+ * - the main image itself isn't in the manifest (we have no way to
+ *   verify it exists, so don't emit a srcset that might fail)
+ *
+ * Always emits the main image (e.g. "...hero.webp 1920w") as the
+ * last entry, so the browser can always fall back to it.
  */
 export function srcSetFor(url: string | undefined | null): string | undefined {
     if (!url) return undefined;
     if (!url.toLowerCase().endsWith('.webp')) return undefined;
-    return `${url.replace(/\.webp$/, '-sm.webp')} 640w, ${url.replace(/\.webp$/, '-md.webp')} 1024w, ${url} 1920w`;
+    // The manifest stores paths WITHOUT the /images prefix (e.g.
+    // "/pages/why-us/Why-Us-Hero.webp") but callers pass the full
+    // public URL ("/images/pages/why-us/Why-Us-Hero.webp"). Try both
+    // forms when looking up the manifest.
+    const hasMain = !!dims[url] || !!(url.startsWith('/images/') && dims[url.slice('/images'.length)]);
+    if (!hasMain) return undefined;
+
+    const candidates: Array<{ url: string; width: number }> = [];
+    // Helper: look up an alternate URL form in the manifest.
+    const has = (u: string) => !!dims[u] || !!(u.startsWith('/images/') && !!dims[u.slice('/images'.length)]);
+    const smUrl = url.replace(/\.webp$/, '-sm.webp');
+    const mdUrl = url.replace(/\.webp$/, '-md.webp');
+    if (has(smUrl)) candidates.push({ url: smUrl, width: 640 });
+    if (has(mdUrl)) candidates.push({ url: mdUrl, width: 1024 });
+    // The main image is always included as the last / largest entry.
+    candidates.push({ url, width: 1920 });
+
+    return candidates.map((c) => `${c.url} ${c.width}w`).join(', ');
 }
