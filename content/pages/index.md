@@ -483,8 +483,5 @@ seo:
   metaTitle: Sustainable Adventures in Lijiang and Shangri-La
   metaDescription: >
     Immerse yourself in the breathtaking landscapes and vibrant cultures of
-    Yunnan with Cloud Mountain Ecotours.
-
-    Eco-friendly tours, expert local guides, and authentic
-    cultural experiences in Northwest Yunnan.
+    Yunnan with Cloud Mountain Ecotours. Expert guides. Deep encounters. Lasting impact.
 ---
