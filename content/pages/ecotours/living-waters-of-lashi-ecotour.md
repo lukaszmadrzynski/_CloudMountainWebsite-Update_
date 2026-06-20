@@ -585,7 +585,7 @@ seo:
     Discover Lashi Alpine Wetland on this half-day birdwatching ecotour from
     Lijiang. Walk with local conservationists, survey waterbirds, and visit a
     wildlife rescue station in this highland nature reserve.
-  socialImage: /images/shared/brand/cm-logo-color.png
+  socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:
     - type: MetaTag
       content: >-

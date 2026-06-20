@@ -446,7 +446,7 @@ seo:
     backed consulting services for sustainable tourism development, certification
     support, and ESG strategy in China and Asia.
   addTitleSuffix: true
-  socialImage: /images/shared/brand/cm-logo-color.png
+  socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:
     - type: MetaTag
       content: >

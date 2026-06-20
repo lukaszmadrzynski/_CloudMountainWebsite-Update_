@@ -578,7 +578,7 @@ seo:
     Lijiang's UNESCO Old Town on this hands-on half-day cultural ecotour.
     Visit Wenchang Temple and Snow Mountain Academy with a Naxi heritage
     expert.
-  socialImage: /images/shared/brand/cm-logo-color.png
+  socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:
     - type: MetaTag
       content: >-

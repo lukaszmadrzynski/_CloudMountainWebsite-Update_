@@ -693,7 +693,7 @@ seo:
     in Yunnan, China. For travel agencies, schools, corporate groups, and
     sustainability consulting.
   addTitleSuffix: true
-  socialImage: /images/shared/brand/cm-logo-color.png
+  socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:
     - type: MetaTag
       content: >

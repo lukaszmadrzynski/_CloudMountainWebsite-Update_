@@ -669,7 +669,7 @@ seo:
     Pedal through authentic Naxi villages on a quality e-bike from Lijiang
     Old Town. Visit courtyard homes, a hidden church, Green Dragon Park, and
     finish at ancient Shuhe Old Town on this relaxed half-day ecotour.
-  socialImage: /images/shared/brand/cm-logo-color.png
+  socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:
     - type: MetaTag
       content: >-

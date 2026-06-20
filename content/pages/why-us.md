@@ -774,7 +774,7 @@ seo:
     China. Learn about our founders, expert local guides, and authentic natural
     and cultural experiences in Lijiang and Shangri-La.
   addTitleSuffix: true
-  socialImage: /images/shared/brand/cm-logo-color.png
+  socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:
     - type: MetaTag
       content: >

@@ -439,7 +439,7 @@ seo:
     travel experiences in Yunnan, China. Competitive commissions, dedicated support,
     and professional marketing materials.
   addTitleSuffix: true
-  socialImage: /images/shared/brand/cm-logo-color.png
+  socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:
     - type: MetaTag
       content: >

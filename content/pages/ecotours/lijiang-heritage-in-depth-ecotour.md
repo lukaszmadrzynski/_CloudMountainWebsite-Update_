@@ -692,7 +692,7 @@ seo:
     Black Dragon Pond, Dongba pictograph workshop, Mu Palace, specialty
     dinner, night market, and live Naxi Ancient Music, all in one
     guided deep-dive.
-  socialImage: /images/shared/brand/cm-logo-color.png
+  socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:
     - type: MetaTag
       content: >-

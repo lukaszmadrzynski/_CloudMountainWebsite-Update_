@@ -635,7 +635,7 @@ seo:
     Escape Lijiang! Discover Forgotten Forest ecotour: a hidden biodiversity
     hotspot near Lijiang. Rare orchids, birds, & views await! Book your nature
     walk.
-  socialImage: /images/shared/brand/cm-logo-color.png
+  socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:
     - type: MetaTag
       content: >-

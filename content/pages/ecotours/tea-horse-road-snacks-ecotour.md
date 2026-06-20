@@ -585,7 +585,7 @@ seo:
     Taste Lijiang's ancient Tea & Horse Road on this half-day culinary
     walking tour. Sip traditional roasted tea, try Naxi snacks, meet the
     last caravaneer, and explore the UNESCO Old Town's bustling bazaar.
-  socialImage: /images/shared/brand/cm-logo-color.png
+  socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:
     - type: MetaTag
       content: >-

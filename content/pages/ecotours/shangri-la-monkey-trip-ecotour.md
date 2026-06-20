@@ -647,7 +647,7 @@ seo:
   metaTitle: Shangri-La Monkey Trip Ecotour | Yunnan Snub-nosed Monkey Experience
   metaDescription: >-
     Join our Shangri-La Monkey Journey ecotour in Yunnan, China! Spot rare Yunnan Snub-nosed Monkeys, hike Baima Snow Mountain, and immerse in Tibetan and Lisu cultures. Book your China wildlife adventure now!
-  socialImage: /images/shared/brand/cm-logo-color.png
+  socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:
     - type: MetaTag
       content: >-

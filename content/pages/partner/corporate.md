@@ -455,7 +455,7 @@ seo:
     CSR trips, and team adventures with ESG benefits. Custom programs for
     companies with sustainability goals.
   addTitleSuffix: true
-  socialImage: /images/shared/brand/cm-logo-color.png
+  socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:
     - type: MetaTag
       content: >

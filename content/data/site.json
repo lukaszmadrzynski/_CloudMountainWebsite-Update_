@@ -2,7 +2,7 @@
     "favicon": "/images/shared/brand/cm-logo-color.png",
     "footer": "content/data/footer.json",
     "titleSuffix": "Cloud Mountain",
-    "defaultSocialImage": "/images/shared/brand/cm-logo-color.png",
+    "defaultSocialImage": "/images/shared/brand/cm-social-preview.webp",
     "type": "Config",
     "header": "content/data/header.json",
     "defaultMetaTags": []

@@ -298,6 +298,6 @@ seo:
   metaDescription: >-
     Ready to book your Yunnan eco-adventure? Fill out our booking form to reserve your private eco-tour, or contact Lynne & Lukasz directly for immediate assistance.
   addTitleSuffix: true
-  socialImage: /images/shared/brand/cm-logo-color.png
+  socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags: []
 ---

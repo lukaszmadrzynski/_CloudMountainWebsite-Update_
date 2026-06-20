@@ -349,7 +349,7 @@ seo:
     Explore nature, culture, and monkey conservation in Lijiang & Shangri-La.
     Book your sustainable family trip today!
   addTitleSuffix: true
-  socialImage: /images/shared/brand/cm-logo-color.png
+  socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:
     - type: MetaTag
       content: >-

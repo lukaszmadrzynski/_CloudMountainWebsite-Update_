@@ -556,7 +556,7 @@ seo:
     Experience the alpine wetland, grassland and forests ecosystems on an unforgettable ecotour in Lijiang. Explore biodiversity & conservation at Lashi Wetlands, discover Naxi
     & Yi ethnic cultures, admire the spectacular Luoma Cliffs & enjoy village life. Perfect for
     nature lovers & cultural travelers seeking authentic Yunnan travel experience.
-  socialImage: /images/shared/brand/cm-logo-color.png
+  socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:
     - type: MetaTag
       content: >-

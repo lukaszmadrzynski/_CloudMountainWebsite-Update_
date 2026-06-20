@@ -479,7 +479,7 @@ sections:
         elementId: ''
 seo:
   type: Seo
-  socialImage: /images/shared/brand/cm-logo-color.png
+  socialImage: /images/shared/brand/cm-social-preview.webp
   metaTitle: Authentic Sustainable Adventures in Lijiang and Shangri-La
   metaDescription: >
     Immerse yourself in the breathtaking landscapes and vibrant cultures of
