@@ -412,7 +412,7 @@ sections:
           courtyard, with the mountain night behind you.
         image:
           type: ImageBlock
-          url: /images/tours/lijiang-heritage-in-depth/highlight-12.webp
+          url: /images/tours/lijiang-heritage-in-depth/highlight-11.webp
           altText: Naxi Ancient Music performance in a courtyard
           styles:
             self:
@@ -443,7 +443,7 @@ sections:
           after dark.
         image:
           type: ImageBlock
-          url: /images/tours/lijiang-heritage-in-depth/highlight-11.webp
+          url: /images/tours/lijiang-heritage-in-depth/highlight-12.webp
           altText: Lijiang Old Town night market
           styles:
             self:
