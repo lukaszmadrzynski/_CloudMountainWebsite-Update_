@@ -5,9 +5,9 @@
         "dev": "next dev",
         "build": "next build",
         "postbuild": "node scripts/copy-platform-files.js",
-        "prebuild": "node scripts/generate-sitemap.js && node scripts/generate-image-dims.js || python scripts/generate-image-dims.py",
+        "prebuild": "node scripts/generate-sitemap.js && node scripts/generate-image-dims.js",
         "sitemap": "node scripts/generate-sitemap.js",
-        "dims": "node scripts/generate-image-dims.js || python scripts/generate-image-dims.py",
+        "dims": "node scripts/generate-image-dims.js",
         "start": "next start"
     },
     "dependencies": {

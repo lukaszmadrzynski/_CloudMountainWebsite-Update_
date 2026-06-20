@@ -139,7 +139,7 @@ seo:
   metaDescription: >-
     Read inspiring stories, travel insights, and eco-adventure experiences from
     the Yunnan highlands. Discover the beauty of sustainable travel.
-  socialImage: /images/blog/ndex/img-placeholder.svg
+  socialImage: /images/shared/brand/cm-logo-color.png
   type: Seo
 type: PostFeedLayout
 bottomSections: []
