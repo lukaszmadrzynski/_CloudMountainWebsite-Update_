@@ -10,12 +10,32 @@ export function seoGenerateMetaTags(page, site) {
     const seoTitle = seoGenerateTitle(page, site);
     const seoDescription = seoGenerateMetaDescription(page, site);
     const ogImage = seoGenerateOgImage(page, site);
+    const domainUrl = site.env?.URL ? site.env.URL : null;
+    const pageUrl = page.__metadata?.urlPath
+        ? (domainUrl ? domainUrl + page.__metadata.urlPath : page.__metadata.urlPath)
+        : null;
+    const isPost = page.__metadata?.modelName === 'PostLayout';
 
+    // Social preview image is 1200x630. The manifest in /scripts/ could be wired
+    // in later for actual per-image dimensions; for now we hardcode 1200x630
+    // because the default is that size and most crawlers (WhatsApp, Telegram,
+    // Twitter, LinkedIn) accept a missing og:image:width/height but prefer it.
     pageMetaTags = {
         ...pageMetaTags,
         ...(seoTitle && { 'og:title': seoTitle }),
         ...(ogImage && { 'og:image': ogImage }),
-        ...(seoDescription && { 'og:description': seoDescription })
+        ...(ogImage && { 'og:image:width': '1200' }),
+        ...(ogImage && { 'og:image:height': '630' }),
+        ...(ogImage && { 'og:image:alt': seoTitle || 'Cloud Mountain' }),
+        ...(seoDescription && { 'og:description': seoDescription }),
+        ...(pageUrl && { 'og:url': pageUrl }),
+        ...(domainUrl && { 'og:site_name': site.titleSuffix || 'Cloud Mountain' }),
+        'og:type': isPost ? 'article' : 'website',
+        // Twitter card — many crawlers (including some social apps) also read these
+        'twitter:card': 'summary_large_image',
+        ...(seoTitle && { 'twitter:title': seoTitle }),
+        ...(seoDescription && { 'twitter:description': seoDescription }),
+        ...(ogImage && { 'twitter:image': ogImage })
     };
 
     if (page.seo?.metaTags?.length) {
@@ -26,11 +46,11 @@ export function seoGenerateMetaTags(page, site) {
 
     let metaTags = [];
     Object.keys(pageMetaTags).forEach((key) => {
-        if (pageMetaTags[key] !== null) {
+        if (pageMetaTags[key] !== null && pageMetaTags[key] !== undefined) {
             metaTags.push({
                 property: key,
                 content: pageMetaTags[key],
-                format: key.startsWith('og') ? 'property' : 'name'
+                format: key.startsWith('og') || key === 'twitter:card' || key.startsWith('twitter:') ? 'property' : 'name'
             });
         }
     });
@@ -76,7 +96,8 @@ export function seoGenerateOgImage(page, site) {
         ogImage = page.seo?.socialImage;
     }
 
-    // ogImage should use an absolute URL. Get the Netlify domain URL from the Netlify environment variable process.env.URL
+    // ogImage should use an absolute URL. social platforms (WhatsApp, Telegram,
+    // Twitter, LinkedIn, Facebook) silently fail to render relative og:image URLs.
     const domainUrl = site.env?.URL ? site.env.URL : null;
 
     if (ogImage) {

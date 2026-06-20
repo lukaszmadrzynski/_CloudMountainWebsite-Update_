@@ -5,5 +5,8 @@
     "defaultSocialImage": "/images/shared/brand/cm-social-preview.webp",
     "type": "Config",
     "header": "content/data/header.json",
-    "defaultMetaTags": []
+    "defaultMetaTags": [],
+    "env": {
+        "URL": "https://cloudmountain.top"
+    }
 }
