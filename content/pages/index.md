@@ -480,8 +480,7 @@ sections:
 seo:
   type: Seo
   socialImage: /images/shared/brand/cm-social-preview.webp
-  metaTitle: Sustainable Adventures in Lijiang and Shangri-La
-  metaDescription: >
-    Immerse yourself in the breathtaking landscapes and vibrant cultures of
-    Yunnan with Cloud Mountain Ecotours. Expert guides. Deep encounters. Lasting impact.
+  addTitleSuffix: false
+  metaTitle: Cloud Mountain Ecotours - Sustainable Adventures in Lijiang and Shangri-La
+  metaDescription: Immerse yourself in the breathtaking landscapes and vibrant cultures of Yunnan. Expert guides. Deep encounters. Lasting impact.
 ---
