@@ -430,7 +430,7 @@ sections:
       text:
         textAlign: center
 slug: /partner/schools
-isDraft: false
+isDraft: true
 seo:
   type: Seo
   metaTitle: For Schools & Education - EcoCamp Programs | Cloud Mountain

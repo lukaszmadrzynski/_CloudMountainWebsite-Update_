@@ -446,7 +446,7 @@ sections:
       text:
         textAlign: center
 slug: /partner/corporate
-isDraft: false
+isDraft: true
 seo:
   type: Seo
   metaTitle: Corporate Team Building & Retreats - Cloud Mountain

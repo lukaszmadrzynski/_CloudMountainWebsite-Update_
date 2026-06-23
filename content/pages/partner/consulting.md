@@ -437,7 +437,7 @@ sections:
       text:
         textAlign: center
 slug: /partner/consulting
-isDraft: false
+isDraft: true
 seo:
   type: Seo
   metaTitle: Sustainability Consulting Services - Cloud Mountain

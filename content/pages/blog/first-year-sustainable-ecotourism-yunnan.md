@@ -12,7 +12,7 @@ featuredImage:
     self:
       borderRadius: none
 isFeatured: false
-isDraft: false
+isDraft: true
 author: content/data/person1.json
 seo:
   metaTitle: Our First Year of Sustainable Ecotourism in Yunnan

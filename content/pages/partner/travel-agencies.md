@@ -430,7 +430,7 @@ sections:
       text:
         textAlign: center
 slug: /partner/travel-agencies
-isDraft: false
+isDraft: true
 seo:
   type: Seo
   metaTitle: Partner With Cloud Mountain - For Travel Agencies

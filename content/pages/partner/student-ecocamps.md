@@ -226,7 +226,7 @@ sections:
           - pl-3
           - pr-3
 slug: /Student-EcoCamps
-isDraft: false
+isDraft: true
 seo:
   type: Seo
   metaTitle: Middle & High School Sustainability Programs in Yunnan

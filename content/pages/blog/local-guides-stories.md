@@ -12,7 +12,7 @@ featuredImage:
     self:
       borderRadius: none
 isFeatured: false
-isDraft: false
+isDraft: true
 author: content/data/person1.json
 seo:
   metaTitle: Stories from Our Local Guides
