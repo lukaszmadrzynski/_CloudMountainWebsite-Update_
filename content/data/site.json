@@ -1,5 +1,5 @@
 {
-    "favicon": "/images/shared/brand/cm-logo-color.png",
+    "favicon": "/favicon.ico",
     "footer": "content/data/footer.json",
     "titleSuffix": "Cloud Mountain",
     "defaultSocialImage": "/images/shared/brand/cm-social-preview.webp",
