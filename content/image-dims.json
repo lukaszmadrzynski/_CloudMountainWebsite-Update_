@@ -235,6 +235,10 @@
     "w": 66,
     "h": 66
   },
+  "/shared/brand/cm-logo-sharp.png": {
+    "w": 256,
+    "h": 256
+  },
   "/shared/brand/cm-social-preview.webp": {
     "w": 1200,
     "h": 630
