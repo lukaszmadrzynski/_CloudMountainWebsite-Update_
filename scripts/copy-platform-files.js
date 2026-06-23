@@ -15,11 +15,15 @@
  * on Windows, Next.js can hold file handles briefly after `next build` exits,
  * causing an EPERM on directory stats. We just attempt the copy directly and
  * catch ENOENT/EPERM per-file.
+ *
+ * Custom 404: Next.js generates its own `out/404.html` from the default error
+ * page at the end of the build. We overwrite it with our hand-crafted
+ * `public/404.html` so Cloudflare Pages serves the branded 404.
  */
 const fs = require('fs');
 const path = require('path');
 
-const PLATFORM_FILES = ['_redirects', '_headers'];
+const PLATFORM_FILES = ['_redirects', '_headers', '404.html'];
 const SOURCE_DIR = path.join(__dirname, '..', 'public');
 const TARGET_DIR = path.join(__dirname, '..', 'out');
 
