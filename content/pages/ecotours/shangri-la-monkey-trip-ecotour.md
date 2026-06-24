@@ -389,7 +389,7 @@ sections:
         text: Immerse yourself in the authentic traditional countryside lifestyle of local Tibetan and Lisu minorities. Observe time-honored farming and pasturing practices, gaining a deeper appreciation for their intimate connection to the land.
         image:
           type: ImageBlock
-          url: /images/tours/shangri-la-monkey/highlight-1.webp
+          url: /images/tours/shangri-la-monkey/rural-life.webp
           altText: Local villagers in traditional farming
           styles:
             self:
