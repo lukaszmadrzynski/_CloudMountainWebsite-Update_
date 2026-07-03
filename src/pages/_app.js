@@ -15,11 +15,13 @@ const roboto_slab = Roboto_Slab({
   variable: '--font-roboto-slab',
 });
 
-// Cloudflare Turnstile site key. Set NEXT_PUBLIC_TURNSTILE_SITE_KEY in
-// Cloudflare Pages > Project Settings > Environment variables, and in .env.local
-// for local dev. The widget only renders when this is set, so dev/preview builds
-// without the env var will skip Turnstile (form still works, just no bot protection).
-const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || '';
+// Cloudflare Turnstile note: the script is NOT loaded globally here. Each form
+// loads its own copy via per-form <Script onLoad> in FormBlock (see
+// src/components/blocks/FormBlock/index.tsx). This used to be a single global
+// loader, but it had a timing race where on some pages (e.g. /book) the form's
+// render() call fired before the global script finished loading. Per-form load
+// fires onLoad exactly when each form's widget is ready to render. The widget
+// only renders when NEXT_PUBLIC_TURNSTILE_SITE_KEY is set in the env.
 
 export default function MyApp({ Component, pageProps }) {
   const GA_MEASUREMENT_ID = 'G-JG1RTRLGQJ';
@@ -45,19 +47,14 @@ export default function MyApp({ Component, pageProps }) {
         }}
       />
       {/* Cloudflare Turnstile - bot protection on the contact/booking forms.
-          Loaded once globally; FormBlock renders the actual widget per form via
-          window.turnstile.render() in a useEffect (see FormBlock/index.tsx).
-          `?render=explicit` disables the script's DOM auto-scan, which had a race
-          condition: the scan sometimes fired before React mounted the form,
-          missing the .cf-turnstile div. The script is a no-op if TURNSTILE_SITE_KEY is empty. */}
-      {TURNSTILE_SITE_KEY && (
-        <Script
-          src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
-          strategy="afterInteractive"
-          async
-          defer
-        />
-      )}
+          Loaded per-form by FormBlock (<Script onLoad>). Previously this was a
+          single global script here, but on some pages (e.g. /book) the global
+          load had timing issues where FormBlock's render() raced with the
+          script's injection. Per-form load with onLoad callback is more
+          reliable because the widget renders immediately when its own form
+          mounts and the onLoad fires only after the script is ready.
+          `?render=explicit` disables Turnstile's DOM auto-scan, so we MUST
+          call window.turnstile.render() ourselves. */}
       <div className={roboto_slab.variable}>
         <Component {...pageProps} />
       </div>

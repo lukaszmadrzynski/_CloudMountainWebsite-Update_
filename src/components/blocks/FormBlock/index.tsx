@@ -1,6 +1,7 @@
 import * as React from 'react';
 import classNames from 'classnames';
 import { useRouter } from 'next/router';
+import Script from 'next/script';
 
 import { getComponent } from '../../components-registry';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
@@ -15,57 +16,15 @@ function FormBlockInner(props) {
     const router = useRouter();
     const tourFromUrl = typeof router.query.tour === 'string' ? router.query.tour : '';
     const partnershipTypeFromUrl = typeof router.query.type === 'string' ? router.query.type : '';
-    
+
     // State for form submission
     const [isSubmitting, setIsSubmitting] = React.useState(false);
     const [submitStatus, setSubmitStatus] = React.useState<'idle' | 'success' | 'error'>('idle');
     const [statusMessage, setStatusMessage] = React.useState('');
     // Turnstile token captured via the widget's callback. Used because the script
-    // is loaded with `?render=explicit` (see _app.js), so the token is NOT auto-
-    // inserted into the form as a hidden input — we have to pass it ourselves.
+    // is loaded with `?render=explicit`, so the token is NOT auto-inserted into
+    // the form as a hidden input — we have to pass it ourselves.
     const [turnstileToken, setTurnstileToken] = React.useState<string>('');
-
-    // Render the Turnstile widget explicitly. The script is loaded with
-    // `?render=explicit` (auto-scan disabled), so we MUST call
-    // window.turnstile.render() ourselves or the widget never appears.
-    // Polls briefly because the script may not be ready at mount time.
-    React.useEffect(() => {
-        const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
-        if (!siteKey) return;
-        if (!turnstileRef.current) return;
-
-        let cancelled = false;
-        const tryRender = () => {
-            if (cancelled) return;
-            if (typeof window !== 'undefined' && (window as any).turnstile && turnstileRef.current) {
-                try {
-                    (window as any).turnstile.render(turnstileRef.current, {
-                        sitekey: siteKey,
-                        theme: 'light',
-                        callback: (token: string) => setTurnstileToken(token),
-                        'expired-callback': () => setTurnstileToken(''),
-                        'error-callback': () => setTurnstileToken(''),
-                    });
-                } catch (e) {
-                    console.error('Turnstile render failed:', e);
-                }
-            } else {
-                setTimeout(tryRender, 100);
-            }
-        };
-        tryRender();
-
-        return () => {
-            cancelled = true;
-            if (typeof window !== 'undefined' && (window as any).turnstile) {
-                try {
-                    (window as any).turnstile.reset();
-                } catch (e) {
-                    // ignore — widget may already be gone
-                }
-            }
-        };
-    }, []);
 
     if (fields.length === 0) {
         return null;
@@ -201,13 +160,51 @@ function FormBlockInner(props) {
             )}
 
             {/* Cloudflare Turnstile widget. Renders only when the site key is set.
-                The script is loaded with `?render=explicit` (see _app.js), so the
-                useEffect above MUST call window.turnstile.render() on this div
-                ref or the widget never appears. The token is captured via the
-                callback (turnstileToken state) and appended to FormData on submit. */}
+                Loads `?render=explicit` per form via `next/script`'s onLoad, then
+                calls window.turnstile.render() explicitly. Per-form loading is more
+                reliable than a single global loader because the widget is rendered
+                immediately when its own form mounts — no race with other forms,
+                hydration order, or external state. The elementId-scoped <Script id>
+                prevents Next's "duplicate script id" warning when multiple forms
+                are on the same page (each form has a unique elementId).
+                minHeight: 65 reserves visible space for the iframe before it loads. */}
             {process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY && (
                 <div className="mt-6 flex justify-center">
-                    <div ref={turnstileRef} className="cf-turnstile" />
+                    <Script
+                        id={`cf-turnstile-script-${elementId || 'default'}`}
+                        src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
+                        strategy="afterInteractive"
+                        async
+                        defer
+                        onLoad={() => {
+                            const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
+                            if (
+                                typeof window !== 'undefined' &&
+                                (window as any).turnstile &&
+                                turnstileRef.current
+                            ) {
+                                try {
+                                    (window as any).turnstile.render(turnstileRef.current, {
+                                        sitekey: siteKey,
+                                        theme: 'light',
+                                        callback: (token: string) => setTurnstileToken(token),
+                                        'expired-callback': () => setTurnstileToken(''),
+                                        'error-callback': () => setTurnstileToken(''),
+                                    });
+                                } catch (e) {
+                                    // Most common cause: render() was already called on
+                                    // this element (e.g. on fast navigation / remount).
+                                    // Safe to ignore — widget is already up.
+                                    console.warn('Turnstile render skipped:', e);
+                                }
+                            }
+                        }}
+                    />
+                    <div
+                        ref={turnstileRef}
+                        className="cf-turnstile"
+                        style={{ minWidth: 300, minHeight: 65 }}
+                    />
                 </div>
             )}
             
