@@ -1,8 +1,8 @@
 # Cloud Mountain — robots.txt
 # Site: https://cloudmountain.top
 #
-# This file follows the standard robots.txt format. The default `User-agent: *` +
-# `Allow: /` already permits every crawler including AI assistants (GPTBot,
+# This file follows the standard robots.txt format. The default `User-agent: *`
+# + `Allow: /` already permits every crawler including AI assistants (GPTBot,
 # ClaudeBot, PerplexityBot, Google-Extended, etc.). The explicit per-bot sections
 # below are defensive — they make the policy unambiguous for AI crawlers and
 # prevent accidental future over-blocking in the Cloudflare AI Crawl Control
@@ -10,6 +10,15 @@
 #
 # For AI-specific discovery (Markdown for Agents, llms.txt) we also publish
 # /llms.txt and /llms-full.txt — see https://llmstxt.org for the spec.
+#
+# Content Signals (https://contentsignals.org/) — explicit AI usage preferences.
+# - ai-train=no: do not use our content to train AI models
+# - search=yes: allow AI search engines to use our content for retrieval
+# - ai-input=yes: allow AI assistants to ingest our content for RAG
+# - use=reference: when surfaced, treat as a reference (cite, don't paraphrase-only)
+# This is the most permissive stance for being cited by AI assistants while
+# still protecting against unauthorized training.
+Content-Signal: ai-train=no, search=yes, ai-input=yes, use=reference
 
 User-agent: *
 Allow: /

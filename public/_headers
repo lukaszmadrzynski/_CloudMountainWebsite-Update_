@@ -15,6 +15,13 @@
   Referrer-Policy: strict-origin-when-cross-origin
   # Disable powerful browser features by default
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=(), interest-cohort=()
+  # Link relations (RFC 8288) - advertise AI-discoverable resources to agents.
+  # Same on every page so an agent hitting any URL can find the AI surface area:
+  # - llms.txt / llms-full.txt: AI content summaries (https://llmstxt.org)
+  # - mcp-server-card: SEP-1649 MCP server capability declaration
+  # - agent-skills: Agent Skills Discovery RFC v0.2.0 index
+  # - sitemap: site map (also referenced in robots.txt)
+  Link: </llms.txt>; rel="ai-content", </llms-full.txt>; rel="ai-content-full", </.well-known/mcp/server-card.json>; rel="mcp-server-card", </.well-known/agent-skills/index.json>; rel="agent-skills", </sitemap.xml>; rel="sitemap"
   # Content Security Policy
   # - default-src 'self': only same-origin by default
   # - script-src: 'unsafe-inline' required for the Google Analytics inline init in _app.js and Next.js hydration
@@ -26,6 +33,6 @@
   # - base-uri 'self' blocks <base> tag injection
   Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.googletagmanager.com https://challenges.cloudflare.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://challenges.cloudflare.com; img-src 'self' data: blob: https://*.cloudmountain.top https://challenges.cloudflare.com https://www.google.com https://www.google.co.jp https://*.googletagmanager.com https://www.google-analytics.com https://analytics.google.com; font-src 'self' data: https://*.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://www.google.com https://*.doubleclick.net https://doubleclick.net https://challenges.cloudflare.com https://static.cloudflareinsights.com https://cloudflareinsights.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com https://challenges.cloudflare.com; form-action 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'
 
-# Block search engine indexing of metadata files (not blocking access — just noindex)
-  /.well-known/*
+# Block search engine indexing of metadata files (not blocking access - just noindex)
+/.well-known/*
   X-Robots-Tag: noindex
