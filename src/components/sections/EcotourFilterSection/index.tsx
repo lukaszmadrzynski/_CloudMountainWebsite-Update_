@@ -8,14 +8,17 @@ const FILTERS = [
     { id: 'half-day', label: 'Half-Day' },
     { id: 'one-day', label: 'One-Day' },
     { id: '2-3-days', label: '2-3 Days' },
-    { id: '5-7-days', label: '5-7 Days' }
+    { id: '7-days', label: '7 Days' }
 ];
 
 const DURATION_GROUPS = [
     { id: 'half-day', label: 'Half-Day Ecotours', filter: (tag: string) => tag.includes('half-day') },
     { id: 'one-day', label: 'One-Day Ecotours', filter: (tag: string) => tag.includes('one day') },
-    { id: '2-3-days', label: '2-3 Day Ecotours', filter: (tag: string) => 
-        tag.includes('two') || tag.includes('three') || (tag.includes('2') && tag.includes('3'))
+    { id: '2-3-days', label: '2-3 Day Ecotours', filter: (tag: string) =>
+        tag.includes('two day') || tag.includes('three day') || tag.includes('two-day') || tag.includes('three-day')
+    },
+    { id: '7-days', label: '7-Day Ecotours', filter: (tag: string) =>
+        tag.includes('seven') || tag.includes('7 day') || tag.includes('7-day')
     }
 ];
 
@@ -35,9 +38,9 @@ export default function EcotourFilterSection(props) {
                 case 'one-day':
                     return tag.includes('one day');
                 case '2-3-days':
-                    return tag.includes('two') || tag.includes('three') || tag.includes('2') || tag.includes('3');
-                case '5-7-days':
-                    return tag.includes('five') || tag.includes('six') || tag.includes('seven') || tag.includes('5') || tag.includes('6') || tag.includes('7');
+                    return tag.includes('two day') || tag.includes('three day') || tag.includes('two-day') || tag.includes('three-day');
+                case '7-days':
+                    return tag.includes('seven') || tag.includes('7 day') || tag.includes('7-day');
                 default:
                     return true;
             }

@@ -29,6 +29,7 @@ interface ItinerarySectionProps {
     styles?: any;
     enableAnnotations?: boolean;
     timelineLayout?: boolean;
+    combinedSchedule?: boolean;
     accentColors?: {
         primary?: string;
         secondary?: string;
@@ -58,6 +59,7 @@ export default function ItinerarySection(props: ItinerarySectionProps) {
         styles = {},
         enableAnnotations,
         timelineLayout = true,
+        combinedSchedule = false,
         accentColors = {}
     } = props;
     
@@ -183,7 +185,7 @@ export default function ItinerarySection(props: ItinerarySectionProps) {
                     </p>
                 )}
 
-                {timelineLayout ? (
+                {timelineLayout && !combinedSchedule ? (
                     <div className="relative">
                         <div className="space-y-8">
                             {days.map((day: Day, index: number) => (
@@ -207,6 +209,7 @@ export default function ItinerarySection(props: ItinerarySectionProps) {
                                 key={index}
                                 day={day}
                                 defaultOpen={index === 0}
+                                combinedSchedule={combinedSchedule}
                             />
                         ))}
                     </div>
@@ -289,20 +292,11 @@ function TimelineDayCard({ day, index, isFirst, getPeriodConfig, primaryColor, s
         }
     };
 
-    // Helper function to format day label
+    // Helper function to format day label - always returns "Day N" format
     const formatDayLabel = (dayValue: number | string) => {
-        // If it's a string (like "Half-Day" or "One Day"), use it as-is
-        if (typeof dayValue === 'string') {
-            return dayValue;
-        }
-        // If it's a number
-        const num = dayValue as number;
-        const numberWords: { [key: number]: string } = {
-            1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five',
-            6: 'Six', 7: 'Seven', 8: 'Eight', 9: 'Nine', 10: 'Ten'
-        };
-        const word = numberWords[num] || num.toString();
-        return `${word}`;
+        const s = String(dayValue);
+        if (s.startsWith('Day ')) return s;
+        return `Day ${s}`;
     };
     const getTimeGroups = () => {
         const groups: { period: string; config: any; activities: string[] }[] = [];
@@ -493,7 +487,7 @@ function TimeSectionCard({ config, period, activities, showBothIcons = false }: 
     );
 }
 
-function DayAccordion({ day, defaultOpen = false }: { day: Day; defaultOpen?: boolean }) {
+function DayAccordion({ day, defaultOpen = false, combinedSchedule = false }: { day: Day; defaultOpen?: boolean; combinedSchedule?: boolean }) {
     const [isOpen, setIsOpen] = React.useState(defaultOpen);
 
     // Helper function to get badge style based on period type
@@ -510,22 +504,29 @@ function DayAccordion({ day, defaultOpen = false }: { day: Day; defaultOpen?: bo
         }
     };
 
+    // Flatten all activities from all periods into one combined list (combined mode)
+    const combinedActivities = day.schedule?.flatMap(s => s.activities) || [];
+    const activityCount = combinedActivities.length;
+
     return (
         <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
             <button
                 className="w-full px-4 py-4 text-left flex items-center gap-4 bg-gradient-to-r from-green-50 to-white hover:from-green-100 transition-colors"
                 onClick={() => setIsOpen(!isOpen)}
             >
-                <span className="w-20 h-12 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 text-white"
-                    style={{ backgroundColor: '#5ebb46' }}
+                <span className={classNames(
+                    "w-20 h-12 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0",
+                    combinedSchedule && "border-2"
+                )}
+                    style={combinedSchedule
+                        ? { backgroundColor: 'white', color: '#5ebb46', borderColor: '#5ebb46' }
+                        : { backgroundColor: '#5ebb46', color: 'white' }
+                    }
                 >
                     Day {day.day}
                 </span>
                 <div className="flex-1">
-                    <h3 className="font-bold text-lg text-gray-900">{day.title}</h3>
-                    <p className="text-sm text-gray-500 mt-1">
-                        {day.schedule?.map(s => s.period).join(' · ')}
-                    </p>
+                    <h3 className="font-bold text-lg text-dark">{day.title}</h3>
                 </div>
                 <span className={classNames(
                     'text-2xl font-light transition-transform duration-200',
@@ -542,46 +543,63 @@ function DayAccordion({ day, defaultOpen = false }: { day: Day; defaultOpen?: bo
             )}>
                 <div className="px-4 pb-6 pt-2">
                     <div className="space-y-4">
-                        {day.schedule?.map((period, idx) => {
-                            const style = getPeriodStyle(period.period);
-                            return (
-                                <div key={idx} className="flex gap-4">
-                                    <div className="w-28 flex-shrink-0">
-                                        <span
-                                            className={classNames(
-                                                'inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium',
-                                                style.bg
-                                            )}
-                                            style={{ color: style.textColor }}
-                                        >
-                                            {style.iconPath && (
-                                                <img
-                                                    src={style.iconPath}
-                                                    alt={period.period}
-                                                    className="w-4 h-4 object-contain"
-                                                />
-                                            )}
-                                            {period.period}
+                        {combinedSchedule ? (
+                            // Combined mode: one bulleted list of all activities, no period captions
+                            <ul className="space-y-2">
+                                {combinedActivities.map((activity, actIdx) => (
+                                    <li key={actIdx} className="text-gray-700 flex items-start gap-2">
+                                        <span className="mt-1.5" style={{ color: '#5ebb46' }}>
+                                            <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                                                <circle cx="10" cy="10" r="4"/>
+                                            </svg>
                                         </span>
+                                        <span>{activity}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        ) : (
+                            // Default mode: per-period rendering
+                            day.schedule?.map((period, idx) => {
+                                const style = getPeriodStyle(period.period);
+                                return (
+                                    <div key={idx} className="flex gap-4">
+                                        <div className="w-28 flex-shrink-0">
+                                            <span
+                                                className={classNames(
+                                                    'inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium',
+                                                    style.bg
+                                                )}
+                                                style={{ color: style.textColor }}
+                                            >
+                                                {style.iconPath && (
+                                                    <img
+                                                        src={style.iconPath}
+                                                        alt={period.period}
+                                                        className="w-4 h-4 object-contain"
+                                                    />
+                                                )}
+                                                {period.period}
+                                            </span>
+                                        </div>
+                                        <div className="flex-1">
+                                            <ul className="space-y-1">
+                                                {period.activities.map((activity, actIdx) => (
+                                                    <li key={actIdx} className="text-gray-700 flex items-start gap-2">
+                                                        <span className="mt-1.5" style={{ color: '#5ebb46' }}>
+                                                            <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                                                                <circle cx="10" cy="10" r="4"/>
+                                                            </svg>
+                                                        </span>
+                                                        <span>{activity}</span>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <div className="flex-1">
-                                        <ul className="space-y-1">
-                                            {period.activities.map((activity, actIdx) => (
-                                                <li key={actIdx} className="text-gray-700 flex items-start gap-2">
-                                                    <span className="mt-1.5" style={{ color: '#5ebb46' }}>
-                                                        <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                                            <circle cx="10" cy="10" r="4"/>
-                                                        </svg>
-                                                    </span>
-                                                    <span>{activity}</span>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                </div>
-                            );
-                        })}
-                        {day.meals && day.meals.length > 0 && (
+                                );
+                            })
+                        )}
+                        {day.meals && day.meals.length > 0 && !combinedSchedule && (
                             <div className="flex gap-4">
                                 <div className="w-28 flex-shrink-0">
                                     <span
@@ -604,7 +622,7 @@ function DayAccordion({ day, defaultOpen = false }: { day: Day; defaultOpen?: bo
                             </div>
                         )}
                         {day.accommodation && (
-                            <div className="flex gap-4 items-center pt-2 border-t border-gray-100">
+                            <div className="flex gap-4 items-center pt-3 mt-2 border-t border-gray-100">
                                 <div className="w-28 flex-shrink-0">
                                     <span
                                         className="inline-block px-3 py-1 rounded-full text-sm font-medium text-white"

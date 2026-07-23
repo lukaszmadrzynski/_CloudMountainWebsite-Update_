@@ -441,7 +441,7 @@ sections:
           textAlign: center
     timelineLayout: true
     days:
-      - day: Day One
+      - day: 1
         title: Into the Wild
         schedule:
           - period: Morning
@@ -453,7 +453,7 @@ sections:
           - period: Evening
             activities:
               - "Savor authentic local cuisine before connecting with Lisu traditions through an enchanting bonfire dance and music experience. Create lasting memories as you join in festivities around the warm bonfire. Take a short stroll into the wild primeval forest at night, hear nocturnal animals and observe rare insects that come out during cool nights. Finally, settle into your comfortable mountain retreat."
-      - day: Day Two
+      - day: 2
         title: Rare Birds, Old Forests and Mountain Views
         schedule:
           - period: Morning

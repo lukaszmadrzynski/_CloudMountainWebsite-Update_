@@ -441,7 +441,7 @@ sections:
           textAlign: center
     timelineLayout: true
     days:
-      - day: Day One
+      - day: 1
         title: Ascent to Alpine Lake
         schedule:
           - period: Morning
@@ -453,7 +453,7 @@ sections:
           - period: Evening
             activities:
               - "Arrive at your overnight village stay in Wenhai. Share authentic dinner with local Naxi families and gather around a cozy bonfire."
-      - day: Day Two
+      - day: 2
         title: Caves and Villages
         schedule:
           - period: Morning
@@ -465,7 +465,7 @@ sections:
           - period: Evening
             activities:
               - "Arrive in Runangu Yi minority village for your second overnight stay. Immerse yourself in Yi culture and engage with welcoming villagers."
-      - day: Day Three
+      - day: 3
         title: Into the Wilderness
         schedule:
           - period: Morning

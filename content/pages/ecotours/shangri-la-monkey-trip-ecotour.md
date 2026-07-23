@@ -441,7 +441,7 @@ sections:
           textAlign: center
     timelineLayout: true
     days:
-      - day: Day One
+      - day: 1
         title: Wildlife and Culture Discovery
         schedule:
           - period: Morning
@@ -453,7 +453,7 @@ sections:
           - period: Evening
             activities:
               - 'As twilight descends, savor authentic local cuisine, then settle into your mountain retreat where stars emerge in crystal-clear skies.'
-      - day: Day Two
+      - day: 2
         title: Conservation and Nature
         schedule:
           - period: Morning

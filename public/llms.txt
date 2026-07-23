@@ -1,0 +1,47 @@
+# Cloud Mountain — Sustainable Ecotours in Yunnan, China
+
+> Cloud Mountain is a small, locally-run ecotour company based in Lijiang, Yunnan, China. We design and lead small-group (2-6 guests) sustainable experiences across northwest Yunnan: cultural heritage tours, the Himalayan foothills around Meili Snow Mountain, and endemic-birding trips. Founded by Lukasz Madrzynski and Lynne Lyu, the company operates as Lijiang Cloud Mountain Education Consulting Co. Ltd.
+
+## Core Pages
+- [Home](https://cloudmountain.top/): Mission, featured experiences, and quick links to tours.
+- [EcoTours](https://cloudmountain.top/ecotours): The full catalogue of half-day, 1-day, 2-3 day, and 7-day tours in Yunnan.
+- [Why Us](https://cloudmountain.top/why-us): Company story, team, sustainability principles, partners.
+- [Book a Tour](https://cloudmountain.top/book): Booking form (with a Cloudflare Turnstile security check).
+- [Contact Us](https://cloudmountain.top/contact-us): Direct contact info for the founders (email, phone, WhatsApp, WeChat).
+- [Partner With Us](https://cloudmountain.top/partner-with-us): Programs for schools, family camps, and consulting.
+
+## 7-Day Tours (flagship)
+- [Yunnan Four Kingdoms](https://cloudmountain.top/yunnan-four-kingdoms-ecotour): 7-day cultural loop — Kunming, Dali, Lijiang, Shangri-La. Four historical kingdoms (Dian, Nanzhao, Mu, Tibetan). Three UNESCO sites. $1,378-$1,776 per person.
+- [Yunnan Himalaya Foothills](https://cloudmountain.top/lijiang-meili-deep-dive-ecotour): 7-day Lijiang + Meili + Kawagebo + snub-nosed monkey. $2,250-$2,890 per person.
+- [Yunnan Endemic Birding](https://cloudmountain.top/birding-tour-yunnan-three-ecosystems-ecotour): 7-day specialist birding — three ecosystems of northwest Yunnan. $3,500-$3,950 per person.
+
+## Short Tours (half-day to 2-3 days)
+- [Naxi Heritage Walking Tour (Lijiang Old Town)](https://cloudmountain.top/lijiang-old-town-ecotour)
+- [Living Waters of Lashi](https://cloudmountain.top/living-waters-of-lashi-ecotour)
+- [Tea Horse Road Adventure](https://cloudmountain.top/taste-of-tea-horse-road-ecotour)
+- [Lijiang Heritage In-Depth](https://cloudmountain.top/lijiang-heritage-in-depth-ecotour)
+- [Dongba Culture Hands-On](https://cloudmountain.top/dongba-culture-hands-on-ecotour)
+- [Shangri-La Monkey Trip](https://cloudmountain.top/shangri-la-monkey-trip-ecotour)
+- [Lijiang Heavenly Valley](https://cloudmountain.top/lijiang-heavenly-valley-ecotour)
+- [Lijiang Forgotten Forest](https://cloudmountain.top/lijiang-forgotten-forest-ecotour)
+- [E-Biking Lijiang Villages](https://cloudmountain.top/e-biking-lijiang-villages-ecotour)
+- [NatGeo Forever Walk](https://cloudmountain.top/natgeo-forever-walk-ecotour)
+- [Hidden Jade Dragon](https://cloudmountain.top/hidden-jade-dragon-ecotour)
+- [Wild Heart of Lijiang](https://cloudmountain.top/wild-heart-of-lijiang-ecotour)
+
+## Blog
+- [All posts](https://cloudmountain.top/blog)
+- [Our First Year of Sustainable Ecotourism in Yunnan](https://cloudmountain.top/first-year-sustainable-ecotourism-yunnan)
+- [Stories from Our Local Guides](https://cloudmountain.top/local-guides-stories)
+- [Spring Wildflowers of the Yunnan Highlands](https://cloudmountain.top/spring-wildflowers-yunnan)
+- [Tea Horse Road Adventure](https://cloudmountain.top/tea-horse-road-adventure)
+- [Discovering Naxi Culinary Traditions](https://cloudmountain.top/discovering-naxi-culinary-traditions)
+- [Sustainable Lodging in Yunnan](https://cloudmountain.top/sustainable-lodging-yunnan)
+
+## Company
+- Legal name: Lijiang Cloud Mountain Education Consulting Co. Ltd.
+- Founders: Lukasz Madrzynski (lukas@cloudmountain.top, +86 18687958551) and Lynne Lyu (lynne@cloudmountain.top, +86 19813252518)
+- Region served: Northwest Yunnan, China — Lijiang, Shangri-La, Dali, Kunming
+- Languages: English (primary), Chinese
+- Social: [Instagram](https://www.instagram.com/cloud.mountain.ecotours/) | [LinkedIn](https://www.linkedin.com/company/cloud-mountain-sustainability/)
+- Booking: [Book a Tour](https://cloudmountain.top/book) or via the inquiry form on each tour page.

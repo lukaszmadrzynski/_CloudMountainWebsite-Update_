@@ -539,6 +539,130 @@ sections:
             margin:
               - ml-1
               - mr-1
+      - type: FeaturedItem
+        title: Yunnan Four Kingdoms
+        tagline: Seven Days | Kunming, Dali, Lijiang & Shangri-La
+        subtitle: from $1,378 to $1,776 per person
+        text: >
+          Trace Yunnan's 1,400-km cultural arc through four historical kingdoms - Dian of Kunming,
+          Nanzhao of Dali, Mu of Lijiang, and Tibetan Shangri-La. Erhai lakeside, Shibaoshan's
+          1,000-year-old grottoes, Lijiang Old Town, Tiger Leaping Gorge, and Songzanlin prayer halls.
+          Seven days, four cultures, and the Yunnan most travelers never reach.
+        image:
+          type: ImageBlock
+          url: /images/tours/lijiang-old-town/card.webp
+          altText: Lijiang Old Town rooftops with Jade Dragon Snow Mountain in the distance
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /yunnan-four-kingdoms-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
+      - type: FeaturedItem
+        title: Yunnan Himalaya Foothills
+        tagline: Seven Days | Meili Snow Mountain, Off the Beaten Path
+        subtitle: from $2,250 to $2,890 per person
+        text: >
+          Travel from Lijiang's hidden valleys to Kawagebo at sunrise — Tibetan home dinners, a Cizhong
+          church mass, snub-nosed monkey tracking, and the silence above the Meili snow line. Seven days
+          beyond the postcard.
+        image:
+          type: ImageBlock
+          url: /images/tours/wild-heart-of-lijiang/card.webp
+          altText: Mist-shrouded Meili Snow Mountain range in Northwest Yunnan
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /lijiang-meili-deep-dive-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
+      - type: FeaturedItem
+        title: Yunnan Endemic Birding
+        tagline: Seven Days | Three Ecosystems, One Critically-endemic Bird
+        subtitle: from $3,500 to $3,950 per person
+        text: >
+          Walk Lashi wetlands at dawn with pre-tripped Swarovski optics, ascend Laojun Mountain for the Yunnan
+          Redstart, and finish in Baihualing's subtropical valleys for the Green Cochoa. Seven days, three
+          ecosystems, and a life-list you could not have built on your own.
+        image:
+          type: ImageBlock
+          url: /images/tours/shangri-la-monkey/card.webp
+          altText: Baima Snow Mountain habitat for high-altitude endemic birds
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /birding-tour-yunnan-three-ecosystems-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
     colors: bg-neutral-fg-dark
     styles:
       self:
@@ -566,7 +690,7 @@ sections:
       color: text-dark
     subtitle: Create Your Own EcoExperience!
     text: >+
-      Interested in a more personalized, in-depth itinerary? Please contact us to
+      Interested in combining our ecotours or adding other destinations and activities for a more personalized, in-depth itinerary? Please contact us to
       discuss designing a unique EcoJourney tailored just for you.
     actions:
       - type: Button

@@ -1,14 +1,14 @@
 # Cloudflare Pages _redirects
 #
-# Intentionally empty.
-#
 # Cross-host redirects (pages.dev -> apex, www -> apex) are handled by
 # Cloudflare Redirect Rules at Rules -> Redirect Rules in the dashboard.
 # Those rules are evaluated at the edge before the request reaches Pages,
 # and they work for cross-hostname sources/destinations that the _redirects
 # file format rejects.
 #
-# If you ever need same-host redirects (e.g. /old-page -> /new-page),
-# add them here using relative paths only:
+# Same-host redirects (e.g. /old-page -> /new-page) use relative paths only:
 #     /old-page /new-page 301
 # (No scheme/hostname in the source or destination.)
+
+# 2026-07-02: Grand Loop renamed to "Yunnan Four Kingdoms"
+/yunnan-classic-grand-loop-ecotour /yunnan-four-kingdoms-ecotour 301
