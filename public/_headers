@@ -16,12 +16,20 @@
   # Disable powerful browser features by default
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=(), interest-cohort=()
   # Link relations (RFC 8288) - advertise AI-discoverable resources to agents.
-  # Same on every page so an agent hitting any URL can find the AI surface area:
-  # - llms.txt / llms-full.txt: AI content summaries (https://llmstxt.org)
-  # - mcp-server-card: SEP-1649 MCP server capability declaration
-  # - agent-skills: Agent Skills Discovery RFC v0.2.0 index
-  # - sitemap: site map (also referenced in robots.txt)
-  Link: </llms.txt>; rel="ai-content", </llms-full.txt>; rel="ai-content-full", </.well-known/mcp/server-card.json>; rel="mcp-server-card", </.well-known/agent-skills/index.json>; rel="agent-skills", </sitemap.xml>; rel="sitemap"
+  # Same on every page so an agent hitting any URL can find the AI surface area.
+  # IANA-registered relation types included for the broadest parser coverage:
+  #   - rel="alternate" type="text/markdown" -> llms.txt / llms-full.txt as Markdown alternatives of the HTML page
+  #   - rel="help"                           -> /contact-us/ (where to ask humans for help)
+  #   - rel="manifest"                       -> site.webmanifest
+  #   - rel="icon"                           -> favicon
+  #   - rel="sitemap"                        -> sitemap.xml
+  #   - rel="author"                         -> /why-us/ (the company's "about" page)
+  # Agent-specific (non-IANA) relation types for AI/LLM agent discovery:
+  #   - rel="ai-content"                     -> llms.txt (AI content summary per llmstxt.org)
+  #   - rel="ai-content-full"                -> llms-full.txt (full AI content)
+  #   - rel="mcp-server-card"                -> MCP server card (SEP-1649)
+  #   - rel="agent-skills"                   -> Agent Skills Discovery index
+  Link: </llms.txt>; rel="alternate"; type="text/markdown"; title="Cloud Mountain - AI content summary", </llms-full.txt>; rel="alternate"; type="text/markdown"; title="Cloud Mountain - full AI content", </llms.txt>; rel="ai-content", </llms-full.txt>; rel="ai-content-full", </contact-us/>; rel="help", </why-us/>; rel="author", </site.webmanifest>; rel="manifest", </favicon.ico>; rel="icon", </.well-known/mcp/server-card.json>; rel="mcp-server-card", </.well-known/agent-skills/index.json>; rel="agent-skills", </sitemap.xml>; rel="sitemap"
   # Content Security Policy
   # - default-src 'self': only same-origin by default
   # - script-src: 'unsafe-inline' required for the Google Analytics inline init in _app.js and Next.js hydration
