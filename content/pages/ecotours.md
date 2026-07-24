@@ -539,47 +539,6 @@ sections:
             margin:
               - ml-1
               - mr-1
-      - type: FeaturedItem
-        title: Yunnan Endemic Birding
-        tagline: Seven Days | Three Ecosystems, One Critically-endemic Bird
-        subtitle: from $3,500 to $3,950 per person
-        text: >
-          Walk Lashi wetlands at dawn with pre-tripped Swarovski optics, ascend Laojun Mountain for the Yunnan
-          Redstart, and finish in Baihualing's subtropical valleys for the Green Cochoa. Seven days, three
-          ecosystems, and a life-list you could not have built on your own.
-        image:
-          type: ImageBlock
-          url: /images/tours/shangri-la-monkey/card.webp
-          altText: Baima Snow Mountain habitat for high-altitude endemic birds
-          elementId: ''
-          styles:
-            self:
-              borderRadius: x-large
-        actions:
-          - type: Button
-            label: Learn More
-            altText: ''
-            url: /birding-tour-yunnan-three-ecosystems-ecotour
-            showIcon: false
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            elementId: ''
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-4
-              - pl-4
-              - pb-4
-              - pr-4
-            borderRadius: x-large
-            flexDirection: col
-            justifyContent: center
-            textAlign: left
-            margin:
-              - ml-1
-              - mr-1
     colors: bg-neutral-fg-dark
     styles:
       self:

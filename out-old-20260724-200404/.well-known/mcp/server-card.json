@@ -1,0 +1,99 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/server-card/v0.1.json",
+  "serverInfo": {
+    "name": "Cloud Mountain",
+    "version": "0.1.0",
+    "description": "MCP server (planned) for the Cloud Mountain ecotour site. Will expose tour catalogue, itinerary, pricing, and booking resources to AI agents. Server is not yet deployed — this card declares the planned surface area for early agent discovery."
+  },
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "https://cloudmountain.top/mcp",
+    "status": "planned",
+    "notes": "The /mcp endpoint is reserved but not yet serving requests. When deployed it will be hosted on Cloudflare Workers (per the same-origin Workers Route pattern as the contact-form Worker). See https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2127 for the Server Card spec this card follows."
+  },
+  "capabilities": {
+    "tools": [
+      {
+        "name": "list_tours",
+        "description": "List all available ecotours with title, duration, locations, and price range.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "duration_filter": {
+              "type": "string",
+              "enum": ["half-day", "1-day", "2-3-days", "7-days"],
+              "description": "Optional filter by tour duration."
+            }
+          }
+        }
+      },
+      {
+        "name": "get_tour",
+        "description": "Get full details for a specific tour: itinerary, highlights, pricing tiers, included items, FAQ, and booking link.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "tour_slug": {
+              "type": "string",
+              "description": "URL slug of the tour, e.g. 'yunnan-four-kingdoms-ecotour'."
+            }
+          },
+          "required": ["tour_slug"]
+        }
+      },
+      {
+        "name": "get_pricing",
+        "description": "Get current pricing tiers for a tour (per-person prices by group size, in USD).",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "tour_slug": {
+              "type": "string"
+            }
+          },
+          "required": ["tour_slug"]
+        }
+      }
+    ],
+    "resources": [
+      {
+        "uri": "tours://all",
+        "name": "All tours catalogue",
+        "description": "Full tour catalogue with titles, durations, locations, and starting prices.",
+        "mimeType": "application/json"
+      },
+      {
+        "uri": "tours://{slug}",
+        "name": "Tour detail",
+        "description": "Per-tour detail (itinerary, highlights, pricing, FAQ, booking link).",
+        "mimeType": "application/json"
+      },
+      {
+        "uri": "blog://all",
+        "name": "All blog posts",
+        "description": "Blog post index with titles, dates, authors, and URLs.",
+        "mimeType": "application/json"
+      }
+    ],
+    "prompts": [
+      {
+        "name": "recommend_tour",
+        "description": "Given user preferences (duration, interests, group size, dates, budget), recommend the most appropriate Cloud Mountain tour."
+      }
+    ]
+  },
+  "metadata": {
+    "publisher": {
+      "name": "Cloud Mountain",
+      "url": "https://cloudmountain.top"
+    },
+    "region": "Yunnan, China",
+    "language": "en",
+    "authRequired": false,
+    "seeAlso": [
+      "https://cloudmountain.top/llms.txt",
+      "https://cloudmountain.top/llms-full.txt",
+      "https://cloudmountain.top/.well-known/agent-skills/index.json"
+    ]
+  }
+}
