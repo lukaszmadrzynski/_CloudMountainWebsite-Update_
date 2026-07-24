@@ -1,0 +1,73 @@
+# Cloud Mountain — robots.txt
+# Site: https://cloudmountain.top
+#
+# This file follows the standard robots.txt format. The default `User-agent: *`
+# + `Allow: /` already permits every crawler including AI assistants (GPTBot,
+# ClaudeBot, PerplexityBot, Google-Extended, etc.). The explicit per-bot sections
+# below are defensive — they make the policy unambiguous for AI crawlers and
+# prevent accidental future over-blocking in the Cloudflare AI Crawl Control
+# dashboard from silently re-disallowing them.
+#
+# For AI-specific discovery (Markdown for Agents, llms.txt) we also publish
+# /llms.txt and /llms-full.txt — see https://llmstxt.org for the spec.
+#
+# Content Signals (https://contentsignals.org/) — explicit AI usage preferences.
+# - ai-train=no: do not use our content to train AI models
+# - search=yes: allow AI search engines to use our content for retrieval
+# - ai-input=yes: allow AI assistants to ingest our content for RAG
+# - use=reference: when surfaced, treat as a reference (cite, don't paraphrase-only)
+# This is the most permissive stance for being cited by AI assistants while
+# still protecting against unauthorized training.
+Content-Signal: ai-train=no, search=yes, ai-input=yes, use=reference
+
+User-agent: *
+Allow: /
+
+# AI-specific crawlers (explicit allow for clarity; the *:Allow above already covers them)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# Sitemap
+Sitemap: https://cloudmountain.top/sitemap.xml
+
+# AI discovery / markdown-for-agents hints (non-standard but increasingly parsed)
+# See https://llmstxt.org
