@@ -33,6 +33,36 @@ const ORG_ID = `${SITE_URL}/#organization`;
 const WEBSITE_ID = `${SITE_URL}/#website`;
 const BUSINESS_ID = `${SITE_URL}/#business`;
 
+// Target keywords for SEO and AI-search discoverability. The head terms
+// + mid-tail we want to rank for. Long-tail variations (best time Yunnan,
+// tour price, etc.) are answered in FAQPage schema on each tour page.
+// Keep in sync with `llms.txt` and `llms-full.txt`.
+//
+// Spelling variants: many people type "eco tours" (two words) or "eco-tours"
+// (hyphenated) instead of "ecotours" (one word). All three forms are
+// included so the schema.org keywords field covers every common spelling.
+const SITE_KEYWORDS = [
+    'Yunnan ecotours', 'Yunnan eco tours', 'Yunnan eco-tours',
+    'Yunnan tours', 'Yunnan guide', 'Yunnan tour guide',
+    'Yunnan local guide', 'Lijiang tours', 'Lijiang tour guide',
+    'Shangri-La tours', 'Shangri-La tour', 'Dali tours', 'Kunming tours',
+    'small group tours Yunnan', 'sustainable tourism Yunnan',
+    'cultural tours Yunnan', 'Yunnan cultural heritage', 'Yunnan birding',
+    'Yunnan endemic birding', 'Meili Snow Mountain tour', 'Kawagebo tour',
+    'Tiger Leaping Gorge trek', 'Tea Horse Road tour', 'Naxi cultural tour',
+    'Naxi heritage tour', 'Tibetan cultural tour Yunnan',
+    'Bai cultural tour Dali', 'Jade Dragon Snow Mountain',
+    'Yunnan small group travel', 'Yunnan private tour', 'China ecotours',
+    'China eco tours', 'Yunnan travel guide', 'best time visit Yunnan',
+    'sustainable travel China', 'Yunnan trekking', 'Yunnan hiking',
+    'Yunnan 7 day tour',
+    // Spelling variants for "ecotour(s)" - singular + hyphenated forms
+    'ecotours', 'eco tours', 'eco-tours',
+    'ecotour', 'eco tour', 'eco-tour',
+    'Yunnan ecotour', 'Yunnan eco tour', 'Yunnan eco-tour',
+    'responsible tourism Yunnan'
+];
+
 // Strip simple markdown wrappers from a string. Used to turn "*Price:* $1,776"
 // into "Price: $1,776" before stuffing it into schema fields.
 function stripMarkdown(s) {
@@ -85,6 +115,7 @@ function organizationNode() {
         url: SITE_URL,
         logo: LOGO_URL,
         description: 'Cloud Mountain is a small, locally-run ecotour company based in Lijiang, Yunnan, China. We design and lead small-group (2-6 guests) sustainable experiences across northwest Yunnan.',
+        keywords: SITE_KEYWORDS.join(', '),
         foundingLocation: 'Lijiang, Yunnan, China',
         areaServed: [
             { '@type': 'Place', name: 'Lijiang, Yunnan, China' },
@@ -141,6 +172,7 @@ function businessNode() {
         url: SITE_URL,
         image: LOGO_URL,
         logo: LOGO_URL,
+        keywords: SITE_KEYWORDS.join(', '),
         description: 'Sustainable small-group ecotours in Yunnan, China. Cultural, mountain, and birding experiences led by local guides.',
         priceRange: '$$',
         currenciesAccepted: 'USD, CNY',
@@ -209,6 +241,7 @@ function webPageNode(page) {
         name: page.title,
         description: page.seo?.metaDescription || firstSentence(stripMarkdown(page.text || '')),
         inLanguage: 'en',
+        keywords: SITE_KEYWORDS.join(', '),
         isPartOf: { '@id': WEBSITE_ID },
         publisher: { '@id': ORG_ID }
     };
@@ -282,6 +315,7 @@ function tourSchema(page) {
         url,
         image,
         inLanguage: 'en',
+        keywords: SITE_KEYWORDS.join(', '),
         touristType: ['Nature tourists', 'Cultural tourists', 'Adventure tourists', 'Bird watchers'],
         isAccessibleForFree: false,
         provider: { '@id': ORG_ID }

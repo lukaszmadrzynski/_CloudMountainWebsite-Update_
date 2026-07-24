@@ -769,12 +769,12 @@ slug: /ecotours
 isDraft: false
 seo:
   type: Seo
-  metaTitle: 'Book Your Yunnan Ecotour: Lijiang, Shangri-La, China Tours'
+  metaTitle: 'Yunnan Tours, Ecotours & Eco Tours: Lijiang, Shangri-La, Dali, Kunming'
   metaDescription: >-
-    Browse our selection of incredible ecotours in Yunnan, China. Explore
-    Lijiang's ancient charm, trek through Shangri-La's Tibetan landscapes, and
-    discover the best of sustainable travel in China. Find your perfect
-    adventure today!
+    Small-group Yunnan tours, ecotours and eco tours with a local guide.
+    Cultural heritage routes through Lijiang, Shangri-La, Dali and Kunming,
+    mountain adventures around Meili Snow Mountain, and endemic-birding
+    itineraries. Sustainable travel from $35 per person.
   addTitleSuffix: true
   socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:

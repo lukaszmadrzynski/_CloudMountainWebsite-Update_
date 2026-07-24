@@ -767,12 +767,12 @@ isDraft: false
 seo:
   type: Seo
   metaTitle: >-
-    About Cloud Mountain: Your Trusted Partner for Ecotourism and Nature Education
-    in Yunnan, China.
+    Yunnan Tour Guide & Local Guide | Cloud Mountain - Lijiang & Shangri-La
   metaDescription: >
-    Learn about Cloud Mountain: Your trusted partner for Yunnan travel and ecotours in
-    China. Learn about our founders, expert local guides, and authentic natural
-    and cultural experiences in Lijiang and Shangri-La.
+    Meet your Yunnan tour guide: a Yunnan-born lead coordinator plus local guides
+    in every region (Bai in Dali, Naxi in Lijiang, Tibetan in Shangri-La). Small-
+    group sustainable Yunnan tours, ecotours, and private guide services from
+    Lijiang.
   addTitleSuffix: true
   socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:

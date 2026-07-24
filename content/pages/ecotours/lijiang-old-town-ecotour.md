@@ -473,6 +473,15 @@ sections:
       - type: AccordionItem
         question: What's included in local snacks?
         answer: Traditional Naxi snacks such as butter tea, flatbread and local pastries are provided during the tour.
+      - type: AccordionItem
+        question: When is the best time to visit Lijiang Old Town?
+        answer: Year-round, but spring (March-May) and autumn (October-November) are the most pleasant. Mornings are quieter than afternoons. Winter days are cool but sunny; summer is the rainy season and the Old Town is busiest. The half-day format works in any season.
+      - type: AccordionItem
+        question: How much does a Lijiang Old Town tour cost?
+        answer: Our half-day Naxi Heritage Walking Tour starts at $35 per person (group of 5-6) and goes up to $55 per person for a solo traveler. Private guide upgrades and full-day extensions to Black Dragon Pool or Jade Dragon Snow Mountain are available - contact us for a quote.
+      - type: AccordionItem
+        question: Do I need a tour guide for Lijiang Old Town, or can I explore on my own?
+        answer: "You can absolutely walk the Old Town on your own - it's free and open. A local Naxi guide adds context you won't get from a map: which lanes matter, the Dongba pictographs above doorways, why this teahouse survived the 1996 earthquake, where to find the quiet courtyard. Most of our guests say the guide is the difference between a walk and a memory."
     badge:
       label: FAQ
       color: text-primary
@@ -546,12 +555,11 @@ sections:
 slug: /lijiang-old-town-ecotour
 seo:
   type: Seo
-  metaTitle: Naxi Heritage Walking Tour
+  metaTitle: Lijiang Old Town Tour | Naxi Heritage Walking Tour in Yunnan, China
   metaDescription: >-
-    Explore Lijiang Old Town, a UNESCO gem, on our Naxi Heritage Walking Tour.
-    Discover ancient streets, vibrant markets, and stunning mountain views.
-    Immerse yourself in Naxi culture & history. Book your unforgettable China
-    travel experience now!
+    Half-day Lijiang Old Town tour with a local Naxi guide in Yunnan, China. Walk
+    UNESCO cobblestone lanes, visit Mufu Palace, Black Dragon Pool, and Zhongyi
+    Market. Small-group Yunnan cultural tour from $35 per person.
   socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags:
     - type: MetaTag
