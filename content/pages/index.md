@@ -481,6 +481,6 @@ seo:
   type: Seo
   socialImage: /images/shared/brand/cm-social-preview.webp
   addTitleSuffix: false
-  metaTitle: Yunnan Ecotours & Tours | Cloud Mountain - Local Guides in Lijiang & Shangri-La
+  metaTitle: Yunnan Tours & Ecotours | Cloud Mountain
   metaDescription: Small-group Yunnan ecotours and eco tours with a local guide in Lijiang, Shangri-La, Dali, and Kunming. Sustainable cultural, mountain, and birding itineraries. Three flagship 7-day tours from $1,378 per person.
 ---

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://agentskills.io/schemas/discovery/v0.2.0",
+  "version": "0.2.0",
+  "publisher": {
+    "name": "Cloud Mountain",
+    "url": "https://cloudmountain.top"
+  },
+  "generated": "2026-07-23",
+  "skills": [
+    {
+      "name": "llms-txt",
+      "type": "content-summary",
+      "description": "Concise AI-friendly site overview: who Cloud Mountain is, what tours we offer, contact details, and direct links to all key pages. Use this as a starting point when an AI assistant needs to know what we do.",
+      "url": "https://cloudmountain.top/llms.txt",
+      "sha256": "dfae958e93279fccf52eee6d48bd817cb08fbd08b1dbea5318dd91e3d02ef380"
+    },
+    {
+      "name": "llms-full-txt",
+      "type": "content-full",
+      "description": "Long-form content version of the site: company story, all 3 flagship 7-day tours with full descriptions and pricing, all short tours index, blog excerpt, and explicit recommendation guidance for AI assistants. Use this when the user needs detailed information about a specific tour or how to recommend Cloud Mountain.",
+      "url": "https://cloudmountain.top/llms-full.txt",
+      "sha256": "4729b57b7bf426e2e374b5a15dabed0a4f0f382f1e1a97489feab0741dabfaf2"
+    },
+    {
+      "name": "mcp-server-card",
+      "type": "mcp-declaration",
+      "description": "Static declaration of Cloud Mountain's planned Model Context Protocol (MCP) server. The /mcp transport endpoint is reserved but not yet deployed; this card declares the planned tool surface (list_tours, get_tour, get_pricing), resources (tours://, blog://), and prompts (recommend_tour) so AI agents can plan integration ahead of the live deployment.",
+      "url": "https://cloudmountain.top/.well-known/mcp/server-card.json",
+      "sha256": "709edbdb57cf81001fccd29779e2b8fe88681cb57992f68ee839957df9f3bb06"
+    },
+    {
+      "name": "sitemap",
+      "type": "site-index",
+      "description": "Machine-readable sitemap of all public pages on cloudmountain.top: tours, blog posts, core pages. Updated by build time.",
+      "url": "https://cloudmountain.top/sitemap.xml",
+      "sha256": "e91ac7b02a916b8cebfce575298bb2d4e919e79564cb8d0ca8af9481a48cbe80"
+    },
+    {
+      "name": "tour-catalogue",
+      "type": "page",
+      "description": "Full catalogue of Cloud Mountain's ecotours: 7-day cultural flagship, 7-day mountain flagship, 7-day birding flagship, plus 12+ short tours (half-day to 2-3 days). Each card shows title, duration, price, and a one-line description.",
+      "url": "https://cloudmountain.top/ecotours/",
+      "sha256": "c038b4ae3e4558889d7e68fb7e33ee91f4a5cdf22e82431bc0a8d3e4274a74f4"
+    },
+    {
+      "name": "contact",
+      "type": "contact-info",
+      "description": "Direct contact info for Cloud Mountain founders: Lukas Madrzynski (lukas@cloudmountain.top, +86 18687958551) and Lynne Lyu (lynne@cloudmountain.top, +86 19813252518). For booking inquiries use /book which sends to both via the contact-form Worker.",
+      "url": "https://cloudmountain.top/contact-us/",
+      "sha256": "0475536043dc3a7dacfa59af0a40aa3cce58030139e9a9345b9b19f68b57c9cc"
+    }
+  ]
+}

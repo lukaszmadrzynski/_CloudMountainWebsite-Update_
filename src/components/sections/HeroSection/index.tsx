@@ -1,4 +1,4 @@
-﻿import * as React from 'react';
+import * as React from 'react';
 import Head from 'next/head';
 import classNames from 'classnames';
 import { Action, Badge } from '../../atoms';
@@ -40,7 +40,7 @@ export default function HeroSection(props: HeroSectionProps) {
                 fetching it before the <img> tag is even parsed, which
                 typically saves 200-500ms of LCP time. We preload with
                 imagesrcset so the browser can pick the right variant for
-                the viewport — on a 414px mobile, this is the ~40 KB
+                the viewport � on a 414px mobile, this is the ~40 KB
                 -sm.webp instead of the ~360 KB original. fetchpriority="high"
                 on the <img> below reinforces this. */}
             {media?.url && (() => {
@@ -60,7 +60,7 @@ export default function HeroSection(props: HeroSectionProps) {
             })()}
             {/* Hero image (LCP candidate).
                 Previously rendered as TWO <img> tags (mobile + desktop) with
-                the same src — browsers fetched both copies even though only
+                the same src � browsers fetched both copies even though only
                 one was visible per viewport, doubling bandwidth and hurting
                 LCP. Now a single <img> tag, with CSS controlling layout:
                   - mobile/tablet: normal flow, full width, auto height
@@ -75,7 +75,7 @@ export default function HeroSection(props: HeroSectionProps) {
                 width/height come from the build-time image-dims manifest
                 so CLS=0 for any aspect ratio (16:9, 3:2, 2.66:1, etc.).
                 Falls back to 1920x1080 if the manifest doesn't have the
-                URL — still gets a width/height, just may not match. `block`
+                URL � still gets a width/height, just may not match. `block`
                 removes the inline-baseline gap some browsers add. */}
             {media?.url && (
                 <>
@@ -156,8 +156,8 @@ export default function HeroSection(props: HeroSectionProps) {
                     )}
 
                     {title && (
-                        <h1 className={classNames("text-4xl xl:text-5xl font-bold mb-4 leading-tight text-white")} style={intenseShadow} dangerouslySetInnerHTML={{ __html: title.text }} data-sb-field-path=".title.text">
-                        </h1>
+                        <h2 className={classNames("text-4xl xl:text-5xl font-bold mb-4 leading-tight text-white")} style={intenseShadow} dangerouslySetInnerHTML={{ __html: title.text }} data-sb-field-path=".title.text">
+                        </h2>
                     )}
 
                     {subtitle && (

@@ -92,7 +92,7 @@ export default function HomepageHeroSection(props: HomepageHeroSectionProps) {
             {/* Content - positioned on right side, centered on mobile/tablet, desktop down 100px */}
             <div className="relative z-10 w-full px-4 sm:px-6 pt-32 sm:pt-56 md:pt-48 lg:pt-48 max-w-4xl mx-auto sm:mx-0 sm:mr-4 lg:mr-0 lg:pr-20 text-center sm:text-right lg:translate-y-[100px] md:-translate-y-[130px]" style={{ marginTop: 'clamp(-80px, -15vw, -150px)' }}>
                 
-                {title && (
+                {title && title.text && title.text.trim() !== '' && (
                     <h1 className={classNames("text-3xl sm:text-4xl md:text-6xl lg:text-6xl font-bold mb-3 leading-tight", textColorClass)} style={intenseShadow} data-sb-field-path=".title.text">
                         {title.text}
                     </h1>

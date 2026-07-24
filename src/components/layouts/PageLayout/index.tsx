@@ -12,6 +12,7 @@ export default function PageLayout(props) {
     const BaseLayout = getBaseLayoutComponent(page.baseLayout, site.baseLayout);
     const { enableAnnotations = true } = site;
     const { title, sections = [] } = page;
+
     
     // Check if this is the ecotour-page-template
     const pageSlug = page.__metadata?.fields?.slug?.value || page.slug || '';
@@ -48,7 +49,7 @@ export default function PageLayout(props) {
                 />
             )}
             <main id="main" className="sb-layout sb-page-layout">
-                {title && (
+                {title && page.__metadata?.urlPath !== '/' && (
                     <h1 className="sr-only" {...(enableAnnotations && { 'data-sb-field-path': 'title' })}>
                         {title}
                     </h1>
@@ -90,3 +91,6 @@ export default function PageLayout(props) {
         </BaseLayout>
     );
 }
+
+
+
