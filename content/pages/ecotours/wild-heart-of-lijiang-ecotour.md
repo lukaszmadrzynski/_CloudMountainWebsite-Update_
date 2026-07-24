@@ -644,18 +644,6 @@ sections:
 slug: /wild-heart-of-lijiang-ecotour
 seo:
   type: Seo
-  metaTitle: Laojun's Wild Heart Ecotour | Laojun Mountains UNESCO Site Adventure
-  metaDescription: >-
-    Escape to Laojun Mountain Ecotour, Yunnan, China! Track Biet's Laughingthrush at a village birding station, hike alpine meadows, spot rare birds, & immerse in Naxi, Bai, Pumi and Lisu minority cultures. Discover Yangtze First Bend & Himalayan honey. Authentic China nature & culture adventure.
-  socialImage: /images/shared/brand/cm-social-preview.webp
-  metaTags:
-    - type: MetaTag
-      content: >-
-        laojun mountain ecotour, yunnan ecotours, china nature tours, china
-        culture tours, laojun mountains hiking, biet laughingthrush china,
-        birdwatching china, yangtze first bend tour, minority culture yunnan,
-        naxi culture, bai culture, pumi culture, lisu culture, himalayan honey
-        tour, china adventure travel, sustainable tourism china, biodiversity
-        monitoring, alpine meadows yunnan, primeval forest china, ecotourism
-        yunnan, 2-day yunnan tour
+  metaTitle: Laojun Wild Heart Tour | Yunnan UNESCO Birding + Trekking Ecotour
+  metaDescription: Escape to Laojun Mountain, Yunnan, China. Track Biet Laughingthrush at a village birding station, hike alpine meadows, and stay overnight with a Lisu family. Small-group Yunnan eco tour.
 ---

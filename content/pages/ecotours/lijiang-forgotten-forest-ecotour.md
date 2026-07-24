@@ -630,21 +630,6 @@ sections:
 slug: /lijiang-forgotten-forest-ecotour
 seo:
   type: Seo
-  metaTitle: "Lijiang's Forgotten Forest Ecotour"
-  metaDescription: >-
-    Escape Lijiang! Discover Forgotten Forest ecotour: a hidden biodiversity
-    hotspot near Lijiang. Rare orchids, birds, & views await! Book your nature
-    walk.
-  socialImage: /images/shared/brand/cm-social-preview.webp
-  metaTags:
-    - type: MetaTag
-      content: >-
-        Lijiang ecotour, Forgotten Forest Lijiang, biodiversity hotspot Lijiang,
-        nature walk Lijiang, hiking Lijiang, orchids Lijiang, birdwatching
-        Lijiang, wildlife Lijiang, medicinal plants Lijiang, Naxi culture
-        Lijiang, Jade Dragon Snow Mountain views, Black Dragon Pool Park, China
-        ecotours, Yunnan ecotours, sustainable tourism Lijiang, guided nature
-        walk Lijiang, forest walk Lijiang, Lijiang day trip, Lijiang nature
-        tour, Lijiang hidden gem, Lijiang photography tour, Lijiang family
-        ecotour
+  metaTitle: Lijiang Forgotten Forest Tour | Yunnan Biodiversity Half-Day Ecotour
+  metaDescription: Discover the Forgotten Forest, a hidden biodiversity hotspot near Lijiang, Yunnan. Rare orchids, birds, and virgin broadleaf forest with a local naturalist guide. Small-group half-day Yunnan eco tour.
 ---

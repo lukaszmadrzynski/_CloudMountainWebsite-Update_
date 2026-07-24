@@ -8,8 +8,8 @@ seo:
   type: Seo
   socialImage: /images/shared/brand/cm-social-preview.webp
   addTitleSuffix: false
-  metaTitle: 7-Day Yunnan Four Kingdoms — Kunming, Dali, Lijiang & Shangri-La
-  metaDescription: Seven days, four historical kingdoms, UNESCO sites. From Kunming through Dali and Lijiang to Shangri-La - and back.
+  metaTitle: 7-Day Yunnan Four Kingdoms Tour | Kunming, Dali, Lijiang & Shangri-La
+  metaDescription: Seven days, four historical kingdoms, three UNESCO sites. Yunnan cultural loop from Kunming through Dali and Lijiang to Shangri-La. Small-group Yunnan eco tour with a local guide, from $1,378 per person.
 sections:
 - type: HeroSection
   media:

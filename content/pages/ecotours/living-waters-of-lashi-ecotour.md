@@ -580,19 +580,6 @@ sections:
 slug: /living-waters-of-lashi-ecotour
 seo:
   type: Seo
-  metaTitle: Lashi Wetland Birdwatching Tour | Half-Day Ecotour from Lijiang
-  metaDescription: >-
-    Discover Lashi Alpine Wetland on this half-day birdwatching ecotour from
-    Lijiang. Walk with local conservationists, survey waterbirds, and visit a
-    wildlife rescue station in this highland nature reserve.
-  socialImage: /images/shared/brand/cm-social-preview.webp
-  metaTags:
-    - type: MetaTag
-      content: >-
-        Lashi wetland birdwatching, Lijiang bird tour, Yunnan birding,
-        Lashi Alpine Wetland Nature Reserve, wetland conservation, migratory
-        birds Yunnan, Naxi Dongba culture, wildlife rescue station Lijiang,
-        half-day birding tour, citizen science bird survey, Yunnan wetlands,
-        Lashi Lake birding, black stork Yunnan, bar-headed goose migration,
-        birding from Lijiang
+  metaTitle: Lashi Wetland Birding Tour | Yunnan Half-Day Ecotour from Lijiang
+  metaDescription: Half-day Lashi Wetland birding ecotour from Lijiang, Yunnan, China. Walk with local conservationists through alpine wetland, spot Black-necked Cranes (winter) and migratory shorebirds. Small-group Yunnan eco tour.
 ---

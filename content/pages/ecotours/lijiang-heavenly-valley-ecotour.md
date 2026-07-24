@@ -551,19 +551,6 @@ sections:
 slug: /lijiang-heavenly-valley-ecotour
 seo:
   type: Seo
-  metaTitle: Lijiang Heavenly Valley
-  metaDescription: >-
-    Experience the alpine wetland, grassland and forests ecosystems on an unforgettable ecotour in Lijiang. Explore biodiversity & conservation at Lashi Wetlands, discover Naxi
-    & Yi ethnic cultures, admire the spectacular Luoma Cliffs & enjoy village life. Perfect for
-    nature lovers & cultural travelers seeking authentic Yunnan travel experience.
-  socialImage: /images/shared/brand/cm-social-preview.webp
-  metaTags:
-    - type: MetaTag
-      content: >-
-        ecotourism Yunnan, Lashi Wetlands tour, China ecotours, biodiversity
-        tour China, ethnic culture Yunnan, Naxi culture tour, Yi culture tour,
-        wetland conservation tour, birdwatching Yunnan, hiking Yunnan, Luoma
-        Cliffs hike, village tourism Yunnan, nature travel China, wildlife tour
-        Yunnan, sustainable tourism Yunnan, responsible travel China, Lijiang
-        tours, Lijiang birdwatching
+  metaTitle: Lijiang Heavenly Valley Tour | Full-Day Yunnan Alpine Ecotour
+  metaDescription: Experience alpine wetland, grassland and forest ecosystems on this full-day Yunnan ecotour in Lijiang Heavenly Valley. Explore biodiversity with a local guide. Small-group Yunnan eco tour.
 ---

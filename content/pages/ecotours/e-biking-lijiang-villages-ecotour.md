@@ -664,19 +664,6 @@ sections:
 slug: /e-biking-lijiang-villages-ecotour
 seo:
   type: Seo
-  metaTitle: E-Biking Lijiang Villages Tour | Half-Day Naxi Village Ride
-  metaDescription: >-
-    Pedal through authentic Naxi villages on a quality e-bike from Lijiang
-    Old Town. Visit courtyard homes, a hidden church, Green Dragon Park, and
-    finish at ancient Shuhe Old Town on this relaxed half-day ecotour.
-  socialImage: /images/shared/brand/cm-social-preview.webp
-  metaTags:
-    - type: MetaTag
-      content: >-
-        e-bike tour Lijiang, Naxi village cycling, Shuhe Old Town tour,
-        Lijiang countryside bike ride, Green Dragon Park, gongfu tea
-        ceremony village, Dragon Gate Residence Lijiang, hidden church
-        Lijiang, Jade Dragon Snow Mountain views, electric bike Yunnan,
-        half-day bike tour Lijiang, village life Naxi, sustainable tourism
-        Lijiang, off the beaten path cycling, countryside tour Lijiang
+  metaTitle: E-Biking Lijiang Villages Tour | Yunnan Half-Day Naxi Village Ride
+  metaDescription: Pedal through authentic Naxi villages on a quality e-bike from Lijiang Old Town, Yunnan, China. Visit courtyard homes, a hidden church, and farm fields with a local guide. Small-group half-day Yunnan eco tour.
 ---

@@ -572,20 +572,6 @@ sections:
 slug: /dongba-culture-hands-on-ecotour
 seo:
   type: Seo
-  metaTitle: Dongba Culture Hands-On Tour | Lijiang Old Town Writing Workshop
-  metaDescription: >-
-    Learn the ancient Dongba pictographs and craft traditional Naxi paper in
-    Lijiang's UNESCO Old Town on this hands-on half-day cultural ecotour.
-    Visit Wenchang Temple and Snow Mountain Academy with a Naxi heritage
-    expert.
-  socialImage: /images/shared/brand/cm-social-preview.webp
-  metaTags:
-    - type: MetaTag
-      content: >-
-        Dongba culture tour, Lijiang hands-on workshop, Naxi pictographs,
-        Dongba script writing, Lijiang Old Town cultural tour, Wenchang
-        Temple Lijiang, Snow Mountain Academy, 雪山书院, traditional paper
-        making, Naxi heritage expert, Big Water Wheel Lijiang, Square Street
-        四方街, UNESCO Old Town workshop, half-day cultural tour Lijiang,
-        calligraphy workshop Yunnan, living pictographs
+  metaTitle: Dongba Culture Hands-On Tour | Yunnan Naxi Writing Workshop in Lijiang
+  metaDescription: Learn the ancient Dongba pictographs and craft traditional Naxi paper in Lijiang UNESCO Old Town, Yunnan, China. A hands-on half-day workshop led by a Naxi cultural guide. Small-group Yunnan cultural tour.
 ---

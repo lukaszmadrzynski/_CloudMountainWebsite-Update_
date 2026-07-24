@@ -686,20 +686,6 @@ sections:
 slug: /lijiang-heritage-in-depth-ecotour
 seo:
   type: Seo
-  metaTitle: Lijiang Heritage In-Depth Tour | Full-Day Naxi Culture Experience
-  metaDescription: >-
-    Spend a full day inside Lijiang's UNESCO Old Town — Heritage Museum,
-    Black Dragon Pond, Dongba pictograph workshop, Mu Palace, specialty
-    dinner, night market, and live Naxi Ancient Music, all in one
-    guided deep-dive.
-  socialImage: /images/shared/brand/cm-social-preview.webp
-  metaTags:
-    - type: MetaTag
-      content: >-
-        Lijiang full day tour, Lijiang Heritage Museum, Black Dragon Pond
-        Park, UNESCO Old Town walking tour, crossing bridge noodles Lijiang,
-        過橋米線 Lijiang, Dongba pictograph workshop, Naxi ancient music
-        纳西古乐, Mu Palace 木府, Lijiang night market, Naxi heritage
-        deep-dive, Lijiang specialty dinner, Dongba paper making, one-day
-        Lijiang tour, scavenger hunt Lijiang, full Naxi heritage immersion
+  metaTitle: Lijiang Heritage In-Depth Tour | Full-Day Yunnan Naxi Culture Experience
+  metaDescription: "Spend a full day inside Lijiang UNESCO Old Town in Yunnan, China: Heritage Museum, Black Dragon Pond, Dongba pictograph workshop, Mu Palace, Wenchang Palace, and Naxi Ancient Music. Small-group Yunnan cultural tour."
 ---

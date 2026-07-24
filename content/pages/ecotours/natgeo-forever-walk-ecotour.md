@@ -656,17 +656,6 @@ sections:
 slug: /natgeo-forever-walk-ecotour
 seo:
   type: Seo
-  metaTitle: NatGeo's "Forever Walk" Ecotour
-  metaDescription: >-
-    Relive Paul Salopek's "Out of Eden Walk" as documented in NatGeo's "Forever
-    Walk: China"! Explore Jade Dragon Snow Mountain & Wenhai Wetlands on our
-    slow trekking ecotour in Yunnan. Book now!
-  socialImage: /images/shared/brand/cm-social-preview.webp
-  metaTags:
-    - type: MetaTag
-      content: >-
-        ecotour, Yunnan, China, trekking, hiking, slow travel, National
-        Geographic, Forever Walk China, Jade Dragon Snow Mountain, Wenhai
-        Wetlands, Naxi culture, Yi culture, biodiversity, nature tour, cultural
-        tour, village stay, guided tour, adventure travel
+  metaTitle: NatGeo's Forever Walk Tour | Yunnan Out of Eden Walk Experience
+  metaDescription: "Relive Paul Salopek's 'Out of Eden Walk' as documented in NatGeo's 'Forever Walk: China'. Walk Jade Dragon Snow Mountain trails in Yunnan, China, with a local guide. Small-group Yunnan eco tour."
 ---
