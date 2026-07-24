@@ -2,7 +2,7 @@
 type: PageLayout
 title: Yunnan Four Kingdoms — Kunming, Dali, Lijiang & Shangri-La
 slug: /yunnan-four-kingdoms-ecotour
-isDraft: false
+isDraft: true
 addTitleSuffix: true
 seo:
   type: Seo
