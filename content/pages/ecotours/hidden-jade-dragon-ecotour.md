@@ -474,7 +474,7 @@ sections:
 slug: /hidden-jade-dragon-ecotour
 seo:
   type: Seo
-  socialImage: /images/social/hidden-jade-dragon-ecotour.webp
+  socialImage: /images/social/hidden-jade-dragon-ecotour.jpg
   metaTitle: Jade Dragon Hidden Trails Tour | Yunnan Ecotour in Lijiang
   metaDescription: Discover hidden trails on our authentic Yunnan ecotour to Jade Dragon Snow Mountain Nature Reserve, near Lijiang. Hike alpine meadows, yak pastures, and old trade routes. Small-group Yunnan eco tour.
 ---

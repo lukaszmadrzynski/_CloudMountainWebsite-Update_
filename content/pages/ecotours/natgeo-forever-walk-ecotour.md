@@ -656,7 +656,7 @@ sections:
 slug: /natgeo-forever-walk-ecotour
 seo:
   type: Seo
-  socialImage: /images/social/natgeo-forever-walk-ecotour.webp
+  socialImage: /images/social/natgeo-forever-walk-ecotour.jpg
   metaTitle: NatGeo's Forever Walk Tour | Yunnan Out of Eden Walk Experience
   metaDescription: "Relive Paul Salopek's 'Out of Eden Walk' as documented in NatGeo's 'Forever Walk: China'. Walk Jade Dragon Snow Mountain trails in Yunnan, China, with a local guide. Small-group Yunnan eco tour."
 ---

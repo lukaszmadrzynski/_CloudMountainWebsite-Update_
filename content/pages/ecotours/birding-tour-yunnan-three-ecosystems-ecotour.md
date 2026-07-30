@@ -6,7 +6,7 @@ isDraft: false
 addTitleSuffix: true
 seo:
   type: Seo
-  socialImage: /images/social/yunnan-endemic-birding-ecotour.webp
+  socialImage: /images/social/yunnan-endemic-birding-ecotour.jpg
   addTitleSuffix: false
   metaTitle: 7-Day Yunnan Endemic Birding — Lashi, Laojun & Baihualing
   metaDescription: A focused small-group birding tour of northwest Yunnan. Three ecosystems, one critically-endemic bird (Biet's Laughingthrush), and the Laojun Mountain birding station. 7 days, 200-300 species target, IUCN-aligned.

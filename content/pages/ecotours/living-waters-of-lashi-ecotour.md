@@ -580,7 +580,7 @@ sections:
 slug: /living-waters-of-lashi-ecotour
 seo:
   type: Seo
-  socialImage: /images/social/living-waters-of-lashi-ecotour.webp
+  socialImage: /images/social/living-waters-of-lashi-ecotour.jpg
   metaTitle: Lashi Wetland Birding Tour | Yunnan Half-Day Ecotour from Lijiang
   metaDescription: Half-day Lashi Wetland birding ecotour from Lijiang, Yunnan, China. Walk with local conservationists through alpine wetland, spot Black-necked Cranes (winter) and migratory shorebirds. Small-group Yunnan eco tour.
 ---

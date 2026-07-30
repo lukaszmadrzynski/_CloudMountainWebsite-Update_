@@ -644,7 +644,7 @@ sections:
 slug: /wild-heart-of-lijiang-ecotour
 seo:
   type: Seo
-  socialImage: /images/social/wild-heart-of-lijiang-ecotour.webp
+  socialImage: /images/social/wild-heart-of-lijiang-ecotour.jpg
   metaTitle: Laojun Wild Heart Tour | Yunnan UNESCO Birding + Trekking Ecotour
   metaDescription: Escape to Laojun Mountain, Yunnan, China. Track Biet Laughingthrush at a village birding station, hike alpine meadows, and stay overnight with a Lisu family. Small-group Yunnan eco tour.
 ---

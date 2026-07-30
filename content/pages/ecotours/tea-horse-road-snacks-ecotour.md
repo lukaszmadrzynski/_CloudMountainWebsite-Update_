@@ -580,7 +580,7 @@ sections:
 slug: /taste-of-tea-horse-road-ecotour
 seo:
   type: Seo
-  socialImage: /images/social/tea-horse-road-snacks-ecotour.webp
+  socialImage: /images/social/tea-horse-road-snacks-ecotour.jpg
   metaTitle: Tea & Horse Road Tour | Yunnan Culinary Walking Experience in Lijiang
   metaDescription: Taste the ancient Tea & Horse Road on this half-day Yunnan culinary walking tour in Lijiang. Sip traditional roasted tea, try Naxi snacks, and explore cobblestone lanes with a local guide. Small-group Yunnan eco tour.---
 ---

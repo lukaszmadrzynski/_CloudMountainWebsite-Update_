@@ -572,7 +572,7 @@ sections:
 slug: /dongba-culture-hands-on-ecotour
 seo:
   type: Seo
-  socialImage: /images/social/dongba-culture-hands-on-ecotour.webp
+  socialImage: /images/social/dongba-culture-hands-on-ecotour.jpg
   metaTitle: Dongba Culture Hands-On Tour | Yunnan Naxi Writing Workshop in Lijiang
   metaDescription: Learn the ancient Dongba pictographs and craft traditional Naxi paper in Lijiang UNESCO Old Town, Yunnan, China. A hands-on half-day workshop led by a Naxi cultural guide. Small-group Yunnan cultural tour.
 ---

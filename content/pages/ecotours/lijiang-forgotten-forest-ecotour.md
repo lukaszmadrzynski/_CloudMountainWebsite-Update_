@@ -630,7 +630,7 @@ sections:
 slug: /lijiang-forgotten-forest-ecotour
 seo:
   type: Seo
-  socialImage: /images/social/lijiang-forgotten-forest-ecotour.webp
+  socialImage: /images/social/lijiang-forgotten-forest-ecotour.jpg
   metaTitle: Lijiang Forgotten Forest Tour | Yunnan Biodiversity Half-Day Ecotour
   metaDescription: Discover the Forgotten Forest, a hidden biodiversity hotspot near Lijiang, Yunnan. Rare orchids, birds, and virgin broadleaf forest with a local naturalist guide. Small-group half-day Yunnan eco tour.
 ---
