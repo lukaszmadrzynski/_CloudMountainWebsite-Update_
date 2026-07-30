@@ -2,11 +2,11 @@
 type: PageLayout
 title: Yunnan Four Kingdoms — Kunming, Dali, Lijiang & Shangri-La
 slug: /yunnan-four-kingdoms-ecotour
-isDraft: true
+isDraft: false
 addTitleSuffix: true
 seo:
   type: Seo
-  socialImage: /images/shared/brand/cm-social-preview.webp
+  socialImage: /images/social/yunnan-four-kingdoms-ecotour.webp
   addTitleSuffix: false
   metaTitle: 7-Day Yunnan Four Kingdoms Tour | Kunming, Dali, Lijiang & Shangri-La
   metaDescription: Seven days, four historical kingdoms, three UNESCO sites. Yunnan cultural loop from Kunming through Dali and Lijiang to Shangri-La. Small-group Yunnan eco tour with a local guide, from $1,378 per person.
@@ -97,7 +97,7 @@ sections:
     title: Kunming Old Town and Green Lake Park
     tagline: Dian-era lanes, teahouses, lakeside willow light
     subtitle: Kunming (Day 1)
-    text: Walk Kunming's old stone lanes and Dian-era teahouses before settling at Green Lake Park, ringed by willow trees and beloved as the city's gathering spot for tai chi and lakeside tea. Welcome dinner at a Yunnan restaurant sets the tone for the four kingdoms ahead.
+    text: Day 1 closes at Green Lake Park - Kunming's beloved gathering spot in the heart of the ancient Dian Kingdom region. Ringed by old lanes and teahouses, it's the cultural soul of modern Kunming. A welcome dinner at a Yunnan restaurant sets the tone for the four kingdoms ahead.
     image:
       type: ImageBlock
       url: /images/tours/lijiang-old-town/banner.webp

@@ -551,6 +551,7 @@ sections:
 slug: /lijiang-heavenly-valley-ecotour
 seo:
   type: Seo
+  socialImage: /images/social/lijiang-heavenly-valley-ecotour.webp
   metaTitle: Lijiang Heavenly Valley Tour | Full-Day Yunnan Alpine Ecotour
   metaDescription: Experience alpine wetland, grassland and forest ecosystems on this full-day Yunnan ecotour in Lijiang Heavenly Valley. Explore biodiversity with a local guide. Small-group Yunnan eco tour.
 ---

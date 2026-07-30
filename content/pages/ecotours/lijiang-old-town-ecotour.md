@@ -560,7 +560,7 @@ seo:
     Half-day Lijiang Old Town tour with a local Naxi guide in Yunnan, China. Walk
     UNESCO cobblestone lanes, visit Mufu Palace, Black Dragon Pool, and Zhongyi
     Market. Small-group Yunnan cultural tour from $35 per person.
-  socialImage: /images/shared/brand/cm-social-preview.webp
+  socialImage: /images/social/lijiang-old-town-ecotour.webp
   metaTags:
     - type: MetaTag
       content: >-

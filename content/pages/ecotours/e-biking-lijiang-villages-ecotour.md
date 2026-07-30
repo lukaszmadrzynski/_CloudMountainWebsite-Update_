@@ -664,6 +664,7 @@ sections:
 slug: /e-biking-lijiang-villages-ecotour
 seo:
   type: Seo
+  socialImage: /images/social/e-biking-lijiang-villages-ecotour.webp
   metaTitle: E-Biking Lijiang Villages Tour | Yunnan Half-Day Naxi Village Ride
   metaDescription: Pedal through authentic Naxi villages on a quality e-bike from Lijiang Old Town, Yunnan, China. Visit courtyard homes, a hidden church, and farm fields with a local guide. Small-group half-day Yunnan eco tour.
 ---
