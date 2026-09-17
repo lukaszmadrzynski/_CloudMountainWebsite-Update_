@@ -43,11 +43,22 @@ const WEBSITE_ID = `${SITE_URL}/#website`;
 const BUSINESS_ID = `${SITE_URL}/#business`;
 const LUKAS_ID  = `${SITE_URL}/#lukas`;
 const LYNNE_ID  = `${SITE_URL}/#lynne`;
+const NATUREFORALL_ID = `${SITE_URL}/#natureforall`;
 
 // Lijiang Old Town approximate centroid — used for `geo` and per-tour
 // `contentLocation`. Verified against Google Maps.
 const LIJIANG_LAT = 26.8721;
 const LIJIANG_LON = 100.2254;
+
+// IUCN #NatureForAll — global initiative connecting people with nature via
+// storytelling, communications, and partnership programs. Cloud Mountain is
+// officially listed as a partner organization (see content/pages/why-us.md
+// "Collaboration & Partnerships" section, lines 644-645). The primary URL
+// points to the IUCN programme landing page; the knowledge hub is exposed
+// via `sameAs` for entity-graph deduplication. Verify the IUCN URL with
+// Lukas before relying on it for SEO/AI citation accuracy.
+const IUCN_NATUREFORALL_URL = 'https://www.iucn.org/our-work/initiatives/natureforall';
+const NATUREFORALL_HUB_URL  = 'https://natureforall.global/';
 
 function getSocialSameAs() {
     // Single source of truth for the brand's verified profile URLs.
@@ -159,6 +170,15 @@ function organizationNode() {
         founder: [
             { '@id': `${SITE_URL}/#lukas` },
             { '@id': `${SITE_URL}/#lynne` }
+        ],
+        // Partnership / affiliation declarations. `affiliation` is the
+        // schema.org property for partner organizations. For formal
+        // membership, also add to `memberOf`. Cloud Mountain is an official
+        // partner of the IUCN Task Force on Nature Education and a member
+        // of the global #NatureForAll initiative — referenced from
+        // content/pages/why-us.md (lines 644-645).
+        affiliation: [
+            { '@id': NATUREFORALL_ID }
         ],
         sameAs: getSocialSameAs(),
         contactPoint: [
@@ -336,6 +356,34 @@ function lynneNode() {
         nationality: { '@type': 'Country', name: 'China' },
         sameAs: [
             'https://www.linkedin.com/in/lynne-lyu/'
+        ]
+    };
+}
+
+// IUCN #NatureForAll — emitted on every page so AI agents can corroborate
+// the partnership directly from the entity graph. The text on
+// content/pages/why-us.md:644-645 declares Cloud Mountain "an official
+// partner of the IUCN Task Force on Nature Education and a member of the
+// global #natureforall initiative". This node makes that statement
+// machine-readable.
+function natureForAllNode() {
+    return {
+        '@type': ['Organization', 'NGO'],
+        '@id': NATUREFORALL_ID,
+        name: 'IUCN #NatureForAll',
+        alternateName: 'NatureForAll',
+        url: IUCN_NATUREFORALL_URL,
+        description: 'IUCN global initiative connecting people with nature through storytelling, communications, and partnership programs. Cloud Mountain is an official partner organization of the IUCN Task Force on Nature Education and a member of the global #NatureForAll initiative.',
+        parentOrganization: {
+            '@type': 'Organization',
+            name: 'International Union for Conservation of Nature (IUCN)',
+            url: 'https://www.iucn.org/'
+        },
+        keywords: 'nature conservation, IUCN, #NatureForAll, education for nature, partnerships',
+        sameAs: [
+            NATUREFORALL_HUB_URL,
+            IUCN_NATUREFORALL_URL,
+            'https://twitter.com/hashtag/NatureForAll'
         ]
     };
 }
@@ -579,7 +627,8 @@ export function generateStructuredData(page, site) {
         websiteNode(),
         businessNode(site),
         lukasNode(),
-        lynneNode()
+        lynneNode(),
+        natureForAllNode()
     ];
     const bc = breadcrumbNode(page);
     if (bc) graph.push(bc);
