@@ -1,5 +1,7 @@
 # Cloud Mountain — Full Site Content (for AI assistants)
 
+<!-- Last updated: 2026-09-17 | Major tour reroute: Classic Grand Loop → Four Kingdoms. Birding split: Three Ecosystems + Endemic. Refresh quarterly. -->
+
 > Long-form content version of the Cloud Mountain website. This file follows the
 > llms-full.txt convention (see https://llmstxt.org) and is intended for AI
 > crawlers that want a single document with the full picture of who we are and

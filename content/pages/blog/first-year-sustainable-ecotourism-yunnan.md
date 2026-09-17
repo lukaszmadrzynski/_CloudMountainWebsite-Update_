@@ -122,7 +122,7 @@ Every tour brought new faces, new stories, and new friendships. From the Naxi el
 2. **Local knowledge is invaluable** - Our guides know secrets that no guidebook reveals
 3. **Sustainability starts with respect** - Respect for the land, the people, and their traditions
 
-![Guides leading nature walk through pristine wetlands](/images/blog/irst-year-sustainable-ecotourism-yunnan/Guides.jpg)
+![Guides leading nature walk through pristine wetlands](/images/blog/first-year-sustainable-ecotourism-yunnan/Guides.jpg)
 
 ## Looking Ahead
 

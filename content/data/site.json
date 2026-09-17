@@ -8,5 +8,14 @@
     "defaultMetaTags": [],
     "env": {
         "URL": "https://cloudmountain.top"
+    },
+    "reviews": {
+        "ratingValue": 5.0,
+        "reviewCount": 19,
+        "bestRating": 5,
+        "worstRating": 1,
+        "asOf": "2026-09-17",
+        "source": "TripAdvisor",
+        "url": "https://www.tripadvisor.com/Attraction_Review-g303783-d17638375-Reviews-Lijiang_Cloud_Mountain_Ecotours-Lijiang_Yunnan.html"
     }
 }

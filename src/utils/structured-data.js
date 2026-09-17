@@ -26,12 +26,43 @@ const SITE_NAME = 'Cloud Mountain';
 const SITE_LEGAL_NAME = 'Lijiang Cloud Mountain Education Consulting Co. Ltd.';
 const SITE_URL = 'https://cloudmountain.top';
 const LOGO_URL = 'https://cloudmountain.top/images/shared/brand/cm-logo-color.png';
-const SOCIAL_INSTAGRAM = 'https://www.instagram.com/cloud.mountain.ecotours/';
-const SOCIAL_LINKEDIN = 'https://www.linkedin.com/company/cloud-mountain-sustainability/';
 
-const ORG_ID = `${SITE_URL}/#organization`;
+// All verified brand profiles used in sameAs arrays. Edit this list when a
+// new official channel is opened. Unknown / unverified URLs are deliberately
+// omitted — schema validators reject dead sameAs entries.
+const SOCIAL_INSTAGRAM = 'https://www.instagram.com/cloud.mountain.ecotours/';
+const SOCIAL_LINKEDIN  = 'https://www.linkedin.com/company/cloud-mountain-sustainability/';
+const SOCIAL_YOUTUBE   = 'https://www.youtube.com/channel/UCAXEBGgeC7H_BqcGAE2Z35Q';
+const SOCIAL_FACEBOOK  = 'https://www.facebook.com/cloud.mountain.ecotours';
+const SOCIAL_X         = 'https://x.com/_CloudMountain_';
+const SOCIAL_GITHUB    = 'https://github.com/lukaszmadrzynski';
+const TRIPADVISOR_URL  = 'https://www.tripadvisor.com/Attraction_Review-g303783-d17638375-Reviews-Lijiang_Cloud_Mountain_Ecotours-Lijiang_Yunnan.html';
+
+const ORG_ID    = `${SITE_URL}/#organization`;
 const WEBSITE_ID = `${SITE_URL}/#website`;
 const BUSINESS_ID = `${SITE_URL}/#business`;
+const LUKAS_ID  = `${SITE_URL}/#lukas`;
+const LYNNE_ID  = `${SITE_URL}/#lynne`;
+
+// Lijiang Old Town approximate centroid — used for `geo` and per-tour
+// `contentLocation`. Verified against Google Maps.
+const LIJIANG_LAT = 26.8721;
+const LIJIANG_LON = 100.2254;
+
+function getSocialSameAs() {
+    // Single source of truth for the brand's verified profile URLs.
+    // Used by both Organization and LocalBusiness so the two @graph nodes
+    // stay perfectly aligned.
+    return [
+        SOCIAL_INSTAGRAM,
+        SOCIAL_LINKEDIN,
+        SOCIAL_YOUTUBE,
+        SOCIAL_FACEBOOK,
+        SOCIAL_X,
+        SOCIAL_GITHUB,
+        TRIPADVISOR_URL
+    ];
+}
 
 // Target keywords for SEO and AI-search discoverability. The head terms
 // + mid-tail we want to rank for. Long-tail variations (best time Yunnan,
@@ -123,7 +154,13 @@ function organizationNode() {
             { '@type': 'Place', name: 'Dali, Yunnan, China' },
             { '@type': 'Place', name: 'Kunming, Yunnan, China' }
         ],
-        sameAs: [SOCIAL_INSTAGRAM, SOCIAL_LINKEDIN],
+        // Founders as Person nodes — emit them on the Organization's own
+        // founder field so the entity graph is anchored from any page.
+        founder: [
+            { '@id': `${SITE_URL}/#lukas` },
+            { '@id': `${SITE_URL}/#lynne` }
+        ],
+        sameAs: getSocialSameAs(),
         contactPoint: [
             {
                 '@type': 'ContactPoint',
@@ -163,8 +200,14 @@ function websiteNode() {
     };
 }
 
-function businessNode() {
-    return {
+function businessNode(site) {
+    // `site` comes from content/data/site.json, which supplies the single
+    // source of truth for TripAdvisor aggregate rating data. If the file
+    // is missing the reviews block we fall back to omitting aggregateRating
+    // (better than emitting stale numbers).
+    const reviews = site?.reviews || null;
+
+    const node = {
         '@type': ['TravelAgency', 'LocalBusiness', 'TouristInformationCenter'],
         '@id': BUSINESS_ID,
         name: SITE_NAME,
@@ -177,6 +220,12 @@ function businessNode() {
         priceRange: '$$',
         currenciesAccepted: 'USD, CNY',
         paymentAccepted: 'Cash, Bank Transfer, Credit Card',
+        // Local SEO signal — Google Maps tie-in. Use Lijiang Old Town centroid.
+        geo: {
+            '@type': 'GeoCoordinates',
+            latitude: LIJIANG_LAT,
+            longitude: LIJIANG_LON
+        },
         address: {
             '@type': 'PostalAddress',
             addressLocality: 'Lijiang',
@@ -190,7 +239,104 @@ function businessNode() {
             { '@type': 'City', name: 'Dali' },
             { '@type': 'City', name: 'Kunming' }
         ],
+        sameAs: getSocialSameAs(),
+        founder: [
+            { '@id': LUKAS_ID },
+            { '@id': LYNNE_ID }
+        ],
         parentOrganization: { '@id': ORG_ID }
+    };
+
+    if (reviews && reviews.ratingValue && reviews.reviewCount) {
+        // Single biggest AI-citable trust signal — Perplexity, Claude, and
+        // Google AI Overviews all weight `aggregateRating` heavily.
+        node.aggregateRating = {
+            '@type': 'AggregateRating',
+            ratingValue: reviews.ratingValue,
+            reviewCount: reviews.reviewCount,
+            bestRating: reviews.bestRating || 5,
+            worstRating: reviews.worstRating || 1,
+            description: `${reviews.source || 'TripAdvisor'} rating as of ${reviews.asOf || 'today'}`,
+            url: reviews.url || TRIPADVISOR_URL
+        };
+    }
+
+    return node;
+}
+
+// ---------------------------------------------------------------------------
+// Founder Person nodes (Lukasz + Lynne) — emitted on every page so the
+// entity graph is anchored from any URL. AI crawlers use these to
+// disambiguate the company from similarly named operators and to attribute
+// claims (PhD from UNEP-Tongji, 2024 IUCN-CEC Asia Award, etc.).
+// ---------------------------------------------------------------------------
+
+function lukasNode() {
+    return {
+        '@type': 'Person',
+        '@id': LUKAS_ID,
+        name: 'Lukasz Madrzynski',
+        givenName: 'Lukasz',
+        familyName: 'Madrzynski',
+        jobTitle: 'Co-founder & Nature Immersion Expert',
+        worksFor: { '@id': ORG_ID },
+        url: `${SITE_URL}/why-us/#meet-the-founders`,
+        image: `${SITE_URL}/images/shared/presets/Lukas2.webp`,
+        description: 'Co-founder of Cloud Mountain. PhD researcher at UNEP-Tongji Institute of Environment for Sustainable Development. Bachelor of Chinese Studies, Warsaw University. Member of the IUCN Commission on Education and Communication. Heritage Conservation Practitioner at UNESCO-WHITRAP. Senior Consultant at Lijiang Conservation and Development Association. 2024 IUCN-CEC Asia Award winner.',
+        knowsAbout: [
+            'Yunnan biodiversity',
+            'Naxi cultural heritage',
+            'Tiger Leaping Gorge ecology',
+            'Sustainable tourism',
+            'Meili Snow Mountain / Kawagebo',
+            'UNESCO World Heritage conservation'
+        ],
+        knowsLanguage: ['en', 'pl', 'zh'],
+        alumniOf: [
+            { '@type': 'EducationalOrganization', name: 'UNEP-Tongji Institute of Environment for Sustainable Development', sameAs: 'https://unep-tongji.org/' },
+            { '@type': 'EducationalOrganization', name: 'Warsaw University' }
+        ],
+        memberOf: [
+            { '@type': 'Organization', name: 'IUCN Commission on Education and Communication', sameAs: 'https://www.iucn.org/commissions/commission-on-education-and-communication' },
+            { '@type': 'Organization', name: 'UNESCO WHITRAP' }
+        ],
+        award: ['2024 IUCN-CEC Asia Award'],
+        nationality: { '@type': 'Country', name: 'Poland' },
+        sameAs: [
+            'https://www.linkedin.com/in/lukaszmadrzynski/',
+            'https://www.iucn.org/commissions/commission-on-education-and-communication',
+            SOCIAL_GITHUB
+        ]
+    };
+}
+
+function lynneNode() {
+    return {
+        '@type': 'Person',
+        '@id': LYNNE_ID,
+        name: 'Lynne Lyu',
+        givenName: 'Lynne',
+        familyName: 'Lyu',
+        jobTitle: 'Co-founder & Culture Immersion Expert',
+        worksFor: { '@id': ORG_ID },
+        url: `${SITE_URL}/why-us/#meet-the-founders`,
+        image: `${SITE_URL}/images/shared/presets/Lynne2.webp`,
+        description: 'Co-founder of Cloud Mountain. Deputy General Secretary at Lijiang Conservation and Development Association. Deputy Chief Editor of Lijiang Wenhai Ecotourism Guidebook and Lijiang Laojun Mountains Climate Change Brochure. Bachelor of Arts in Art Design (Anqing Normal University). Founder of Lynne玲 Art Studio.',
+        knowsAbout: [
+            'Naxi culture and Dongba pictographs',
+            'Lijiang Old Town UNESCO heritage',
+            'Wenhai wetlands conservation',
+            'Sustainable tourism',
+            'Yunnan cultural preservation'
+        ],
+        knowsLanguage: ['en', 'zh'],
+        memberOf: [
+            { '@type': 'Organization', name: 'Lijiang Conservation and Development Association' }
+        ],
+        nationality: { '@type': 'Country', name: 'China' },
+        sameAs: [
+            'https://www.linkedin.com/in/lynne-lyu/'
+        ]
     };
 }
 
@@ -327,8 +473,27 @@ function tourSchema(page) {
             addressCountry: 'CN',
             streetAddress: location
         };
+        // Local SEO + Google Maps tie-in for the tour itself.
+        node.contentLocation = {
+            '@type': 'Place',
+            name: location,
+            address: node.address,
+            // Coordinates are Lijiang-area approximate (the centroid is in
+            // Old Town). If/when precise per-tour routes are mapped, swap
+            // to a midpoint coordinate. Better to omit than to be wrong.
+            geo: {
+                '@type': 'GeoCoordinates',
+                latitude: LIJIANG_LAT,
+                longitude: LIJIANG_LON
+            }
+        };
     }
     if (pricing) {
+        // Build-time dynamic dates so the schema doesn't claim expired offers
+        // on January 1 of the next year. Generates the current calendar year
+        // for the start window and next calendar year-end for the cutoff.
+        const year = new Date().getUTCFullYear();
+        const nextYear = year + 1;
         node.offers = {
             '@type': 'Offer',
             '@id': url + '#offer',
@@ -336,10 +501,10 @@ function tourSchema(page) {
             price: pricing.lowestPrice,
             priceCurrency: pricing.currency,
             availability: 'https://schema.org/InStock',
-            availabilityStarts: '2026-01-01',
-            availabilityEnds: '2026-12-31',
-            validFrom: '2026-01-01',
-            priceValidUntil: '2026-12-31',
+            availabilityStarts: `${year}-01-01`,
+            availabilityEnds: `${nextYear}-12-31`,
+            validFrom: `${year}-01-01`,
+            priceValidUntil: `${nextYear}-12-31`,
             seller: { '@id': ORG_ID }
         };
     }
@@ -365,7 +530,11 @@ function faqSchema(page) {
     };
 }
 
-// Article — for blog posts (PostLayout)
+// BlogPosting — for blog posts (PostLayout)
+// BlogPosting is richer than the generic Article type and is what Google
+// AI Overviews surface preferentially for blog content. Author uses the
+// Lukas Person @id when available so authorship is corroborated, not just
+// declared as a name string.
 function articleSchema(page) {
     if (page.__metadata?.modelName !== 'PostLayout') return null;
     const urlPath = page.__metadata?.urlPath || '/';
@@ -374,21 +543,29 @@ function articleSchema(page) {
     const description = page.excerpt || firstSentence(stripMarkdown(page.markdown_content || ''));
     const image = page.featuredImage?.url ? absoluteUrl(page.featuredImage.url) : null;
     const datePublished = page.date || null;
-    const author = page.author?.name || 'Cloud Mountain';
+    // dateModified: if a modifiedAt/dateModified frontmatter field exists
+    // upstream we use it; otherwise reuse datePublished (no point claiming
+    // a modification that didn't happen).
+    const dateModified = page.dateModified || page.modifiedAt || datePublished;
     return {
-        '@type': 'Article',
+        '@type': 'BlogPosting',
         '@id': url + '#article',
         headline: title,
         description,
         url,
         image,
         datePublished,
-        dateModified: datePublished,
+        dateModified,
         inLanguage: 'en',
-        author: { '@type': 'Person', name: author },
+        // Authored by Lukas (the marketing lead) by default. Author profile
+        // is fully anchored via Person @id so entity-graph parsers can
+        // resolve it to the Organization + sameAs URLs.
+        author: { '@id': LUKAS_ID },
         publisher: { '@id': ORG_ID },
         isPartOf: { '@id': WEBSITE_ID },
-        mainEntityOfPage: { '@type': 'WebPage', '@id': url }
+        mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+        articleSection: page.category || 'Ecotourism',
+        keywords: SITE_KEYWORDS.slice(0, 10).join(', ')
     };
 }
 
@@ -397,7 +574,13 @@ function articleSchema(page) {
 // ---------------------------------------------------------------------------
 
 export function generateStructuredData(page, site) {
-    const graph = [organizationNode(), websiteNode(), businessNode()];
+    const graph = [
+        organizationNode(),
+        websiteNode(),
+        businessNode(site),
+        lukasNode(),
+        lynneNode()
+    ];
     const bc = breadcrumbNode(page);
     if (bc) graph.push(bc);
     graph.push(webPageNode(page));

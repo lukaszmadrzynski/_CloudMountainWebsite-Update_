@@ -3,12 +3,14 @@
   "serverInfo": {
     "name": "Cloud Mountain",
     "version": "0.1.0",
-    "description": "MCP server (planned) for the Cloud Mountain ecotour site. Will expose tour catalogue, itinerary, pricing, and booking resources to AI agents. Server is not yet deployed — this card declares the planned surface area for early agent discovery."
+    "description": "MCP server (REGISTRATION ONLY — not deployed) for the Cloud Mountain ecotour site. Will expose tour catalogue, itinerary, pricing, and booking resources to AI agents. The card declares the planned surface area for early agent discovery; the /mcp endpoint is reserved but currently returns 404."
   },
   "transport": {
     "type": "streamable-http",
     "endpoint": "https://cloudmountain.top/mcp",
-    "status": "planned",
+    "status": "registration",
+    "deployed": false,
+    "probingBehavior": "Returns HTTP 404. Agents should fall back to https://cloudmountain.top/llms-full.txt and the public site until deployment.",
     "notes": "The /mcp endpoint is reserved but not yet serving requests. When deployed it will be hosted on Cloudflare Workers (per the same-origin Workers Route pattern as the contact-form Worker). See https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2127 for the Server Card spec this card follows."
   },
   "capabilities": {
