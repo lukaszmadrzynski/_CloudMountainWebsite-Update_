@@ -21,7 +21,7 @@ sections:
       your own script that's been used for a thousand years.
     actions:
       - type: Button
-        label: Book This EcoTour
+        label: Plan This Trip
         url: /book?tour=Dongba+Culture+Hands-On
         icon: arrowRight
         iconPosition: right
@@ -545,7 +545,7 @@ sections:
           textAlign: center
     actions:
       - type: Button
-        label: Book this Ecotour!
+        label: Plan This Trip!
         url: /book?tour=Dongba+Culture+Hands-On
         icon: arrowRight
         iconPosition: right

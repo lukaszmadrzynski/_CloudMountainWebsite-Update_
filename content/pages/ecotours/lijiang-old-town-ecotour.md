@@ -21,7 +21,7 @@ sections:
       hidden lanes the way a local does.
     actions:
       - type: Button
-        label: Book This EcoTour
+        label: Plan This Trip
         url: /book?tour=Naxi+Heritage+Walking+Tour
         icon: arrowRight
         iconPosition: right
@@ -528,7 +528,7 @@ sections:
           textAlign: center
     actions:
       - type: Button
-        label: Book this Ecotour!
+        label: Plan This Trip!
         url: /book?tour=Naxi+Heritage+Walking+Tour
         icon: arrowRight
         iconPosition: right

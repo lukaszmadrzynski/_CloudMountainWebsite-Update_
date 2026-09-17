@@ -304,8 +304,8 @@ sections:
         title: Hidden Jade Dragon
         subtitle: from $192 to $242 per person
         text: >
-          Walk pristine wetlands with a local conservationist, share a meal
-          with Yi minority family and then trek Jade Dragon Snow Mountain
+          Walk pristine wetlands with a local conservationist, visit local families, share a meal
+          with village chief and then trek Jade Dragon Snow Mountain
           with a patrol ranger. For the traveler who's tired of touristic
           spots.
         image:
@@ -387,7 +387,7 @@ sections:
         title: Heavenly Valley
         subtitle: from $182 to $203 per person
         text: >
-          One day, four ecosystems, and a Yi minority dinner. Hike lake, wetland, grassland, and ancient forest, then end the day in a Yi village on the Tea-Horse Road. For those interested in nature, culture and sustainability.
+          One day, four ecosystems and hidden minority villages. Hike lake, wetland, grassland, and ancient forest, then end the day in a Yi village on the Tea-Horse Road. For those interested in nature, culture and sustainability.
         image:
           type: ImageBlock
           url: /images/tours/lijiang-heavenly-valley/card.webp
@@ -539,6 +539,127 @@ sections:
             margin:
               - ml-1
               - mr-1
+      - type: FeaturedItem
+        title: Yunnan Four Kingdoms
+        tagline: Seven Days | Cultural Heritage Loop
+        subtitle: from $1,378 to $1,776 per person
+        text: >
+          Trace Yunnan's ancient Tea Horse Road through four historical kingdoms and their distinct ethnic groups. Kunming, Dali, Lijiang, and Shangri-La, four kingdoms in seven days, a classic Yunnan experience.
+        image:
+          type: ImageBlock
+          url: /images/tours/four-kingdoms/card.webp
+          altText: Black Dragon Pond in Lijiang with Jade Dragon Snow Mountain and the historic Moon-Arch Bridge
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /yunnan-four-kingdoms-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
+      - type: FeaturedItem
+        title: Yunnan Himalaya Foothills
+        tagline: Eight Days | Deep North Expedition
+        subtitle: from $1,576 to $1,962 per person
+        text: >
+          Climb deeper into Himalayan Plateau. Follow the source waters of mighty
+          Mekong and Yangtze rivers passing Naxi, Yi, Lisu ethnic villages and rare
+          ecosystems to the sacred Tibetan Mount Kawagebo.
+        image:
+          type: ImageBlock
+          url: /images/tours/himalaya-foothills/card.webp
+          altText: Meili Snow Mountain, the snow-capped range at dawn
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: /yunnan-himalaya-foothills-ecotour
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
+      - type: FeaturedItem
+        title: Yunnan Endemic Birding
+        tagline: Seven Days | Endemic Birding
+        subtitle: Coming Soon - Contact us for details
+        text: >
+          A focused birding journey through Yunnan's 3 distinct ecosystems: alpine
+          wetlands, temperate rainforests and subtropical valleys. Currently in
+          development; contact us for itinerary details and pricing.
+        image:
+          type: ImageBlock
+          url: /images/tours/endemic-birding/card.webp
+          altText: Endemic Yunnan bird perched on mossy forest rock
+          elementId: ''
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: Contact Us
+            altText: ''
+            url: /contact-us
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
+            borderRadius: x-large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+            margin:
+              - ml-1
+              - mr-1
     colors: bg-neutral-fg-dark
     styles:
       self:
@@ -645,7 +766,7 @@ slug: /ecotours
 isDraft: false
 seo:
   type: Seo
-  metaTitle: 'Yunnan Tours, Ecotours & Eco Tours: Lijiang, Shangri-La, Dali, Kunming'
+  metaTitle: 'Yunnan Eco Tours: Lijiang, Shangri-La, Dali, Kunming'
   metaDescription: >-
     Small-group Yunnan tours, ecotours and eco tours with a local guide.
     Cultural heritage routes through Lijiang, Shangri-La, Dali and Kunming,

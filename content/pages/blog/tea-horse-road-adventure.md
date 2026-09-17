@@ -12,7 +12,7 @@ featuredImage:
     self:
       borderRadius: none
 isFeatured: false
-isDraft: true
+isDraft: false
 author: content/data/person1.json
 seo:
   metaTitle: Walking the Ancient Tea Horse Road

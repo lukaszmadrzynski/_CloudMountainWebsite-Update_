@@ -13,8 +13,8 @@ seo:
 sections:
 - type: HeroSection
   media:
-    url: /images/tours/shangri-la-monkey/banner-alt.webp
-    altText: Biet's Laughingthrush habitat in Yunnan
+    url: /images/tours/endemic-birding/banner.webp
+    altText: Yunnan highland forest - the realm of Biet's Laughingthrush and other endemics
   badge:
     label: Seven-day Birding Tour
     color: text-white
@@ -25,7 +25,7 @@ sections:
   text: A focused 7-day loop through northwest Yunnan's three most distinct birding ecosystems — Lashi highland wetland, Laojun Mountain mid-elevation oak-rhododendron forest, and Baihualing sub-tropical valleys. The headline target is the Biet's Laughingthrush (Garrulax bieti), found only here and reliably seen at the Laojun Mountain birding station we partner with. Small group (2-4 guests), expert local guides, 200-300 species target.
   actions:
   - type: Button
-    label: Enquire About This Tour
+    label: Plan This Trip
     url: /book?tour=Yunnan+Endemic+Birding
     icon: arrowRight
     iconPosition: right
@@ -629,7 +629,7 @@ sections:
         textAlign: center
   actions:
   - type: Button
-    label: Book this Ecotour!
+    label: Plan This Trip!
     url: /book?tour=Yunnan+Endemic+Birding
     icon: arrowRight
     iconPosition: right

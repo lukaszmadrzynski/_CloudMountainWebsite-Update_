@@ -94,8 +94,8 @@ sections:
               borderRadius: x-large
         actions:
           - type: Button
-            label: Inquire Now
-            altText: 'Inquire about Travel Agency partnership'
+            label: Ask Us
+            altText: 'Ask us about Travel Agency partnership'
             url: '/partner-with-us?type=travel-agencies#partner-form-section'
             showIcon: false
             style: outline
@@ -126,8 +126,8 @@ sections:
               borderRadius: x-large
         actions:
           - type: Button
-            label: Inquire Now
-            altText: 'Inquire about Schools & Education partnership'
+            label: Ask Us
+            altText: 'Ask us about Schools & Education partnership'
             url: '/partner-with-us?type=schools#partner-form-section'
             showIcon: false
             style: outline
@@ -158,8 +158,8 @@ sections:
               borderRadius: x-large
         actions:
           - type: Button
-            label: Inquire Now
-            altText: 'Inquire about Corporate Groups partnership'
+            label: Ask Us
+            altText: 'Ask us about Corporate Groups partnership'
             url: '/partner-with-us?type=corporate#partner-form-section'
             showIcon: false
             style: outline
@@ -190,8 +190,8 @@ sections:
               borderRadius: x-large
         actions:
           - type: Button
-            label: Inquire Now
-            altText: 'Inquire about Sustainability Consulting partnership'
+            label: Ask Us
+            altText: 'Ask us about Sustainability Consulting partnership'
             url: '/partner-with-us?type=consulting#partner-form-section'
             showIcon: false
             style: outline

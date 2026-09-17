@@ -17,7 +17,7 @@ sections:
       Pickup from Lijiang and travel to Baima Snow Mountain. Witness rare Black Snub-nosed Monkeys in their natural habitat, learn about biodiversity conservation with expert guides, and experience authentic countryside life. Embark on an unforgettable journey into Shangri-La's pristine wilderness. Discover breathtaking landscapes from vibrant wetlands to ancient forests, and immerse yourself in the rich cultures of Tibetan and Lisu minorities.
     actions:
       - type: Button
-        label: Book This EcoTour
+        label: Plan This Trip
         url: /book?tour=Shangri-La+Monkey+Trip
         icon: arrowRight
         iconPosition: right
@@ -617,7 +617,7 @@ sections:
           textAlign: center
     actions:
       - type: Button
-        label: Book this Ecotour!
+        label: Plan This Trip!
         url: /book?tour=Shangri-La+Monkey+Trip
         icon: arrowRight
         iconPosition: right

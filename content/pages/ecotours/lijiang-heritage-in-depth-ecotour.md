@@ -23,7 +23,7 @@ sections:
       home with the Old Town's full rhythm in your bones.
     actions:
       - type: Button
-        label: Book This EcoTour
+        label: Plan This Trip
         url: /book?tour=Lijiang+Heritage+In-Depth
         icon: arrowRight
         iconPosition: right
@@ -659,7 +659,7 @@ sections:
           textAlign: center
     actions:
       - type: Button
-        label: Book this Ecotour!
+        label: Plan This Trip!
         url: /book?tour=Lijiang+Heritage+In-Depth
         icon: arrowRight
         iconPosition: right

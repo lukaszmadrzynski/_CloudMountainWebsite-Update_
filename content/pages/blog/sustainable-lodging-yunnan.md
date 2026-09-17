@@ -12,7 +12,7 @@ featuredImage:
     self:
       borderRadius: none
 isFeatured: true
-isDraft: true
+isDraft: false
 author: content/data/person1.json
 seo:
   metaTitle: Sustainable Lodging in Yunnan

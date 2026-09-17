@@ -53,8 +53,8 @@
     ],
     "secondaryLinks": [
         {
-            "label": "Book Now!",
-            "altText": "Book Now - Reserve Your EcoTour",
+            "label": "Plan Your Trip",
+            "altText": "Plan Your Trip - Plan Your EcoTour",
             "url": "/book",
             "style": "primary",
             "type": "Button"

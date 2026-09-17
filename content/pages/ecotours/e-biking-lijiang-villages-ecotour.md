@@ -22,7 +22,7 @@ sections:
       vegetables came from.
     actions:
       - type: Button
-        label: Book This EcoTour
+        label: Plan This Trip
         url: /book?tour=E-Biking+Lijiang+Villages
         icon: arrowRight
         iconPosition: right
@@ -637,7 +637,7 @@ sections:
           textAlign: center
     actions:
       - type: Button
-        label: Book this Ecotour!
+        label: Plan This Trip!
         url: /book?tour=E-Biking+Lijiang+Villages
         icon: arrowRight
         iconPosition: right

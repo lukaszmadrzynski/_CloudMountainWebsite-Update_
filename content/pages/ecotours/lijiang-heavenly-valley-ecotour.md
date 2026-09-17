@@ -17,7 +17,7 @@ sections:
       Alpine lake, biodiverse wetland, vast grassland, ancient forest and hidden minority villages. Join our conservation and sustainability expert Lukas and a local Yi minority guide to experience and understand the rich nature and culture of this rich valley. You'll leave knowing four local ecosystems and two ethnic groups.
     actions:
       - type: Button
-        label: Book This EcoTour
+        label: Plan This Trip
         url: /book?tour=Lijiang+Heavenly+Valley
         icon: arrowRight
         iconPosition: right
@@ -524,7 +524,7 @@ sections:
           textAlign: center
     actions:
       - type: Button
-        label: Book this Ecotour!
+        label: Plan This Trip!
         url: /book?tour=Lijiang+Heavenly+Valley
         icon: arrowRight
         iconPosition: right

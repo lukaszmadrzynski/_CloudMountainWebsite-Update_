@@ -1,17 +1,17 @@
 ---
 type: PageLayout
-title: Book Your EcoTour
+title: Plan Your Yunnan EcoTour
 sections:
   - type: GenericSection
     title:
       type: TitleBlock
-      text: Book Your Unforgettable EcoTour
+      text: Plan Your Yunnan EcoTour
       color: text-dark
       styles:
         self:
           textAlign: center
     subtitle: ''
-    text: "<div style=\"text-align: center\">Fill out the form below to submit a booking request, or contact us directly for immediate assistance. <br>We'll get back to you within 24 hours!</div>\n\n"
+    text: "<div style=\"text-align: center\">Tell us about the trip you've been imagining — dates, group size, and your interests. We'll reply within 24 hours with an itinerary adjusted around the way you travel, and one all-inclusive price.</div>\n\n"
     actions: []
     media:
       type: ImageBlock
@@ -73,8 +73,8 @@ sections:
           name: tourName
           label: EcoTour Name
           hideLabel: false
-          placeholder: ''
-          isRequired: true
+          placeholder: 'e.g., Yunnan Four Kingdoms, or describe what you are looking for'
+          isRequired: false
         - type: SelectFormControl
           name: travelers
           label: Number of Travelers
@@ -97,9 +97,9 @@ sections:
           isRequired: true
         - type: TextFormControl
           name: preferredDate
-          label: Preferred Date
+          label: Approximate Travel Dates
           hideLabel: false
-          placeholder: ''
+          placeholder: 'e.g., May 2027 or June 15-22'
           isRequired: false
         - type: TextFormControl
           name: name
@@ -123,11 +123,11 @@ sections:
           name: message
           label: Additional Information
           hideLabel: false
-          placeholder: 'Please share any questions, special requirements, or how you heard about us...'
+          placeholder: "Please share any questions, special requirements, or any specific interests you have."
           isRequired: false
       submitButton:
         type: SubmitButtonFormControl
-        label: Submit Booking Request
+        label: Send My Trip Brief
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -294,9 +294,9 @@ isDraft: false
 seo:
   type: Seo
   metaTitle: >-
-    Book Your EcoTour | Cloud Mountain - Yunnan Sustainable Travel & Nature Education
+    Plan Your Yunnan EcoTour | Cloud Mountain
   metaDescription: >-
-    Ready to book your Yunnan eco-adventure? Fill out our booking form to reserve your private eco-tour, or contact Lynne & Lukasz directly for immediate assistance.
+    Tell us your dates, group size, and interests. We'll reply within 24 hours with a personal itinerary and an all-inclusive price.
   addTitleSuffix: true
   socialImage: /images/shared/brand/cm-social-preview.webp
   metaTags: []

@@ -17,7 +17,7 @@ sections:
       Three days on Paul Salopek's slow-travel trail — a stretch of the Jade Dragon Snow Mountain corridor we walked together for the iconic National Geographic documentary "The Forever Walk: China": remote hamlets, alpine meadows, a quiet slice of the old Tea & Horse Road. Join the guides featured in the documentary: Mr. Lukasz, Mr. He and Mr. Lu to guide you through the biodiversity and cultures of this unforgettable trail. You'll come home with a slower pulse and new, long-lasting friendships.
     actions:
       - type: Button
-        label: Book This EcoTour
+        label: Plan This Trip
         url: /book?tour=Forever+Walk+Adventure
         icon: arrowRight
         iconPosition: right
@@ -629,7 +629,7 @@ sections:
           textAlign: center
     actions:
       - type: Button
-        label: Book this Ecotour!
+        label: Plan This Trip!
         url: /book?tour=Forever+Walk+Adventure
         icon: arrowRight
         iconPosition: right

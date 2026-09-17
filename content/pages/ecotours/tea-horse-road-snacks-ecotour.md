@@ -23,7 +23,7 @@ sections:
       lingering in your head.
     actions:
       - type: Button
-        label: Book This EcoTour
+        label: Plan This Trip
         url: /book?tour=Tea+%26+Horse+Road+Snacks
         icon: arrowRight
         iconPosition: right
@@ -553,7 +553,7 @@ sections:
           textAlign: center
     actions:
       - type: Button
-        label: Book this Ecotour!
+        label: Plan This Trip!
         url: /book?tour=Tea+%26+Horse+Road+Snacks
         icon: arrowRight
         iconPosition: right

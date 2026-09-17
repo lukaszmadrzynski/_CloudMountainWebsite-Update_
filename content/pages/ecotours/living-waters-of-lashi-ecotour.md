@@ -23,7 +23,7 @@ sections:
       they are protected.
     actions:
       - type: Button
-        label: Book This EcoTour
+        label: Plan This Trip
         url: /book?tour=Living+Waters+of+Lashi
         icon: arrowRight
         iconPosition: right
@@ -553,7 +553,7 @@ sections:
           textAlign: center
     actions:
       - type: Button
-        label: Book this Ecotour!
+        label: Plan This Trip!
         url: /book?tour=Living+Waters+of+Lashi
         icon: arrowRight
         iconPosition: right

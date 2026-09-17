@@ -21,7 +21,7 @@ sections:
       Village over a Lijiang specialty dinner. You'll leave richer in new local friends and a head full of stories.
     actions:
       - type: Button
-        label: Book This EcoTour
+        label: Plan This Trip
         url: /book?tour=Hidden+Jade+Dragon+Adventure
         icon: arrowRight
         iconPosition: right
@@ -447,7 +447,7 @@ sections:
           textAlign: center
     actions:
       - type: Button
-        label: Book this Ecotour!
+        label: Plan This Trip!
         url: /book?tour=Hidden+Jade+Dragon+Adventure
         icon: arrowRight
         iconPosition: right

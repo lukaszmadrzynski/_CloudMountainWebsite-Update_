@@ -17,7 +17,7 @@ sections:
       Two days in the Laojun Mountains, far from the Lijiang crowds. We start at Lashi Wetlands at dawn, stand at the First Bend of the Yangtze, visit traditional Naxi, Bai, Pumi and Lisu minority villages, then join a Lisu bonfire dance in the evening and a forest walk at night. Day two is a bird watching station visit and a primeval forest trek to grasslands overlooking the highest peaks of Laojun Mountains. You'll leave with a slower pulse and mountain stories to tell.
     actions:
       - type: Button
-        label: Book This EcoTour
+        label: Plan This Trip
         url: /book?tour=Wild+Heart+of+Laojun
         icon: arrowRight
         iconPosition: right
@@ -617,7 +617,7 @@ sections:
           textAlign: center
     actions:
       - type: Button
-        label: Book this Ecotour!
+        label: Plan This Trip!
         url: /book?tour=Wild+Heart+of+Laojun
         icon: arrowRight
         iconPosition: right

@@ -1,0 +1,743 @@
+---
+type: PageLayout
+title: Yunnan Himalaya Foothills — Meili, Kawagebo & the Snub-nosed Monkey
+slug: /yunnan-himalaya-foothills-ecotour
+isDraft: false
+addTitleSuffix: true
+seo:
+  type: Seo
+  socialImage: /images/social/lijiang-meili-deep-dive-ecotour.jpg
+  addTitleSuffix: false
+  metaTitle: 8-Day Yunnan Himalaya Foothills — Meili & Kawagebo
+  metaDescription: A focused 7-day Lijiang-based deep dive into the Northwest Yunnan of legends. Black Dragon Pond, Hidden Jade Dragon, Tiger Leaping Gorge, Songzanlin, the Great Bend of the Yangtze, Kawagebo sunrise, and the rare Yunnan Snub-nosed Monkey.
+sections:
+- type: HeroSection
+  media:
+    url: /images/tours/himalaya-foothills/banner.webp
+    altText: Meili Snow Mountain at dawn, the snow-capped peaks of Kawagebo rising above the clouds
+  badge:
+    label: 8-DAY REMOTE EXPEDITION
+    color: text-white
+  title:
+    text: Yunnan Himalaya<br/> Foothills
+    color: text-white
+  subtitle: Into the Tibetan north
+  text: 'Eight days beyond the standard Yunnan circuit - follow the headwaters of the mighty Yangtze and Mekong rivers into the Meili Snow Mountain range for sunrise view of the sacred Tibetan Mount Kawagebo  (6,740m), the habitat of the critically endangered Yunnan Snub-nosed Monkey in White Horse Mountains, off-the-beaten path hike in the Jade Dragon Snow Mountains with forest patrol members and visit hidden Naxi, Yi, Lisu and Tibetan ethnic villages most travelers never reach. '
+  actions:
+  - type: Button
+    label: Plan This Trip
+    url: /book?tour=Yunnan+Himalaya+Foothills
+    icon: arrowRight
+    iconPosition: right
+    style: primary
+  colors: bg-dark-fg-light
+  styles:
+    self:
+      padding:
+      - pb-3
+- type: DividerSection
+  hideOnDesktop: true
+- type: KeyDetailsSection
+  title:
+    text: Tour Overview
+    color: text-dark
+    styles:
+      self:
+        textAlign: center
+  items:
+  - icon: /images/shared/key-details/special.png
+    title: What's Special
+    subtitle: Deep Tibetan north of Yunnan
+    highlight: View of Kawagebo (6,740m) - Yunnan's highest peak
+  - icon: /images/shared/key-details/duration.png
+    title: Duration
+    subtitle: Eight Days
+    highlight: 'Day 1: 10 AM to 9 PM | Days 2-7: 8 AM to 9 PM | Day 8: 9 AM to 6 PM'
+  - icon: /images/shared/key-details/location.png
+    title: Locations
+    subtitle: Lijiang to Dêqên Tibetan Autonomous Prefecture
+    highlight: From 2,400m (Lijiang) to 4,000m (Dêqên) - gradual acclimatization
+  - icon: /images/shared/key-details/level.png
+    title: Activity Level
+    subtitle: Moderate to Challenging
+    highlight: Daily walking 5-10 km at altitudes between 2400-3600m
+  badge:
+    label: KEY DETAILS
+    color: text-primary
+  colors: bg-neutral-fg-dark
+  styles:
+    self:
+      padding:
+      - pb-4
+      - pt-6
+      - pl-4
+      - pr-4
+      justifyContent: center
+- type: DividerSection
+  colors: bg-neutral-fg-dark
+  styles:
+    self:
+      padding:
+      - pt-4
+      - pb-4
+      - pl-4
+      - pr-4
+- type: HighlightsSection
+  title:
+    text: Tour Highlights
+    color: text-dark
+    styles:
+      self:
+        textAlign: center
+  badge:
+    label: What Makes This Tour Special
+    color: text-primary
+  items:
+  - type: FeaturedItem
+    title: Kawagebo Sunrise
+    tagline: Golden Shine of Yunnan's highest peak
+    subtitle: Meili Snow Mountain
+    text: A pre-dawn 2km hike to a viewing spot for an alpine glow on Yunnan's tallest peak Kawagebo (6,740m) - golden ridges, ancient glaciers, the rare stillness above the clouds at dawn.
+    image:
+      type: ImageBlock
+      url: /images/tours/shangri-la-monkey/banner-alt.webp
+      altText: Kawagebo peak at sunrise
+      styles:
+        self:
+          borderRadius: full
+    colors: bg-white-fg-dark
+    styles:
+      self:
+        padding:
+        - pt-4
+        - pb-4
+        - pl-4
+        - pr-4
+        borderRadius: large
+        borderWidth: 1
+        borderStyle: solid
+        borderColor: border-neutral
+        flexDirection: col
+        justifyContent: center
+        textAlign: left
+  - type: FeaturedItem
+    title: Two Great River Bends
+    tagline: Yunnan's two wildest river turns
+    subtitle: Shigu to Benzilan
+    text: Yangtze river bends twice on this stretch. At Shigu, a sharp U-turn from south to north; at Benzilan, a 1,800m-deep horseshoe through sandstone cliffs. The upper Yangtze's wildest miles.
+    image:
+      type: ImageBlock
+      url: /images/tours/shangri-la-monkey/highlight-8.webp
+      altText: Jinsha River Great Bend horseshoe curve through sandstone cliffs
+      styles:
+        self:
+          borderRadius: full
+    colors: bg-white-fg-dark
+    styles:
+      self:
+        padding:
+        - pt-4
+        - pb-4
+        - pl-4
+        - pr-4
+        borderRadius: large
+        borderWidth: 1
+        borderStyle: solid
+        borderColor: border-neutral
+        flexDirection: col
+        justifyContent: center
+        textAlign: left
+  - type: FeaturedItem
+    title: Rare Grape Vineyards
+    tagline: Taste of wine France has lost
+    subtitle: Rose Honey above the Mekong
+    text: On the Mekong slopes, Tibetan and Lisu farmers grow “Rose Honey”, a French vine wiped out in Europe but preserved here since 1848. A bottle of this rare wine awaits you!
+    image:
+      type: ImageBlock
+      url: /images/tours/shangri-la-monkey/rural-life.webp
+      altText: High-altitude Rose Honey vineyards above the Mekong at Cizhong
+      elementId: ''
+      styles:
+        self:
+          borderRadius: full
+    colors: bg-white-fg-dark
+    styles:
+      self:
+        padding:
+        - pt-4
+        - pb-4
+        - pl-4
+        - pr-4
+        borderRadius: large
+        borderWidth: 1
+        borderStyle: solid
+        borderColor: border-neutral
+        flexDirection: col
+        justifyContent: center
+        textAlign: left
+  - type: FeaturedItem
+    title: French Church on Mekong
+    tagline: A 100-year-old French Catholic church
+    subtitle: Cizhong Village, Mekong headwaters
+    text: A Tibetan-Lisu valley the outside world forgot - an active 1909 French Catholic church, high-altitude vineyards clinging to the slopes above the Mekong, and the rare mountain wine most travelers never taste.
+    image:
+      type: ImageBlock
+      url: /images/tours/shangri-la-monkey/highlight-12.webp
+      altText: Cizhong Catholic church and surrounding high-altitude vineyards
+      styles:
+        self:
+          borderRadius: full
+    colors: bg-white-fg-dark
+    styles:
+      self:
+        padding:
+        - pt-4
+        - pb-4
+        - pl-4
+        - pr-4
+        borderRadius: large
+        borderWidth: 1
+        borderStyle: solid
+        borderColor: border-neutral
+        flexDirection: col
+        justifyContent: center
+        textAlign: left
+  - type: FeaturedItem
+    title: Himalayan Bee Farm
+    tagline: Chinese high altitude honey bee
+    subtitle: Tacheng bee farm, 2,800m
+    text: At a Weixi plateau smallholder farm, Apis cerana ssp. cerana - the native Chinese honey bee - forages on wild rhododendron and vitex. The honey tastes like the cold of the valley.
+    image:
+      type: ImageBlock
+      url: /images/tours/shangri-la-monkey/highlight-3.webp
+      altText: Native Chinese honeybee foraging on plateau flowers
+      styles:
+        self:
+          borderRadius: full
+    colors: bg-white-fg-dark
+    styles:
+      self:
+        padding:
+        - pt-4
+        - pb-4
+        - pl-4
+        - pr-4
+        borderRadius: large
+        borderWidth: 1
+        borderStyle: solid
+        borderColor: border-neutral
+        flexDirection: col
+        justifyContent: center
+        textAlign: left
+  - type: FeaturedItem
+    title: Tiger Leaping Gorge
+    tagline: One of Earth's deepest river canyons
+    subtitle: Hutiaoxia
+    text: Visit the legendary Hutiaoxia - the Yangtze (Jinsha) roaring 3,900m below the snow range, cutting through a near-vertical 4km-high rocky wall. Stone-cut switchbacks and Tibetan prayer flags mark the road.
+    image:
+      type: ImageBlock
+      url: /images/tours/living-waters-of-lashi/card.webp
+      altText: Tiger Leaping Gorge canyon with snow range above
+      styles:
+        self:
+          borderRadius: full
+    colors: bg-white-fg-dark
+    styles:
+      self:
+        padding:
+        - pt-4
+        - pb-4
+        - pl-4
+        - pr-4
+        borderRadius: large
+        borderWidth: 1
+        borderStyle: solid
+        borderColor: border-neutral
+        flexDirection: col
+        justifyContent: center
+        textAlign: left
+  - type: FeaturedItem
+    title: Songzanlin, the "Little Potala"
+    tagline: Crown of Yunnan's Tibetan Buddhism
+    subtitle: Shangri-La
+    text: Gilded rooftops, monks in maroon robes, prayer halls filled with the scent of juniper smoke and the sound of long horns. Hundreds of monks live, study, and pray here every day.
+    image:
+      type: ImageBlock
+      url: /images/tours/shangri-la-monkey/highlight-4.webp
+      altText: Songzanlin Monastery gilded rooftops with monks in maroon robes
+      styles:
+        self:
+          borderRadius: full
+    colors: bg-white-fg-dark
+    styles:
+      self:
+        padding:
+        - pt-4
+        - pb-4
+        - pl-4
+        - pr-4
+        borderRadius: large
+        borderWidth: 1
+        borderStyle: solid
+        borderColor: border-neutral
+        flexDirection: col
+        justifyContent: center
+        textAlign: left
+  - type: FeaturedItem
+    title: Lashi Wetlands at Dawn
+    tagline: Crane flight, off the standard birding circuit
+    subtitle: Lashi Plateau Wetland Reserve
+    text: A pre-dawn walk on the Lashi Plateau Wetland Nature Reserve - no tourists in sight, just water, grass, and rare birds. Black Drongo on the fence wires, cranes returning to roost.
+    image:
+      type: ImageBlock
+      url: /images/tours/living-waters-of-lashi/highlight-1.webp
+      altText: Dawn wildlife at Lashi Wetlands with cranes and waterfowl
+      styles:
+        self:
+          borderRadius: full
+    colors: bg-white-fg-dark
+    styles:
+      self:
+        padding:
+        - pt-4
+        - pb-4
+        - pl-4
+        - pr-4
+        borderRadius: large
+        borderWidth: 1
+        borderStyle: solid
+        borderColor: border-neutral
+        flexDirection: col
+        justifyContent: center
+        textAlign: left
+  - type: FeaturedItem
+    title: Jade Dragon Snow Mountain
+    tagline: Away from the cable car crowds
+    subtitle: Wenhai plateau
+    text: Alpine meadows, Naxi hamlets, rhododendron forests, glacial streams - the Jade Dragon the day-trippers and the cable car never see. A different mountain, on foot, with a local forest ranger.
+    image:
+      type: ImageBlock
+      url: /images/tours/hidden-jade-dragon/highlight-1.webp
+      altText: Hidden Jade Dragon highland trail with rhododendron and glacial streams
+      styles:
+        self:
+          borderRadius: full
+    colors: bg-white-fg-dark
+    styles:
+      self:
+        padding:
+        - pt-4
+        - pb-4
+        - pl-4
+        - pr-4
+        borderRadius: large
+        borderWidth: 1
+        borderStyle: solid
+        borderColor: border-neutral
+        flexDirection: col
+        justifyContent: center
+        textAlign: left
+  - type: FeaturedItem
+    title: Dongzhulin Monastery
+    tagline: A quiet spiritual spot
+    subtitle: Between the Great Bend and the Mekong
+    text: A working Tibetan monastery most travelers never reach - small, silent, golden-roofed, surrounded by prayer flags and ancient walnut groves. No gift shops, no admission lines, just monks and prayer.
+    image:
+      type: ImageBlock
+      url: /images/tours/shangri-la-monkey/highlight-5.webp
+      altText: Dongzhulin Monastery courtyard with prayer flags and walnut groves
+      styles:
+        self:
+          borderRadius: full
+    colors: bg-white-fg-dark
+    styles:
+      self:
+        padding:
+        - pt-4
+        - pb-4
+        - pl-4
+        - pr-4
+        borderRadius: large
+        borderWidth: 1
+        borderStyle: solid
+        borderColor: border-neutral
+        flexDirection: col
+        justifyContent: center
+        textAlign: left
+  - type: FeaturedItem
+    title: Yunnan Snub-nosed Monkeys
+    tagline: Fewer than 4,000 left in the wild
+    subtitle: Baima Snow Mountain Nature Reserve
+    text: A guided trek into Baima Snow Mountain Nature Reserve to see one of the world's 25 most endangered primates - a face framed in white fur against a million-year-old forest canopy.
+    image:
+      type: ImageBlock
+      url: /images/tours/shangri-la-monkey/highlight-2.webp
+      altText: Yunnan snub-nosed monkey in old-growth fir tree
+      styles:
+        self:
+          borderRadius: full
+    colors: bg-white-fg-dark
+    styles:
+      self:
+        padding:
+        - pt-4
+        - pb-4
+        - pl-4
+        - pr-4
+        borderRadius: large
+        borderWidth: 1
+        borderStyle: solid
+        borderColor: border-neutral
+        flexDirection: col
+        justifyContent: center
+        textAlign: left
+  - type: FeaturedItem
+    title: Culinary Journey
+    subtitle: Four cuisines of the corridor
+    text: Naxi hot pots, Lisu pepper chicken, Tibetan yak-butter tea, Yi cured pork - seven days of distinct regional cuisines from the four distinct ethnicities that share the deep north corridor of Yunnan.
+    image:
+      type: ImageBlock
+      url: /images/tours/living-waters-of-lashi/highlight-2.webp
+      altText: Rainbow trout lunch served at a family-run ecological farm
+      styles:
+        self:
+          borderRadius: full
+    colors: bg-white-fg-dark
+    styles:
+      self:
+        padding:
+        - pt-4
+        - pb-4
+        - pl-4
+        - pr-4
+        borderRadius: large
+        borderWidth: 1
+        borderStyle: solid
+        borderColor: border-neutral
+        flexDirection: col
+        justifyContent: center
+        textAlign: left
+    tagline: Tastes of the deep north
+  - type: FeaturedItem
+    title: Four Distinct Ethnicities
+    tagline: Naxi, Yi, Lisu & Tibetan villages
+    subtitle: Across the northwest Yunnan corridor
+    text: Naxi farmers in Lijiang, Lisu honey-gatherers on Weixi plateau, Yi yak herders in the Jade Dragon mountains, Tibetan monks at Kawagebo's foot - four languages, four dress codes, one deep north corridor.
+    image:
+      type: ImageBlock
+      url: /images/tours/shangri-la-monkey/rural-life.webp
+      altText: Naxi, Yi, Lisu and Tibetan village life in northwest Yunnan
+      styles:
+        self:
+          borderRadius: full
+    colors: bg-white-fg-dark
+    styles:
+      self:
+        padding:
+        - pt-4
+        - pb-4
+        - pl-4
+        - pr-4
+        borderRadius: large
+        borderWidth: 1
+        borderStyle: solid
+        borderColor: border-neutral
+        flexDirection: col
+        justifyContent: center
+        textAlign: left
+  - type: FeaturedItem
+    title: Nine Rare Ecosystems
+    tagline: World-class biodiversity corridor
+    text: From alpine wetlands to old-growth fir forests, dry-hot valleys, river valleys, and Tibetan steppes - nine rare ecosystems in eight days, one of Earth's most densely packed biodiversity corridors.
+    image:
+      type: ImageBlock
+      url: /images/tours/shangri-la-monkey/highlight-1.webp
+      altText: Composite of nine ecosystems from the Yunnan deep-north corridor
+      styles:
+        self:
+          borderRadius: full
+    colors: bg-white-fg-dark
+    styles:
+      self:
+        padding:
+        - pt-4
+        - pb-4
+        - pl-4
+        - pr-4
+        borderRadius: large
+        borderWidth: 1
+        borderStyle: solid
+        borderColor: border-neutral
+        flexDirection: col
+        justifyContent: center
+        textAlign: left
+  - type: FeaturedItem
+    title: Two Ancient Towns
+    tagline: Dayan and Dukezong, two UNESCO Old Towns
+    subtitle: Lijiang and Shangri-La
+    text: 'Immerse into two ancient towns: Dayan (Lijiang), a Naxi cobblestone maze of canals and tiled rooftops, and Dukezong (Shangri-La), a Tibetan quarter of prayer wheels, yak-butter tea, and prayer flags.'
+    image:
+      type: ImageBlock
+      url: /images/tours/shangri-la-monkey/highlight-9.webp
+      altText: Traditional rooftops of an ancient Yunnan old town
+      styles:
+        self:
+          borderRadius: full
+    colors: bg-white-fg-dark
+    styles:
+      self:
+        padding:
+        - pt-4
+        - pb-4
+        - pl-4
+        - pr-4
+        borderRadius: large
+        borderWidth: 1
+        borderStyle: solid
+        borderColor: border-neutral
+        flexDirection: col
+        justifyContent: center
+        textAlign: left
+  colors: bg-light-fg-dark
+- type: DividerSection
+  colors: bg-light-fg-dark
+  styles:
+    self:
+      padding:
+      - pt-4
+      - pb-4
+      - pl-4
+      - pr-4
+- type: ItinerarySection
+  title:
+    text: Tour Itinerary
+    color: text-dark
+    styles:
+      self:
+        textAlign: center
+  timelineLayout: true
+  combinedSchedule: true
+  days:
+  - day: 1
+    title: Lijiang Heritage In-Depth
+    schedule:
+    - period: ''
+      activities:
+      - Pickup at Lijiang Sanyi Airport (LJG) or your Old Town hotel, transfer to your boutique Naxi courtyard guesthouse. Afternoon at Black Dragon Pond Park with the iconic Moon-Embracing Pavilion and stunning views of Jade Dragon Snow Mountain, plus the Dongba Museum next door - Naxi pictographs and culture. Stroll through the lively Zhongyi Market and the cobblestone streets of Dayan Old Town. Welcome dinner.
+  - day: 2
+    title: Hidden Jade Dragon
+    schedule:
+    - period: ''
+      activities:
+      - Drive to the Wenhai Nature Reserve,stop for a cup of green tea at a local Naxi minority conservationist home. After home-cooked lunch in Yi minority village chiefs place, trek into the hidden trails of the Jade Dragon Snow Mountain Nature Reserve - off the rope-line, away from the cable car crowds,with local forest rangers, birdwatching and nature photography along the way. Return to Lijiang, dinner in Old Town.
+  - day: 3
+    title: Lashi Wetlands + Tiger Leaping Gorge + Shangri-La
+    schedule:
+    - period: ''
+      activities:
+      - Morning stop at Lashi Wetlands of International Importance - dawn crane flight, waterfowl, Black Drongo roosts. Continue north toward Shangri-La. Visit the legendary Tiger Leaping Gorge (Hutiaoxia) - one of the deepest river canyons on Earth. Arrive in mystical Shangri-La. Dukezong Old Town - the spiritual heart of Tibetan Yunnan. Dinner and overnight.
+  - day: 4
+    title: Songzanlin + Great Bend + Dongzhulin + Deqin
+    schedule:
+    - period: ''
+      activities:
+      - Visit the magnificent Songzanlin Monastery - the 'Little Potala Palace', a major centre of Tibetan Buddhism. Drive north via Benzilan to the dramatic Golden Sand River Great Bend. Visit the peaceful Dongzhulin Monastery. Arrive in Deqin - the gateway town to Meili Snow Mountain. Dinner and overnight in the snow-capped mountain setting.
+  - day: 5
+    title: Kawagebo Sunrise + Cizhong Village + Mekong Walk
+    schedule:
+    - period: ''
+      activities:
+      - Pre-dawn departure to the Feilai Monastery viewpoint for sunrise view of Kawagebo (6,740m) - Yunnan's highest peak. A clear-morning alpine glow that stays with you for years. Visit Cizhong Village on the Mekong River - the 100-year-old French Catholic church, still active, surrounded by Lisu-minority vineyards. Walk along the Mekong. Traditional dinner paired with local Cizhong wine. Overnight in Cizhong.
+  - day: 6
+    title: Tacheng Bee Farm
+    schedule:
+    - period: ''
+      activities:
+      - 'Drive to Tacheng in the Weixi highlands. Afternoon: visit a smallholder farm where Apis cerana ssp. cerana - the native Chinese honey bee - still forages on wild rhododendron and vitex at 2,500m. Sample honey that tastes like the flowers and the cold of the valley. Overnight in Tacheng.'
+  - day: 7
+    title: Snub-nosed Monkeys + First Bend  + Lijiang Return
+    schedule:
+    - period: ''
+      activities:
+      - Early departure to the Yunnan Snub-nosed Monkey National Park. Trek into the habitat to observe the critically endangered Yunnan Snub-nosed Monkeys (fewer than 4,000 in the world). Lunch at a local rainbow trout farm, then visit the Baima Snow Mountain Nature Conservation Bureau for insights into the conservation work. Drive south along the Yangtze, witness the dramatic First Bend of the Yangtze, arrive in Lijiang. Farewell dinner at a Naxi courtyard restaurant in Lijiang Old Town.
+  - day: 8
+    title: Free Time + Departure
+    schedule:
+    - period: ''
+      activities:
+      - Free time in Lijiang Old Town, then private transfer to the airport or train station at the time of your choice.
+  accentColors:
+    morning: '#01aed9'
+    afternoon: '#007dbd'
+    evening: '#02558b'
+  badge:
+    label: DETAILED SCHEDULE
+    color: text-primary
+  colors: bg-light-fg-dark
+  styles:
+    self:
+      alignItems: center
+      justifyContent: center
+      padding:
+      - pl-4
+      - pr-4
+      - pb-4
+      - pt-4
+- type: DividerSection
+  colors: bg-neutral-fg-dark
+  styles:
+    self:
+      padding:
+      - pt-4
+      - pb-4
+      - pl-4
+      - pr-4
+- type: SimplifiedPricingSection
+  title:
+    text: Tour Cost
+    color: text-dark
+    styles:
+      self:
+        textAlign: center
+  badge:
+    label: Transparent Pricing
+    color: text-primary
+  plans:
+  - people: 2 Guests
+    price: $1,962
+    url: /book?tour=Yunnan+Himalaya+Foothills&group=2
+  - people: 3-4 Guests
+    price: $1,791
+    url: /book?tour=Yunnan+Himalaya+Foothills&group=3-4
+  - people: 5-6 Guests
+    price: $1,576
+    url: /book?tour=Yunnan+Himalaya+Foothills&group=5-6
+  contactNote:
+    text: For groups of 1 person or more than 6 people
+    url: /book?tour=Yunnan+Himalaya+Foothills
+  included:
+    text: Lead Coordinator (Lynne Lyu or Lukasz Madrzynski), Local Guides, All Accommodation (3-4 star hotels and traditional guesthouses), All Meals (B/L/D), Private Transportation, All Entrance Fees, Outdoor Travel Insurance.
+    notIncluded: International Flights to/from Lijiang, Personal Expenses, Voluntary Gratuities
+    meetingPoint: 'Pickup:  Lijiang Sanyi Airport (LJG) ,Train Station or anywhere else in Lijiang Valley | Return: 9 PM at Lijiang Sanyi Airport'
+  bookingUrl: /book?tour=Yunnan+Himalaya+Foothills
+  colors: bg-neutral-fg-dark
+  styles:
+    self:
+      padding:
+      - pt-4
+      - pl-4
+      - pr-4
+      - pb-4
+      alignItems: center
+      justifyContent: center
+- type: DividerSection
+  colors: bg-neutral-fg-dark
+  styles:
+    self:
+      padding:
+      - pt-4
+      - pb-4
+      - pl-4
+      - pr-4
+- type: AccordionSection
+  title:
+    text: Frequently Asked Questions
+    color: text-dark
+    styles:
+      self:
+        textAlign: center
+  subtitle: Click on a question to reveal the answer
+  items:
+  - type: AccordionItem
+    question: Is the Kawagebo sunrise guaranteed?
+    answer: Season & Weather-dependent - clear mornings are required. Best chances for the sunrise ‘Golden Mountain’ view are during dry season (november to may).
+  - type: AccordionItem
+    question: What is the success rate for seeing Snub-nosed Monkeys?
+    answer: Near-100% on Day 6 morning at the Weixi-Yunnan Snub-nosed Monkey National Park with a local ranger guide. The monkeys are habituated to researchers and we observe them in the wild (not at a zoo).
+  - type: AccordionItem
+    question: What about altitude in Deqin and Meili?
+    answer: Deqin sits at 3,500m, the Feilai viewpoint is at 3,600m. The itinerary climbs gradually (Lijiang 2,400m -> Shangri-La 3,300m -> Deqin 3,550m) to acclimatize. Lukasz and Lynne are trained in high-altitude travel and we carry oxygen and emergency medication.
+  - type: AccordionItem
+    question: How do we visit the Snub-nosed Monkey park?
+    answer: The Weixi-Yunnan Snub-nosed Monkey National Park is a working research site. We partner with the local conservation rangers who take small groups on a controlled walk into the habitat. The monkeys are wild (not caged) but habituated to conservationists and researchers.
+  - type: AccordionItem
+    question: What is the typical group size?
+    answer: 2-6 guests. Smaller groups work better for this trip because some of the access points have limited capacity.
+  - type: AccordionItem
+    question: Can this trip be combined with the Yunnan Four Kingdoms loop?
+    answer: Yes - the two itineraries connect naturally at Lijiang. A combined 12-14 day tour (Kunming to Lijiang via the Four Kingdoms, then the Himalaya Foothills) is a popular option. Please contact us for the combined trip itinerary and costs.
+  - type: AccordionItem
+    question: What is the best season for this tour?
+    answer: October-December is prime (clear skies, autumn colors, best chance of clear Kawagebo sunrise). March-May also works (spring blossoms, more rain risk for sunrise). June-September is monsoon - lower success rate for the mountain views.
+  - type: AccordionItem
+    question: How does this trip support conservation and local communities?
+    answer: Each booking directly supports the local culture and nature preservation through fees and donations to cultural sites, heritage practitioners, and nature reserves (eg. Yunnan Snub-nosed Monkey National Park). Our local guides are all engaged in nature conservation and this tour directly supports their efforts through guiding fees. We use locally-owned hotels, restaurants, and guesthouses that directly support sustainable development in those communities. Throughout the journey you will hear us talk passionately about our engagement in sustainability initiatives across the region, your booking helps to fund our continued work in this field. We hope this journey will not only create unforgettable memories but also result in a deeper understanding of challenges and solutions to a more sustainable future.
+  badge:
+    label: FAQ
+    color: text-primary
+  colors: bg-neutral-fg-dark
+  styles:
+    self:
+      padding:
+      - pt-4
+      - pb-4
+      - pl-4
+      - pr-4
+- type: DividerSection
+  colors: bg-neutral-fg-dark
+  styles:
+    self:
+      padding:
+      - pt-4
+      - pl-1
+      - pb-4
+      - pr-1
+- type: TripAdvisorReviews
+  ratings: 5
+  reviewCount: 8
+  badge:
+    label: OUR REVIEWS
+    color: text-primary
+- type: DividerSection
+  colors: bg-neutral-fg-dark
+  styles:
+    self:
+      padding:
+      - pt-4
+      - pl-1
+      - pb-4
+      - pr-1
+- type: GenericSection
+  title:
+    text: Ready for the Himalaya Foothills?
+    color: text-dark
+    styles:
+      self:
+        textAlign: center
+  actions:
+  - type: Button
+    label: Plan This Trip!
+    url: /book?tour=Yunnan+Himalaya+Foothills
+    icon: arrowRight
+    iconPosition: right
+    style: primary
+  - type: Button
+    label: Check Other Ecotours
+    url: /ecotours
+    icon: arrowRight
+    iconPosition: right
+    style: secondary
+  badge:
+    label: START YOUR ADVENTURE
+    color: text-primary
+  colors: bg-light-fg-dark
+  styles:
+    self:
+      alignItems: center
+      justifyContent: center
+      padding:
+      - pt-6
+      - pb-4
+      - pl-4
+      - pr-4
+---
