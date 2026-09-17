@@ -33,7 +33,7 @@ const LOGO_URL = 'https://cloudmountain.top/images/shared/brand/cm-logo-color.pn
 const SOCIAL_INSTAGRAM = 'https://www.instagram.com/cloud.mountain.ecotours/';
 const SOCIAL_LINKEDIN  = 'https://www.linkedin.com/company/cloud-mountain-sustainability/';
 const SOCIAL_YOUTUBE   = 'https://www.youtube.com/channel/UCAXEBGgeC7H_BqcGAE2Z35Q';
-const SOCIAL_FACEBOOK  = 'https://www.facebook.com/cloud.mountain.ecotours';
+const SOCIAL_FACEBOOK  = 'https://www.facebook.com/cloud.mountain.lijiang';
 const SOCIAL_X         = 'https://x.com/_CloudMountain_';
 const SOCIAL_GITHUB    = 'https://github.com/lukaszmadrzynski';
 const TRIPADVISOR_URL  = 'https://www.tripadvisor.com/Attraction_Review-g303783-d17638375-Reviews-Lijiang_Cloud_Mountain_Ecotours-Lijiang_Yunnan.html';
@@ -353,10 +353,10 @@ function lynneNode() {
         memberOf: [
             { '@type': 'Organization', name: 'Lijiang Conservation and Development Association' }
         ],
-        nationality: { '@type': 'Country', name: 'China' },
-        sameAs: [
-            'https://www.linkedin.com/in/lynne-lyu/'
-        ]
+        nationality: { '@type': 'Country', name: 'China' }
+        // No sameAs — Lynne does not currently maintain a public LinkedIn
+        // presence (verified 2026-09-17). Don't fabricate; an empty array
+        // would just add noise to the entity graph.
     };
 }
 
