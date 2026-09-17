@@ -8,7 +8,7 @@ seo:
   type: Seo
   socialImage: /images/social/lijiang-meili-deep-dive-ecotour.jpg
   addTitleSuffix: false
-  metaTitle: 8-Day Yunnan Himalaya Foothills — Meili & Kawagebo
+  metaTitle: 8-Day Yunnan Himalaya Foothills Ecotour - Deep Into Lijiang & Shangri-La
   metaDescription: A focused 7-day Lijiang-based deep dive into the Northwest Yunnan of legends. Black Dragon Pond, Hidden Jade Dragon, Tiger Leaping Gorge, Songzanlin, the Great Bend of the Yangtze, Kawagebo sunrise, and the rare Yunnan Snub-nosed Monkey.
 sections:
 - type: HeroSection
